@@ -1,0 +1,3281 @@
+{
+  "version": "2026-08-17",
+  "coordinateSystem": "WGS84/CGCS2000-compatible",
+  "coordinateNote": "坐标由天地图地址解析结果一次性固化到离线数据；CGCS2000 与 WGS84 在本项目街道级展示尺度下视为兼容，不在运行时请求地理编码服务。",
+  "records": [
+    {
+      "name": "阿石创",
+      "address": "福建省福州市长乐区漳港街道漳湖路66号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "福建省",
+        "city": "福州市",
+        "district": "",
+        "street": "漳港街道"
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "巨潮资讯2024年年度报告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-28/1223323248.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-27",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "爱芯元智",
+      "address": "宁波市镇海区庄市街道中官西路777号科创大厦17楼59室",
+      "addressType": "公司住所（章程）",
+      "region": {
+        "province": "浙江省",
+        "city": "宁波市",
+        "district": "",
+        "street": "庄市街道"
+      },
+      "location": {
+        "lng": 121.60819,
+        "lat": 29.9176,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 85,
+        "query": "宁波市镇海区庄市街道中官西路777号科创大厦17楼59室"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "企业官方网站/公开公告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://www.axera-tech.com/sites/default/files/2026-01/2026013000085_c_0.pdf"
+      ],
+      "sourcePublishedAt": "2026-01-30",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "安集科技",
+      "address": "上海市浦东新区华东路5001号金桥综合保税区T6－5幢",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "浦东新区",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.673353,
+        "lat": 31.225319,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 83,
+        "query": "上海市浦东新区华东路5001号金桥综合保税区T6－5幢"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-16/1223101942.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-15",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "安路科技",
+      "address": "中国（上海）自由贸易试验区中科路1867号C座8、11、12层",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.61682,
+        "lat": 31.18912,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 60,
+        "query": "中国（上海）自由贸易试验区中科路1867号C座8、11、12层"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-26/1223327844.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-25",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "佰维存储",
+      "address": "深圳市南山区桃源街道平山社区留仙大道1213号众冠红花岭工业南区2区4、8栋1层-3层及4栋4层",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "广东省",
+        "city": "深圳市",
+        "district": "南山区",
+        "street": "桃源街道"
+      },
+      "location": {
+        "lng": 113.96155,
+        "lat": 22.58474,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 75,
+        "query": "深圳市南山区桃源街道平山社区留仙大道1213号众冠红花岭工业南区2区4、8栋1层-3层及4栋4层"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-30/1223427605.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-29",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "北方华创",
+      "address": "北京市北京经济技术开发区文昌大道8号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "北京市",
+        "city": "北京市",
+        "district": "经济技术开发区",
+        "street": ""
+      },
+      "location": {
+        "lng": 116.501069,
+        "lat": 39.776696,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 75,
+        "query": "北京市北京经济技术开发区文昌大道8号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-26/1223309278.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-25",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "北京君正",
+      "address": "北京市海淀区西北旺东路10号院东区14号楼",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "北京市",
+        "city": "北京市",
+        "district": "海淀区",
+        "street": ""
+      },
+      "location": {
+        "lng": 116.278374,
+        "lat": 40.045201,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "北京市海淀区西北旺东路10号院东区14号楼"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-19/1223154348.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-18",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "比亚迪半导体",
+      "address": "深圳市大鹏新区葵涌街道延安路1号",
+      "addressType": "注册地址/主要经营地址",
+      "region": {
+        "province": "广东省",
+        "city": "深圳市",
+        "district": "",
+        "street": "葵涌街道"
+      },
+      "location": {
+        "lng": 114.42806,
+        "lat": 22.63551,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 80,
+        "query": "深圳市大鹏新区葵涌街道延安路1号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "企业官方网站/公开公告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://www.bydmicro.com/cn/p-policy.html",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_00017A34A169F33FC77BE1E95217383F.pdf"
+      ],
+      "sourcePublishedAt": "2021-06-21",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "壁仞科技",
+      "address": "中国上海市闵行区陈行公路2388号16幢13楼1302室",
+      "addressType": "注册地址/总部地址",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "闵行区",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.50324,
+        "lat": 31.09898,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 80,
+        "query": "中国上海市闵行区陈行公路2388号16幢13楼1302室"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "企业官方网站/公开公告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1222/11962792/2025122200072_c.pdf"
+      ],
+      "sourcePublishedAt": "2025-12-22",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "博通集成",
+      "address": "上海市浦东新区张东路1387号41幢",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "浦东新区",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.63086,
+        "lat": 31.21999,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "上海市浦东新区张东路1387号41幢"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-29/1223390602.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-28",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "超硅",
+      "address": "上海市松江区鼎松路150弄1-15号",
+      "addressType": "总部/注册地址（公开工商）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "松江区",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.09778,
+        "lat": 30.98371,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 100,
+        "query": "上海市松江区石湖荡镇上海超硅半导体有限公司"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "企业官方网站/公开公告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://www.ast.com.cn/",
+        "https://www.maigoo.com/company/675831.html"
+      ],
+      "sourcePublishedAt": "2025-06-26",
+      "confidence": 0.84,
+      "verifiedAt": "2026-08-17"
+    },
+    {
+      "name": "辰瑞光学",
+      "address": "江苏省常州市新北区新竹路2号（综合保税区内）",
+      "addressType": "主要生产地址",
+      "region": {
+        "province": "江苏省",
+        "city": "常州市",
+        "district": "新北区",
+        "street": ""
+      },
+      "location": {
+        "lng": 119.99161,
+        "lat": 31.88712,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 100,
+        "query": "江苏省常州市新北区新竹路2号（综合保税区内）"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "企业官方网站/公开公告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://www.cznd.gov.cn/uploadfile/cznd/2024/0313/20240313145620_97128.pdf",
+        "https://www.aacoptics.com/?page_id=745"
+      ],
+      "sourcePublishedAt": "2024-03-13",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.9
+    },
+    {
+      "name": "大唐电信",
+      "address": "北京市海淀区永嘉北路6号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "北京市",
+        "city": "北京市",
+        "district": "海淀区",
+        "street": ""
+      },
+      "location": {
+        "lng": 116.242898,
+        "lat": 40.077686,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "北京市海淀区永嘉北路6号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-25/1223283547.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-24",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "大族数控",
+      "address": "深圳市宝安区福海街道重庆路12号大族激光智造中心三栋",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "广东省",
+        "city": "深圳市",
+        "district": "宝安区",
+        "street": "福海街道"
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "巨潮资讯2024年年度报告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-21/1223153294.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-20",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "德明利",
+      "address": "深圳市福田区梅林街道梅都社区中康路136号深圳新一代产业园1栋2301、2401、2501",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "广东省",
+        "city": "深圳市",
+        "district": "福田区",
+        "street": "梅林街道"
+      },
+      "location": {
+        "lng": 114.054606,
+        "lat": 22.576118,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 75,
+        "query": "深圳市福田区梅林街道梅都社区中康路136号深圳新一代产业园1栋2301、2401、2501"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-26/1223313672.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-25",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "电科芯片",
+      "address": "重庆市沙坪坝区西永大道36号附2号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "重庆市",
+        "city": "重庆市",
+        "district": "沙坪坝区",
+        "street": ""
+      },
+      "location": {
+        "lng": 106.370433,
+        "lat": 29.602266,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "重庆市沙坪坝区西永大道36号附2号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-25/1223277265.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-24",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "东芯股份",
+      "address": "上海市青浦区徐泾镇诸光路1588弄虹桥世界中心L4A-F5",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "青浦区",
+        "street": "徐泾镇"
+      },
+      "location": {
+        "lng": 121.29961,
+        "lat": 31.18675,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 85,
+        "query": "上海市青浦区徐泾镇诸光路1588弄虹桥世界中心L4A-F5"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-23/1223220890.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-22",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "飞骧科技",
+      "address": "深圳市南山区南光路286号水木一方大厦A栋16F",
+      "addressType": "总部地址",
+      "region": {
+        "province": "广东省",
+        "city": "深圳市",
+        "district": "南山区",
+        "street": ""
+      },
+      "location": {
+        "lng": 113.92299,
+        "lat": 22.53671,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 66,
+        "query": "深圳市南山区南光路286号水木一方大厦A栋16F"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "企业官方网站/公开公告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://www.lansus.com/about/contact"
+      ],
+      "sourcePublishedAt": "2026-08-17",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "峰岹科技",
+      "address": "深圳市南山区高新中区科技中2路1号深圳软件园（2期）11栋203室",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "广东省",
+        "city": "深圳市",
+        "district": "南山区",
+        "street": ""
+      },
+      "location": {
+        "lng": 113.931672,
+        "lat": 22.547721,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 85,
+        "query": "深圳市南山区高新中区科技中2路1号深圳软件园（2期）11栋203室"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-03-31/1222962350.PDF"
+      ],
+      "sourcePublishedAt": "2025-03-30",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "伏达半导体",
+      "address": "广东省深圳市宝安区新安街道兴东社区69区中粮创芯研发中心1栋1701",
+      "addressType": "深圳办公地址",
+      "region": {
+        "province": "广东省",
+        "city": "深圳市",
+        "district": "宝安区",
+        "street": "新安街道"
+      },
+      "location": {
+        "lng": 113.911507,
+        "lat": 22.58181,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 62,
+        "query": "广东省深圳市宝安区新安街道兴东社区69区中粮创芯研发中心1栋1701"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "企业官方网站/公开公告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://www.nuvoltatech.com.cn/about/news/470.html"
+      ],
+      "sourcePublishedAt": "2026-04-22",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "复旦微电",
+      "address": "上海市杨浦区国泰路127号4号楼",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "杨浦区",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.50007,
+        "lat": 31.29064,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "上海市杨浦区国泰路127号4号楼"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-03-26/1222896404.PDF"
+      ],
+      "sourcePublishedAt": "2025-03-25",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "傅里叶半导体",
+      "address": "中国（上海）自由贸易试验区临港新片区云鹃路88弄11号港城广场二街坊4号楼303室",
+      "addressType": "上海总部地址",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.920722,
+        "lat": 30.892694,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 80,
+        "query": "上海市浦东新区云鹃路88弄11号港城广场"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "企业官方网站/公开公告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://www.foursemi.com/contact.html"
+      ],
+      "sourcePublishedAt": "2026-08-17",
+      "confidence": 0.97,
+      "verifiedAt": "2026-08-17"
+    },
+    {
+      "name": "富瀚微",
+      "address": "上海市徐汇区宜山路717号2号楼6楼",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "徐汇区",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.40938,
+        "lat": 31.17531,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "上海市徐汇区宜山路717号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-12/1223071874.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-11",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "概伦电子",
+      "address": "上海市浦东新区申江路5709号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "浦东新区",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.621465,
+        "lat": 31.205628,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "上海市浦东新区申江路5709号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://jobcareer.sdu.edu.cn/eweb/jygl/index.so?id=BvgJLJsxMGmnRrz2gzUHzT&modcode=zpfw&rklx=zpfw",
+        "https://www.100est.com/res/financial-report/r2024/SH688206_202504291664584421.pdf",
+        "https://static.cninfo.com.cn/finalpage/2025-04-30/1223424311.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-29",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "广立微",
+      "address": "浙江省杭州市余杭区五常街道联创街188号A1号楼",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": "余杭区",
+        "street": "五常街道"
+      },
+      "location": {
+        "lng": 120.01998,
+        "lat": 30.291827,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "浙江省杭州市余杭区五常街道联创街188号A1号楼"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-21/1223151350.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-20",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "国科微",
+      "address": "长沙经济技术开发区泉塘街道东十路南段9号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "",
+        "city": "",
+        "district": "经济技术开发区",
+        "street": "泉塘街道"
+      },
+      "location": {
+        "lng": 113.131578,
+        "lat": 28.219133,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 60,
+        "query": "长沙经济技术开发区泉塘街道东十路南段9号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-25/1223272681.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-24",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "国民技术",
+      "address": "深圳市南山区西丽街道松坪山社区宝深路109号国民技术大厦",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "广东省",
+        "city": "深圳市",
+        "district": "南山区",
+        "street": "西丽街道"
+      },
+      "location": {
+        "lng": 113.93581,
+        "lat": 22.56409,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 71,
+        "query": "深圳市南山区西丽街道松坪山社区宝深路109号国民技术大厦"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-17/1223110736.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-16",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "海光信息",
+      "address": "北京市海淀区东北旺西路8号中关村软件园27号楼C座4-5层",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "北京市",
+        "city": "北京市",
+        "district": "海淀区",
+        "street": ""
+      },
+      "location": {
+        "lng": 116.273869,
+        "lat": 40.04191,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 83,
+        "query": "北京市海淀区东北旺西路8号中关村软件园27号楼C座4-5层"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-03-01/1222675682.PDF"
+      ],
+      "sourcePublishedAt": "2025-02-28",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "寒武纪",
+      "address": "北京市海淀区知春路7号致真大厦D座11-13层、16层",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "北京市",
+        "city": "北京市",
+        "district": "海淀区",
+        "street": ""
+      },
+      "location": {
+        "lng": 116.344568,
+        "lat": 39.975846,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 83,
+        "query": "北京市海淀区知春路7号致真大厦D座11-13层、16层"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-19/1223155683.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-18",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "豪威集团",
+      "address": "上海市浦东新区上科路88号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "浦东新区",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.598634,
+        "lat": 31.187308,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "上海市浦东新区上科路88号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-16/1223104428.pdf"
+      ],
+      "sourcePublishedAt": "2025-04-15",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "宏光半导体",
+      "address": "香港干诺道中200号信德中心西座26楼2607室",
+      "addressType": "香港总部/主要营业地点",
+      "region": {
+        "province": "",
+        "city": "",
+        "district": "",
+        "street": ""
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "企业官方网站/公开公告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://www.hg-semiconductor.com/en/investor-relations/contact-us",
+        "https://hg-semiconductor.com/Media/file_upload_1716_UCY52G.pdf"
+      ],
+      "sourcePublishedAt": "2026-01-07",
+      "confidence": 0.94
+    },
+    {
+      "name": "宏微科技",
+      "address": "常州市新北区华山路18号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "江苏省",
+        "city": "常州市",
+        "district": "新北区",
+        "street": ""
+      },
+      "location": {
+        "lng": 119.96317,
+        "lat": 31.85839,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "常州市新北区华山路18号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-15/1223097019.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-14",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "沪硅产业",
+      "address": "上海市浦东新区临港新片区云水路1000号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "浦东新区",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.78066,
+        "lat": 30.87537,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 80,
+        "query": "上海市浦东新区临港新片区云水路1000号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202506/688126_20250626_W07T.pdf",
+        "https://pdf.dfcfw.com/pdf/H2_AN202504231661108534_1.pdf",
+        "https://static.cninfo.com.cn/finalpage/2025-04-24/1223237698.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-23",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.98
+    },
+    {
+      "name": "华大九天",
+      "address": "北京市朝阳区利泽中二路2号A座二层",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "北京市",
+        "city": "北京市",
+        "district": "朝阳区",
+        "street": ""
+      },
+      "location": {
+        "lng": 116.467478,
+        "lat": 40.012506,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 100,
+        "query": "北京市华大九天"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告地址；坐标精度不足，待门址/兴趣点复核；天地图企业名称兴趣点匹配（一次性研究）",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-28/1223320656.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-27",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.94
+    },
+    {
+      "name": "华海清科",
+      "address": "天津市津南区咸水沽镇聚兴道11号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "天津市",
+        "city": "天津市",
+        "district": "津南区",
+        "street": "咸水沽镇"
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "巨潮资讯2024年年度报告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-29/1223387671.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-28",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "华虹半导体",
+      "address": "中国上海张江高科技园区哈雷路288号",
+      "addressType": "总部/主要生产研发地址",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "浦东新区",
+        "street": "张江镇"
+      },
+      "location": {
+        "lng": 121.59928,
+        "lat": 31.213605,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100
+      },
+      "locationStatus": "已复核",
+      "locationSource": "华虹半导体2024年年报；天地图地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-03-28/1222929549.PDF"
+      ],
+      "sourcePublishedAt": "2025-03-28",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "华虹公司",
+      "address": "中国上海张江高科技园区哈雷路288号",
+      "addressType": "总部/主要生产研发地址",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "浦东新区",
+        "street": "张江镇"
+      },
+      "location": {
+        "lng": 121.59928,
+        "lat": 31.213605,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100
+      },
+      "locationStatus": "已复核",
+      "locationSource": "华虹半导体2024年年报；天地图地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-03-28/1222929549.PDF"
+      ],
+      "sourcePublishedAt": "2025-03-28",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "华润微",
+      "address": "江苏省无锡市梁溪路14号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "江苏省",
+        "city": "无锡市",
+        "district": "",
+        "street": ""
+      },
+      "location": {
+        "lng": 120.274931,
+        "lat": 31.570584,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "江苏省无锡市梁溪路14号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-30/1223417959.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-29",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "华特气体",
+      "address": "佛山市南海区里水镇和顺逢西村文头岭脚东侧",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "广东省",
+        "city": "佛山市",
+        "district": "南海区",
+        "street": "里水镇"
+      },
+      "location": {
+        "lng": 113.104139,
+        "lat": 23.251722,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 75,
+        "query": "佛山市南海区里水镇和顺逢西村文头岭脚东侧"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-10/1223044748.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-09",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "华天科技",
+      "address": "甘肃省天水市秦州区赤峪路88号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "甘肃省",
+        "city": "天水市",
+        "district": "秦州区",
+        "street": ""
+      },
+      "location": {
+        "lng": 105.6669,
+        "lat": 34.56891,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "甘肃省天水市秦州区赤峪路88号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-01/1222975804.PDF"
+      ],
+      "sourcePublishedAt": "2025-03-31",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "华微电子",
+      "address": "吉林省吉林市高新区深圳街99号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "吉林省",
+        "city": "吉林市",
+        "district": "高新区",
+        "street": ""
+      },
+      "location": {
+        "lng": 126.5476,
+        "lat": 43.80713,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 80,
+        "query": "吉林省吉林市高新区深圳街99号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-30/1223427884.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-29",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "华为海思",
+      "address": "深圳市龙岗区坂田街道华为基地",
+      "addressType": "深圳总部/研发基地",
+      "region": {
+        "province": "广东省",
+        "city": "深圳市",
+        "district": "龙岗区",
+        "street": "坂田街道"
+      },
+      "location": {
+        "lng": 114.05289,
+        "lat": 22.64489,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 100,
+        "query": "深圳市龙岗区坂田街道华为基地"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "企业官方网站/公开公告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://www.hisilicon.com/cn/about-us/company"
+      ],
+      "sourcePublishedAt": "2026-08-17",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.9
+    },
+    {
+      "name": "华卓精科",
+      "address": "北京市北京经济技术开发区科创十街19号院",
+      "addressType": "总部/办公地址",
+      "region": {
+        "province": "北京市",
+        "city": "北京市",
+        "district": "经济技术开发区",
+        "street": ""
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "企业官方网站/公开公告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://www.u-precision.com/"
+      ],
+      "sourcePublishedAt": "2026-08-17",
+      "confidence": 0.98
+    },
+    {
+      "name": "汇顶科技",
+      "address": "深圳市福田区梅康路1号汇顶科技总部大厦26楼",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "广东省",
+        "city": "深圳市",
+        "district": "福田区",
+        "street": ""
+      },
+      "location": {
+        "lng": 114.0552,
+        "lat": 22.50897,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 100,
+        "query": "深圳市汇顶科技"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告地址；坐标精度不足，待门址/兴趣点复核；天地图企业名称兴趣点匹配（一次性研究）",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-03-21/1222858307.PDF"
+      ],
+      "sourcePublishedAt": "2025-03-20",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.94
+    },
+    {
+      "name": "集创北方",
+      "address": "北京市经济技术开发区博兴街道科创十街9号院A座",
+      "addressType": "北京总部地址",
+      "region": {
+        "province": "北京市",
+        "city": "北京市",
+        "district": "经济技术开发区",
+        "street": "博兴街道"
+      },
+      "location": {
+        "lng": 116.515438,
+        "lat": 39.778756,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 100,
+        "query": "北京市集创北方"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "企业官方网站/公开公告地址；坐标精度不足，待门址/兴趣点复核；天地图企业名称兴趣点匹配（一次性研究）",
+      "sourceUrl": [
+        "https://www.chiponeic.com/lxwm",
+        "https://cnsubsites.chinadaily.com.cn/etowncapital/2023-12/01/c_179768.htm"
+      ],
+      "sourcePublishedAt": "2026-08-17",
+      "confidence": 0.98,
+      "verifiedAt": "2026-08-17"
+    },
+    {
+      "name": "嘉立创",
+      "address": "广东省深圳市福田区莲花街道景华社区商报路2号奥林匹克大厦27层",
+      "addressType": "深圳总部/办公地址",
+      "region": {
+        "province": "广东省",
+        "city": "深圳市",
+        "district": "福田区",
+        "street": "莲花街道"
+      },
+      "location": {
+        "lng": 114.04256,
+        "lat": 22.5536,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 77,
+        "query": "广东省深圳市福田区莲花街道景华社区商报路2号奥林匹克大厦27层"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "企业官方网站/公开公告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://www.jlc.com/portal/1/vcontact.html",
+        "https://lceda.cn/page/company"
+      ],
+      "sourcePublishedAt": "2026-08-17",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "江波龙",
+      "address": "深圳市前海深港合作区南山街道听海大道5059号鸿荣源前海金融中心二期B座2001、2201、2301",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "广东省",
+        "city": "深圳市",
+        "district": "",
+        "street": "南山街道"
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "巨潮资讯2024年年度报告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-03-21/1222976786.pdf"
+      ],
+      "sourcePublishedAt": "2025-03-20"
+    },
+    {
+      "name": "江丰电子",
+      "address": "浙江省余姚市名邦科技工业园区安山路198号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "浙江省",
+        "city": "余姚市",
+        "district": "工业园区",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.177266,
+        "lat": 30.074607,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 85,
+        "query": "浙江省余姚市名邦科技工业园区安山路198号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-16/1223102295.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-15",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "杰华特",
+      "address": "浙江省杭州市西湖区华星路创业大厦7楼西",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": "西湖区",
+        "street": ""
+      },
+      "location": {
+        "lng": 120.116442,
+        "lat": 30.280947,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 76,
+        "query": "浙江省杭州市西湖区华星路创业大厦7楼西"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-22/1223196889.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-21",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "捷捷微电",
+      "address": "江苏省启东市经济开发区钱塘江路3000号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "江苏省",
+        "city": "",
+        "district": "开发区",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.600115,
+        "lat": 31.800181,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 80,
+        "query": "江苏省启东市经济开发区钱塘江路3000号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-16/1223100873.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-15",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "金海通",
+      "address": "上海市青浦区嘉松中路2188号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "青浦区",
+        "street": ""
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "巨潮资讯2024年年度报告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-03-19/1222835057.PDF"
+      ],
+      "sourcePublishedAt": "2025-03-18",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "金宏气体",
+      "address": "苏州市相城区黄埭镇潘阳工业园安民路6号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "江苏省",
+        "city": "苏州市",
+        "district": "相城区",
+        "street": "黄埭镇"
+      },
+      "location": {
+        "lng": 120.50714,
+        "lat": 31.4221,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 83,
+        "query": "苏州市相城区黄埭镇潘阳工业园安民路6号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-03-26/1222895371.PDF"
+      ],
+      "sourcePublishedAt": "2025-03-25",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "晶晨股份",
+      "address": "上海市浦东新区秀浦路2555号漕河泾康桥商务绿洲E5",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "浦东新区",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.60211,
+        "lat": 31.13292,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 83,
+        "query": "上海市浦东新区秀浦路2555号漕河泾康桥商务绿洲E5"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-11/1223058176.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-10",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "晶方科技",
+      "address": "苏州工业园区汀兰巷29号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "江苏省",
+        "city": "苏州市",
+        "district": "工业园区",
+        "street": ""
+      },
+      "location": {
+        "lng": 120.79343,
+        "lat": 31.34578,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 66,
+        "query": "苏州工业园区汀兰巷29号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-19/1223157814.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-18",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "晶合集成",
+      "address": "安徽省合肥市新站区合肥综合保税区内西淝河路88号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "安徽省",
+        "city": "合肥市",
+        "district": "综合保税区",
+        "street": ""
+      },
+      "location": {
+        "lng": 117.299538,
+        "lat": 31.846414,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 81,
+        "query": "安徽省合肥市新站区合肥综合保税区内西淝河路88号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-21/1223174863.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-20",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "晶瑞电材",
+      "address": "苏州市吴中区善丰路168号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "江苏省",
+        "city": "苏州市",
+        "district": "吴中区",
+        "street": ""
+      },
+      "location": {
+        "lng": 120.66969,
+        "lat": 31.20238,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "苏州市吴中区善丰路168号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-24/1223245750.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-23",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "精测电子",
+      "address": "武汉市东湖新技术开发区流芳园南路22号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "湖北省",
+        "city": "武汉市",
+        "district": "开发区",
+        "street": ""
+      },
+      "location": {
+        "lng": 114.458454,
+        "lat": 30.4612,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 75,
+        "query": "武汉市东湖新技术开发区流芳园南路22号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-25/1223264924.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-24",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "聚辰股份",
+      "address": "中国（上海）自由贸易试验区张东路1761号10幢",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.62697,
+        "lat": 31.22355,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 80,
+        "query": "中国（上海）自由贸易试验区张东路1761号10幢"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-03-25/1222882057.PDF"
+      ],
+      "sourcePublishedAt": "2025-03-24",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "昆仑芯",
+      "address": "北京市海淀区信息路甲9号",
+      "addressType": "总部/办公地址",
+      "region": {
+        "province": "北京市",
+        "city": "北京市",
+        "district": "海淀区",
+        "street": ""
+      },
+      "location": {
+        "lng": 116.306067,
+        "lat": 40.031381,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "北京市海淀区信息路甲9号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "企业官方网站/公开公告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://www.kunlunxin.com/account/forget",
+        "https://www.kunlunxin.com/company-profile"
+      ],
+      "sourcePublishedAt": "2026-08-17",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.95
+    },
+    {
+      "name": "蓝箭电子",
+      "address": "中国广东省佛山市禅城区古新路45号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "广东省",
+        "city": "佛山市",
+        "district": "禅城区",
+        "street": ""
+      },
+      "location": {
+        "lng": 113.06033,
+        "lat": 23.02578,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 83,
+        "query": "中国广东省佛山市禅城区古新路45号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-29/1223371713.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-28",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "澜起科技",
+      "address": "上海市徐汇区漕宝路181号和光天地16层",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "徐汇区",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.412647,
+        "lat": 31.169211,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 60,
+        "query": "上海市徐汇区漕宝路181号和光天地"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-11/1223058389.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-10",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "立昂微",
+      "address": "杭州经济技术开发区20号大街199号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": "经济技术开发区",
+        "street": ""
+      },
+      "location": {
+        "lng": 120.36626,
+        "lat": 30.2785,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 66,
+        "query": "杭州经济技术开发区20号大街199号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-29/1223380678.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-28",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "龙迅股份",
+      "address": "安徽省合肥市经济技术开发区宿松路3963号智能装备科技园B3栋",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "安徽省",
+        "city": "合肥市",
+        "district": "经济技术开发区",
+        "street": ""
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "巨潮资讯2024年年度报告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-02-28/1222663156.PDF"
+      ],
+      "sourcePublishedAt": "2025-02-27"
+    },
+    {
+      "name": "摩尔线程",
+      "address": "北京市朝阳区望京东路6号望京国际研发园I座3层",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "北京市",
+        "city": "北京市",
+        "district": "朝阳区",
+        "street": ""
+      },
+      "location": {
+        "lng": 116.48282,
+        "lat": 40.0066,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 83,
+        "query": "北京市朝阳区望京东路6号望京国际研发园I座3层"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2025年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2026-04-27/1225197717.PDF"
+      ],
+      "sourcePublishedAt": "2026-04-26",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "沐曦股份",
+      "address": "上海市浦东新区海科路999弄C8栋",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "浦东新区",
+        "street": ""
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "巨潮资讯2025年年度报告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2026-03-27/1225036092.PDF"
+      ],
+      "sourcePublishedAt": "2026-03-26",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "纳芯微",
+      "address": "苏州工业园区东荡田巷9号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "江苏省",
+        "city": "苏州市",
+        "district": "工业园区",
+        "street": ""
+      },
+      "location": {
+        "lng": 120.73443,
+        "lat": 31.2602,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 100,
+        "query": "苏州市纳芯微"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告地址；坐标精度不足，待门址/兴趣点复核；天地图企业名称兴趣点匹配（一次性研究）",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-10/1223046572.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-09",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.94
+    },
+    {
+      "name": "南大光电",
+      "address": "苏州工业园区胜浦平胜路67号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "江苏省",
+        "city": "苏州市",
+        "district": "工业园区",
+        "street": ""
+      },
+      "location": {
+        "lng": 120.810848,
+        "lat": 31.325936,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 100,
+        "query": "苏州市南大光电"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告地址；坐标精度不足，待门址/兴趣点复核；天地图企业名称兴趣点匹配（一次性研究）",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-03/1222992364.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-02",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.94
+    },
+    {
+      "name": "欧莱新材",
+      "address": "韶关市武江区创业路5号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "广东省",
+        "city": "韶关市",
+        "district": "武江区",
+        "street": ""
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "巨潮资讯2024年年度报告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-26/1223325664.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-25"
+    },
+    {
+      "name": "普冉股份",
+      "address": "上海市浦东新区申江路5005弄1号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "浦东新区",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.62166,
+        "lat": 31.2114,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "上海市浦东新区申江路5005弄1号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-03-31/1222962492.PDF"
+      ],
+      "sourcePublishedAt": "2025-03-30",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "强脑科技",
+      "address": "浙江省杭州市余杭区人工智能小镇1幢2层",
+      "addressType": "杭州总部/办公地址",
+      "region": {
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": "余杭区",
+        "street": "人工智能小镇"
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "企业官方网站/公开公告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://www.brainco.cn/contact"
+      ],
+      "sourcePublishedAt": "2026-08-17",
+      "confidence": 0.95
+    },
+    {
+      "name": "全志科技",
+      "address": "珠海市高新区唐家湾镇科技二路9号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "",
+        "city": "",
+        "district": "高新区",
+        "street": "唐家湾镇"
+      },
+      "location": {
+        "lng": 113.550816,
+        "lat": 22.386918,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 80,
+        "query": "珠海市高新区唐家湾镇科技二路9号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-03-28/1222928548.PDF"
+      ],
+      "sourcePublishedAt": "2025-03-27",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "瑞芯微",
+      "address": "福建省福州市鼓楼区铜盘路软件大道89号软件园A区18、20、21号楼",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "福建省",
+        "city": "福州市",
+        "district": "",
+        "street": ""
+      },
+      "location": {
+        "lng": 119.2652,
+        "lat": 26.11293,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 100,
+        "query": "福州市瑞芯微"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告地址；坐标精度不足，待门址/兴趣点复核；天地图企业名称兴趣点匹配（一次性研究）",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-23/1223218255.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-22",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.94
+    },
+    {
+      "name": "赛微电子",
+      "address": "北京市北京经济技术开发区科创八街21号院1号楼",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "北京市",
+        "city": "北京市",
+        "district": "经济技术开发区",
+        "street": ""
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "巨潮资讯2024年年度报告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-03-20/1222847674.PDF"
+      ],
+      "sourcePublishedAt": "2025-03-19"
+    },
+    {
+      "name": "三安光电",
+      "address": "福建省厦门市思明区吕岭路1721-1725号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "福建省",
+        "city": "厦门市",
+        "district": "",
+        "street": ""
+      },
+      "location": {
+        "lng": 118.17533,
+        "lat": 24.48556,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "福建省厦门市思明区吕岭路1721-1725号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-26/1223310101.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-25",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "上海贝岭",
+      "address": "上海市宜山路810号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.4023,
+        "lat": 31.17458,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "上海市宜山路810号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-01/1222972211.PDF"
+      ],
+      "sourcePublishedAt": "2025-03-31",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "上海微电子(SMEE)",
+      "address": "上海浦东新区张东路1525号",
+      "addressType": "总部/办公地址",
+      "region": {
+        "province": "",
+        "city": "",
+        "district": "浦东新区",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.628838,
+        "lat": 31.21726,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 66,
+        "query": "上海浦东新区张东路1525号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "企业官方网站/公开公告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://www.smee.com.cn/",
+        "https://www.smee.com.cn/eis.pub?method=indexinfo&onclicknodeno=1_2_1&service=homepageService"
+      ],
+      "sourcePublishedAt": "2026-08-17",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "深科技",
+      "address": "深圳市福田区彩田路7006号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "广东省",
+        "city": "深圳市",
+        "district": "福田区",
+        "street": ""
+      },
+      "location": {
+        "lng": 114.061897,
+        "lat": 22.56496,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "深圳市福田区彩田路7006号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-25/1223270327.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-24",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "圣邦股份",
+      "address": "北京市海淀区西三环北路87号11层4-1106",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "北京市",
+        "city": "北京市",
+        "district": "海淀区",
+        "street": ""
+      },
+      "location": {
+        "lng": 116.30278,
+        "lat": 39.93459,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "北京市海淀区西三环北路87号11层4-1106"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-29/1223374638.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-28",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "盛美上海",
+      "address": "中国（上海）自由贸易试验区丹桂路999弄5、6、7、8号全幢",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "",
+        "street": ""
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "巨潮资讯2024年年度报告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-02-27/1222651596.PDF"
+      ],
+      "sourcePublishedAt": "2025-02-26"
+    },
+    {
+      "name": "时代电气",
+      "address": "株洲市石峰区时代路",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "湖南省",
+        "city": "株洲市",
+        "district": "石峰区",
+        "street": ""
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "巨潮资讯2024年年度报告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-03-29/1222946706.PDF"
+      ],
+      "sourcePublishedAt": "2025-03-28",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "士兰微",
+      "address": "浙江省杭州市黄姑山路4号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": "",
+        "street": ""
+      },
+      "location": {
+        "lng": 120.12882,
+        "lat": 30.27527,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "浙江省杭州市黄姑山路4号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-19/1223158152.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-18",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "斯达半导",
+      "address": "浙江省嘉兴市南湖区科兴路988号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "浙江省",
+        "city": "嘉兴市",
+        "district": "南湖区",
+        "street": ""
+      },
+      "location": {
+        "lng": 120.830071,
+        "lat": 30.726005,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "浙江省嘉兴市南湖区科兴路988号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-26/1223325294.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-25",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "燧原科技",
+      "address": "上海市浦东新区盛夏路61弄1号",
+      "addressType": "主要经营地址",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "浦东新区",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.6255,
+        "lat": 31.21691,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "上海市浦东新区盛夏路61弄1号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "企业官方网站/公开公告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202604161821265136_1.pdf",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202601/002175_20260122_8YKF.pdf"
+      ],
+      "sourcePublishedAt": "2026-04-16",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.95
+    },
+    {
+      "name": "拓荆科技",
+      "address": "辽宁省沈阳市浑南区全运路109-3号14层",
+      "addressType": "注册地址（2025年年报）",
+      "region": {
+        "province": "辽宁省",
+        "city": "沈阳市",
+        "district": "浑南区",
+        "street": ""
+      },
+      "location": {
+        "lng": 123.44934,
+        "lat": 41.68048,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "辽宁省沈阳市浑南区全运路109-3号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "企业官方网站/公开公告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-25/1223286833.PDF",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12234583",
+        "https://www.piotech.cn/"
+      ],
+      "sourcePublishedAt": "2026-04-01",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.94
+    },
+    {
+      "name": "台基股份",
+      "address": "湖北省襄阳市襄城区胜利街162号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "湖北省",
+        "city": "襄阳市",
+        "district": "襄城区",
+        "street": ""
+      },
+      "location": {
+        "lng": 112.15624,
+        "lat": 31.997877,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "湖北省襄阳市襄城区胜利街162号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-03/1222991226.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-02",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "天数智芯",
+      "address": "上海市闵行区陈行公路2168号3幢101室",
+      "addressType": "上海总部地址",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "闵行区",
+        "street": ""
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "企业官方网站/公开公告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://www.iluvatar.com/concactus",
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2025/1230/11969956/2025123000072.pdf"
+      ],
+      "sourcePublishedAt": "2025-12-30",
+      "confidence": 0.98
+    },
+    {
+      "name": "天域半导体",
+      "address": "广东省东莞市松山湖高新技术产业开发园区工业北一路5号",
+      "addressType": "总部/主要生产地址",
+      "region": {
+        "province": "广东省",
+        "city": "东莞市",
+        "district": "",
+        "street": ""
+      },
+      "location": {
+        "lng": 113.89364,
+        "lat": 22.97739,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 81,
+        "query": "广东省东莞市松山湖高新技术产业开发园区工业北一路5号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "企业官方网站/公开公告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://www.sicty.com/"
+      ],
+      "sourcePublishedAt": "2026-02-06",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "天岳先进",
+      "address": "山东省济南市槐荫区天岳南路99号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "山东省",
+        "city": "济南市",
+        "district": "槐荫区",
+        "street": ""
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "巨潮资讯2024年年度报告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-03-28/1222928209.PDF"
+      ],
+      "sourcePublishedAt": "2025-03-27",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "通富微电",
+      "address": "江苏省南通市崇川路288号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "江苏省",
+        "city": "南通市",
+        "district": "",
+        "street": ""
+      },
+      "location": {
+        "lng": 120.871133,
+        "lat": 31.975468,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "江苏省南通市崇川路288号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-12/1223070267.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-11",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "彤程新材",
+      "address": "中国（上海）自由贸易试验区银城中路501号上海中心25层2501室",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.50053,
+        "lat": 31.235746,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 75,
+        "query": "中国自由贸易试验区银城中路501号上海中心"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-18/1223159664.pdf"
+      ],
+      "sourcePublishedAt": "2025-04-17",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "微导纳米",
+      "address": "无锡市新吴区长江南路27号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "江苏省",
+        "city": "无锡市",
+        "district": "新吴区",
+        "street": ""
+      },
+      "location": {
+        "lng": 120.396355,
+        "lat": 31.501533,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "无锡市新吴区长江南路27号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-26/1223321525.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-25",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "韦尔股份",
+      "address": "上海市浦东新区上科路88号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "浦东新区",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.598634,
+        "lat": 31.187308,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "上海市浦东新区上科路88号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-16/1223104428.pdf"
+      ],
+      "sourcePublishedAt": "2025-04-15",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.98
+    },
+    {
+      "name": "闻泰科技",
+      "address": "浙江省嘉兴市南湖区亚中路777号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "浙江省",
+        "city": "嘉兴市",
+        "district": "南湖区",
+        "street": ""
+      },
+      "location": {
+        "lng": 120.831175,
+        "lat": 30.732624,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "浙江省嘉兴市南湖区亚中路777号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-26/1223328102.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-25",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "武汉新芯",
+      "address": "湖北省武汉市东湖新技术开发区高新四路18号",
+      "addressType": "总部/主要生产经营地址",
+      "region": {
+        "province": "湖北省",
+        "city": "武汉市",
+        "district": "开发区",
+        "street": ""
+      },
+      "location": {
+        "lng": 114.43786,
+        "lat": 30.45812,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 80,
+        "query": "湖北省武汉市东湖新技术开发区高新四路18号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "企业官方网站/公开公告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://www.xmcwh.com/site/details/1044",
+        "https://www.xmcwh.com/site/acmp-detail"
+      ],
+      "sourcePublishedAt": "2026-08-17",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "西安奕材",
+      "address": "陕西省西安市高新区西沣南路1888号1-3-029室",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "陕西省",
+        "city": "西安市",
+        "district": "高新区",
+        "street": ""
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "巨潮资讯2025年年度报告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2026-04-21/1225128935.PDF"
+      ],
+      "sourcePublishedAt": "2026-04-20"
+    },
+    {
+      "name": "曦华科技",
+      "address": "深圳市南山区西丽街道深圳国际创新谷三期7栋D座201室",
+      "addressType": "深圳总部地址",
+      "region": {
+        "province": "广东省",
+        "city": "深圳市",
+        "district": "南山区",
+        "street": "西丽街道"
+      },
+      "location": {
+        "lng": 113.9346,
+        "lat": 22.57781,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 80,
+        "query": "深圳市南山区西丽街道深圳国际创新谷三期7栋D座201室"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "企业官方网站/公开公告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://www.cvachip.com/"
+      ],
+      "sourcePublishedAt": "2026-08-17",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "曦智科技",
+      "address": "中国（上海）自由贸易试验区博霞路111号、125号、139号",
+      "addressType": "注册地址/总部地址",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.60056,
+        "lat": 31.2023,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 66,
+        "query": "中国自由贸易试验区博霞路111号、125号、139号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "企业官方网站/公开公告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0514/2026051401637_c.pdf"
+      ],
+      "sourcePublishedAt": "2026-05-14",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "芯联集成",
+      "address": "浙江省绍兴市越城区皋埠街道临江路518号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "浙江省",
+        "city": "绍兴市",
+        "district": "越城区",
+        "street": "皋埠街道"
+      },
+      "location": {
+        "lng": 120.672779,
+        "lat": 29.992841,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "浙江省绍兴市越城区皋埠街道临江路518号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-29/1223388408.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-28",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "芯原股份",
+      "address": "中国（上海）自由贸易试验区春晓路289号张江大厦20A",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.58005,
+        "lat": 31.20761,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 61,
+        "query": "中国（上海）自由贸易试验区春晓路289号张江大厦20A"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://www.verisilicon.com/cn/ContactUs",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10990821",
+        "https://static.cninfo.com.cn/finalpage/2025-04-26/1223311717.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-25",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.98
+    },
+    {
+      "name": "芯源微",
+      "address": "辽宁省沈阳市浑南区飞云路16号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "辽宁省",
+        "city": "沈阳市",
+        "district": "浑南区",
+        "street": ""
+      },
+      "location": {
+        "lng": 123.4659,
+        "lat": 41.71805,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "辽宁省沈阳市浑南区飞云路16号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-26/1223330378.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-25",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "新芯集成",
+      "address": "湖北省武汉市东湖新技术开发区高新四路18号",
+      "addressType": "与武汉新芯同一主体的品牌/简称",
+      "region": {
+        "province": "湖北省",
+        "city": "武汉市",
+        "district": "开发区",
+        "street": ""
+      },
+      "location": {
+        "lng": 114.43786,
+        "lat": 30.45812,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 80,
+        "query": "湖北省武汉市东湖新技术开发区高新四路18号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "企业官方网站/公开公告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://www.xmcwh.com/site/about-XMC",
+        "https://pitchhub.36kr.com/project/2012742293259781"
+      ],
+      "sourcePublishedAt": "2026-08-17",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "星宸科技",
+      "address": "厦门市同安区后詹路1号16层",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "福建省",
+        "city": "厦门市",
+        "district": "同安区",
+        "street": ""
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "巨潮资讯2024年年度报告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-19/1223150325.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-18"
+    },
+    {
+      "name": "雅克科技",
+      "address": "无锡宜兴经济开发区荆溪北路88号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "",
+        "city": "",
+        "district": "开发区",
+        "street": ""
+      },
+      "location": {
+        "lng": 119.83854,
+        "lat": 31.39565,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 100,
+        "query": "宜兴市雅克科技"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告地址；坐标精度不足，待门址/兴趣点复核；天地图企业名称兴趣点匹配（一次性研究）",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-28/1223314774.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-27",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.94
+    },
+    {
+      "name": "扬杰科技",
+      "address": "江苏省扬州市邗江区新甘泉大道68号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "江苏省",
+        "city": "扬州市",
+        "district": "邗江区",
+        "street": ""
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "巨潮资讯2024年年度报告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-03-31/1222949517.PDF"
+      ],
+      "sourcePublishedAt": "2025-03-30",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "屹唐股份",
+      "address": "北京市北京经济技术开发区瑞合西二路9号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "北京市",
+        "city": "北京市",
+        "district": "经济技术开发区",
+        "street": ""
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "巨潮资讯2025年年度报告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2026-04-29/1225243337.PDF"
+      ],
+      "sourcePublishedAt": "2026-04-28"
+    },
+    {
+      "name": "英诺赛科",
+      "address": "苏州市吴江区黎里镇新黎路98号",
+      "addressType": "总部/办公地址",
+      "region": {
+        "province": "江苏省",
+        "city": "苏州市",
+        "district": "",
+        "street": "黎里镇"
+      },
+      "location": {
+        "lng": 120.804131,
+        "lat": 31.041748,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "苏州市吴江区黎里镇新黎路98号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "企业官方网站/公开公告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://www.innoscience.com/cn/investor-relations/ir-contacts"
+      ],
+      "sourcePublishedAt": "2026-08-17",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.96
+    },
+    {
+      "name": "盈方微",
+      "address": "上海市长宁区天山西路799号5楼03/05单元",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "长宁区",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.34931,
+        "lat": 31.219943,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "上海市长宁区天山西路799号5楼03/05单元"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197750.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-21",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "甬矽电子",
+      "address": "浙江省余姚市中意宁波生态园兴舜路22号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "浙江省",
+        "city": "余姚市",
+        "district": "",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.057542,
+        "lat": 30.261767,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 88,
+        "query": "浙江省余姚市中意宁波生态园兴舜路22号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-23/1223218861.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-22",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "源杰科技",
+      "address": "陕西省西咸新区沣西新城开元路1265号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "陕西省",
+        "city": "西安市",
+        "district": "沣西新城",
+        "street": ""
+      },
+      "location": {
+        "lng": 108.70077,
+        "lat": 34.285619,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 60,
+        "query": "陕西省西咸新区沣西新城开元路1265号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-26/1223315235.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-25",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "粤芯半导体",
+      "address": "广州市黄埔区中新广州知识城凤凰五路28号",
+      "addressType": "总部/主要生产经营地址",
+      "region": {
+        "province": "广东省",
+        "city": "广州市",
+        "district": "",
+        "street": ""
+      },
+      "location": {
+        "lng": 113.489069,
+        "lat": 23.39561,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 60,
+        "query": "广州市黄埔区中新广州知识城凤凰五路28号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "企业官方网站/公开公告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://www.cansemitech.com/?page_id=6",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_0817308EAA964D501D4AB9BD81D83FA1FB4A44.pdf"
+      ],
+      "sourcePublishedAt": "2026-06-01",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "云英谷",
+      "address": "广东省深圳市南山区粤海街道高新南七道20号国家工程实验室大楼A座1603-1605室",
+      "addressType": "深圳总部/办公地址",
+      "region": {
+        "province": "广东省",
+        "city": "深圳市",
+        "district": "南山区",
+        "street": "粤海街道"
+      },
+      "location": {
+        "lng": 113.944256,
+        "lat": 22.53657,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 87,
+        "query": "广东省深圳市南山区粤海街道高新南七道20号国家工程实验室大楼A座1603-1605室"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "企业官方网站/公开公告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://www.viewtrixtech.com/about-us/company-profile",
+        "https://www.viewtrixtech.com/privacy"
+      ],
+      "sourcePublishedAt": "2026-08-17",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "长川科技",
+      "address": "杭州市滨江区聚才路410号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": "滨江区",
+        "street": ""
+      },
+      "location": {
+        "lng": 120.195558,
+        "lat": 30.18485,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "杭州市滨江区聚才路410号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-29/1223380487.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-28",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "长电科技",
+      "address": "江苏省江阴市滨江中路275号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "江苏省",
+        "city": "江阴市",
+        "district": "",
+        "street": ""
+      },
+      "location": {
+        "lng": 120.27131,
+        "lat": 31.925141,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "江苏省江阴市滨江中路275号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-21/1223174786.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-20",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "长光辰芯",
+      "address": "吉林省长春市经开区自由大路7691号光电信息产业园一期1号、5号办公楼",
+      "addressType": "总部地址",
+      "region": {
+        "province": "吉林省",
+        "city": "长春市",
+        "district": "经开区",
+        "street": ""
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "企业官方网站/公开公告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://www.gpixel.com/contact.html"
+      ],
+      "sourcePublishedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "长江存储",
+      "address": "中国湖北省武汉市东湖新技术开发区未来三路88号",
+      "addressType": "总部地址",
+      "region": {
+        "province": "湖北省",
+        "city": "武汉市",
+        "district": "开发区",
+        "street": ""
+      },
+      "location": {
+        "lng": 114.590492,
+        "lat": 30.463621,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 100,
+        "query": "武汉市长江存储"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "企业官方网站/公开公告地址；坐标精度不足，待门址/兴趣点复核；天地图企业名称兴趣点匹配（一次性研究）",
+      "sourceUrl": [
+        "https://www.ymtc.com/cn/contact.html"
+      ],
+      "sourcePublishedAt": "2026-08-17",
+      "confidence": 0.98,
+      "verifiedAt": "2026-08-17"
+    },
+    {
+      "name": "兆易创新",
+      "address": "北京市海淀区丰豪东路9号院中关村集成电路设计园8号楼",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "北京市",
+        "city": "北京市",
+        "district": "海淀区",
+        "street": ""
+      },
+      "location": {
+        "lng": 116.242832,
+        "lat": 40.072644,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 100,
+        "query": "北京市海淀区丰豪东路中关村集成电路设计园"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-26/1223305062.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-25",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "至纯科技",
+      "address": "上海市闵行区紫海路170号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "闵行区",
+        "street": ""
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "巨潮资讯2024年年度报告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-29/1223391045.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-28",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "中船特气",
+      "address": "河北省邯郸市经济开发区世纪大街6号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "河北省",
+        "city": "邯郸市",
+        "district": "开发区",
+        "street": ""
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "巨潮资讯2024年年度报告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-26/1223315860.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-25"
+    },
+    {
+      "name": "中科飞测",
+      "address": "深圳市龙华区观澜街道观光路银星科技园1301号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "广东省",
+        "city": "深圳市",
+        "district": "龙华区",
+        "street": "观澜街道"
+      },
+      "location": {
+        "lng": 114.04215,
+        "lat": 22.7323,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 100,
+        "query": "深圳市龙华区观澜街道观光路银星科技园1301号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-04/1223006264.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-03",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "中微半导",
+      "address": "深圳市前海深港合作区南山街道桂湾三路91号景兴海上大厦2101",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "广东省",
+        "city": "深圳市",
+        "district": "",
+        "street": "南山街道"
+      },
+      "location": {
+        "lng": 113.92248,
+        "lat": 22.55208,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 100,
+        "query": "深圳市中微半导"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告地址；坐标精度不足，待门址/兴趣点复核；天地图企业名称兴趣点匹配（一次性研究）",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-11/1223058226.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-10",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.94
+    },
+    {
+      "name": "中微公司",
+      "address": "上海市浦东新区金桥出口加工区（南区）泰华路188号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "浦东新区",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.67501,
+        "lat": 31.23095,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 80,
+        "query": "上海市浦东新区金桥出口加工区泰华路188号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-18/1223127190.PDF",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/201906/000064_20190611_EIU4.pdf",
+        "https://static.cninfo.com.cn/finalpage/2025-04-18/1223127191.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-17",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.98
+    },
+    {
+      "name": "中芯国际",
+      "address": "中国上海市浦东新区张江路18号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "浦东新区",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.6039,
+        "lat": 31.22077,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 90,
+        "query": "中国上海市浦东新区张江路18号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2025-03-28/688981_20250328_JLBJ.pdf",
+        "https://static.cninfo.com.cn/finalpage/2025-03-28/1222924320.PDF"
+      ],
+      "sourcePublishedAt": "2025-03-27",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "中欣晶圆",
+      "address": "浙江省杭州市钱塘区东垦路888号",
+      "addressType": "总部/主要生产地址",
+      "region": {
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": "",
+        "street": ""
+      },
+      "location": {
+        "lng": 120.482848,
+        "lat": 30.353181,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100,
+        "query": "浙江省杭州市钱塘区东垦路888号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "企业官方网站/公开公告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://www.ftwafer.com/contacts.html",
+        "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/db5a87c48edd00a230e31e5b86269a41.pdf"
+      ],
+      "sourcePublishedAt": "2025-01-01",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.96
+    },
+    {
+      "name": "卓胜微",
+      "address": "无锡市滨湖区胡埭工业园刘闾路29号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "江苏省",
+        "city": "无锡市",
+        "district": "滨湖区",
+        "street": ""
+      },
+      "location": {
+        "lng": 120.144183,
+        "lat": 31.571232,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 60,
+        "query": "无锡市滨湖区胡埭工业园刘闾路29号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "巨潮资讯2024年年度报告；天地图一次性地址解析",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-03-31/1222951276.PDF"
+      ],
+      "sourcePublishedAt": "2025-03-30",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "紫光国微",
+      "address": "河北省唐山市玉田县玉田镇玉月路1008号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "河北省",
+        "city": "唐山市",
+        "district": "玉田县",
+        "street": "玉田镇"
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "巨潮资讯2024年年度报告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-23/1223222891.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-22",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "紫光国芯",
+      "address": "河北省唐山市玉田县玉田镇玉月路1008号",
+      "addressType": "与紫光国微同一主体的历史/品牌名称",
+      "region": {
+        "province": "河北省",
+        "city": "唐山市",
+        "district": "玉田县",
+        "street": "玉田镇"
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "企业官方网站/公开公告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-23/1223222891.PDF",
+        "https://static.cninfo.com.cn/finalpage/2025-04-18/1223127190.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-18",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.92
+    },
+    {
+      "name": "紫光展锐",
+      "address": "上海市浦东新区祖冲之路2288弄3号429室",
+      "addressType": "上海总部/注册地址",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "浦东新区",
+        "street": "张江镇"
+      },
+      "location": {
+        "lng": 121.62235,
+        "lat": 31.2122,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址",
+        "score": 100
+      },
+      "locationStatus": "已复核",
+      "locationSource": "公开工商信息/招聘信息；天地图地址解析",
+      "sourceUrl": [
+        "https://m.zhipin.com/companys/d6a2956a55473ae303143tS0FVs~.html",
+        "https://jobcareer.sdu.edu.cn/eweb/jygl/index.so?id=H8Y3SRSsGc2gCh4FaaDNBa&modcode=zpfw&rklx=zpfw"
+      ],
+      "sourcePublishedAt": "2026-07-14",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.94
+    },
+    {
+      "name": "TCL中环",
+      "address": "天津新技术产业园区华苑产业区（环外）海泰南道10号",
+      "addressType": "总部/办公地址（年报）",
+      "region": {
+        "province": "",
+        "city": "",
+        "district": "",
+        "street": ""
+      },
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "巨潮资讯2024年年度报告地址；坐标精度不足，待门址/兴趣点复核",
+      "sourceUrl": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-26/1223330188.PDF"
+      ],
+      "sourcePublishedAt": "2025-04-25"
+    }
+  ]
+}

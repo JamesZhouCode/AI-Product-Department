@@ -1,0 +1,58 @@
+.company-detail-rail {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  bottom: 60px;
+  z-index: 12;
+  width: 335px;
+  min-height: 0;
+  padding: 16px 18px 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.94);
+  border: 1px solid rgba(205, 220, 231, 0.9);
+  border-radius: var(--radius-panel);
+  box-shadow: var(--shadow-md);
+  backdrop-filter: blur(16px);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.company-detail-rail-scroll {
+  min-width: 0;
+  min-height: 0;
+  flex: 1 1 auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.company-detail-rail::-webkit-scrollbar,
+.company-detail-rail-scroll::-webkit-scrollbar {
+  display: none;
+}
+.company-detail-rail--atlas {
+  top: 10px;
+  bottom: 10px;
+}
+
+@media (max-width: 1180px) {
+  .company-detail-rail {
+    width: 300px;
+  }
+}
+
+@media (max-width: 680px) {
+  .company-detail-rail {
+    top: 72px;
+    right: 8px;
+    bottom: 58px;
+    left: 8px;
+    width: auto;
+    padding: 14px;
+  }
+  .company-detail-rail--atlas {
+    top: 10px;
+    bottom: 10px;
+  }
+}

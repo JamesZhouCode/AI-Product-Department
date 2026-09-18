@@ -1,0 +1,50 @@
+{
+  "name": "ic-industry-map-demo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write \"src/**/*.{js,jsx,css}\" \"test/**/*.{js,jsx}\" scripts/smoke.mjs \"*.{js,json}\"",
+    "format:check": "prettier --check \"src/**/*.{js,jsx,css}\" \"test/**/*.{js,jsx}\" scripts/smoke.mjs \"*.{js,json}\"",
+    "lint": "eslint src test",
+    "test": "node --test",
+    "prepare:data": "node scripts/prepare-company-master.mjs && node scripts/audit-company-master.mjs",
+    "prepare:new-industries": "node scripts/prepare-new-industries.mjs && node scripts/build-new-industry-relations.mjs && node scripts/prepare-new-industries.mjs && node scripts/derive-region-from-address.mjs",
+    "audit:data": "node scripts/audit-company-master.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "research:360": "node scripts/research-360-pois.mjs",
+    "research:qq": "node scripts/research-qq-pois.mjs",
+    "research:amap": "node scripts/research-amap-geocode.mjs",
+    "research:amap:web": "node scripts/research-amap-pois.mjs",
+    "research:regions": "node scripts/research-region-fallbacks.mjs",
+    "research:reference": "node scripts/research-reference-locations.mjs",
+    "research:amap-geocode": "node scripts/research-amap-geocode.mjs",
+    "download:map-assets": "node scripts/download-map-assets.mjs",
+    "extract:map": "bash scripts/extract-map-assets.sh",
+    "verify:map": "node scripts/verify-map-assets.mjs",
+    "check": "pnpm format:check && pnpm lint && pnpm test && pnpm build"
+  },
+  "dependencies": {
+    "@protomaps/basemaps": "^5.7.2",
+    "maplibre-gl": "^5.6.2",
+    "pmtiles": "^4.3.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@vitejs/plugin-react": "^4.7.0",
+    "eslint": "^10.8.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.4",
+    "globals": "^17.11.0",
+    "prettier": "^3.9.6",
+    "s2-pmtiles": "1.1.2",
+    "vite": "^7.1.3"
+  }
+}

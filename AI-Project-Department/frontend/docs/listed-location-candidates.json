@@ -1,0 +1,1732 @@
+{
+  "generatedAt": "2026-08-17T03:06:33.245Z",
+  "source": "CNINFO 2024 annual reports",
+  "candidates": [
+    {
+      "name": "华大九天",
+      "stockName": "华大九天",
+      "code": "301269",
+      "orgId": "9900048778",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223320656.PDF",
+      "announcementTime": "2025-04-27",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "北京市朝阳区利泽中二路2号A座二层",
+        "line": 244
+      }
+    },
+    {
+      "name": "概伦电子",
+      "stockName": "概伦电子",
+      "code": "688206",
+      "orgId": "9900048370",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-30/1223424311.PDF",
+      "announcementTime": "2025-04-29",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "中国（上海）自由贸易试验区申江路5709号、秋月路26号4幢901室",
+        "line": 272
+      }
+    },
+    {
+      "name": "芯原股份",
+      "stockName": "芯原股份",
+      "code": "688521",
+      "orgId": "9900040648",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223311717.PDF",
+      "announcementTime": "2025-04-25",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "中国（上海）自由贸易试验区春晓路289号张江大厦20A",
+        "line": 501
+      }
+    },
+    {
+      "name": "广立微",
+      "stockName": "广立微",
+      "code": "301095",
+      "orgId": "9900052544",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-21/1223151350.PDF",
+      "announcementTime": "2025-04-20",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "浙江省杭州市余杭区五常街道联创街188号A1号楼",
+        "line": 328
+      }
+    },
+    {
+      "name": "沪硅产业",
+      "stockName": "沪硅产业",
+      "code": "688126",
+      "orgId": "9900039304",
+      "alias": "",
+      "reportTitle": "沪硅产业2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-24/1223237698.PDF",
+      "announcementTime": "2025-04-23",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "中国(上海)自由贸易试验区临港新片区云水路1000号",
+        "line": 209
+      }
+    },
+    {
+      "name": "立昂微",
+      "stockName": "立昂微",
+      "code": "605358",
+      "orgId": "9900038308",
+      "alias": "",
+      "reportTitle": "立昂微2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223380678.PDF",
+      "announcementTime": "2025-04-28",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "杭州经济技术开发区20号大街199号",
+        "line": 182
+      }
+    },
+    {
+      "name": "TCL中环",
+      "stockName": "TCL中环",
+      "code": "002129",
+      "orgId": "9900002703",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223330188.PDF",
+      "announcementTime": "2025-04-25",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "天津新技术产业园区华苑产业区（环外）海泰南道10号",
+        "line": 304
+      }
+    },
+    {
+      "name": "南大光电",
+      "stockName": "南大光电",
+      "code": "300346",
+      "orgId": "9900022326",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-03/1222992364.PDF",
+      "announcementTime": "2025-04-02",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "苏州工业园区胜浦平胜路67号",
+        "line": 340
+      }
+    },
+    {
+      "name": "晶瑞电材",
+      "stockName": "晶瑞电材",
+      "code": "300655",
+      "orgId": "9900031917",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-24/1223245750.PDF",
+      "announcementTime": "2025-04-23",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "苏州市吴中区善丰路168号",
+        "line": 334
+      }
+    },
+    {
+      "name": "彤程新材",
+      "stockName": "彤程新材",
+      "code": "603650",
+      "orgId": "9900035570",
+      "alias": "",
+      "reportTitle": "彤程新材料集团股份有限公司2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-18/1223159664.pdf",
+      "announcementTime": "2025-04-17",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "中国（上海）自由贸易试验区银城中路501号上海中心25层2501室",
+        "line": 246
+      }
+    },
+    {
+      "name": "雅克科技",
+      "stockName": "雅克科技",
+      "code": "002409",
+      "orgId": "9900012610",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223314774.PDF",
+      "announcementTime": "2025-04-27",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "无锡宜兴经济开发区荆溪北路88号",
+        "line": 182
+      }
+    },
+    {
+      "name": "安集科技",
+      "stockName": "安集科技",
+      "code": "688019",
+      "orgId": "9900038987",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-16/1223101942.PDF",
+      "announcementTime": "2025-04-15",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "上海市浦东新区华东路5001号金桥综合保税区T6－5幢",
+        "line": 367
+      }
+    },
+    {
+      "name": "华特气体",
+      "stockName": "华特气体",
+      "code": "688268",
+      "orgId": "gfbj0870865",
+      "alias": "",
+      "reportTitle": "广东华特气体股份有限公司2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-10/1223044748.PDF",
+      "announcementTime": "2025-04-09",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "佛山市南海区里水镇和顺逢西村文头岭脚东侧",
+        "line": 274
+      }
+    },
+    {
+      "name": "金宏气体",
+      "stockName": "金宏气体",
+      "code": "688106",
+      "orgId": "9900023702",
+      "alias": "",
+      "reportTitle": "金宏气体：2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-03-26/1222895371.PDF",
+      "announcementTime": "2025-03-25",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "苏州市相城区黄埭镇潘阳工业园安民路6号",
+        "line": 481
+      }
+    },
+    {
+      "name": "中船特气",
+      "stockName": "中船特气",
+      "code": "688146",
+      "orgId": "9900056077",
+      "alias": "",
+      "reportTitle": "中船特气2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223315860.PDF",
+      "announcementTime": "2025-04-25",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "河北省邯郸市经济开发区世纪大街6号",
+        "line": 367
+      }
+    },
+    {
+      "name": "阿石创",
+      "stockName": "阿石创",
+      "code": "300706",
+      "orgId": "9900032566",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223323248.PDF",
+      "announcementTime": "2025-04-27",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "福建省福州市长乐区漳港街道漳湖路66号",
+        "line": 258
+      }
+    },
+    {
+      "name": "欧莱新材",
+      "stockName": "欧莱新材",
+      "code": "688530",
+      "orgId": "9900048076",
+      "alias": "",
+      "reportTitle": "欧莱新材2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223325664.PDF",
+      "announcementTime": "2025-04-25",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "韶关市武江区创业路5号",
+        "line": 303
+      }
+    },
+    {
+      "name": "江丰电子",
+      "stockName": "江丰电子",
+      "code": "300666",
+      "orgId": "9900031914",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-16/1223102295.PDF",
+      "announcementTime": "2025-04-15",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "浙江省余姚市经济开发区名邦科技工业园区安山路",
+        "line": 290
+      }
+    },
+    {
+      "name": "北方华创",
+      "stockName": "北方华创",
+      "code": "002371",
+      "orgId": "9900006137",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223309278.PDF",
+      "announcementTime": "2025-04-25",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "北京市北京经济技术开发区文昌大道8号",
+        "line": 289
+      }
+    },
+    {
+      "name": "中微公司",
+      "stockName": "中微公司",
+      "code": "688012",
+      "orgId": "9900038991",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-18/1223127191.PDF",
+      "announcementTime": "2025-04-17",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "上海市浦东新区金桥出口加工区（南区）泰华路188号",
+        "line": 336
+      }
+    },
+    {
+      "name": "屹唐股份",
+      "stockName": "屹唐股份",
+      "code": "688729",
+      "orgId": "9900052123",
+      "alias": "",
+      "reportTitle": "2025年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225243337.PDF",
+      "announcementTime": "2026-04-28",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "北京市北京经济技术开发区瑞合西二路9号",
+        "line": 314
+      }
+    },
+    {
+      "name": "拓荆科技",
+      "stockName": "拓荆科技",
+      "code": "688072",
+      "orgId": "9900048695",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-25/1223286833.PDF",
+      "announcementTime": "2025-04-24",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "辽宁省沈阳市浑南区水家900号",
+        "line": 395
+      }
+    },
+    {
+      "name": "微导纳米",
+      "stockName": "微导纳米",
+      "code": "688147",
+      "orgId": "nssc1000585",
+      "alias": "",
+      "reportTitle": "江苏微导纳米科技股份有限公司2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223321525.PDF",
+      "announcementTime": "2025-04-25",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "无锡市新吴区长江南路27号",
+        "line": 278
+      }
+    },
+    {
+      "name": "盛美上海",
+      "stockName": "盛美上海",
+      "code": "688082",
+      "orgId": "nssc1000455",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-02-27/1222651596.PDF",
+      "announcementTime": "2025-02-26",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "中国（上海）自由贸易试验区丹桂路999弄5、6、7、8号全幢",
+        "line": 367
+      }
+    },
+    {
+      "name": "芯源微",
+      "stockName": "芯源微",
+      "code": "688037",
+      "orgId": "9900039964",
+      "alias": "",
+      "reportTitle": "芯源微2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223330378.PDF",
+      "announcementTime": "2025-04-25",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "辽宁省沈阳市浑南区彩云路1号",
+        "line": 237
+      }
+    },
+    {
+      "name": "华海清科",
+      "stockName": "华海清科",
+      "code": "688120",
+      "orgId": "9900044315",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223387671.PDF",
+      "announcementTime": "2025-04-28",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "天津市津南区咸水沽镇聚兴道11号",
+        "line": 256
+      }
+    },
+    {
+      "name": "中科飞测",
+      "stockName": "中科飞测",
+      "code": "688361",
+      "orgId": "9900048792",
+      "alias": "",
+      "reportTitle": "深圳中科飞测科技股份有限公司2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-04/1223006264.PDF",
+      "announcementTime": "2025-04-03",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "深圳市龙华区观澜街道观光路银星科技园1301号",
+        "line": 314
+      }
+    },
+    {
+      "name": "精测电子",
+      "stockName": "精测电子",
+      "code": "300567",
+      "orgId": "DR0000288",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-25/1223264924.PDF",
+      "announcementTime": "2025-04-24",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "武汉市东湖新技术开发区流芳园南路22号",
+        "line": 289
+      }
+    },
+    {
+      "name": "金海通",
+      "stockName": "金海通",
+      "code": "603061",
+      "orgId": "9900048113",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-03-19/1222835057.PDF",
+      "announcementTime": "2025-03-18",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "上海市青浦区嘉松中路2188号",
+        "line": 248
+      }
+    },
+    {
+      "name": "至纯科技",
+      "stockName": "至纯科技",
+      "code": "603690",
+      "orgId": "9900023872",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223391045.PDF",
+      "announcementTime": "2025-04-28",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "上海市闵行区紫海路170号",
+        "line": 302
+      }
+    },
+    {
+      "name": "长川科技",
+      "stockName": "长川科技",
+      "code": "300604",
+      "orgId": "9900031824",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223380487.PDF",
+      "announcementTime": "2025-04-28",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "杭州市滨江区聚才路410号",
+        "line": 177
+      }
+    },
+    {
+      "name": "海光信息",
+      "stockName": "海光信息",
+      "code": "688041",
+      "orgId": "9900048365",
+      "alias": "",
+      "reportTitle": "海光信息技术股份有限公司2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-03-01/1222675682.PDF",
+      "announcementTime": "2025-02-28",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "北京市海淀区东北旺西路8号中关村软件园27号楼C座4-5层",
+        "line": 288
+      }
+    },
+    {
+      "name": "寒武纪",
+      "stockName": "寒武纪",
+      "code": "688256",
+      "orgId": "nssc1000595",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-19/1223155683.PDF",
+      "announcementTime": "2025-04-18",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "北京市海淀区知春路7号致真大厦D座11-13层、16层",
+        "line": 349
+      }
+    },
+    {
+      "name": "韦尔股份",
+      "stockName": "豪威集团",
+      "code": "603501",
+      "orgId": "9900030772",
+      "alias": "豪威集团",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-16/1223104428.pdf",
+      "announcementTime": "2025-04-15",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "上海市浦东新区上科路88号",
+        "line": 253
+      }
+    },
+    {
+      "name": "兆易创新",
+      "stockName": "兆易创新",
+      "code": "603986",
+      "orgId": "9900026561",
+      "alias": "",
+      "reportTitle": "兆易创新2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223305062.PDF",
+      "announcementTime": "2025-04-25",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "北京市海淀区丰豪东路9号院中关村集成电路设计园8号楼",
+        "line": 205
+      }
+    },
+    {
+      "name": "佰维存储",
+      "stockName": "佰维存储",
+      "code": "688525",
+      "orgId": "9900047412",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-30/1223427605.PDF",
+      "announcementTime": "2025-04-29",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "深圳市南山区桃源街道平山社区留仙大道1213号众冠红花岭工业南区2区4、8栋1层-3层及4栋4层",
+        "line": 395
+      }
+    },
+    {
+      "name": "澜起科技",
+      "stockName": "澜起科技",
+      "code": "688008",
+      "orgId": "9900039002",
+      "alias": "",
+      "reportTitle": "澜起科技2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-11/1223058389.PDF",
+      "announcementTime": "2025-04-10",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "上海市徐汇区漕宝路181号和光天地16层",
+        "line": 455
+      }
+    },
+    {
+      "name": "卓胜微",
+      "stockName": "卓胜微",
+      "code": "300782",
+      "orgId": "9900036858",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-03-31/1222951276.PDF",
+      "announcementTime": "2025-03-30",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "无锡市滨湖区胡埭工业园刘闾路29号",
+        "line": 279
+      }
+    },
+    {
+      "name": "瑞芯微",
+      "stockName": "瑞芯微",
+      "code": "603893",
+      "orgId": "9900033186",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-23/1223218255.PDF",
+      "announcementTime": "2025-04-22",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "福建省福州市鼓楼区铜盘路软件大道89号软件园A区18、20、21号楼",
+        "line": 198
+      }
+    },
+    {
+      "name": "汇顶科技",
+      "stockName": "汇顶科技",
+      "code": "603160",
+      "orgId": "9900027319",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-03-21/1222858307.PDF",
+      "announcementTime": "2025-03-20",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "深圳市福田区梅康路1号汇顶科技总部大厦26楼",
+        "line": 223
+      }
+    },
+    {
+      "name": "上海贝岭",
+      "stockName": "上海贝岭",
+      "code": "600171",
+      "orgId": "gssh0600171",
+      "alias": "",
+      "reportTitle": "上海贝岭2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-01/1222972211.PDF",
+      "announcementTime": "2025-03-31",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "上海市宜山路810号",
+        "line": 289
+      }
+    },
+    {
+      "name": "安路科技",
+      "stockName": "安路科技",
+      "code": "688107",
+      "orgId": "9900048391",
+      "alias": "",
+      "reportTitle": "安路科技2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223327844.PDF",
+      "announcementTime": "2025-04-25",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "中国（上海）自由贸易试验区中科路1867号C座8、11、12层",
+        "line": 224
+      }
+    },
+    {
+      "name": "复旦微电",
+      "stockName": "复旦微电",
+      "code": "688385",
+      "orgId": "gshk0008102",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-03-26/1222896404.PDF",
+      "announcementTime": "2025-03-25",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "上海市杨浦区国泰路127号4号楼",
+        "line": 253
+      }
+    },
+    {
+      "name": "紫光国微",
+      "stockName": "紫光国微",
+      "code": "002049",
+      "orgId": "gssz0002049",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-23/1223222891.PDF",
+      "announcementTime": "2025-04-22",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "河北省唐山市玉田县玉田镇玉月路1008号",
+        "line": 170
+      }
+    },
+    {
+      "name": "博通集成",
+      "stockName": "博通集成",
+      "code": "603068",
+      "orgId": "9900036059",
+      "alias": "",
+      "reportTitle": "博通集成2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223390602.PDF",
+      "announcementTime": "2025-04-28",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "中国（上海）自由贸易试验区张东路1387号41幢101（复式）室2F-3F/102（复式）室",
+        "line": 191
+      }
+    },
+    {
+      "name": "盈方微",
+      "stockName": "盈方微",
+      "code": "000670",
+      "orgId": "gssz0000670",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197750.PDF",
+      "announcementTime": "2025-04-21",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "上海市长宁区天山西路799号5楼03/05单元",
+        "line": 193
+      }
+    },
+    {
+      "name": "大唐电信",
+      "stockName": "大唐电信",
+      "code": "600198",
+      "orgId": "gssh0600198",
+      "alias": "",
+      "reportTitle": "大唐电信科技股份有限公司2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-25/1223283547.PDF",
+      "announcementTime": "2025-04-24",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "北京市海淀区永嘉北路6号",
+        "line": 153
+      }
+    },
+    {
+      "name": "电科芯片",
+      "stockName": "电科芯片",
+      "code": "600877",
+      "orgId": "gssh0600877",
+      "alias": "",
+      "reportTitle": "中电科芯片技术股份有限公司2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-25/1223277265.PDF",
+      "announcementTime": "2025-04-24",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "重庆市沙坪坝区西永大道36号附2号西永微电园研发楼3期6栋3层",
+        "line": 273
+      }
+    },
+    {
+      "name": "普冉股份",
+      "stockName": "普冉股份",
+      "code": "688766",
+      "orgId": "nssc1000720",
+      "alias": "",
+      "reportTitle": "普冉半导体（上海）股份有限公司2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-03-31/1222962492.PDF",
+      "announcementTime": "2025-03-30",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "中国（上海）自由贸易试验区申江路5005弄1号9层整层（实际楼层8楼）",
+        "line": 363
+      }
+    },
+    {
+      "name": "聚辰股份",
+      "stockName": "聚辰股份",
+      "code": "688123",
+      "orgId": "9900039009",
+      "alias": "",
+      "reportTitle": "聚辰股份2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-03-25/1222882057.PDF",
+      "announcementTime": "2025-03-24",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "中国（上海）自由贸易试验区张东路1761号10幢",
+        "line": 296
+      }
+    },
+    {
+      "name": "江波龙",
+      "stockName": "江波龙",
+      "code": "301308",
+      "orgId": "9900048787",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-03-21/1222976786.pdf",
+      "announcementTime": "2025-03-20",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "号鸿荣源前海金融中心二期B座2001、2201、2301”。深圳市前海深港合作区南山街道听海大道5059号鸿荣源前海金融中心二期B座2001、2201、2301",
+        "line": 383
+      }
+    },
+    {
+      "name": "德明利",
+      "stockName": "德明利",
+      "code": "001309",
+      "orgId": "nssc1000644",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223313672.PDF",
+      "announcementTime": "2025-04-25",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "深圳市福田区梅林街道梅都社区中康路136号深圳新一代产业园1栋2301、2401、2501",
+        "line": 555
+      }
+    },
+    {
+      "name": "东芯股份",
+      "stockName": "东芯股份",
+      "code": "688110",
+      "orgId": "nssc1000767",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-23/1223220890.PDF",
+      "announcementTime": "2025-04-22",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "上海市青浦区徐泾镇诸光路1588弄虹桥世界中心L4A-F5",
+        "line": 296
+      }
+    },
+    {
+      "name": "北京君正",
+      "stockName": "君正股份",
+      "code": "300223",
+      "orgId": "9900016187",
+      "alias": "君正股份",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-19/1223154348.PDF",
+      "announcementTime": "2025-04-18",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "北京市海淀区西北旺东路10号院东区14号楼A座一至三层",
+        "line": 195
+      }
+    },
+    {
+      "name": "圣邦股份",
+      "stockName": "圣邦股份",
+      "code": "300661",
+      "orgId": "9900024859",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223374638.PDF",
+      "announcementTime": "2025-04-28",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "北京市海淀区西三环北路87号11层4-1106",
+        "line": 452
+      }
+    },
+    {
+      "name": "富瀚微",
+      "stockName": "富瀚微",
+      "code": "300613",
+      "orgId": "9900030832",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-12/1223071874.PDF",
+      "announcementTime": "2025-04-11",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "上海市徐汇区宜山路717号2号楼6楼",
+        "line": 219
+      }
+    },
+    {
+      "name": "国科微",
+      "stockName": "国科微",
+      "code": "300672",
+      "orgId": "9900032800",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-25/1223272681.PDF",
+      "announcementTime": "2025-04-24",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "长沙经济技术开发区泉塘街道东十路南段9号",
+        "line": 286
+      }
+    },
+    {
+      "name": "全志科技",
+      "stockName": "全志科技",
+      "code": "300458",
+      "orgId": "9900023803",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222928548.PDF",
+      "announcementTime": "2025-03-27",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "珠海市高新区唐家湾镇科技二路9号",
+        "line": 234
+      }
+    },
+    {
+      "name": "国民技术",
+      "stockName": "国民技术",
+      "code": "300077",
+      "orgId": "9900011747",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-17/1223110736.PDF",
+      "announcementTime": "2025-04-16",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "深圳市南山区西丽街道松坪山社区宝深路109号国民技术大厦",
+        "line": 235
+      }
+    },
+    {
+      "name": "晶晨股份",
+      "stockName": "晶晨股份",
+      "code": "688099",
+      "orgId": "9900038936",
+      "alias": "",
+      "reportTitle": "晶晨股份2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-11/1223058176.PDF",
+      "announcementTime": "2025-04-10",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "上海市浦东新区秀浦路2555号漕河泾康桥商务绿洲E5",
+        "line": 292
+      }
+    },
+    {
+      "name": "龙迅股份",
+      "stockName": "龙迅股份",
+      "code": "688486",
+      "orgId": "nssc1000599",
+      "alias": "",
+      "reportTitle": "龙迅股份2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-02-28/1222663156.PDF",
+      "announcementTime": "2025-02-27",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "安徽省合肥市经济技术开发区宿松路3963号智能装备科技园B3栋",
+        "line": 272
+      }
+    },
+    {
+      "name": "杰华特",
+      "stockName": "杰华特",
+      "code": "688141",
+      "orgId": "9900052528",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223196889.PDF",
+      "announcementTime": "2025-04-21",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "浙江省杭州市西湖区华星路创业大厦7楼西",
+        "line": 325
+      }
+    },
+    {
+      "name": "中微半导",
+      "stockName": "中微半导",
+      "code": "688380",
+      "orgId": "9900047331",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-11/1223058226.PDF",
+      "announcementTime": "2025-04-10",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "深圳市前海深港合作区南山街道桂湾三路91号景兴海上大厦2101",
+        "line": 288
+      }
+    },
+    {
+      "name": "星宸科技",
+      "stockName": "星宸科技",
+      "code": "301536",
+      "orgId": "9900053755",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-19/1223150325.PDF",
+      "announcementTime": "2025-04-18",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "厦门市同安区后詹路1号16层",
+        "line": 211
+      }
+    },
+    {
+      "name": "源杰科技",
+      "stockName": "源杰科技",
+      "code": "688498",
+      "orgId": "9900052124",
+      "alias": "",
+      "reportTitle": "陕西源杰半导体科技股份有限公司2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223315235.PDF",
+      "announcementTime": "2025-04-25",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "陕西省西咸新区沣西新城开元路1265号",
+        "line": 334
+      }
+    },
+    {
+      "name": "纳芯微",
+      "stockName": "纳芯微",
+      "code": "688052",
+      "orgId": "gfbj0838551",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-10/1223046572.PDF",
+      "announcementTime": "2025-04-09",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "苏州工业园区东荡田巷9号",
+        "line": 320
+      }
+    },
+    {
+      "name": "峰岹科技",
+      "stockName": "峰岹科技",
+      "code": "688279",
+      "orgId": "9900046501",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-03-31/1222962350.PDF",
+      "announcementTime": "2025-03-30",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "深圳市南山区高新中区科技中2路1号深圳软件园（2期）11栋203室",
+        "line": 302
+      }
+    },
+    {
+      "name": "摩尔线程",
+      "stockName": "摩尔线程",
+      "code": "688795",
+      "orgId": "9900063221",
+      "alias": "",
+      "reportTitle": "摩尔线程2025年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2026-04-27/1225197717.PDF",
+      "announcementTime": "2026-04-26",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "北京市朝阳区望京东路6号望京国际研发园I座3层",
+        "line": 491
+      }
+    },
+    {
+      "name": "沐曦股份",
+      "stockName": "沐曦股份",
+      "code": "688802",
+      "orgId": "9900063219",
+      "alias": "",
+      "reportTitle": "2025年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225036092.PDF",
+      "announcementTime": "2026-03-26",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "上海市浦东新区海科路999弄C8栋",
+        "line": 460
+      }
+    },
+    {
+      "name": "中芯国际",
+      "stockName": "中芯国际",
+      "code": "688981",
+      "orgId": "gshk0000981",
+      "alias": "",
+      "reportTitle": "中芯国际2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222924320.PDF",
+      "announcementTime": "2025-03-27",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "中国上海市浦东新区张江路18号香港注册的营业地点香港中环康乐广场8号交易广场一期29楼",
+        "line": 242
+      }
+    },
+    {
+      "name": "华虹公司",
+      "stockName": "华虹宏力",
+      "code": "688347",
+      "orgId": "9900029531",
+      "alias": "华虹宏力",
+      "reportTitle": "港股公告：2024年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-09/1223032103.PDF",
+      "announcementTime": "2025-04-08",
+      "extracted": null
+    },
+    {
+      "name": "晶合集成",
+      "stockName": "晶合集成",
+      "code": "688249",
+      "orgId": "9900048182",
+      "alias": "",
+      "reportTitle": "晶合集成2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-21/1223174863.PDF",
+      "announcementTime": "2025-04-20",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "安徽省合肥市新站区合肥综合保税区内西淝河路88号",
+        "line": 279
+      }
+    },
+    {
+      "name": "赛微电子",
+      "stockName": "赛微电子",
+      "code": "300456",
+      "orgId": "9900023823",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-03-20/1222847674.PDF",
+      "announcementTime": "2025-03-19",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "北京市西城区裕民路18号北环中心A座2607室(德胜园区)北京市北京经济技术开发区科创八街21号院1号楼",
+        "line": 300
+      }
+    },
+    {
+      "name": "芯联集成",
+      "stockName": "芯联集成",
+      "code": "688469",
+      "orgId": "9900053045",
+      "alias": "",
+      "reportTitle": "芯联集成电路制造股份有限公司2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223388408.PDF",
+      "announcementTime": "2025-04-28",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "浙江省绍兴市越城区皋埠街道临江路518号",
+        "line": 273
+      }
+    },
+    {
+      "name": "长鑫科技",
+      "stockName": "长鑫科技",
+      "code": "688825",
+      "orgId": "9920000008",
+      "alias": "",
+      "error": "annual-report-not-found"
+    },
+    {
+      "name": "长电科技",
+      "stockName": "长电科技",
+      "code": "600584",
+      "orgId": "gssh0600584",
+      "alias": "",
+      "reportTitle": "江苏长电科技股份有限公司2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-21/1223174786.PDF",
+      "announcementTime": "2025-04-20",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "江苏省江阴市滨江中路275号",
+        "line": 226
+      }
+    },
+    {
+      "name": "通富微电",
+      "stockName": "通富微电",
+      "code": "002156",
+      "orgId": "9900003427",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-12/1223070267.PDF",
+      "announcementTime": "2025-04-11",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "江苏省南通市崇川路288号",
+        "line": 186
+      }
+    },
+    {
+      "name": "华天科技",
+      "stockName": "华天科技",
+      "code": "002185",
+      "orgId": "9900003862",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-01/1222975804.PDF",
+      "announcementTime": "2025-03-31",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "甘肃省天水市秦州区赤峪路88号",
+        "line": 281
+      }
+    },
+    {
+      "name": "盛合晶微",
+      "stockName": "盛合晶微",
+      "code": "688820",
+      "orgId": "9900063550",
+      "error": "504 Gateway Time-out https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "晶方科技",
+      "stockName": "晶方科技",
+      "code": "603005",
+      "orgId": "9900022989",
+      "alias": "",
+      "reportTitle": "晶方科技2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-19/1223157814.PDF",
+      "announcementTime": "2025-04-18",
+      "extracted": {
+        "label": "联系地址",
+        "weight": 20,
+        "address": "苏州工业园区汀兰巷29号",
+        "line": 60
+      }
+    },
+    {
+      "name": "甬矽电子",
+      "stockName": "甬矽电子",
+      "code": "688362",
+      "orgId": "9900047769",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-23/1223218861.PDF",
+      "announcementTime": "2025-04-22",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "浙江省余姚市中意宁波生态园兴舜路22号",
+        "line": 320
+      }
+    },
+    {
+      "name": "深科技",
+      "stockName": "深科技",
+      "code": "000021",
+      "orgId": "gssz0000021",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-25/1223270327.PDF",
+      "announcementTime": "2025-04-24",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "深圳市福田区彩田路7006号",
+        "line": 204
+      }
+    },
+    {
+      "name": "蓝箭电子",
+      "stockName": "蓝箭电子",
+      "code": "301348",
+      "orgId": "9900041457",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223371713.PDF",
+      "announcementTime": "2025-04-28",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "中国广东省佛山市禅城区古新路45号",
+        "line": 335
+      }
+    },
+    {
+      "name": "华润微",
+      "stockName": "华润微",
+      "code": "688396",
+      "orgId": "gshk0000597",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-30/1223417959.PDF",
+      "announcementTime": "2025-04-29",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "江苏省无锡市梁溪路14号",
+        "line": 293
+      }
+    },
+    {
+      "name": "士兰微",
+      "stockName": "士兰微",
+      "code": "600460",
+      "orgId": "gssh0600460",
+      "alias": "",
+      "reportTitle": "杭州士兰微电子股份有限公司2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-19/1223158152.PDF",
+      "announcementTime": "2025-04-18",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "浙江省杭州市黄姑山路4号",
+        "line": 235
+      }
+    },
+    {
+      "name": "闻泰科技",
+      "stockName": "*ST闻泰",
+      "code": "600745",
+      "orgId": "gssh0600745",
+      "alias": "*ST闻泰",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223328102.PDF",
+      "announcementTime": "2025-04-25",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "浙江省嘉兴市南湖区亚中路777号",
+        "line": 242
+      }
+    },
+    {
+      "name": "斯达半导",
+      "stockName": "斯达半导",
+      "code": "603290",
+      "orgId": "9900023794",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223325294.PDF",
+      "announcementTime": "2025-04-25",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "浙江省嘉兴市南湖区科兴路988号",
+        "line": 188
+      }
+    },
+    {
+      "name": "扬杰科技",
+      "stockName": "扬杰科技",
+      "code": "300373",
+      "orgId": "9900022741",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-03-31/1222949517.PDF",
+      "announcementTime": "2025-03-30",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "江苏省扬州市邗江区新甘泉大道68号",
+        "line": 351
+      }
+    },
+    {
+      "name": "时代电气",
+      "stockName": "时代电气",
+      "code": "688187",
+      "orgId": "gshk0003898",
+      "alias": "",
+      "reportTitle": "株洲中车时代电气股份有限公司2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222946706.PDF",
+      "announcementTime": "2025-03-28",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "株洲市石峰区时代路",
+        "line": 264
+      }
+    },
+    {
+      "name": "华微电子",
+      "stockName": "华微电子",
+      "code": "600360",
+      "orgId": "gssh0600360",
+      "alias": "",
+      "reportTitle": "吉林华微电子股份有限公司2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-30/1223427884.PDF",
+      "announcementTime": "2025-04-29",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "吉林省吉林市高新区深圳街99号",
+        "line": 158
+      }
+    },
+    {
+      "name": "宏微科技",
+      "stockName": "宏微科技",
+      "code": "688711",
+      "orgId": "gfbj0831872",
+      "alias": "",
+      "reportTitle": "江苏宏微科技股份有限公司2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223097019.PDF",
+      "announcementTime": "2025-04-14",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "常州市新北区华山路18号",
+        "line": 271
+      }
+    },
+    {
+      "name": "捷捷微电",
+      "stockName": "捷捷微电",
+      "code": "300623",
+      "orgId": "9900023919",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-16/1223100873.PDF",
+      "announcementTime": "2025-04-15",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "江苏省启东市经济开发区钱塘江路3000号",
+        "line": 547
+      }
+    },
+    {
+      "name": "台基股份",
+      "stockName": "台基股份",
+      "code": "300046",
+      "orgId": "9900009808",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-03/1222991226.PDF",
+      "announcementTime": "2025-04-02",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "湖北省襄阳市襄城区胜利街162号",
+        "line": 171
+      }
+    },
+    {
+      "name": "三安光电",
+      "stockName": "三安光电",
+      "code": "600703",
+      "orgId": "gssh0600703",
+      "alias": "",
+      "reportTitle": "三安光电股份有限公司2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223310101.PDF",
+      "announcementTime": "2025-04-25",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "福建省厦门市思明区吕岭路1721-1725号",
+        "line": 267
+      }
+    },
+    {
+      "name": "天岳先进",
+      "stockName": "天岳先进",
+      "code": "688234",
+      "orgId": "9900047650",
+      "alias": "",
+      "reportTitle": "山东天岳先进科技股份有限公司2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222928209.PDF",
+      "announcementTime": "2025-03-27",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "山东省济南市槐荫区天岳南路99号",
+        "line": 232
+      }
+    },
+    {
+      "name": "天域半导体",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "华虹半导体",
+      "stockName": "华虹宏力",
+      "code": "688347",
+      "orgId": "9900029531",
+      "alias": "华虹宏力",
+      "reportTitle": "港股公告：2024年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-09/1223032103.PDF",
+      "announcementTime": "2025-04-08",
+      "extracted": null
+    },
+    {
+      "name": "豪威集团",
+      "stockName": "豪威集团",
+      "code": "603501",
+      "orgId": "9900030772",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-16/1223104428.pdf",
+      "announcementTime": "2025-04-15",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "上海市浦东新区上科路88号",
+        "line": 253
+      }
+    },
+    {
+      "name": "壁仞科技",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "天数智芯",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "英诺赛科",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "傅里叶半导体",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "爱芯元智",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "宏光半导体",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "大族数控",
+      "stockName": "大族数控",
+      "code": "301200",
+      "orgId": "9900048802",
+      "alias": "",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-21/1223153294.PDF",
+      "announcementTime": "2025-04-20",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "深圳市宝安区福海街道重庆路12号大族激光智造中心三栋",
+        "line": 213
+      }
+    },
+    {
+      "name": "长光辰芯",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "曦智科技",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "长江存储",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "华为海思",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "上海微电子(SMEE)",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "紫光展锐",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "嘉立创",
+      "stockName": "嘉立创",
+      "code": "001232",
+      "orgId": "9900059234",
+      "alias": "",
+      "error": "annual-report-not-found"
+    },
+    {
+      "name": "超硅",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "比亚迪半导体",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "武汉新芯",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "华卓精科",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "燧原科技",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "昆仑芯",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "辰瑞光学",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "飞骧科技",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "强脑科技",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "粤芯半导体",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "新芯集成",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "西安奕材",
+      "stockName": "西安奕材",
+      "code": "688783",
+      "orgId": "9900061680",
+      "alias": "",
+      "reportTitle": "2025年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2026-04-21/1225128935.PDF",
+      "announcementTime": "2026-04-20",
+      "extracted": {
+        "label": "公司办公地址",
+        "weight": 40,
+        "address": "陕西省西安市高新区西沣南路1888号1-3-029室",
+        "line": 449
+      }
+    },
+    {
+      "name": "中欣晶圆",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "集创北方",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "伏达半导体",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "紫光国芯",
+      "stockName": "紫光国微",
+      "code": "002049",
+      "orgId": "gssz0002049",
+      "alias": "紫光国微",
+      "reportTitle": "2024年年度报告",
+      "reportUrl": "https://static.cninfo.com.cn/finalpage/2025-04-23/1223222891.PDF",
+      "announcementTime": "2025-04-22",
+      "extracted": {
+        "label": "办公地址",
+        "weight": 30,
+        "address": "河北省唐山市玉田县玉田镇玉月路1008号",
+        "line": 170
+      }
+    },
+    {
+      "name": "云英谷",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    },
+    {
+      "name": "曦华科技",
+      "status": "not-listed-in-cninfo",
+      "source": "CNINFO stock list"
+    }
+  ]
+}

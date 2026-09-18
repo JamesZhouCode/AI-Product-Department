@@ -1,0 +1,73 @@
+{
+  "dataset": "IC industry map demo",
+  "generatedAt": "2026-09-03",
+  "sources": [
+    {
+      "file": "companies.json",
+      "source": "可参考内容/con_info1.xlsx + frontend/docs/key-company-research.json + frontend/docs/key-company-enrichment.json + frontend/docs/listed-location-candidates.json + frontend/docs/listed-company-evidence.json",
+      "status": "transformed",
+      "note": "统一企业主表严格覆盖新表4,477行；当前产品范围以企业标签中的上市企业为准，历史研究档案匹配字段只保留作溯源；运行时保留原有上市企业关系，并从画像一级上下游字段补充可精确匹配的关系；旧版关联实体及新表外无法安全回连的档案不进入运行时；缺失字段由 research.fieldStatus 标记，不用 mock 默认值冒充事实"
+    },
+    {
+      "file": "frontend/docs/company-master-audit.json",
+      "source": "可参考内容/con_info1.xlsx + frontend/public/data/companies.json + 一次性坐标研究",
+      "status": "coverage-audit",
+      "note": "校验源表与运行时行序、上市企业范围、历史研究档案 crosswalk、上市企业关系边界和待核字段覆盖；生成于 pnpm prepare:data"
+    },
+    {
+      "file": "frontend/docs/key-company-crosswalk.json",
+      "source": "旧版本历史研究档案与 con_info1.xlsx",
+      "status": "audit-crosswalk",
+      "note": "记录130条历史研究档案到主表行的名称、地址、公开名称变体和未匹配状态；相似名称不是同一法人时不强行伪造匹配"
+    },
+    {
+      "file": "frontend/docs/key-company-research.json",
+      "source": "旧版本 public/data/companies.json（仅保留130家历史研究档案和原始研究关系）",
+      "status": "research-input",
+      "note": "作为历史研究输入；运行时保留原始研究关系，并仅从一级供应商/经销商字段补充可精确匹配到上市主表的关系，二级上下游不直接转成正式关系"
+    },
+    {
+      "file": "frontend/docs/key-company-enrichment.json",
+      "source": "企业官网、交易所/监管公开文件与一次性坐标研究",
+      "status": "research-enrichment",
+      "note": "为8条新表无法安全对应的历史研究档案保留官方名称、公开来源和补充说明；仅作为审计输入，不生成地图孤岛实体"
+    },
+    {
+      "file": "frontend/docs/listed-location-candidates.json",
+      "source": "巨潮资讯公开年度报告",
+      "status": "research-enrichment",
+      "note": "用于核验上市企业标签和年报地址；未找到公开上市记录的企业不强行添加标签"
+    },
+    {
+      "file": "frontend/docs/listed-company-evidence.json",
+      "source": "上海证券交易所股票列表、巨潮资讯网公司列表",
+      "status": "official-listing-snapshot",
+      "note": "对4477家主表按规范化公司全称做精确匹配，补充136条上市企业证据；快照覆盖上交所和深交所，北交所、港股及名称变更/母子公司关系待单独复核"
+    },
+    {
+      "file": "china-provinces.geojson",
+      "source": "公开行政区划边界数据（DataV GeoJSON）",
+      "status": "demo-boundary",
+      "note": "用于全国概览；正式内网部署需替换为已授权/核验的地图成果"
+    },
+    {
+      "file": "shanghai-districts.geojson",
+      "source": "公开行政区划边界数据（DataV GeoJSON）",
+      "status": "demo-boundary",
+      "note": "当前为区级边界，街道级边界待补充并复核"
+    },
+    {
+      "file": "china-overview.pmtiles",
+      "source": "Protomaps / OpenStreetMap derived basemap",
+      "status": "downloaded",
+      "note": "全国概览离线矢量瓦片，固定 Protomaps build 20260816，z0-z10，运行时本地读取"
+    },
+    {
+      "file": "shanghai-detail.pmtiles",
+      "source": "Protomaps / OpenStreetMap derived basemap",
+      "status": "downloaded",
+      "note": "上海重点区离线矢量瓦片，固定 Protomaps build 20260816，z11-z15，运行时本地读取"
+    }
+  ],
+  "attribution": "© Protomaps © OpenStreetMap contributors"
+}

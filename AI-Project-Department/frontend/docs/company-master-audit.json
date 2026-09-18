@@ -1,0 +1,197 @@
+{
+  "generatedAt": "2026-09-03T02:13:46.444Z",
+  "source": {
+    "file": "可参考内容/con_info1.xlsx",
+    "rowCount": 4477,
+    "sourceFlag": {
+      "Y": 2978,
+      "N": 1428,
+      "(blank)": 71
+    },
+    "rawIndustry": {
+      "制造": 507,
+      "装备": 712,
+      "材料": 775,
+      "设计": 1860,
+      "封测": 245,
+      "其他": 229,
+      "(blank)": 149
+    }
+  },
+  "runtime": {
+    "rowCount": 4477,
+    "listedCount": 230,
+    "companyType": {
+      "ordinary": 4357,
+      "key": 120
+    },
+    "secondaryIndustry": {
+      "集成电路制造": 501,
+      "基础电路装备": 713,
+      "集成电路材料": 786,
+      "集成电路设计": 1864,
+      "集成电路封测": 246,
+      "集成电路配套": 232,
+      "待研判": 135
+    },
+    "secondaryCode": {
+      "1": 786,
+      "2": 713,
+      "3": 1864,
+      "4": 501,
+      "5": 246,
+      "6": 232,
+      "(blank)": 135
+    },
+    "tertiaryCode": {
+      "4.1": 487,
+      "2.1": 709,
+      "1.1": 784,
+      "3.4": 6,
+      "3.2": 1840,
+      "3.1": 4,
+      "5.1": 242,
+      "4.3": 11,
+      "3.3": 14,
+      "5.5": 3,
+      "6.1": 228,
+      "2.2": 3,
+      "4.2": 3,
+      "(blank)": 135,
+      "5.4": 1,
+      "6.2": 4,
+      "2.3": 1,
+      "1.2": 2
+    },
+    "classificationStatus": {
+      "fallback": 4118,
+      "evidence-mapped": 211,
+      "manual": 13,
+      "pending": 135
+    },
+    "mappedLocation": 4477,
+    "verifiedLocation": 3013,
+    "candidateLocation": 1464,
+    "regionReferenceLocation": 44,
+    "pendingLocation": 0,
+    "missingAddress": 26,
+    "regionComplete": 4450,
+    "regionPending": 27,
+    "relationCount": 332,
+    "relationSupplementCount": 96
+  },
+  "researchCoverage": {
+    "coordinateResearchRecords": 7083,
+    "coordinateResearchAttemptedCompanies": 4377,
+    "coordinateResearchAcceptedCompanies": 2902,
+    "coordinateResearchCandidateCompanies": 2411,
+    "coordinateResearchRegionReferenceCompanies": 44,
+    "coordinateResearchUnresolvedCompanies": 0,
+    "fieldStatus": {
+      "address": {
+        "source-workbook": 4370,
+        "public-location-research": 79,
+        "legacy-public-research": 2,
+        "not-found-public-evidence": 26
+      },
+      "location": {
+        "research-candidate-location": 1464,
+        "research-verified": 3013
+      },
+      "region": {
+        "derived-from-address": 4450,
+        "pending-verification": 27
+      },
+      "classification": {
+        "source-chain-fallback": 4118,
+        "evidence-mapped": 211,
+        "manual-verified": 13,
+        "pending-verification": 135
+      },
+      "coreTechnology": {
+        "pending-verification": 4357,
+        "legacy-public-research": 120
+      },
+      "products": {
+        "pending-verification": 4357,
+        "legacy-public-research": 120
+      },
+      "tags": {
+        "pending-verification": 4221,
+        "source-derived": 26,
+        "cninfo-annual-report": 94,
+        "official-exchange-company-list": 136
+      },
+      "importance": {
+        "pending-verification": 4247,
+        "scope-derived": 230
+      },
+      "otherBank": {
+        "pending-verification": 4477
+      }
+    }
+  },
+  "keyCompanyCrosswalk": {
+    "sourceProfiles": 130,
+    "matchedProfiles": 122,
+    "uniqueTargetRows": 120,
+    "sourceNotFoundProfiles": 8,
+    "needsReviewProfiles": 8,
+    "sourceNotFoundNames": [
+      "辰瑞光学",
+      "国科微",
+      "宏光半导体",
+      "华微电子",
+      "嘉立创",
+      "强脑科技",
+      "源杰科技",
+      "长光辰芯"
+    ]
+  },
+  "listedCoverage": {
+    "sourceRecords": 136,
+    "matchedRuntimeRows": 136,
+    "taggedRuntimeRows": 136,
+    "missingRuntimeNames": [],
+    "untrackedRuntimeNames": []
+  },
+  "relationCoverage": {
+    "totalRelations": 332,
+    "supplementSource": "历史企业画像（一级上下游）",
+    "supplementRelations": 96,
+    "supplementSourceProfiles": 52,
+    "supplementTargetCompanies": 6,
+    "supplementTargetNames": [
+      "华勤技术股份有限公司",
+      "宁波康强电子股份有限公司",
+      "上海龙旗科技股份有限公司",
+      "深南电路股份有限公司",
+      "深圳市兴森快捷电路科技股份有限公司",
+      "苏州珂玛材料科技股份有限公司"
+    ],
+    "missingProvenance": []
+  },
+  "invariants": {
+    "sourceRowsMatchRuntime": true,
+    "onlyOrdinaryAndKeyTypes": true,
+    "noLegacyRoleFields": true,
+    "relationsOnlyListed": true,
+    "relationIdsUnique": true,
+    "relationSupplementRowsHaveProvenance": true,
+    "relationSupplementTargetsListed": true,
+    "runtimeCountMatchesSource": true,
+    "keyCountMatchesCrosswalkTargets": true,
+    "ordinaryPlusKeyMatchesRuntime": true,
+    "taxonomyHasSixSecondaryChains": true,
+    "taxonomyHasNineteenTertiaryChains": true,
+    "runtimeSecondaryCodesInTaxonomy": true,
+    "runtimeTertiaryCodesInTaxonomy": true,
+    "noDeepTertiaryCodes": true,
+    "mappingRecordsMatchRuntime": true,
+    "listedEvidenceRecordsUnique": true,
+    "listedEvidenceCodesUnique": true,
+    "listedEvidenceRecordsMapToRuntime": true,
+    "listedEvidenceRowsTagged": true,
+    "listedEvidenceCoverageMatchesSource": true
+  }
+}

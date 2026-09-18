@@ -1,0 +1,2478 @@
+{
+  "generatedAt": "2026-09-03",
+  "source": "人工复核：A股/港股/新三板名单交叉核验（港股英文名、新三板注册地与公告、A股公司全名与注册地、公开工商信息检索）",
+  "note": "覆盖 research-pending-listed-markets.mjs 输出的全部 178 条命中（含美股复核新增 1 条）（4 条 A股自动命中 + 173 条待人工复核），含 4 条误配修正与 6 条跨市场消歧。未在此处的企业维持脚本判定。",
+  "count": 178,
+  "overrides": [
+    {
+      "name": "双林股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "A股",
+      "evidence": [
+        {
+          "market": "A股",
+          "code": "300100",
+          "short": "双林股份",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "注册地/公司全名核验一致"
+    },
+    {
+      "name": "恒宝股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "A股",
+      "evidence": [
+        {
+          "market": "A股",
+          "code": "002104",
+          "short": "恒宝股份",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "江苏丹阳注册地与A股002104一致；新三板832449恒宝通为另一主体"
+    },
+    {
+      "name": "汉宇集团股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "A股",
+      "evidence": [
+        {
+          "market": "A股",
+          "code": "300403",
+          "short": "汉宇集团",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "江门注册地与A股300403一致；新三板834653汉宇钟表为另一主体"
+    },
+    {
+      "name": "丽珠医药集团股份有限公司",
+      "industry": "生物医药",
+      "conclusion": "A股",
+      "evidence": [
+        {
+          "market": "A股",
+          "code": "000513",
+          "short": "丽珠集团",
+          "level": "manual-review"
+        },
+        {
+          "market": "港股",
+          "code": "01513",
+          "short": "丽珠医药",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "A+H两地上市"
+    },
+    {
+      "name": "乐普(北京)医疗器械股份有限公司",
+      "industry": "生物医药",
+      "conclusion": "A股",
+      "evidence": [
+        {
+          "market": "A股",
+          "code": "300003",
+          "short": "乐普医疗",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "注册地/公司全名核验一致"
+    },
+    {
+      "name": "博瑞生物医药(苏州)股份有限公司",
+      "industry": "生物医药",
+      "conclusion": "A股",
+      "evidence": [
+        {
+          "market": "A股",
+          "code": "688166",
+          "short": "博瑞医药",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "公司全名即A股688166注册名；新三板872404博瑞生物为另一主体"
+    },
+    {
+      "name": "迈威(上海)生物科技股份有限公司",
+      "industry": "生物医药",
+      "conclusion": "A股",
+      "evidence": [
+        {
+          "market": "A股",
+          "code": "688062",
+          "short": "迈威生物",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "注册地/公司全名核验一致"
+    },
+    {
+      "name": "上海普适导航科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "831330",
+          "short": "普适导航",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "上海金仕达软件科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874033",
+          "short": "金仕达",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "东方水利智能科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "832075",
+          "short": "东方水利",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "东莞汇乐技术股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874214",
+          "short": "汇乐技术",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "中水三立数据技术股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874589",
+          "short": "中水三立",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "众智软件股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "831185",
+          "short": "众智软件",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "伟志股份公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "832567",
+          "short": "伟志股份",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "晋江注册地址与832567完全一致；港股01305伟志控股为另一主体"
+    },
+    {
+      "name": "传神语联网网络科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "835737",
+          "short": "传神语联",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "先临三维科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "830978",
+          "short": "先临三维",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "内蒙古显鸿科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "836619",
+          "short": "显鸿科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "力源电力设备股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "871866",
+          "short": "力源电力",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "北京中科仙络智算科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874366",
+          "short": "中科仙络",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "北京合力亿捷科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "833629",
+          "short": "合力亿捷",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "北京数字冰雹信息技术股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "875066",
+          "short": "数字冰雹",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "北京海鑫科金高科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "430021",
+          "short": "海鑫科金",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "北京道达天际科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874028",
+          "short": "道达天际",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "南京先正电子股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "871048",
+          "short": "先正电子",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "南京智慧交通信息股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "873506",
+          "short": "智慧交通",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "南京牧镭激光科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "875125",
+          "short": "牧镭激光",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "南京科融数据系统股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "838395",
+          "short": "科融数据",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "南京联成科技发展股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874557",
+          "short": "联成科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "厦门帝恩思科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "837018",
+          "short": "帝恩思",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "厦门航天思尔特机器人系统股份公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "835532",
+          "short": "思尔特",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "厦门通灵生物医药科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874913",
+          "short": "通灵生物",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "合肥城市云数据中心股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874576",
+          "short": "城市云",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "同心智医科技（北京）股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "875015",
+          "short": "同心智医",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "四川升拓检测技术股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "839148",
+          "short": "升拓检测",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "四川奇石缘科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "833492",
+          "short": "奇石缘",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "四川安和精密电子电器股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "873004",
+          "short": "安和精密",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "四川振通检测股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "873599",
+          "short": "振通检测",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "四川新健康成生物股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "831193",
+          "short": "新健康成",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "四川爱联科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874081",
+          "short": "爱联科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "四川纵横六合科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "834202",
+          "short": "纵横六合",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "四川能信科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "837522",
+          "short": "能信科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "四川赛康智能科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "873554",
+          "short": "赛康智能",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "大连优联智能装备股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "873402",
+          "short": "优联智能",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "大连康丰科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874708",
+          "short": "康丰科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "宁国东方碾磨材料股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "831260",
+          "short": "东方碾磨",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "宁波勋辉科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "875075",
+          "short": "勋辉科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "宁波斯贝科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "873750",
+          "short": "斯贝科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "宁波赛维达技术股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874695",
+          "short": "赛维达",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "安徽中科中涣智能装备股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874355",
+          "short": "中科中涣",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "安徽交欣科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "873680",
+          "short": "交欣科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "安徽信盟装备股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "871583",
+          "short": "信盟装备",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "安徽商信政通信息技术股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "873876",
+          "short": "商信政通",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "安徽富瑞雪化工科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "873964",
+          "short": "富瑞雪",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "安徽扬子地板股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "430539",
+          "short": "扬子地板",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "安徽昊方机电股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "831710",
+          "short": "昊方机电",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "安徽涌诚机械股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "875176",
+          "short": "涌诚机械",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "安徽瑞林精科股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874184",
+          "short": "瑞林精科",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "安徽省康利亚股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "836225",
+          "short": "康利亚",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "安徽省文胜生物工程股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "833921",
+          "short": "文胜生物",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "安徽省金鼎安全科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "836451",
+          "short": "金鼎安全",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "安徽祥源科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "836371",
+          "short": "祥源科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "安徽舜富精密科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "875009",
+          "short": "舜富精密",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "安徽马钢表面技术股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "873245",
+          "short": "马钢表面",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "山东亚微软件股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "835203",
+          "short": "亚微软件",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "山西山安蓝天节能科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "873110",
+          "short": "山安蓝天",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "山西清众科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "834045",
+          "short": "清众科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "常州爱特科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "831134",
+          "short": "爱特科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "慧影医疗科技（北京）股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874245",
+          "short": "慧影医疗",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "成都亚讯星科科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "836191",
+          "short": "亚讯星科",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "成都思晗科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "832714",
+          "short": "思晗科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "成都正恒动力股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874951",
+          "short": "正恒动力",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "成都索贝数码科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "873624",
+          "short": "索贝数码",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "成都美尔贝科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "872433",
+          "short": "美尔贝",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "捷贝通石油技术集团股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874324",
+          "short": "捷贝通",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "数据堂（北京）科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "831428",
+          "short": "数据堂",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "新诺北斗航科信息技术（厦门）股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "836189",
+          "short": "新诺北斗",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "无锡联云世纪科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "871315",
+          "short": "联云世纪",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "杭州优云科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "875011",
+          "short": "优云科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "杭州哲达科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "430470",
+          "short": "哲达科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "武汉光谷信息技术股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "430161",
+          "short": "光谷信息",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "武汉迈威通信股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "873461",
+          "short": "迈威通信",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "江苏中盈高科智能信息股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "837274",
+          "short": "中盈高科",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "江苏南大先腾信息产业股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "870716",
+          "short": "南大先腾",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "江苏原力数字科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874552",
+          "short": "原力数字",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "江苏君立华域信息安全技术股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "871280",
+          "short": "君立华域",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "江苏太湖云计算信息技术股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "871403",
+          "short": "太湖云",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "江苏宙斯物联网科技集团股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "837519",
+          "short": "宙斯物联",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "江苏富深协通科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "831660",
+          "short": "富深协通",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "江苏慧眼数据科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "838473",
+          "short": "慧眼数据",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "江苏新视云科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874762",
+          "short": "新视云",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "江苏泰得科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "872223",
+          "short": "泰得科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "江苏网进科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "873742",
+          "short": "网进科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "江苏鑫亿软件股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "838840",
+          "short": "鑫亿软件",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "江苏鼎集智能科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "836954",
+          "short": "鼎集智能",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "江西云眼视界科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874515",
+          "short": "云眼视界",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "河南神马催化科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "872964",
+          "short": "神马催化",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "浙江卓奥科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "872337",
+          "short": "卓奥科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "浙江博凡动力装备股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "831269",
+          "short": "博凡动力",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "浙江宏伟供应链集团股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874665",
+          "short": "宏伟供应",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "浙江晨泰科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "834948",
+          "short": "晨泰科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "浙江朔翔科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "873579",
+          "short": "朔翔科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "浙江臻善科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874490",
+          "short": "臻善科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "浙江金网信息产业股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "835340",
+          "short": "金网信息",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "海创汇科技创业发展股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "873899",
+          "short": "海创汇",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "深圳三地一芯电子股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874979",
+          "short": "三地一芯",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "深圳市富泰和精密制造股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "834044",
+          "short": "富泰和",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "深圳市道尔智控科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "832966",
+          "short": "道尔智控",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "深圳康泰健医疗科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874918",
+          "short": "康泰健",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "深圳星网信通科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874901",
+          "short": "星网信通",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "深圳智微电子科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "875061",
+          "short": "智微电子",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "湖南新亚胜光电股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "871672",
+          "short": "新亚胜",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "湖南皓志科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874231",
+          "short": "皓志科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "百分点科技集团股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "875186",
+          "short": "百分点",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "福建亿安智能技术股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "873678",
+          "short": "亿安智能",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "福建巨联环境科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874943",
+          "short": "巨联环境",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "科睿特软件集团股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "836679",
+          "short": "科睿特",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "纯米科技（上海）股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874920",
+          "short": "纯米科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "芯来科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "875127",
+          "short": "芯来科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "苏州上舜科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874414",
+          "short": "上舜科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "苏州天立达精密科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874370",
+          "short": "天立达",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "简称与代码核验一致"
+    },
+    {
+      "name": "苏州澳冠智能装备股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "834276",
+          "short": "澳冠智能",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "蒲惠智造科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874872",
+          "short": "蒲惠智造",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "重庆攸亮科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "873776",
+          "short": "攸亮科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "长城信息股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874148",
+          "short": "长城信息",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "长河信息股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "872559",
+          "short": "长河信息",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "长虹塑料集团英派瑞塑料股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "430555",
+          "short": "英派瑞",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "青岛中科英泰商用系统股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "873881",
+          "short": "中科英泰",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "青岛华晟智能装备股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874236",
+          "short": "华晟智能",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "青岛城市大脑投资开发股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "873528",
+          "short": "城市大脑",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "青岛文达通科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "430516",
+          "short": "文达通",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "鱼鳞图信息技术股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "831885",
+          "short": "鱼鳞图",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "北京天广实生物技术股份有限公司",
+      "industry": "生物医药",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874070",
+          "short": "天广实",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "上海玖行能源科技股份有限公司",
+      "industry": "电力装备（含储能）",
+      "conclusion": "新三板",
+      "evidence": [
+        {
+          "market": "新三板",
+          "code": "874949",
+          "short": "玖行能源",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+    },
+    {
+      "name": "京仪股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "未上市",
+      "evidence": [],
+      "reviewNote": "误配修正：实为滁州天长非上市仪表电缆企业，非京仪装备(688652)"
+    },
+    {
+      "name": "北京智谱华章科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "未上市",
+      "evidence": [],
+      "reviewNote": "误配修正：港股华章科技(01673)非同一主体，智谱AI未上市"
+    },
+    {
+      "name": "安天科技集团股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "未上市",
+      "evidence": [],
+      "reviewNote": "误配修正：安天利信(873253)/亿安天下(870849)均非同一主体，安天科技未上市"
+    },
+    {
+      "name": "深圳市北科瑞声科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "未上市",
+      "evidence": [],
+      "reviewNote": "误配修正：港股瑞声科技(02018)为AAC旗下另一主体，北科瑞声未上市"
+    },
+    {
+      "name": "上海仙工智能科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "06106",
+          "short": "仙工智能",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "云知声智能科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "09678",
+          "short": "云知声",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "创新奇智科技集团股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "02121",
+          "short": "创新奇智",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "剂泰科技（北京）股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "07666",
+          "short": "剂泰科技－Ｐ",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "北京中科闻歌科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "01956",
+          "short": "中科闻歌",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "北京五一视界数字孪生科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "06651",
+          "short": "五一视界",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "北京海光芯正科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "01191",
+          "short": "海光芯正",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "北京深演智能科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "02723",
+          "short": "深演智能",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "北京赛目科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "02571",
+          "short": "赛目科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "南京三宝科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "01708",
+          "short": "三宝科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "博泰车联网科技上海股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "02889",
+          "short": "博泰车联",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "博雷顿科技股份公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "01333",
+          "short": "博雷顿",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "卧安机器人（深圳）股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "06600",
+          "short": "卧安机器人",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "合肥维天运通信息科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "02482",
+          "short": "维天运通",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "山东极视角科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "06636",
+          "short": "极视角",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "岚图汽车科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "07489",
+          "short": "岚图汽车",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "易控智驾科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "07687",
+          "short": "易控智驾",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "梅卡曼德（雄安）机器人科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "09615",
+          "short": "梅卡曼德机器人",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "汇通达网络股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "09878",
+          "short": "汇通达网络",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "浙江太美医疗科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "02576",
+          "short": "太美医疗科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "浙江来福谐波传动股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "03952",
+          "short": "来福谐波",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "深圳乐动机器人股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "01236",
+          "short": "乐动机器人",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "深圳佑驾创新科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "02431",
+          "short": "佑驾创新",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "深圳市优必选科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "09880",
+          "short": "优必选",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "深圳市元征科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "02488",
+          "short": "元征科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "深圳海清智元科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "01392",
+          "short": "海清智元",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "滴普科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "01384",
+          "short": "滴普科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "百望股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "06657",
+          "short": "百望股份",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "福信富通科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "00465",
+          "short": "富通科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "范式智能技术集团股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "06682",
+          "short": "范式智能",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "讯飞医疗科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "02506",
+          "short": "讯飞医疗科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "连连数字科技股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "02598",
+          "short": "连连数字",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "驭势科技（北京）股份有限公司",
+      "industry": "人工智能",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "01511",
+          "short": "驭势科技",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "上海瑛泰医疗器械股份有限公司",
+      "industry": "生物医药",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "01501",
+          "short": "瑛泰医疗",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "中国同辐股份有限公司",
+      "industry": "生物医药",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "01763",
+          "short": "中国同辐",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "丹诺医药(苏州)股份有限公司",
+      "industry": "生物医药",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "06872",
+          "short": "丹诺医药－Ｂ",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "乐普生物科技股份有限公司",
+      "industry": "生物医药",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "02157",
+          "short": "乐普生物",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "四川科伦博泰生物医药股份有限公司",
+      "industry": "生物医药",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "06990",
+          "short": "科伦博泰生物",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "双登集团股份有限公司",
+      "industry": "电力装备（含储能）",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "06960",
+          "short": "双登股份",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "哈尔滨电气股份有限公司",
+      "industry": "电力装备（含储能）",
+      "conclusion": "港股",
+      "evidence": [
+        {
+          "market": "港股",
+          "code": "01133",
+          "short": "哈尔滨电气",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+    },
+    {
+      "name": "科兴生物制药股份有限公司",
+      "industry": "生物医药",
+      "conclusion": "A股",
+      "evidence": [
+        {
+          "market": "A股",
+          "code": "688136",
+          "short": "科兴制药",
+          "level": "manual-review"
+        }
+      ],
+      "reviewNote": "美股候选SVA科兴生物(北京疫苗)为误配；本公司即A股688136注册全名（济南章丘，重组蛋白药物）"
+    }
+  ]
+}

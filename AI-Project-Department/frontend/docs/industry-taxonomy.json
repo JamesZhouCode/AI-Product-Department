@@ -1,0 +1,37 @@
+{
+  "source": {
+    "file": "产融平台.xlsx",
+    "sheet": "Sheet1",
+    "range": "A1:A105",
+    "note": "仅采纳二级目录与 x.y 三级目录；x.y.z 及以下层级不进入企业映射。"
+  },
+  "secondary": [
+    { "code": "1", "label": "集成电路材料" },
+    { "code": "2", "label": "基础电路装备" },
+    { "code": "3", "label": "集成电路设计" },
+    { "code": "4", "label": "集成电路制造" },
+    { "code": "5", "label": "集成电路封测" },
+    { "code": "6", "label": "集成电路配套" }
+  ],
+  "tertiary": [
+    { "code": "1.1", "secondaryCode": "1", "label": "制造材料" },
+    { "code": "1.2", "secondaryCode": "1", "label": "封装材料" },
+    { "code": "2.1", "secondaryCode": "2", "label": "前道设备（晶圆制造）" },
+    { "code": "2.2", "secondaryCode": "2", "label": "后道设备（封装测试）" },
+    { "code": "2.3", "secondaryCode": "2", "label": "零部件" },
+    { "code": "3.1", "secondaryCode": "3", "label": "工具软件" },
+    { "code": "3.2", "secondaryCode": "3", "label": "数字电路芯片" },
+    { "code": "3.3", "secondaryCode": "3", "label": "模拟电路芯片" },
+    { "code": "3.4", "secondaryCode": "3", "label": "数模混合电路芯片" },
+    { "code": "4.1", "secondaryCode": "4", "label": "逻辑芯片制造" },
+    { "code": "4.2", "secondaryCode": "4", "label": "存储器芯片制造" },
+    { "code": "4.3", "secondaryCode": "4", "label": "其他特色工艺芯片制造" },
+    { "code": "5.1", "secondaryCode": "5", "label": "专业测试" },
+    { "code": "5.2", "secondaryCode": "5", "label": "第一代直插式封装" },
+    { "code": "5.3", "secondaryCode": "5", "label": "第二代表面贴装式封装" },
+    { "code": "5.4", "secondaryCode": "5", "label": "第三代阵面阵列式封装" },
+    { "code": "5.5", "secondaryCode": "5", "label": "第四代系统级封装与先导技术封装" },
+    { "code": "6.1", "secondaryCode": "6", "label": "印制电路板（PCB）" },
+    { "code": "6.2", "secondaryCode": "6", "label": "分立器件（OSD）" }
+  ]
+}

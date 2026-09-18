@@ -1,0 +1,4921 @@
+{
+  "北京中科三环高技术股份有限公司": {
+    "name": "北京中科三环高技术股份有限公司",
+    "stockCode": "000970",
+    "stockSymbol": "sz000970",
+    "stockShort": "中科三环",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "江西华宇软件股份有限公司": {
+    "name": "江西华宇软件股份有限公司",
+    "stockCode": "300271",
+    "stockSymbol": "sz300271",
+    "stockShort": "华宇软件",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "北京雷科防务科技股份有限公司": {
+    "name": "北京雷科防务科技股份有限公司",
+    "stockCode": "002413",
+    "stockSymbol": "sz002413",
+    "stockShort": "雷科防务",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "秦川机床工具集团股份公司": {
+    "name": "秦川机床工具集团股份公司",
+    "stockCode": "000837",
+    "stockSymbol": "sz000837",
+    "stockShort": "秦川机床",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "浙江五洲新春集团股份有限公司": {
+    "name": "浙江五洲新春集团股份有限公司",
+    "stockCode": "603667",
+    "stockSymbol": "sh603667",
+    "stockShort": "五洲新春",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "杭州老板电器股份有限公司": {
+    "name": "杭州老板电器股份有限公司",
+    "stockCode": "002508",
+    "stockSymbol": "sz002508",
+    "stockShort": "老板电器",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "万向钱潮股份公司": {
+    "name": "万向钱潮股份公司",
+    "stockCode": "000559",
+    "stockSymbol": "sz000559",
+    "stockShort": "万向钱潮",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "信雅达科技股份有限公司": {
+    "name": "信雅达科技股份有限公司",
+    "stockCode": "600571",
+    "stockSymbol": "sh600571",
+    "stockShort": "信雅达",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "恒生电子股份有限公司": {
+    "name": "恒生电子股份有限公司",
+    "stockCode": "600570",
+    "stockSymbol": "sh600570",
+    "stockShort": "恒生电子",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "中控技术股份有限公司": {
+    "name": "中控技术股份有限公司",
+    "stockCode": "688777",
+    "stockSymbol": "sh688777",
+    "stockShort": "中控技术",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "浙大网新科技股份有限公司": {
+    "name": "浙大网新科技股份有限公司",
+    "stockCode": "600797",
+    "stockSymbol": "sh600797",
+    "stockShort": "浙大网新",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "杭州海康威视数字技术股份有限公司": {
+    "name": "杭州海康威视数字技术股份有限公司",
+    "stockCode": "002415",
+    "stockSymbol": "sz002415",
+    "stockShort": "海康威视",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "浙江蓝特光学股份有限公司": {
+    "name": "浙江蓝特光学股份有限公司",
+    "stockCode": "688127",
+    "stockSymbol": "sh688127",
+    "stockShort": "蓝特光学",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "麒盛科技股份有限公司": {
+    "name": "麒盛科技股份有限公司",
+    "stockCode": "603610",
+    "stockSymbol": "sh603610",
+    "stockShort": "麒盛科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "浙江福莱新材料股份有限公司": {
+    "name": "浙江福莱新材料股份有限公司",
+    "stockCode": "605488",
+    "stockSymbol": "sh605488",
+    "stockShort": "福莱新材",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "恒锋工具股份有限公司": {
+    "name": "恒锋工具股份有限公司",
+    "stockCode": "300488",
+    "stockSymbol": "sz300488",
+    "stockShort": "恒锋工具",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "浙文互联集团股份有限公司": {
+    "name": "浙文互联集团股份有限公司",
+    "stockCode": "600986",
+    "stockSymbol": "sh600986",
+    "stockShort": "浙文互联",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "传化智联股份有限公司": {
+    "name": "传化智联股份有限公司",
+    "stockCode": "002010",
+    "stockSymbol": "sz002010",
+    "stockShort": "传化智联",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "浙江田中精机股份有限公司": {
+    "name": "浙江田中精机股份有限公司",
+    "stockCode": "300461",
+    "stockSymbol": "sz300461",
+    "stockShort": "田中精机",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "易思维杭州科技股份有限公司": {
+    "name": "易思维杭州科技股份有限公司",
+    "stockCode": "688816",
+    "stockSymbol": "sh688816",
+    "stockShort": "易思维",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "浙江华是科技股份有限公司": {
+    "name": "浙江华是科技股份有限公司",
+    "stockCode": "301218",
+    "stockSymbol": "sz301218",
+    "stockShort": "华是科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "杭州光云科技股份有限公司": {
+    "name": "杭州光云科技股份有限公司",
+    "stockCode": "688365",
+    "stockSymbol": "sh688365",
+    "stockShort": "光云科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "浙江天正电气股份有限公司": {
+    "name": "浙江天正电气股份有限公司",
+    "stockCode": "605066",
+    "stockSymbol": "sh605066",
+    "stockShort": "天正电气",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "浙江核新同花顺网络信息股份有限公司": {
+    "name": "浙江核新同花顺网络信息股份有限公司",
+    "stockCode": "300033",
+    "stockSymbol": "sz300033",
+    "stockShort": "同花顺",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "浙江双环传动机械股份有限公司": {
+    "name": "浙江双环传动机械股份有限公司",
+    "stockCode": "002472",
+    "stockSymbol": "sz002472",
+    "stockShort": "双环传动",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "浙江禾川科技股份有限公司": {
+    "name": "浙江禾川科技股份有限公司",
+    "stockCode": "688320",
+    "stockSymbol": "sh688320",
+    "stockShort": "禾川科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "广脉科技股份有限公司": {
+    "name": "广脉科技股份有限公司",
+    "stockCode": "920924",
+    "stockSymbol": "bj920924",
+    "stockShort": "广脉科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "浙江鼎龙科技股份有限公司": {
+    "name": "浙江鼎龙科技股份有限公司",
+    "stockCode": "603004",
+    "stockSymbol": "sh603004",
+    "stockShort": "鼎龙科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "创业慧康科技股份有限公司": {
+    "name": "创业慧康科技股份有限公司",
+    "stockCode": "300451",
+    "stockSymbol": "sz300451",
+    "stockShort": "创业慧康",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "宇树科技股份有限公司": {
+    "name": "宇树科技股份有限公司",
+    "stockCode": "688836",
+    "stockSymbol": "sh688836",
+    "stockShort": "宇树科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "思看科技杭州股份有限公司": {
+    "name": "思看科技杭州股份有限公司",
+    "stockCode": "688583",
+    "stockSymbol": "sh688583",
+    "stockShort": "思看科技",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "杭州凯尔达焊接机器人股份有限公司": {
+    "name": "杭州凯尔达焊接机器人股份有限公司",
+    "stockCode": "688255",
+    "stockSymbol": "sh688255",
+    "stockShort": "凯尔达",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "杭州景业智能科技股份有限公司": {
+    "name": "杭州景业智能科技股份有限公司",
+    "stockCode": "688290",
+    "stockSymbol": "sh688290",
+    "stockShort": "景业智能",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "杰克科技股份有限公司": {
+    "name": "杰克科技股份有限公司",
+    "stockCode": "603337",
+    "stockSymbol": "sh603337",
+    "stockShort": "杰克科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "每日互动股份有限公司": {
+    "name": "每日互动股份有限公司",
+    "stockCode": "300766",
+    "stockSymbol": "sz300766",
+    "stockShort": "每日互动",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "浙江世宝股份有限公司": {
+    "name": "浙江世宝股份有限公司",
+    "stockCode": "002703",
+    "stockSymbol": "sz002703",
+    "stockShort": "浙江世宝",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "浙江丰立智能科技股份有限公司": {
+    "name": "浙江丰立智能科技股份有限公司",
+    "stockCode": "301368",
+    "stockSymbol": "sz301368",
+    "stockShort": "丰立智能",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "浙江托普云农科技股份有限公司": {
+    "name": "浙江托普云农科技股份有限公司",
+    "stockCode": "301556",
+    "stockSymbol": "sz301556",
+    "stockShort": "托普云农",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "浙江涛涛车业股份有限公司": {
+    "name": "浙江涛涛车业股份有限公司",
+    "stockCode": "301345",
+    "stockSymbol": "sz301345",
+    "stockShort": "涛涛车业",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "虹软科技股份有限公司": {
+    "name": "虹软科技股份有限公司",
+    "stockCode": "688088",
+    "stockSymbol": "sh688088",
+    "stockShort": "虹软科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "浙江中坚科技股份有限公司": {
+    "name": "浙江中坚科技股份有限公司",
+    "stockCode": "002779",
+    "stockSymbol": "sz002779",
+    "stockShort": "中坚科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "杭州申昊科技股份有限公司": {
+    "name": "杭州申昊科技股份有限公司",
+    "stockCode": "300853",
+    "stockSymbol": "sz300853",
+    "stockShort": "申昊科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "万马科技股份有限公司": {
+    "name": "万马科技股份有限公司",
+    "stockCode": "300698",
+    "stockSymbol": "sz300698",
+    "stockShort": "万马科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "杭州当虹科技股份有限公司": {
+    "name": "杭州当虹科技股份有限公司",
+    "stockCode": "688039",
+    "stockSymbol": "sh688039",
+    "stockShort": "当虹科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "杭州安恒信息技术股份有限公司": {
+    "name": "杭州安恒信息技术股份有限公司",
+    "stockCode": "688023",
+    "stockSymbol": "sh688023",
+    "stockShort": "安恒信息",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "浙江双元科技股份有限公司": {
+    "name": "浙江双元科技股份有限公司",
+    "stockCode": "688623",
+    "stockSymbol": "sh688623",
+    "stockShort": "双元科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "浙江方正电机股份有限公司": {
+    "name": "浙江方正电机股份有限公司",
+    "stockCode": "002196",
+    "stockSymbol": "sz002196",
+    "stockShort": "方正电机",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "英洛华科技股份有限公司": {
+    "name": "英洛华科技股份有限公司",
+    "stockCode": "000795",
+    "stockSymbol": "sz000795",
+    "stockShort": "英洛华",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "浙江威星智能仪表股份有限公司": {
+    "name": "浙江威星智能仪表股份有限公司",
+    "stockCode": "002849",
+    "stockSymbol": "sz002849",
+    "stockShort": "威星智能",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "浙江鼎力机械股份有限公司": {
+    "name": "浙江鼎力机械股份有限公司",
+    "stockCode": "603338",
+    "stockSymbol": "sh603338",
+    "stockShort": "浙江鼎力",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "杭州永创智能设备股份有限公司": {
+    "name": "杭州永创智能设备股份有限公司",
+    "stockCode": "603901",
+    "stockSymbol": "sh603901",
+    "stockShort": "永创智能",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "杭州萤石网络股份有限公司": {
+    "name": "杭州萤石网络股份有限公司",
+    "stockCode": "688475",
+    "stockSymbol": "sh688475",
+    "stockShort": "萤石网络",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "迪安诊断技术集团股份有限公司": {
+    "name": "迪安诊断技术集团股份有限公司",
+    "stockCode": "300244",
+    "stockSymbol": "sz300244",
+    "stockShort": "迪安诊断",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "浙江和达科技股份有限公司": {
+    "name": "浙江和达科技股份有限公司",
+    "stockCode": "688296",
+    "stockSymbol": "sh688296",
+    "stockShort": "和达科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "中国电信股份有限公司浙江分公司": {
+    "name": "中国电信股份有限公司浙江分公司",
+    "stockCode": "601728",
+    "stockSymbol": "sh601728",
+    "stockShort": "中国电信",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "杭州电魂网络科技股份有限公司": {
+    "name": "杭州电魂网络科技股份有限公司",
+    "stockCode": "603258",
+    "stockSymbol": "sh603258",
+    "stockShort": "电魂网络",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "浙江迦南科技股份有限公司": {
+    "name": "浙江迦南科技股份有限公司",
+    "stockCode": "300412",
+    "stockSymbol": "sz300412",
+    "stockShort": "迦南科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "果麦文化传媒股份有限公司": {
+    "name": "果麦文化传媒股份有限公司",
+    "stockCode": "301052",
+    "stockSymbol": "sz301052",
+    "stockShort": "果麦文化",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "科华数据股份有限公司": {
+    "name": "科华数据股份有限公司",
+    "stockCode": "002335",
+    "stockSymbol": "sz002335",
+    "stockShort": "科华数据",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "厦门思泰克智能科技股份有限公司": {
+    "name": "厦门思泰克智能科技股份有限公司",
+    "stockCode": "301568",
+    "stockSymbol": "sz301568",
+    "stockShort": "思泰克",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "国投智能信息科技股份有限公司": {
+    "name": "国投智能信息科技股份有限公司",
+    "stockCode": "300188",
+    "stockSymbol": "sz300188",
+    "stockShort": "国投智能",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "厦门狄耐克智能科技股份有限公司": {
+    "name": "厦门狄耐克智能科技股份有限公司",
+    "stockCode": "300884",
+    "stockSymbol": "sz300884",
+    "stockShort": "狄耐克",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "立达信物联科技股份有限公司": {
+    "name": "立达信物联科技股份有限公司",
+    "stockCode": "605365",
+    "stockSymbol": "sh605365",
+    "stockShort": "立达信",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "厦门盈趣科技股份有限公司": {
+    "name": "厦门盈趣科技股份有限公司",
+    "stockCode": "002925",
+    "stockSymbol": "sz002925",
+    "stockShort": "盈趣科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "国安达股份有限公司": {
+    "name": "国安达股份有限公司",
+    "stockCode": "300902",
+    "stockSymbol": "sz300902",
+    "stockShort": "国安达",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "熵基科技股份有限公司": {
+    "name": "熵基科技股份有限公司",
+    "stockCode": "301330",
+    "stockSymbol": "sz301330",
+    "stockShort": "熵基科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "厦门瑞尔特卫浴科技股份有限公司": {
+    "name": "厦门瑞尔特卫浴科技股份有限公司",
+    "stockCode": "002790",
+    "stockSymbol": "sz002790",
+    "stockShort": "瑞尔特",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "锐捷网络股份有限公司": {
+    "name": "锐捷网络股份有限公司",
+    "stockCode": "301165",
+    "stockSymbol": "sz301165",
+    "stockShort": "锐捷网络",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "苏州浩辰软件股份有限公司": {
+    "name": "苏州浩辰软件股份有限公司",
+    "stockCode": "688657",
+    "stockSymbol": "sh688657",
+    "stockShort": "浩辰软件",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "苏州艾隆科技股份有限公司": {
+    "name": "苏州艾隆科技股份有限公司",
+    "stockCode": "688329",
+    "stockSymbol": "sh688329",
+    "stockShort": "艾隆科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "聚灿光电科技股份有限公司": {
+    "name": "聚灿光电科技股份有限公司",
+    "stockCode": "300708",
+    "stockSymbol": "sz300708",
+    "stockShort": "聚灿光电",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "苏州汇川技术有限公司": {
+    "name": "苏州汇川技术有限公司",
+    "stockCode": "300124",
+    "stockSymbol": "sz300124",
+    "stockShort": "汇川技术",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "普源精电科技股份有限公司": {
+    "name": "普源精电科技股份有限公司",
+    "stockCode": "688337",
+    "stockSymbol": "sh688337",
+    "stockShort": "普源精电",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "罗博特科智能科技股份有限公司": {
+    "name": "罗博特科智能科技股份有限公司",
+    "stockCode": "300757",
+    "stockSymbol": "sz300757",
+    "stockShort": "罗博特科",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "苏州绿的谐波传动科技股份有限公司": {
+    "name": "苏州绿的谐波传动科技股份有限公司",
+    "stockCode": "688017",
+    "stockSymbol": "sh688017",
+    "stockShort": "绿的谐波",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "苏州天孚通信股份有限公司": {
+    "name": "苏州天孚通信股份有限公司",
+    "stockCode": "300394",
+    "stockSymbol": "sz300394",
+    "stockShort": "天孚通信",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "苏州伟创电气科技股份有限公司": {
+    "name": "苏州伟创电气科技股份有限公司",
+    "stockCode": "688698",
+    "stockSymbol": "sh688698",
+    "stockShort": "伟创电气",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "苏州卓兆点胶股份有限公司": {
+    "name": "苏州卓兆点胶股份有限公司",
+    "stockCode": "920026",
+    "stockSymbol": "bj920026",
+    "stockShort": "卓兆点胶",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "深圳市英威腾电气股份有限公司": {
+    "name": "深圳市英威腾电气股份有限公司",
+    "stockCode": "688226",
+    "stockSymbol": "sh688226",
+    "stockShort": "威腾电气",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳安培龙科技股份有限公司": {
+    "name": "深圳安培龙科技股份有限公司",
+    "stockCode": "301413",
+    "stockSymbol": "sz301413",
+    "stockShort": "安培龙",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳万讯自控股份有限公司": {
+    "name": "深圳万讯自控股份有限公司",
+    "stockCode": "300112",
+    "stockSymbol": "sz300112",
+    "stockShort": "万讯自控",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "深圳市汇川技术股份有限公司": {
+    "name": "深圳市汇川技术股份有限公司",
+    "stockCode": "300124",
+    "stockSymbol": "sz300124",
+    "stockShort": "汇川技术",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳市兆威机电股份有限公司": {
+    "name": "深圳市兆威机电股份有限公司",
+    "stockCode": "003021",
+    "stockSymbol": "sz003021",
+    "stockShort": "兆威机电",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳市雷赛智能控制股份有限公司": {
+    "name": "深圳市雷赛智能控制股份有限公司",
+    "stockCode": "002979",
+    "stockSymbol": "sz002979",
+    "stockShort": "雷赛智能",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "固高科技股份有限公司": {
+    "name": "固高科技股份有限公司",
+    "stockCode": "301510",
+    "stockSymbol": "sz301510",
+    "stockShort": "固高科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "盛视科技股份有限公司": {
+    "name": "盛视科技股份有限公司",
+    "stockCode": "002990",
+    "stockSymbol": "sz002990",
+    "stockShort": "盛视科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "深圳四方精创资讯股份有限公司": {
+    "name": "深圳四方精创资讯股份有限公司",
+    "stockCode": "300468",
+    "stockSymbol": "sz300468",
+    "stockShort": "四方精创",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳市长亮科技股份有限公司": {
+    "name": "深圳市长亮科技股份有限公司",
+    "stockCode": "300348",
+    "stockSymbol": "sz300348",
+    "stockShort": "长亮科技",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳市捷顺科技实业股份有限公司": {
+    "name": "深圳市捷顺科技实业股份有限公司",
+    "stockCode": "002609",
+    "stockSymbol": "sz002609",
+    "stockShort": "捷顺科技",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳威迈斯新能源集团股份有限公司": {
+    "name": "深圳威迈斯新能源集团股份有限公司",
+    "stockCode": "688612",
+    "stockSymbol": "sh688612",
+    "stockShort": "威迈斯",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳市新产业生物医学工程股份有限公司": {
+    "name": "深圳市新产业生物医学工程股份有限公司",
+    "stockCode": "300832",
+    "stockSymbol": "sz300832",
+    "stockShort": "新产业",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳华大智造科技股份有限公司": {
+    "name": "深圳华大智造科技股份有限公司",
+    "stockCode": "688114",
+    "stockSymbol": "sh688114",
+    "stockShort": "华大智造",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳市好上好信息科技股份有限公司": {
+    "name": "深圳市好上好信息科技股份有限公司",
+    "stockCode": "001298",
+    "stockSymbol": "sz001298",
+    "stockShort": "好上好",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳嘉立创科技集团股份有限公司": {
+    "name": "深圳嘉立创科技集团股份有限公司",
+    "stockCode": "001232",
+    "stockSymbol": "sz001232",
+    "stockShort": "嘉立创",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "立讯精密工业股份有限公司": {
+    "name": "立讯精密工业股份有限公司",
+    "stockCode": "002475",
+    "stockSymbol": "sz002475",
+    "stockShort": "立讯精密",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳市杰普特光电股份有限公司": {
+    "name": "深圳市杰普特光电股份有限公司",
+    "stockCode": "688025",
+    "stockSymbol": "sh688025",
+    "stockShort": "杰普特",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳市今天国际物流技术股份有限公司": {
+    "name": "深圳市今天国际物流技术股份有限公司",
+    "stockCode": "300532",
+    "stockSymbol": "sz300532",
+    "stockShort": "今天国际",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "海目星激光科技集团股份有限公司": {
+    "name": "海目星激光科技集团股份有限公司",
+    "stockCode": "688559",
+    "stockSymbol": "sh688559",
+    "stockShort": "海目星",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "影石创新科技股份有限公司": {
+    "name": "影石创新科技股份有限公司",
+    "stockCode": "688775",
+    "stockSymbol": "sh688775",
+    "stockShort": "影石创新",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "鸿合科技股份有限公司": {
+    "name": "鸿合科技股份有限公司",
+    "stockCode": "002955",
+    "stockSymbol": "sz002955",
+    "stockShort": "鸿合科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "深圳朗特智能控制股份有限公司": {
+    "name": "深圳朗特智能控制股份有限公司",
+    "stockCode": "300916",
+    "stockSymbol": "sz300916",
+    "stockShort": "朗特智能",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳市振邦智能科技股份有限公司": {
+    "name": "深圳市振邦智能科技股份有限公司",
+    "stockCode": "003028",
+    "stockSymbol": "sz003028",
+    "stockShort": "振邦智能",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "比亚迪股份有限公司": {
+    "name": "比亚迪股份有限公司",
+    "stockCode": "002594",
+    "stockSymbol": "sz002594",
+    "stockShort": "比亚迪",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "深信服科技股份有限公司": {
+    "name": "深信服科技股份有限公司",
+    "stockCode": "300454",
+    "stockSymbol": "sz300454",
+    "stockShort": "深信服",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳市法本信息技术股份有限公司": {
+    "name": "深圳市法本信息技术股份有限公司",
+    "stockCode": "300925",
+    "stockSymbol": "sz300925",
+    "stockShort": "法本信息",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "神州数码集团股份有限公司": {
+    "name": "神州数码集团股份有限公司",
+    "stockCode": "000034",
+    "stockSymbol": "sz000034",
+    "stockShort": "神州数码",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "卡莱特云科技股份有限公司": {
+    "name": "卡莱特云科技股份有限公司",
+    "stockCode": "301391",
+    "stockSymbol": "sz301391",
+    "stockShort": "卡莱特",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳市财富趋势科技股份有限公司": {
+    "name": "深圳市财富趋势科技股份有限公司",
+    "stockCode": "688318",
+    "stockSymbol": "sh688318",
+    "stockShort": "财富趋势",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳市核达中远通电源技术股份有限公司": {
+    "name": "深圳市核达中远通电源技术股份有限公司",
+    "stockCode": "301516",
+    "stockSymbol": "sz301516",
+    "stockShort": "中远通",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳市智莱科技股份有限公司": {
+    "name": "深圳市智莱科技股份有限公司",
+    "stockCode": "300771",
+    "stockSymbol": "sz300771",
+    "stockShort": "智莱科技",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳微芯生物科技股份有限公司": {
+    "name": "深圳微芯生物科技股份有限公司",
+    "stockCode": "688321",
+    "stockSymbol": "sh688321",
+    "stockShort": "微芯生物",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳市三旺通信股份有限公司": {
+    "name": "深圳市三旺通信股份有限公司",
+    "stockCode": "688618",
+    "stockSymbol": "sh688618",
+    "stockShort": "三旺通信",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳兆日科技股份有限公司": {
+    "name": "深圳兆日科技股份有限公司",
+    "stockCode": "300333",
+    "stockSymbol": "sz300333",
+    "stockShort": "兆日科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "深圳市鑫汇科股份有限公司": {
+    "name": "深圳市鑫汇科股份有限公司",
+    "stockCode": "920267",
+    "stockSymbol": "bj920267",
+    "stockShort": "鑫汇科",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳市佳创视讯技术股份有限公司": {
+    "name": "深圳市佳创视讯技术股份有限公司",
+    "stockCode": "300264",
+    "stockSymbol": "sz300264",
+    "stockShort": "佳创视讯",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳市奥拓电子股份有限公司": {
+    "name": "深圳市奥拓电子股份有限公司",
+    "stockCode": "002587",
+    "stockSymbol": "sz002587",
+    "stockShort": "奥拓电子",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳市路畅科技股份有限公司": {
+    "name": "深圳市路畅科技股份有限公司",
+    "stockCode": "002813",
+    "stockSymbol": "sz002813",
+    "stockShort": "路畅科技",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳市金溢科技股份有限公司": {
+    "name": "深圳市金溢科技股份有限公司",
+    "stockCode": "002869",
+    "stockSymbol": "sz002869",
+    "stockShort": "金溢科技",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳市雄帝科技股份有限公司": {
+    "name": "深圳市雄帝科技股份有限公司",
+    "stockCode": "300546",
+    "stockSymbol": "sz300546",
+    "stockShort": "雄帝科技",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "奥比中光科技集团股份有限公司": {
+    "name": "奥比中光科技集团股份有限公司",
+    "stockCode": "688322",
+    "stockSymbol": "sh688322",
+    "stockShort": "奥比中光",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳市正弦电气股份有限公司": {
+    "name": "深圳市正弦电气股份有限公司",
+    "stockCode": "688395",
+    "stockSymbol": "sh688395",
+    "stockShort": "正弦电气",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳市蓝海华腾技术股份有限公司": {
+    "name": "深圳市蓝海华腾技术股份有限公司",
+    "stockCode": "300484",
+    "stockSymbol": "sz300484",
+    "stockShort": "蓝海华腾",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳市信宇人科技股份有限公司": {
+    "name": "深圳市信宇人科技股份有限公司",
+    "stockCode": "688573",
+    "stockSymbol": "sh688573",
+    "stockShort": "信宇人",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳奥尼电子股份有限公司": {
+    "name": "深圳奥尼电子股份有限公司",
+    "stockCode": "301189",
+    "stockSymbol": "sz301189",
+    "stockShort": "奥尼电子",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "深圳贝仕达克技术股份有限公司": {
+    "name": "深圳贝仕达克技术股份有限公司",
+    "stockCode": "300822",
+    "stockSymbol": "sz300822",
+    "stockShort": "贝仕达克",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "邦彦技术股份有限公司": {
+    "name": "邦彦技术股份有限公司",
+    "stockCode": "688132",
+    "stockSymbol": "sh688132",
+    "stockShort": "邦彦技术",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "烽火通信科技股份有限公司": {
+    "name": "烽火通信科技股份有限公司",
+    "stockCode": "600498",
+    "stockSymbol": "sh600498",
+    "stockShort": "烽火通信",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "赛力斯集团股份有限公司": {
+    "name": "赛力斯集团股份有限公司",
+    "stockCode": "601127",
+    "stockSymbol": "sh601127",
+    "stockShort": "赛力斯",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "惠州亿纬锂能股份有限公司": {
+    "name": "惠州亿纬锂能股份有限公司",
+    "stockCode": "300014",
+    "stockSymbol": "sz300014",
+    "stockShort": "亿纬锂能",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "武汉雷特科技有限公司": {
+    "name": "武汉雷特科技有限公司",
+    "stockCode": "920110",
+    "stockSymbol": "bj920110",
+    "stockShort": "雷特科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "软通动力信息技术集团股份有限公司": {
+    "name": "软通动力信息技术集团股份有限公司",
+    "stockCode": "301236",
+    "stockSymbol": "sz301236",
+    "stockShort": "软通动力",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "中贝通信集团股份有限公司": {
+    "name": "中贝通信集团股份有限公司",
+    "stockCode": "603220",
+    "stockSymbol": "sh603220",
+    "stockShort": "中贝通信",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "宏景科技股份有限公司": {
+    "name": "宏景科技股份有限公司",
+    "stockCode": "301396",
+    "stockSymbol": "sz301396",
+    "stockShort": "宏景科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "华特气体股份有限公司": {
+    "name": "华特气体股份有限公司",
+    "stockCode": "688268",
+    "stockSymbol": "sh688268",
+    "stockShort": "华特气体",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "广东思泉新材料股份有限公司": {
+    "name": "广东思泉新材料股份有限公司",
+    "stockCode": "301489",
+    "stockSymbol": "sz301489",
+    "stockShort": "思泉新材",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "全志科技股份有限公司": {
+    "name": "全志科技股份有限公司",
+    "stockCode": "300458",
+    "stockSymbol": "sz300458",
+    "stockShort": "全志科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "钧崴电子科技股份有限公司": {
+    "name": "钧崴电子科技股份有限公司",
+    "stockCode": "301458",
+    "stockSymbol": "sz301458",
+    "stockShort": "钧崴电子",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "珠海光库科技股份有限公司": {
+    "name": "珠海光库科技股份有限公司",
+    "stockCode": "300620",
+    "stockSymbol": "sz300620",
+    "stockShort": "光库科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "广东盛路通信科技股份有限公司": {
+    "name": "广东盛路通信科技股份有限公司",
+    "stockCode": "002446",
+    "stockSymbol": "sz002446",
+    "stockShort": "盛路通信",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "生益科技股份有限公司": {
+    "name": "生益科技股份有限公司",
+    "stockCode": "600183",
+    "stockSymbol": "sh600183",
+    "stockShort": "生益科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "广东奥普特科技股份有限公司": {
+    "name": "广东奥普特科技股份有限公司",
+    "stockCode": "688686",
+    "stockSymbol": "sh688686",
+    "stockShort": "奥普特",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "广东奥飞数据科技股份有限公司": {
+    "name": "广东奥飞数据科技股份有限公司",
+    "stockCode": "300738",
+    "stockSymbol": "sz300738",
+    "stockShort": "奥飞数据",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "杰创智能科技股份有限公司": {
+    "name": "杰创智能科技股份有限公司",
+    "stockCode": "301248",
+    "stockSymbol": "sz301248",
+    "stockShort": "杰创智能",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "广州市昊志机电股份有限公司": {
+    "name": "广州市昊志机电股份有限公司",
+    "stockCode": "300503",
+    "stockSymbol": "sz300503",
+    "stockShort": "昊志机电",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "广东拓斯达科技股份有限公司": {
+    "name": "广东拓斯达科技股份有限公司",
+    "stockCode": "300607",
+    "stockSymbol": "sz300607",
+    "stockShort": "拓斯达",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "高新兴科技集团股份有限公司": {
+    "name": "高新兴科技集团股份有限公司",
+    "stockCode": "300098",
+    "stockSymbol": "sz300098",
+    "stockShort": "高新兴",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "东莞市宇瞳光学科技股份有限公司": {
+    "name": "东莞市宇瞳光学科技股份有限公司",
+    "stockCode": "300790",
+    "stockSymbol": "sz300790",
+    "stockShort": "宇瞳光学",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "广电运通集团股份有限公司": {
+    "name": "广电运通集团股份有限公司",
+    "stockCode": "002152",
+    "stockSymbol": "sz002152",
+    "stockShort": "广电运通",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "东信和平科技股份有限公司": {
+    "name": "东信和平科技股份有限公司",
+    "stockCode": "002017",
+    "stockSymbol": "sz002017",
+    "stockShort": "东信和平",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "中山联合光电科技股份有限公司": {
+    "name": "中山联合光电科技股份有限公司",
+    "stockCode": "300691",
+    "stockSymbol": "sz300691",
+    "stockShort": "联合光电",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "佳禾智能科技股份有限公司": {
+    "name": "佳禾智能科技股份有限公司",
+    "stockCode": "300793",
+    "stockSymbol": "sz300793",
+    "stockShort": "佳禾智能",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "广州赛意信息科技股份有限公司": {
+    "name": "广州赛意信息科技股份有限公司",
+    "stockCode": "300687",
+    "stockSymbol": "sz300687",
+    "stockShort": "赛意信息",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "贵州轮胎股份有限公司": {
+    "name": "贵州轮胎股份有限公司",
+    "stockCode": "000589",
+    "stockSymbol": "sz000589",
+    "stockShort": "贵州轮胎",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "贵州振华风光半导体股份有限公司": {
+    "name": "贵州振华风光半导体股份有限公司",
+    "stockCode": "688439",
+    "stockSymbol": "sh688439",
+    "stockShort": "振华风光",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "科大智能科技股份有限公司": {
+    "name": "科大智能科技股份有限公司",
+    "stockCode": "300222",
+    "stockSymbol": "sz300222",
+    "stockShort": "科大智能",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "上海儒竞科技股份有限公司": {
+    "name": "上海儒竞科技股份有限公司",
+    "stockCode": "301525",
+    "stockSymbol": "sz301525",
+    "stockShort": "儒竞科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "上海北特科技集团股份有限公司": {
+    "name": "上海北特科技集团股份有限公司",
+    "stockCode": "603009",
+    "stockSymbol": "sh603009",
+    "stockShort": "北特科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "云从科技集团股份有限公司": {
+    "name": "云从科技集团股份有限公司",
+    "stockCode": "688327",
+    "stockSymbol": "sh688327",
+    "stockShort": "云从科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "美格智能技术股份有限公司": {
+    "name": "美格智能技术股份有限公司",
+    "stockCode": "002881",
+    "stockSymbol": "sz002881",
+    "stockShort": "美格智能",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "上海岩山科技股份有限公司": {
+    "name": "上海岩山科技股份有限公司",
+    "stockCode": "002195",
+    "stockSymbol": "sz002195",
+    "stockShort": "岩山科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "上纬新材料科技股份有限公司": {
+    "name": "上纬新材料科技股份有限公司",
+    "stockCode": "688585",
+    "stockSymbol": "sh688585",
+    "stockShort": "上纬新材",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "上海新时达电气股份有限公司": {
+    "name": "上海新时达电气股份有限公司",
+    "stockCode": "002527",
+    "stockSymbol": "sz002527",
+    "stockShort": "新时达",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "上海数据港股份有限公司": {
+    "name": "上海数据港股份有限公司",
+    "stockCode": "603881",
+    "stockSymbol": "sh603881",
+    "stockShort": "数据港",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "万达信息股份有限公司": {
+    "name": "万达信息股份有限公司",
+    "stockCode": "300168",
+    "stockSymbol": "sz300168",
+    "stockShort": "万达信息",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "上海瀚讯信息技术股份有限公司": {
+    "name": "上海瀚讯信息技术股份有限公司",
+    "stockCode": "300762",
+    "stockSymbol": "sz300762",
+    "stockShort": "上海瀚讯",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "恒为科技上海股份有限公司": {
+    "name": "恒为科技上海股份有限公司",
+    "stockCode": "603496",
+    "stockSymbol": "sh603496",
+    "stockShort": "恒为科技",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "网宿科技股份有限公司": {
+    "name": "网宿科技股份有限公司",
+    "stockCode": "300017",
+    "stockSymbol": "sz300017",
+    "stockShort": "网宿科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "上海风语筑文化科技股份有限公司": {
+    "name": "上海风语筑文化科技股份有限公司",
+    "stockCode": "603466",
+    "stockSymbol": "sh603466",
+    "stockShort": "风语筑",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "上海华测导航技术股份有限公司": {
+    "name": "上海华测导航技术股份有限公司",
+    "stockCode": "300627",
+    "stockSymbol": "sz300627",
+    "stockShort": "华测导航",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "上海润欣科技股份有限公司": {
+    "name": "上海润欣科技股份有限公司",
+    "stockCode": "300493",
+    "stockSymbol": "sz300493",
+    "stockShort": "润欣科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "上海剑桥科技股份有限公司": {
+    "name": "上海剑桥科技股份有限公司",
+    "stockCode": "603083",
+    "stockSymbol": "sh603083",
+    "stockShort": "剑桥科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "上海延华智能科技集团股份有限公司": {
+    "name": "上海延华智能科技集团股份有限公司",
+    "stockCode": "002178",
+    "stockSymbol": "sz002178",
+    "stockShort": "延华智能",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "上海新炬网络信息技术股份有限公司": {
+    "name": "上海新炬网络信息技术股份有限公司",
+    "stockCode": "605398",
+    "stockSymbol": "sh605398",
+    "stockShort": "新炬网络",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "上海艾融软件股份有限公司": {
+    "name": "上海艾融软件股份有限公司",
+    "stockCode": "920799",
+    "stockSymbol": "bj920799",
+    "stockShort": "艾融软件",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "上海威士顿信息技术股份有限公司": {
+    "name": "上海威士顿信息技术股份有限公司",
+    "stockCode": "301315",
+    "stockSymbol": "sz301315",
+    "stockShort": "威士顿",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "上海英方软件股份有限公司": {
+    "name": "上海英方软件股份有限公司",
+    "stockCode": "688435",
+    "stockSymbol": "sh688435",
+    "stockShort": "英方软件",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "优刻得科技股份有限公司": {
+    "name": "优刻得科技股份有限公司",
+    "stockCode": "688158",
+    "stockSymbol": "sh688158",
+    "stockShort": "优刻得",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "上海汉得信息技术股份有限公司": {
+    "name": "上海汉得信息技术股份有限公司",
+    "stockCode": "300170",
+    "stockSymbol": "sz300170",
+    "stockShort": "汉得信息",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "普元信息技术股份有限公司": {
+    "name": "普元信息技术股份有限公司",
+    "stockCode": "688118",
+    "stockSymbol": "sh688118",
+    "stockShort": "普元信息",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "朗新科技集团股份有限公司": {
+    "name": "朗新科技集团股份有限公司",
+    "stockCode": "300682",
+    "stockSymbol": "sz300682",
+    "stockShort": "朗新科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "江苏卓易信息科技股份有限公司": {
+    "name": "江苏卓易信息科技股份有限公司",
+    "stockCode": "688258",
+    "stockSymbol": "sh688258",
+    "stockShort": "卓易信息",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "航天智造科技股份有限公司": {
+    "name": "航天智造科技股份有限公司",
+    "stockCode": "300446",
+    "stockSymbol": "sz300446",
+    "stockShort": "航天智造",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "中国东方电气集团有限公司": {
+    "name": "中国东方电气集团有限公司",
+    "stockCode": "600875",
+    "stockSymbol": "sh600875",
+    "stockShort": "东方电气",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "四川久远银海软件股份有限公司": {
+    "name": "四川久远银海软件股份有限公司",
+    "stockCode": "002777",
+    "stockSymbol": "sz002777",
+    "stockShort": "久远银海",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "四川长虹电器股份有限公司": {
+    "name": "四川长虹电器股份有限公司",
+    "stockCode": "600839",
+    "stockSymbol": "sh600839",
+    "stockShort": "四川长虹",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "富临精工股份有限公司": {
+    "name": "富临精工股份有限公司",
+    "stockCode": "300432",
+    "stockSymbol": "sz300432",
+    "stockShort": "富临精工",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "成都唐源电气股份有限公司": {
+    "name": "成都唐源电气股份有限公司",
+    "stockCode": "300789",
+    "stockSymbol": "sz300789",
+    "stockShort": "唐源电气",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "成都旭光电子股份有限公司": {
+    "name": "成都旭光电子股份有限公司",
+    "stockCode": "600353",
+    "stockSymbol": "sh600353",
+    "stockShort": "旭光电子",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "新希望集团有限公司": {
+    "name": "新希望集团有限公司",
+    "stockCode": "000876",
+    "stockSymbol": "sz000876",
+    "stockShort": "新 希 望",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "极米科技股份有限公司": {
+    "name": "极米科技股份有限公司",
+    "stockCode": "688696",
+    "stockSymbol": "sh688696",
+    "stockShort": "极米科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "泸州老窖股份有限公司": {
+    "name": "泸州老窖股份有限公司",
+    "stockCode": "000568",
+    "stockSymbol": "sz000568",
+    "stockShort": "泸州老窖",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "中自科技股份有限公司": {
+    "name": "中自科技股份有限公司",
+    "stockCode": "688737",
+    "stockSymbol": "sh688737",
+    "stockShort": "中自科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "四川中光防雷科技股份有限公司": {
+    "name": "四川中光防雷科技股份有限公司",
+    "stockCode": "300414",
+    "stockSymbol": "sz300414",
+    "stockShort": "中光防雷",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "四川大西洋焊接材料股份有限公司": {
+    "name": "四川大西洋焊接材料股份有限公司",
+    "stockCode": "600558",
+    "stockSymbol": "sh600558",
+    "stockShort": "大西洋",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "四川航天信息有限公司": {
+    "name": "四川航天信息有限公司",
+    "stockCode": "600271",
+    "stockSymbol": "sh600271",
+    "stockShort": "航天信息",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "四川长虹新能源科技股份有限公司": {
+    "name": "四川长虹新能源科技股份有限公司",
+    "stockCode": "600839",
+    "stockSymbol": "sh600839",
+    "stockShort": "四川长虹",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "成都俊马密封科技股份有限公司": {
+    "name": "成都俊马密封科技股份有限公司",
+    "stockCode": "301020",
+    "stockSymbol": "sz301020",
+    "stockShort": "密封科技",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "成都瑞迪智驱科技股份有限公司": {
+    "name": "成都瑞迪智驱科技股份有限公司",
+    "stockCode": "301596",
+    "stockSymbol": "sz301596",
+    "stockShort": "瑞迪智驱",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "成都秦川物联网科技股份有限公司": {
+    "name": "成都秦川物联网科技股份有限公司",
+    "stockCode": "688528",
+    "stockSymbol": "sh688528",
+    "stockShort": "秦川物联",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "成都西菱动力科技股份有限公司": {
+    "name": "成都西菱动力科技股份有限公司",
+    "stockCode": "300733",
+    "stockSymbol": "sz300733",
+    "stockShort": "西菱动力",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "成都运达科技股份有限公司": {
+    "name": "成都运达科技股份有限公司",
+    "stockCode": "300440",
+    "stockSymbol": "sz300440",
+    "stockShort": "运达科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "成都银河磁体股份有限公司": {
+    "name": "成都银河磁体股份有限公司",
+    "stockCode": "300127",
+    "stockSymbol": "sz300127",
+    "stockShort": "银河磁体",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "成都长城开发科技股份有限公司": {
+    "name": "成都长城开发科技股份有限公司",
+    "stockCode": "920029",
+    "stockSymbol": "bj920029",
+    "stockShort": "开发科技",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "攀枝花秉扬科技股份有限公司": {
+    "name": "攀枝花秉扬科技股份有限公司",
+    "stockCode": "920675",
+    "stockSymbol": "bj920675",
+    "stockShort": "秉扬科技",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "高新兴智联科技股份有限公司": {
+    "name": "高新兴智联科技股份有限公司",
+    "stockCode": "300098",
+    "stockSymbol": "sz300098",
+    "stockShort": "高新兴",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "万兴科技股份有限公司": {
+    "name": "万兴科技股份有限公司",
+    "stockCode": "300624",
+    "stockSymbol": "sz300624",
+    "stockShort": "万兴科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "天水华天科技股份有限公司": {
+    "name": "天水华天科技股份有限公司",
+    "stockCode": "002185",
+    "stockSymbol": "sz002185",
+    "stockShort": "华天科技",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "长春奥普光电技术股份有限公司": {
+    "name": "长春奥普光电技术股份有限公司",
+    "stockCode": "002338",
+    "stockSymbol": "sz002338",
+    "stockShort": "奥普光电",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "汉威科技集团股份有限公司": {
+    "name": "汉威科技集团股份有限公司",
+    "stockCode": "300007",
+    "stockSymbol": "sz300007",
+    "stockShort": "汉威科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "新开普电子股份有限公司": {
+    "name": "新开普电子股份有限公司",
+    "stockCode": "300248",
+    "stockSymbol": "sz300248",
+    "stockShort": "新开普",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "郑州天迈科技股份有限公司": {
+    "name": "郑州天迈科技股份有限公司",
+    "stockCode": "300807",
+    "stockSymbol": "sz300807",
+    "stockShort": "天迈科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "宇通客车股份有限公司": {
+    "name": "宇通客车股份有限公司",
+    "stockCode": "600066",
+    "stockSymbol": "sh600066",
+    "stockShort": "宇通客车",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "河南嘉晨智能控制股份有限公司": {
+    "name": "河南嘉晨智能控制股份有限公司",
+    "stockCode": "920096",
+    "stockSymbol": "bj920096",
+    "stockShort": "嘉晨智能",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "郑州捷安高科股份有限公司": {
+    "name": "郑州捷安高科股份有限公司",
+    "stockCode": "300845",
+    "stockSymbol": "sz300845",
+    "stockShort": "捷安高科",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "河南翔宇医疗设备股份有限公司": {
+    "name": "河南翔宇医疗设备股份有限公司",
+    "stockCode": "688626",
+    "stockSymbol": "sh688626",
+    "stockShort": "翔宇医疗",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "国机精工集团股份有限公司": {
+    "name": "国机精工集团股份有限公司",
+    "stockCode": "002046",
+    "stockSymbol": "sz002046",
+    "stockShort": "国机精工",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "国电南瑞科技股份有限公司": {
+    "name": "国电南瑞科技股份有限公司",
+    "stockCode": "600406",
+    "stockSymbol": "sh600406",
+    "stockShort": "国电南瑞",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "江苏博云科技股份有限公司": {
+    "name": "江苏博云科技股份有限公司",
+    "stockCode": "301003",
+    "stockSymbol": "sz301003",
+    "stockShort": "江苏博云",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "江苏东华测试技术股份有限公司": {
+    "name": "江苏东华测试技术股份有限公司",
+    "stockCode": "300354",
+    "stockSymbol": "sz300354",
+    "stockShort": "东华测试",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "江苏金智科技股份有限公司": {
+    "name": "江苏金智科技股份有限公司",
+    "stockCode": "002090",
+    "stockSymbol": "sz002090",
+    "stockShort": "金智科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "江苏润和软件股份有限公司": {
+    "name": "江苏润和软件股份有限公司",
+    "stockCode": "300339",
+    "stockSymbol": "sz300339",
+    "stockShort": "润和软件",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "江苏通行宝智慧交通科技股份有限公司": {
+    "name": "江苏通行宝智慧交通科技股份有限公司",
+    "stockCode": "301339",
+    "stockSymbol": "sz301339",
+    "stockShort": "通行宝",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "江苏扬农化工股份有限公司": {
+    "name": "江苏扬农化工股份有限公司",
+    "stockCode": "600486",
+    "stockSymbol": "sh600486",
+    "stockShort": "扬农化工",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "南京国芯科技股份有限公司": {
+    "name": "南京国芯科技股份有限公司",
+    "stockCode": "688262",
+    "stockSymbol": "sh688262",
+    "stockShort": "国芯科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "南京科远智慧科技集团股份有限公司": {
+    "name": "南京科远智慧科技集团股份有限公司",
+    "stockCode": "002380",
+    "stockSymbol": "sz002380",
+    "stockShort": "科远智慧",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "南京莱斯信息技术股份有限公司": {
+    "name": "南京莱斯信息技术股份有限公司",
+    "stockCode": "688631",
+    "stockSymbol": "sh688631",
+    "stockShort": "莱斯信息",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "南京天准科技股份有限公司": {
+    "name": "南京天准科技股份有限公司",
+    "stockCode": "688003",
+    "stockSymbol": "sh688003",
+    "stockShort": "天准科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "南京通达海科技股份有限公司": {
+    "name": "南京通达海科技股份有限公司",
+    "stockCode": "301378",
+    "stockSymbol": "sz301378",
+    "stockShort": "通达海",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "莱赛激光科技股份有限公司": {
+    "name": "莱赛激光科技股份有限公司",
+    "stockCode": "920363",
+    "stockSymbol": "bj920363",
+    "stockShort": "莱赛激光",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "多伦科技股份有限公司": {
+    "name": "多伦科技股份有限公司",
+    "stockCode": "603528",
+    "stockSymbol": "sh603528",
+    "stockShort": "多伦科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "南京北路智控科技股份有限公司": {
+    "name": "南京北路智控科技股份有限公司",
+    "stockCode": "301195",
+    "stockSymbol": "sz301195",
+    "stockShort": "北路智控",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "亚信安全科技股份有限公司": {
+    "name": "亚信安全科技股份有限公司",
+    "stockCode": "688225",
+    "stockSymbol": "sh688225",
+    "stockShort": "亚信安全",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "南京熊猫电子股份有限公司": {
+    "name": "南京熊猫电子股份有限公司",
+    "stockCode": "600775",
+    "stockSymbol": "sh600775",
+    "stockShort": "南京熊猫",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "诚迈科技南京股份有限公司": {
+    "name": "诚迈科技南京股份有限公司",
+    "stockCode": "300598",
+    "stockSymbol": "sz300598",
+    "stockShort": "诚迈科技",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "焦点科技股份有限公司": {
+    "name": "焦点科技股份有限公司",
+    "stockCode": "002315",
+    "stockSymbol": "sz002315",
+    "stockShort": "焦点科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "苏交科集团股份有限公司": {
+    "name": "苏交科集团股份有限公司",
+    "stockCode": "300284",
+    "stockSymbol": "sz300284",
+    "stockShort": "苏交科",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "江苏恒太照明股份有限公司": {
+    "name": "江苏恒太照明股份有限公司",
+    "stockCode": "920339",
+    "stockSymbol": "bj920339",
+    "stockShort": "恒太照明",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "江苏省精创电气股份有限公司": {
+    "name": "江苏省精创电气股份有限公司",
+    "stockCode": "920035",
+    "stockSymbol": "bj920035",
+    "stockShort": "精创电气",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "南京埃斯顿自动化股份有限公司": {
+    "name": "南京埃斯顿自动化股份有限公司",
+    "stockCode": "002747",
+    "stockSymbol": "sz002747",
+    "stockShort": "埃斯顿",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "拓尔思信息技术股份有限公司": {
+    "name": "拓尔思信息技术股份有限公司",
+    "stockCode": "300229",
+    "stockSymbol": "sz300229",
+    "stockShort": "拓尔思",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "中科星图股份有限公司": {
+    "name": "中科星图股份有限公司",
+    "stockCode": "688568",
+    "stockSymbol": "sh688568",
+    "stockShort": "中科星图",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "汉王科技股份有限公司": {
+    "name": "汉王科技股份有限公司",
+    "stockCode": "002362",
+    "stockSymbol": "sz002362",
+    "stockShort": "汉王科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "北京国遥新天地信息技术股份有限公司": {
+    "name": "北京国遥新天地信息技术股份有限公司",
+    "stockCode": "301277",
+    "stockSymbol": "sz301277",
+    "stockShort": "新天地",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "北京海天瑞声科技股份有限公司": {
+    "name": "北京海天瑞声科技股份有限公司",
+    "stockCode": "688787",
+    "stockSymbol": "sh688787",
+    "stockShort": "海天瑞声",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "北京浩瀚深度信息技术股份有限公司": {
+    "name": "北京浩瀚深度信息技术股份有限公司",
+    "stockCode": "688292",
+    "stockSymbol": "sh688292",
+    "stockShort": "浩瀚深度",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "北京格灵深瞳信息技术股份有限公司": {
+    "name": "北京格灵深瞳信息技术股份有限公司",
+    "stockCode": "688207",
+    "stockSymbol": "sh688207",
+    "stockShort": "格灵深瞳",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "北京海兰信数据科技股份有限公司": {
+    "name": "北京海兰信数据科技股份有限公司",
+    "stockCode": "300065",
+    "stockSymbol": "sz300065",
+    "stockShort": "海兰信",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "中关村科技软件股份有限公司": {
+    "name": "中关村科技软件股份有限公司",
+    "stockCode": "000931",
+    "stockSymbol": "sz000931",
+    "stockShort": "中 关 村",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "北京云从科技有限公司": {
+    "name": "北京云从科技有限公司",
+    "stockCode": "688327",
+    "stockSymbol": "sh688327",
+    "stockShort": "云从科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "北京东大金智科技股份有限公司": {
+    "name": "北京东大金智科技股份有限公司",
+    "stockCode": "002090",
+    "stockSymbol": "sz002090",
+    "stockShort": "金智科技",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "北京零点有数数据科技股份有限公司": {
+    "name": "北京零点有数数据科技股份有限公司",
+    "stockCode": "301169",
+    "stockSymbol": "sz301169",
+    "stockShort": "零点有数",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "北京金山办公软件股份有限公司": {
+    "name": "北京金山办公软件股份有限公司",
+    "stockCode": "688111",
+    "stockSymbol": "sh688111",
+    "stockShort": "金山办公",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "用友网络科技股份有限公司": {
+    "name": "用友网络科技股份有限公司",
+    "stockCode": "600588",
+    "stockSymbol": "sh600588",
+    "stockShort": "用友网络",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "广联达科技股份有限公司": {
+    "name": "广联达科技股份有限公司",
+    "stockCode": "002410",
+    "stockSymbol": "sz002410",
+    "stockShort": "广联达",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "昆仑万维科技股份有限公司": {
+    "name": "昆仑万维科技股份有限公司",
+    "stockCode": "300418",
+    "stockSymbol": "sz300418",
+    "stockShort": "昆仑万维",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "北京光环新网科技股份有限公司": {
+    "name": "北京光环新网科技股份有限公司",
+    "stockCode": "300383",
+    "stockSymbol": "sz300383",
+    "stockShort": "光环新网",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "北京天智航医疗科技股份有限公司": {
+    "name": "北京天智航医疗科技股份有限公司",
+    "stockCode": "688277",
+    "stockSymbol": "sh688277",
+    "stockShort": "天智航",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "北京并行科技股份有限公司": {
+    "name": "北京并行科技股份有限公司",
+    "stockCode": "920493",
+    "stockSymbol": "bj920493",
+    "stockShort": "并行科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "青云科技集团股份有限公司": {
+    "name": "青云科技集团股份有限公司",
+    "stockCode": "688316",
+    "stockSymbol": "sh688316",
+    "stockShort": "青云科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "北京首都在线科技股份有限公司": {
+    "name": "北京首都在线科技股份有限公司",
+    "stockCode": "300846",
+    "stockSymbol": "sz300846",
+    "stockShort": "首都在线",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "北京东方国信科技股份有限公司": {
+    "name": "北京东方国信科技股份有限公司",
+    "stockCode": "300166",
+    "stockSymbol": "sz300166",
+    "stockShort": "东方国信",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "北京华宇软件股份有限公司": {
+    "name": "北京华宇软件股份有限公司",
+    "stockCode": "300271",
+    "stockSymbol": "sz300271",
+    "stockShort": "华宇软件",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "艾迪普科技股份有限公司": {
+    "name": "艾迪普科技股份有限公司",
+    "stockCode": "300768",
+    "stockSymbol": "sz300768",
+    "stockShort": "迪普科技",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "北京千方科技股份有限公司": {
+    "name": "北京千方科技股份有限公司",
+    "stockCode": "002373",
+    "stockSymbol": "sz002373",
+    "stockShort": "千方科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "中国电信集团有限公司": {
+    "name": "中国电信集团有限公司",
+    "stockCode": "601728",
+    "stockSymbol": "sh601728",
+    "stockShort": "中国电信",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "北京万集科技股份有限公司": {
+    "name": "北京万集科技股份有限公司",
+    "stockCode": "300552",
+    "stockSymbol": "sz300552",
+    "stockShort": "万集科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "中文在线集团股份有限公司": {
+    "name": "中文在线集团股份有限公司",
+    "stockCode": "300364",
+    "stockSymbol": "sz300364",
+    "stockShort": "中文在线",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "北京经纬恒润科技股份有限公司": {
+    "name": "北京经纬恒润科技股份有限公司",
+    "stockCode": "688326",
+    "stockSymbol": "sh688326",
+    "stockShort": "经纬恒润",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "北京铜牛信息科技股份有限公司": {
+    "name": "北京铜牛信息科技股份有限公司",
+    "stockCode": "300895",
+    "stockSymbol": "sz300895",
+    "stockShort": "铜牛信息",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "海信视像科技股份有限公司": {
+    "name": "海信视像科技股份有限公司",
+    "stockCode": "600060",
+    "stockSymbol": "sh600060",
+    "stockShort": "海信视像",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "青岛鼎信通讯股份有限公司": {
+    "name": "青岛鼎信通讯股份有限公司",
+    "stockCode": "603421",
+    "stockSymbol": "sh603421",
+    "stockShort": "鼎信通讯",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "重庆美利信科技股份有限公司": {
+    "name": "重庆美利信科技股份有限公司",
+    "stockCode": "301307",
+    "stockSymbol": "sz301307",
+    "stockShort": "美利信",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "重庆长安汽车股份有限公司": {
+    "name": "重庆长安汽车股份有限公司",
+    "stockCode": "000625",
+    "stockSymbol": "sz000625",
+    "stockShort": "长安汽车",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "蓝黛科技集团股份有限公司": {
+    "name": "蓝黛科技集团股份有限公司",
+    "stockCode": "002765",
+    "stockSymbol": "sz002765",
+    "stockShort": "蓝黛科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "中科云从科技股份有限公司": {
+    "name": "中科云从科技股份有限公司",
+    "stockCode": "688327",
+    "stockSymbol": "sh688327",
+    "stockShort": "云从科技",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "重庆臻宝科技股份有限公司": {
+    "name": "重庆臻宝科技股份有限公司",
+    "stockCode": "688797",
+    "stockSymbol": "sh688797",
+    "stockShort": "臻宝科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "重庆联创电子有限公司": {
+    "name": "重庆联创电子有限公司",
+    "stockCode": "002036",
+    "stockSymbol": "sz002036",
+    "stockShort": "联创电子",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "千里科技股份有限公司": {
+    "name": "千里科技股份有限公司",
+    "stockCode": "601777",
+    "stockSymbol": "sh601777",
+    "stockShort": "千里科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "重庆新铝时代科技股份有限公司": {
+    "name": "重庆新铝时代科技股份有限公司",
+    "stockCode": "301613",
+    "stockSymbol": "sz301613",
+    "stockShort": "新铝时代",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "神驰机电股份有限公司": {
+    "name": "神驰机电股份有限公司",
+    "stockCode": "603109",
+    "stockSymbol": "sh603109",
+    "stockShort": "神驰机电",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "冰山冷热科技股份有限公司": {
+    "name": "冰山冷热科技股份有限公司",
+    "stockCode": "000530",
+    "stockSymbol": "sz000530",
+    "stockShort": "冰山冷热",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "科德数控股份有限公司": {
+    "name": "科德数控股份有限公司",
+    "stockCode": "688305",
+    "stockSymbol": "sh688305",
+    "stockShort": "科德数控",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "大连德迈仕精密科技股份有限公司": {
+    "name": "大连德迈仕精密科技股份有限公司",
+    "stockCode": "301007",
+    "stockSymbol": "sz301007",
+    "stockShort": "德迈仕",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "大连达利凯普科技股份公司": {
+    "name": "大连达利凯普科技股份公司",
+    "stockCode": "301566",
+    "stockSymbol": "sz301566",
+    "stockShort": "达利凯普",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "大连美德乐工业自动化股份有限公司": {
+    "name": "大连美德乐工业自动化股份有限公司",
+    "stockCode": "920119",
+    "stockSymbol": "bj920119",
+    "stockShort": "美德乐",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "宇环数控机床股份有限公司": {
+    "name": "宇环数控机床股份有限公司",
+    "stockCode": "002903",
+    "stockSymbol": "sz002903",
+    "stockShort": "宇环数控",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "景嘉微电子股份有限公司": {
+    "name": "景嘉微电子股份有限公司",
+    "stockCode": "300474",
+    "stockSymbol": "sz300474",
+    "stockShort": "景嘉微",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "中钨高新材料股份有限公司": {
+    "name": "中钨高新材料股份有限公司",
+    "stockCode": "000657",
+    "stockSymbol": "sz000657",
+    "stockShort": "中钨高新",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "国科微股份有限公司": {
+    "name": "国科微股份有限公司",
+    "stockCode": "300672",
+    "stockSymbol": "sz300672",
+    "stockShort": "国科微",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "湖南国科微电子股份有限公司": {
+    "name": "湖南国科微电子股份有限公司",
+    "stockCode": "300672",
+    "stockSymbol": "sz300672",
+    "stockShort": "国科微",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "长沙景嘉微电子股份有限公司": {
+    "name": "长沙景嘉微电子股份有限公司",
+    "stockCode": "300474",
+    "stockSymbol": "sz300474",
+    "stockShort": "景嘉微",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "湖南麒麟信安科技股份有限公司": {
+    "name": "湖南麒麟信安科技股份有限公司",
+    "stockCode": "688152",
+    "stockSymbol": "sh688152",
+    "stockShort": "麒麟信安",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "太原诚迈科技有限公司": {
+    "name": "太原诚迈科技有限公司",
+    "stockCode": "300598",
+    "stockSymbol": "sz300598",
+    "stockShort": "诚迈科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "潍柴动力股份有限公司": {
+    "name": "潍柴动力股份有限公司",
+    "stockCode": "000338",
+    "stockSymbol": "sz000338",
+    "stockShort": "潍柴动力",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "金现代信息产业股份有限公司": {
+    "name": "金现代信息产业股份有限公司",
+    "stockCode": "300830",
+    "stockSymbol": "sz300830",
+    "stockShort": "金现代",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "安徽国风新材料股份有限公司": {
+    "name": "安徽国风新材料股份有限公司",
+    "stockCode": "000859",
+    "stockSymbol": "sz000859",
+    "stockShort": "国风新材",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "安徽航天信息有限公司": {
+    "name": "安徽航天信息有限公司",
+    "stockCode": "600271",
+    "stockSymbol": "sh600271",
+    "stockShort": "航天信息",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "安徽合力股份有限公司": {
+    "name": "安徽合力股份有限公司",
+    "stockCode": "600761",
+    "stockSymbol": "sh600761",
+    "stockShort": "安徽合力",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "安徽华尔泰化工股份有限公司": {
+    "name": "安徽华尔泰化工股份有限公司",
+    "stockCode": "001217",
+    "stockSymbol": "sz001217",
+    "stockShort": "华尔泰",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "安徽江淮汽车集团股份有限公司": {
+    "name": "安徽江淮汽车集团股份有限公司",
+    "stockCode": "600418",
+    "stockSymbol": "sh600418",
+    "stockShort": "江淮汽车",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "安徽江南化工股份有限公司": {
+    "name": "安徽江南化工股份有限公司",
+    "stockCode": "002226",
+    "stockSymbol": "sz002226",
+    "stockShort": "江南化工",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "安徽巨一科技股份有限公司": {
+    "name": "安徽巨一科技股份有限公司",
+    "stockCode": "688162",
+    "stockSymbol": "sh688162",
+    "stockShort": "巨一科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "安徽六国化工股份有限公司": {
+    "name": "安徽六国化工股份有限公司",
+    "stockCode": "600470",
+    "stockSymbol": "sh600470",
+    "stockShort": "六国化工",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "安徽全柴动力股份有限公司": {
+    "name": "安徽全柴动力股份有限公司",
+    "stockCode": "600218",
+    "stockSymbol": "sh600218",
+    "stockShort": "全柴动力",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "安徽省安泰科技股份有限公司": {
+    "name": "安徽省安泰科技股份有限公司",
+    "stockCode": "000969",
+    "stockSymbol": "sz000969",
+    "stockShort": "安泰科技",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "安徽铜峰电子股份有限公司": {
+    "name": "安徽铜峰电子股份有限公司",
+    "stockCode": "600237",
+    "stockSymbol": "sh600237",
+    "stockShort": "铜峰电子",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "安徽拓山重工股份有限公司": {
+    "name": "安徽拓山重工股份有限公司",
+    "stockCode": "001226",
+    "stockSymbol": "sz001226",
+    "stockShort": "拓山重工",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "安徽皖仪科技股份有限公司": {
+    "name": "安徽皖仪科技股份有限公司",
+    "stockCode": "688600",
+    "stockSymbol": "sh688600",
+    "stockShort": "皖仪科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "安徽万朗磁塑股份有限公司": {
+    "name": "安徽万朗磁塑股份有限公司",
+    "stockCode": "603150",
+    "stockSymbol": "sh603150",
+    "stockShort": "万朗磁塑",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "安徽中电环保材料股份有限公司": {
+    "name": "安徽中电环保材料股份有限公司",
+    "stockCode": "300172",
+    "stockSymbol": "sz300172",
+    "stockShort": "中电环保",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "安徽众源新材料股份有限公司": {
+    "name": "安徽众源新材料股份有限公司",
+    "stockCode": "603527",
+    "stockSymbol": "sh603527",
+    "stockShort": "众源新材",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "合肥泰禾智能科技集团股份有限公司": {
+    "name": "合肥泰禾智能科技集团股份有限公司",
+    "stockCode": "603656",
+    "stockSymbol": "sh603656",
+    "stockShort": "泰禾智能",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "凯盛科技股份有限公司": {
+    "name": "凯盛科技股份有限公司",
+    "stockCode": "600552",
+    "stockSymbol": "sh600552",
+    "stockShort": "凯盛科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "科大国创软件股份有限公司": {
+    "name": "科大国创软件股份有限公司",
+    "stockCode": "300520",
+    "stockSymbol": "sz300520",
+    "stockShort": "科大国创",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "三只松鼠股份有限公司": {
+    "name": "三只松鼠股份有限公司",
+    "stockCode": "300783",
+    "stockSymbol": "sz300783",
+    "stockShort": "三只松鼠",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "芜湖伯特利汽车安全系统股份有限公司": {
+    "name": "芜湖伯特利汽车安全系统股份有限公司",
+    "stockCode": "603596",
+    "stockSymbol": "sh603596",
+    "stockShort": "伯特利",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "芜湖福赛科技股份有限公司": {
+    "name": "芜湖福赛科技股份有限公司",
+    "stockCode": "301529",
+    "stockSymbol": "sz301529",
+    "stockShort": "福赛科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "芜湖富春染织股份有限公司": {
+    "name": "芜湖富春染织股份有限公司",
+    "stockCode": "605189",
+    "stockSymbol": "sh605189",
+    "stockShort": "富春染织",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "芜湖三联锻造股份有限公司": {
+    "name": "芜湖三联锻造股份有限公司",
+    "stockCode": "001282",
+    "stockSymbol": "sz001282",
+    "stockShort": "三联锻造",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "中钢天源股份有限公司": {
+    "name": "中钢天源股份有限公司",
+    "stockCode": "002057",
+    "stockSymbol": "sz002057",
+    "stockShort": "中钢天源",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "中盐安徽红四方肥业股份有限公司": {
+    "name": "中盐安徽红四方肥业股份有限公司",
+    "stockCode": "603395",
+    "stockSymbol": "sh603395",
+    "stockShort": "红四方",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "玉柴联合动力股份有限公司": {
+    "name": "玉柴联合动力股份有限公司",
+    "stockCode": "301656",
+    "stockSymbol": "sz301656",
+    "stockShort": "联合动力",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "中科星图测控技术股份有限公司": {
+    "name": "中科星图测控技术股份有限公司",
+    "stockCode": "920116",
+    "stockSymbol": "bj920116",
+    "stockShort": "星图测控",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "合肥埃科光电科技股份有限公司": {
+    "name": "合肥埃科光电科技股份有限公司",
+    "stockCode": "688610",
+    "stockSymbol": "sh688610",
+    "stockShort": "埃科光电",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "安徽宏宇五洲医疗器械股份有限公司": {
+    "name": "安徽宏宇五洲医疗器械股份有限公司",
+    "stockCode": "301234",
+    "stockSymbol": "sz301234",
+    "stockShort": "五洲医疗",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "安徽黄山胶囊股份有限公司": {
+    "name": "安徽黄山胶囊股份有限公司",
+    "stockCode": "002817",
+    "stockSymbol": "sz002817",
+    "stockShort": "黄山胶囊",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "安徽龙磁科技股份有限公司": {
+    "name": "安徽龙磁科技股份有限公司",
+    "stockCode": "300835",
+    "stockSymbol": "sz300835",
+    "stockShort": "龙磁科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "科大智能物联技术股份有限公司": {
+    "name": "科大智能物联技术股份有限公司",
+    "stockCode": "300222",
+    "stockSymbol": "sz300222",
+    "stockShort": "科大智能",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "科威尔技术股份有限公司": {
+    "name": "科威尔技术股份有限公司",
+    "stockCode": "688551",
+    "stockSymbol": "sh688551",
+    "stockShort": "科威尔",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "合肥井松智能科技股份有限公司": {
+    "name": "合肥井松智能科技股份有限公司",
+    "stockCode": "688251",
+    "stockSymbol": "sh688251",
+    "stockShort": "井松智能",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "富创精密设备股份有限公司": {
+    "name": "富创精密设备股份有限公司",
+    "stockCode": "688409",
+    "stockSymbol": "sh688409",
+    "stockShort": "富创精密",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "宁德时代新能源科技股份有限公司": {
+    "name": "宁德时代新能源科技股份有限公司",
+    "stockCode": "300750",
+    "stockSymbol": "sz300750",
+    "stockShort": "宁德时代",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "福建顶点软件股份有限公司": {
+    "name": "福建顶点软件股份有限公司",
+    "stockCode": "603383",
+    "stockSymbol": "sh603383",
+    "stockShort": "顶点软件",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "福建榕基软件股份有限公司": {
+    "name": "福建榕基软件股份有限公司",
+    "stockCode": "002474",
+    "stockSymbol": "sz002474",
+    "stockShort": "榕基软件",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "新大陆数字技术股份有限公司": {
+    "name": "新大陆数字技术股份有限公司",
+    "stockCode": "000997",
+    "stockSymbol": "sz000997",
+    "stockShort": "新 大 陆",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "国脉科技股份有限公司": {
+    "name": "国脉科技股份有限公司",
+    "stockCode": "002093",
+    "stockSymbol": "sz002093",
+    "stockShort": "国脉科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "锦浪科技股份有限公司": {
+    "name": "锦浪科技股份有限公司",
+    "stockCode": "300763",
+    "stockSymbol": "sz300763",
+    "stockShort": "锦浪科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "宁波家联科技股份有限公司": {
+    "name": "宁波家联科技股份有限公司",
+    "stockCode": "301193",
+    "stockSymbol": "sz301193",
+    "stockShort": "家联科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "宁波太平鸟时尚服饰股份有限公司": {
+    "name": "宁波太平鸟时尚服饰股份有限公司",
+    "stockCode": "603877",
+    "stockSymbol": "sh603877",
+    "stockShort": "太平鸟",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "宁波天益医疗器械股份有限公司": {
+    "name": "宁波天益医疗器械股份有限公司",
+    "stockCode": "301097",
+    "stockSymbol": "sz301097",
+    "stockShort": "天益医疗",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "宁波利安科技股份有限公司": {
+    "name": "宁波利安科技股份有限公司",
+    "stockCode": "300784",
+    "stockSymbol": "sz300784",
+    "stockShort": "利安科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "奇精机械股份有限公司": {
+    "name": "奇精机械股份有限公司",
+    "stockCode": "603677",
+    "stockSymbol": "sh603677",
+    "stockShort": "奇精机械",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "宁波均胜电子股份有限公司": {
+    "name": "宁波均胜电子股份有限公司",
+    "stockCode": "600699",
+    "stockSymbol": "sh600699",
+    "stockShort": "均胜电子",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "宁波中大力德智能传动股份有限公司": {
+    "name": "宁波中大力德智能传动股份有限公司",
+    "stockCode": "002896",
+    "stockSymbol": "sz002896",
+    "stockShort": "中大力德",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "浙江夏厦精密制造股份有限公司": {
+    "name": "浙江夏厦精密制造股份有限公司",
+    "stockCode": "001306",
+    "stockSymbol": "sz001306",
+    "stockShort": "夏厦精密",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "宁波柯力传感科技股份有限公司": {
+    "name": "宁波柯力传感科技股份有限公司",
+    "stockCode": "603662",
+    "stockSymbol": "sh603662",
+    "stockShort": "柯力传感",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "宁波均普智能制造股份有限公司": {
+    "name": "宁波均普智能制造股份有限公司",
+    "stockCode": "688306",
+    "stockSymbol": "sh688306",
+    "stockShort": "均普智能",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "宁波海天精工股份有限公司": {
+    "name": "宁波海天精工股份有限公司",
+    "stockCode": "601882",
+    "stockSymbol": "sh601882",
+    "stockShort": "海天精工",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "安徽华恒生物科技股份有限公司": {
+    "name": "安徽华恒生物科技股份有限公司",
+    "stockCode": "688639",
+    "stockSymbol": "sh688639",
+    "stockShort": "华恒生物",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "安徽金禾实业股份有限公司": {
+    "name": "安徽金禾实业股份有限公司",
+    "stockCode": "002597",
+    "stockSymbol": "sz002597",
+    "stockShort": "金禾实业",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "北京阳光诺和药物研究股份有限公司": {
+    "name": "北京阳光诺和药物研究股份有限公司",
+    "stockCode": "688621",
+    "stockSymbol": "sh688621",
+    "stockShort": "阳光诺和",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "康龙化成北京新药技术股份有限公司": {
+    "name": "康龙化成北京新药技术股份有限公司",
+    "stockCode": "300759",
+    "stockSymbol": "sz300759",
+    "stockShort": "康龙化成",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "北京大北农科技集团股份有限公司": {
+    "name": "北京大北农科技集团股份有限公司",
+    "stockCode": "002385",
+    "stockSymbol": "sz002385",
+    "stockShort": "大北农",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "百奥泰生物制药股份有限公司": {
+    "name": "百奥泰生物制药股份有限公司",
+    "stockCode": "688177",
+    "stockSymbol": "sh688177",
+    "stockShort": "百奥泰",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "广东众生药业股份有限公司": {
+    "name": "广东众生药业股份有限公司",
+    "stockCode": "002317",
+    "stockSymbol": "sz002317",
+    "stockShort": "众生药业",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "珠海泰诺麦博制药股份有限公司": {
+    "name": "珠海泰诺麦博制药股份有限公司",
+    "stockCode": "688806",
+    "stockSymbol": "sh688806",
+    "stockShort": "泰诺麦博",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "广东溢多利生物科技股份有限公司": {
+    "name": "广东溢多利生物科技股份有限公司",
+    "stockCode": "300381",
+    "stockSymbol": "sz300381",
+    "stockShort": "溢多利",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "石家庄以岭药业股份有限公司": {
+    "name": "石家庄以岭药业股份有限公司",
+    "stockCode": "002603",
+    "stockSymbol": "sz002603",
+    "stockShort": "以岭药业",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "石药创新制药股份有限公司": {
+    "name": "石药创新制药股份有限公司",
+    "stockCode": "300765",
+    "stockSymbol": "sz300765",
+    "stockShort": "石药创新",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "梅花生物科技集团股份有限公司": {
+    "name": "梅花生物科技集团股份有限公司",
+    "stockCode": "600873",
+    "stockSymbol": "sh600873",
+    "stockShort": "梅花生物",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "普莱柯生物工程股份有限公司": {
+    "name": "普莱柯生物工程股份有限公司",
+    "stockCode": "603566",
+    "stockSymbol": "sh603566",
+    "stockShort": "普莱柯",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "安琪酵母股份有限公司": {
+    "name": "安琪酵母股份有限公司",
+    "stockCode": "600298",
+    "stockSymbol": "sh600298",
+    "stockShort": "安琪酵母",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "通化东宝药业股份有限公司": {
+    "name": "通化东宝药业股份有限公司",
+    "stockCode": "600867",
+    "stockSymbol": "sh600867",
+    "stockShort": "通化东宝",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "江苏艾迪药业集团股份有限公司": {
+    "name": "江苏艾迪药业集团股份有限公司",
+    "stockCode": "688488",
+    "stockSymbol": "sh688488",
+    "stockShort": "艾迪药业",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "南京诺唯赞生物科技股份有限公司": {
+    "name": "南京诺唯赞生物科技股份有限公司",
+    "stockCode": "688105",
+    "stockSymbol": "sh688105",
+    "stockShort": "诺唯赞",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "金河生物科技股份有限公司": {
+    "name": "金河生物科技股份有限公司",
+    "stockCode": "002688",
+    "stockSymbol": "sz002688",
+    "stockShort": "金河生物",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "宁波永新光学股份有限公司": {
+    "name": "宁波永新光学股份有限公司",
+    "stockCode": "603297",
+    "stockSymbol": "sh603297",
+    "stockShort": "永新光学",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "青岛海泰新光科技股份有限公司": {
+    "name": "青岛海泰新光科技股份有限公司",
+    "stockCode": "688677",
+    "stockSymbol": "sh688677",
+    "stockShort": "海泰新光",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "青岛蔚蓝生物股份有限公司": {
+    "name": "青岛蔚蓝生物股份有限公司",
+    "stockCode": "603739",
+    "stockSymbol": "sh603739",
+    "stockShort": "蔚蓝生物",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "厦门金达威集团股份有限公司": {
+    "name": "厦门金达威集团股份有限公司",
+    "stockCode": "002626",
+    "stockSymbol": "sz002626",
+    "stockShort": "金达威",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "山东步长制药股份有限公司": {
+    "name": "山东步长制药股份有限公司",
+    "stockCode": "603858",
+    "stockSymbol": "sh603858",
+    "stockShort": "步长制药",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "山东赛托生物科技股份有限公司": {
+    "name": "山东赛托生物科技股份有限公司",
+    "stockCode": "300583",
+    "stockSymbol": "sz300583",
+    "stockShort": "赛托生物",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "山东新华医疗器械股份有限公司": {
+    "name": "山东新华医疗器械股份有限公司",
+    "stockCode": "600587",
+    "stockSymbol": "sh600587",
+    "stockShort": "新华医疗",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "山东鲁抗医药股份有限公司": {
+    "name": "山东鲁抗医药股份有限公司",
+    "stockCode": "600789",
+    "stockSymbol": "sh600789",
+    "stockShort": "鲁抗医药",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "华熙生物科技股份有限公司": {
+    "name": "华熙生物科技股份有限公司",
+    "stockCode": "688363",
+    "stockSymbol": "sh688363",
+    "stockShort": "华熙生物",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "山东金城医药集团股份有限公司": {
+    "name": "山东金城医药集团股份有限公司",
+    "stockCode": "300233",
+    "stockSymbol": "sz300233",
+    "stockShort": "金城医药",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "山西锦波生物医药股份有限公司": {
+    "name": "山西锦波生物医药股份有限公司",
+    "stockCode": "920982",
+    "stockSymbol": "bj920982",
+    "stockShort": "锦波生物",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "上海皓元医药股份有限公司": {
+    "name": "上海皓元医药股份有限公司",
+    "stockCode": "688131",
+    "stockSymbol": "sh688131",
+    "stockShort": "皓元医药",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "上海泰坦科技股份有限公司": {
+    "name": "上海泰坦科技股份有限公司",
+    "stockCode": "688133",
+    "stockSymbol": "sh688133",
+    "stockShort": "泰坦科技",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "上海美迪西生物医药股份有限公司": {
+    "name": "上海美迪西生物医药股份有限公司",
+    "stockCode": "688202",
+    "stockSymbol": "sh688202",
+    "stockShort": "美迪西",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "上海联影医疗科技股份有限公司": {
+    "name": "上海联影医疗科技股份有限公司",
+    "stockCode": "688271",
+    "stockSymbol": "sh688271",
+    "stockShort": "联影医疗",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "成都圣诺生物科技股份有限公司": {
+    "name": "成都圣诺生物科技股份有限公司",
+    "stockCode": "688117",
+    "stockSymbol": "sh688117",
+    "stockShort": "圣诺生物",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "四川百利天恒药业股份有限公司": {
+    "name": "四川百利天恒药业股份有限公司",
+    "stockCode": "688506",
+    "stockSymbol": "sh688506",
+    "stockShort": "百利天恒",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "四川港通医疗设备集团股份有限公司": {
+    "name": "四川港通医疗设备集团股份有限公司",
+    "stockCode": "301515",
+    "stockSymbol": "sz301515",
+    "stockShort": "港通医疗",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "新希望六和股份有限公司": {
+    "name": "新希望六和股份有限公司",
+    "stockCode": "000876",
+    "stockSymbol": "sz000876",
+    "stockShort": "新 希 望",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "无锡药明康德新药开发股份有限公司": {
+    "name": "无锡药明康德新药开发股份有限公司",
+    "stockCode": "603259",
+    "stockSymbol": "sh603259",
+    "stockShort": "药明康德",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "华东医药股份有限公司": {
+    "name": "华东医药股份有限公司",
+    "stockCode": "000963",
+    "stockSymbol": "sz000963",
+    "stockShort": "华东医药",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "兄弟科技股份有限公司": {
+    "name": "兄弟科技股份有限公司",
+    "stockCode": "002562",
+    "stockSymbol": "sz002562",
+    "stockShort": "兄弟科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "浙江昂利康制药股份有限公司": {
+    "name": "浙江昂利康制药股份有限公司",
+    "stockCode": "002940",
+    "stockSymbol": "sz002940",
+    "stockShort": "昂利康",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "浙江海圣医疗器械股份有限公司": {
+    "name": "浙江海圣医疗器械股份有限公司",
+    "stockCode": "920166",
+    "stockSymbol": "bj920166",
+    "stockShort": "海圣医疗",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "浙江京新药业股份有限公司": {
+    "name": "浙江京新药业股份有限公司",
+    "stockCode": "002020",
+    "stockSymbol": "sz002020",
+    "stockShort": "京新药业",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "浙江九洲药业股份有限公司": {
+    "name": "浙江九洲药业股份有限公司",
+    "stockCode": "603456",
+    "stockSymbol": "sh603456",
+    "stockShort": "九洲药业",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "重庆智翔金泰生物制药股份有限公司": {
+    "name": "重庆智翔金泰生物制药股份有限公司",
+    "stockCode": "688443",
+    "stockSymbol": "sh688443",
+    "stockShort": "智翔金泰",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "协创数据技术股份有限公司": {
+    "name": "协创数据技术股份有限公司",
+    "stockCode": "300857",
+    "stockSymbol": "sz300857",
+    "stockShort": "协创数据",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "广东东阳光科技控股股份有限公司": {
+    "name": "广东东阳光科技控股股份有限公司",
+    "stockCode": "600673",
+    "stockSymbol": "sh600673",
+    "stockShort": "东阳光",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "科大讯飞股份有限公司": {
+    "name": "科大讯飞股份有限公司",
+    "stockCode": "002230",
+    "stockSymbol": "sz002230",
+    "stockShort": "科大讯飞",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "中际旭创股份有限公司": {
+    "name": "中际旭创股份有限公司",
+    "stockCode": "300308",
+    "stockSymbol": "sz300308",
+    "stockShort": "中际旭创",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "杭州中恒电气股份有限公司": {
+    "name": "杭州中恒电气股份有限公司",
+    "stockCode": "002364",
+    "stockSymbol": "sz002364",
+    "stockShort": "中恒电气",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "冰轮环境技术股份有限公司": {
+    "name": "冰轮环境技术股份有限公司",
+    "stockCode": "000811",
+    "stockSymbol": "sz000811",
+    "stockShort": "冰轮环境",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "易事特集团股份有限公司": {
+    "name": "易事特集团股份有限公司",
+    "stockCode": "300376",
+    "stockSymbol": "sz300376",
+    "stockShort": "易事特",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "深圳市英可瑞科技股份有限公司": {
+    "name": "深圳市英可瑞科技股份有限公司",
+    "stockCode": "300713",
+    "stockSymbol": "sz300713",
+    "stockShort": "英可瑞",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "金风科技股份有限公司": {
+    "name": "金风科技股份有限公司",
+    "stockCode": "002202",
+    "stockSymbol": "sz002202",
+    "stockShort": "金风科技",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "科力尔电机集团股份有限公司": {
+    "name": "科力尔电机集团股份有限公司",
+    "stockCode": "002892",
+    "stockSymbol": "sz002892",
+    "stockShort": "科力尔",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "中山大洋电机股份有限公司": {
+    "name": "中山大洋电机股份有限公司",
+    "stockCode": "002249",
+    "stockSymbol": "sz002249",
+    "stockShort": "大洋电机",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "宁波韵升股份有限公司": {
+    "name": "宁波韵升股份有限公司",
+    "stockCode": "600366",
+    "stockSymbol": "sh600366",
+    "stockShort": "宁波韵升",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "上海鸣志电器股份有限公司": {
+    "name": "上海鸣志电器股份有限公司",
+    "stockCode": "603728",
+    "stockSymbol": "sh603728",
+    "stockShort": "鸣志电器",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "北京海博思创科技股份有限公司": {
+    "name": "北京海博思创科技股份有限公司",
+    "stockCode": "688411",
+    "stockSymbol": "sh688411",
+    "stockShort": "海博思创",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳麦格米特电气股份有限公司": {
+    "name": "深圳麦格米特电气股份有限公司",
+    "stockCode": "002851",
+    "stockSymbol": "sz002851",
+    "stockShort": "麦格米特",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "深圳市科陆电子科技股份有限公司": {
+    "name": "深圳市科陆电子科技股份有限公司",
+    "stockCode": "002121",
+    "stockSymbol": "sz002121",
+    "stockShort": "科陆电子",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "欣旺达动力科技股份有限公司": {
+    "name": "欣旺达动力科技股份有限公司",
+    "stockCode": "300207",
+    "stockSymbol": "sz300207",
+    "stockShort": "欣旺达",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "许继电气股份有限公司": {
+    "name": "许继电气股份有限公司",
+    "stockCode": "000400",
+    "stockSymbol": "sz000400",
+    "stockShort": "许继电气",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "阳光电源股份有限公司": {
+    "name": "阳光电源股份有限公司",
+    "stockCode": "300274",
+    "stockSymbol": "sz300274",
+    "stockShort": "阳光电源",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "孚能科技赣州股份有限公司": {
+    "name": "孚能科技赣州股份有限公司",
+    "stockCode": "688567",
+    "stockSymbol": "sh688567",
+    "stockShort": "孚能科技",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "中化国际控股股份有限公司": {
+    "name": "中化国际控股股份有限公司",
+    "stockCode": "600500",
+    "stockSymbol": "sh600500",
+    "stockShort": "中化国际",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "武汉逸飞激光股份有限公司": {
+    "name": "武汉逸飞激光股份有限公司",
+    "stockCode": "688646",
+    "stockSymbol": "sh688646",
+    "stockShort": "逸飞激光",
+    "matchLevel": "exact-strip",
+    "market": "A股"
+  },
+  "威腾电气集团股份有限公司": {
+    "name": "威腾电气集团股份有限公司",
+    "stockCode": "688226",
+    "stockSymbol": "sh688226",
+    "stockShort": "威腾电气",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "固德威技术股份有限公司": {
+    "name": "固德威技术股份有限公司",
+    "stockCode": "688390",
+    "stockSymbol": "sh688390",
+    "stockShort": "固德威",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "思源电气股份有限公司": {
+    "name": "思源电气股份有限公司",
+    "stockCode": "002028",
+    "stockSymbol": "sz002028",
+    "stockShort": "思源电气",
+    "matchLevel": "exact",
+    "market": "A股"
+  },
+  "国能日新科技股份有限公司": {
+    "name": "国能日新科技股份有限公司",
+    "stockCode": "301162",
+    "stockSymbol": "sz301162",
+    "stockShort": "国能日新",
+    "matchLevel": "substr",
+    "market": "A股"
+  },
+  "双林股份有限公司": {
+    "name": "双林股份有限公司",
+    "stockCode": "300100",
+    "stockSymbol": "sz300100",
+    "stockShort": "双林股份",
+    "matchLevel": "manual-review",
+    "market": "A股",
+    "reviewNote": "注册地/公司全名核验一致"
+  },
+  "恒宝股份有限公司": {
+    "name": "恒宝股份有限公司",
+    "stockCode": "002104",
+    "stockSymbol": "sz002104",
+    "stockShort": "恒宝股份",
+    "matchLevel": "manual-review",
+    "market": "A股",
+    "reviewNote": "江苏丹阳注册地与A股002104一致；新三板832449恒宝通为另一主体"
+  },
+  "汉宇集团股份有限公司": {
+    "name": "汉宇集团股份有限公司",
+    "stockCode": "300403",
+    "stockSymbol": "sz300403",
+    "stockShort": "汉宇集团",
+    "matchLevel": "manual-review",
+    "market": "A股",
+    "reviewNote": "江门注册地与A股300403一致；新三板834653汉宇钟表为另一主体"
+  },
+  "丽珠医药集团股份有限公司": {
+    "name": "丽珠医药集团股份有限公司",
+    "stockCode": "000513",
+    "stockSymbol": "sz000513",
+    "stockShort": "丽珠集团",
+    "matchLevel": "manual-review",
+    "market": "A股",
+    "reviewNote": "A+H两地上市",
+    "otherListings": "港股01513"
+  },
+  "乐普北京医疗器械股份有限公司": {
+    "name": "乐普北京医疗器械股份有限公司",
+    "stockCode": "300003",
+    "stockSymbol": "sz300003",
+    "stockShort": "乐普医疗",
+    "matchLevel": "manual-review",
+    "market": "A股",
+    "reviewNote": "注册地/公司全名核验一致"
+  },
+  "博瑞生物医药苏州股份有限公司": {
+    "name": "博瑞生物医药苏州股份有限公司",
+    "stockCode": "688166",
+    "stockSymbol": "sh688166",
+    "stockShort": "博瑞医药",
+    "matchLevel": "manual-review",
+    "market": "A股",
+    "reviewNote": "公司全名即A股688166注册名；新三板872404博瑞生物为另一主体"
+  },
+  "迈威上海生物科技股份有限公司": {
+    "name": "迈威上海生物科技股份有限公司",
+    "stockCode": "688062",
+    "stockSymbol": "sh688062",
+    "stockShort": "迈威生物",
+    "matchLevel": "manual-review",
+    "market": "A股",
+    "reviewNote": "注册地/公司全名核验一致"
+  },
+  "上海普适导航科技股份有限公司": {
+    "name": "上海普适导航科技股份有限公司",
+    "stockCode": "831330",
+    "stockSymbol": "neeq831330",
+    "stockShort": "普适导航",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "上海金仕达软件科技股份有限公司": {
+    "name": "上海金仕达软件科技股份有限公司",
+    "stockCode": "874033",
+    "stockSymbol": "neeq874033",
+    "stockShort": "金仕达",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "东方水利智能科技股份有限公司": {
+    "name": "东方水利智能科技股份有限公司",
+    "stockCode": "832075",
+    "stockSymbol": "neeq832075",
+    "stockShort": "东方水利",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "东莞汇乐技术股份有限公司": {
+    "name": "东莞汇乐技术股份有限公司",
+    "stockCode": "874214",
+    "stockSymbol": "neeq874214",
+    "stockShort": "汇乐技术",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "中水三立数据技术股份有限公司": {
+    "name": "中水三立数据技术股份有限公司",
+    "stockCode": "874589",
+    "stockSymbol": "neeq874589",
+    "stockShort": "中水三立",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "众智软件股份有限公司": {
+    "name": "众智软件股份有限公司",
+    "stockCode": "831185",
+    "stockSymbol": "neeq831185",
+    "stockShort": "众智软件",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "伟志股份公司": {
+    "name": "伟志股份公司",
+    "stockCode": "832567",
+    "stockSymbol": "neeq832567",
+    "stockShort": "伟志股份",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "晋江注册地址与832567完全一致；港股01305伟志控股为另一主体"
+  },
+  "传神语联网网络科技股份有限公司": {
+    "name": "传神语联网网络科技股份有限公司",
+    "stockCode": "835737",
+    "stockSymbol": "neeq835737",
+    "stockShort": "传神语联",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "先临三维科技股份有限公司": {
+    "name": "先临三维科技股份有限公司",
+    "stockCode": "830978",
+    "stockSymbol": "neeq830978",
+    "stockShort": "先临三维",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "内蒙古显鸿科技股份有限公司": {
+    "name": "内蒙古显鸿科技股份有限公司",
+    "stockCode": "836619",
+    "stockSymbol": "neeq836619",
+    "stockShort": "显鸿科技",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "力源电力设备股份有限公司": {
+    "name": "力源电力设备股份有限公司",
+    "stockCode": "871866",
+    "stockSymbol": "neeq871866",
+    "stockShort": "力源电力",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "北京中科仙络智算科技股份有限公司": {
+    "name": "北京中科仙络智算科技股份有限公司",
+    "stockCode": "874366",
+    "stockSymbol": "neeq874366",
+    "stockShort": "中科仙络",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "北京合力亿捷科技股份有限公司": {
+    "name": "北京合力亿捷科技股份有限公司",
+    "stockCode": "833629",
+    "stockSymbol": "neeq833629",
+    "stockShort": "合力亿捷",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "北京数字冰雹信息技术股份有限公司": {
+    "name": "北京数字冰雹信息技术股份有限公司",
+    "stockCode": "875066",
+    "stockSymbol": "neeq875066",
+    "stockShort": "数字冰雹",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "北京海鑫科金高科技股份有限公司": {
+    "name": "北京海鑫科金高科技股份有限公司",
+    "stockCode": "430021",
+    "stockSymbol": "neeq430021",
+    "stockShort": "海鑫科金",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "北京道达天际科技股份有限公司": {
+    "name": "北京道达天际科技股份有限公司",
+    "stockCode": "874028",
+    "stockSymbol": "neeq874028",
+    "stockShort": "道达天际",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "南京先正电子股份有限公司": {
+    "name": "南京先正电子股份有限公司",
+    "stockCode": "871048",
+    "stockSymbol": "neeq871048",
+    "stockShort": "先正电子",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "南京智慧交通信息股份有限公司": {
+    "name": "南京智慧交通信息股份有限公司",
+    "stockCode": "873506",
+    "stockSymbol": "neeq873506",
+    "stockShort": "智慧交通",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "南京牧镭激光科技股份有限公司": {
+    "name": "南京牧镭激光科技股份有限公司",
+    "stockCode": "875125",
+    "stockSymbol": "neeq875125",
+    "stockShort": "牧镭激光",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "南京科融数据系统股份有限公司": {
+    "name": "南京科融数据系统股份有限公司",
+    "stockCode": "838395",
+    "stockSymbol": "neeq838395",
+    "stockShort": "科融数据",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "南京联成科技发展股份有限公司": {
+    "name": "南京联成科技发展股份有限公司",
+    "stockCode": "874557",
+    "stockSymbol": "neeq874557",
+    "stockShort": "联成科技",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "厦门帝恩思科技股份有限公司": {
+    "name": "厦门帝恩思科技股份有限公司",
+    "stockCode": "837018",
+    "stockSymbol": "neeq837018",
+    "stockShort": "帝恩思",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "厦门航天思尔特机器人系统股份公司": {
+    "name": "厦门航天思尔特机器人系统股份公司",
+    "stockCode": "835532",
+    "stockSymbol": "neeq835532",
+    "stockShort": "思尔特",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "厦门通灵生物医药科技股份有限公司": {
+    "name": "厦门通灵生物医药科技股份有限公司",
+    "stockCode": "874913",
+    "stockSymbol": "neeq874913",
+    "stockShort": "通灵生物",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "合肥城市云数据中心股份有限公司": {
+    "name": "合肥城市云数据中心股份有限公司",
+    "stockCode": "874576",
+    "stockSymbol": "neeq874576",
+    "stockShort": "城市云",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "同心智医科技北京股份有限公司": {
+    "name": "同心智医科技北京股份有限公司",
+    "stockCode": "875015",
+    "stockSymbol": "neeq875015",
+    "stockShort": "同心智医",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "四川升拓检测技术股份有限公司": {
+    "name": "四川升拓检测技术股份有限公司",
+    "stockCode": "839148",
+    "stockSymbol": "neeq839148",
+    "stockShort": "升拓检测",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "四川奇石缘科技股份有限公司": {
+    "name": "四川奇石缘科技股份有限公司",
+    "stockCode": "833492",
+    "stockSymbol": "neeq833492",
+    "stockShort": "奇石缘",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "四川安和精密电子电器股份有限公司": {
+    "name": "四川安和精密电子电器股份有限公司",
+    "stockCode": "873004",
+    "stockSymbol": "neeq873004",
+    "stockShort": "安和精密",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "四川振通检测股份有限公司": {
+    "name": "四川振通检测股份有限公司",
+    "stockCode": "873599",
+    "stockSymbol": "neeq873599",
+    "stockShort": "振通检测",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "四川新健康成生物股份有限公司": {
+    "name": "四川新健康成生物股份有限公司",
+    "stockCode": "831193",
+    "stockSymbol": "neeq831193",
+    "stockShort": "新健康成",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "四川爱联科技股份有限公司": {
+    "name": "四川爱联科技股份有限公司",
+    "stockCode": "874081",
+    "stockSymbol": "neeq874081",
+    "stockShort": "爱联科技",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "四川纵横六合科技股份有限公司": {
+    "name": "四川纵横六合科技股份有限公司",
+    "stockCode": "834202",
+    "stockSymbol": "neeq834202",
+    "stockShort": "纵横六合",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "四川能信科技股份有限公司": {
+    "name": "四川能信科技股份有限公司",
+    "stockCode": "837522",
+    "stockSymbol": "neeq837522",
+    "stockShort": "能信科技",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "四川赛康智能科技股份有限公司": {
+    "name": "四川赛康智能科技股份有限公司",
+    "stockCode": "873554",
+    "stockSymbol": "neeq873554",
+    "stockShort": "赛康智能",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "大连优联智能装备股份有限公司": {
+    "name": "大连优联智能装备股份有限公司",
+    "stockCode": "873402",
+    "stockSymbol": "neeq873402",
+    "stockShort": "优联智能",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "大连康丰科技股份有限公司": {
+    "name": "大连康丰科技股份有限公司",
+    "stockCode": "874708",
+    "stockSymbol": "neeq874708",
+    "stockShort": "康丰科技",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "宁国东方碾磨材料股份有限公司": {
+    "name": "宁国东方碾磨材料股份有限公司",
+    "stockCode": "831260",
+    "stockSymbol": "neeq831260",
+    "stockShort": "东方碾磨",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "宁波勋辉科技股份有限公司": {
+    "name": "宁波勋辉科技股份有限公司",
+    "stockCode": "875075",
+    "stockSymbol": "neeq875075",
+    "stockShort": "勋辉科技",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "宁波斯贝科技股份有限公司": {
+    "name": "宁波斯贝科技股份有限公司",
+    "stockCode": "873750",
+    "stockSymbol": "neeq873750",
+    "stockShort": "斯贝科技",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "宁波赛维达技术股份有限公司": {
+    "name": "宁波赛维达技术股份有限公司",
+    "stockCode": "874695",
+    "stockSymbol": "neeq874695",
+    "stockShort": "赛维达",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "安徽中科中涣智能装备股份有限公司": {
+    "name": "安徽中科中涣智能装备股份有限公司",
+    "stockCode": "874355",
+    "stockSymbol": "neeq874355",
+    "stockShort": "中科中涣",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "安徽交欣科技股份有限公司": {
+    "name": "安徽交欣科技股份有限公司",
+    "stockCode": "873680",
+    "stockSymbol": "neeq873680",
+    "stockShort": "交欣科技",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "安徽信盟装备股份有限公司": {
+    "name": "安徽信盟装备股份有限公司",
+    "stockCode": "871583",
+    "stockSymbol": "neeq871583",
+    "stockShort": "信盟装备",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "安徽商信政通信息技术股份有限公司": {
+    "name": "安徽商信政通信息技术股份有限公司",
+    "stockCode": "873876",
+    "stockSymbol": "neeq873876",
+    "stockShort": "商信政通",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "安徽富瑞雪化工科技股份有限公司": {
+    "name": "安徽富瑞雪化工科技股份有限公司",
+    "stockCode": "873964",
+    "stockSymbol": "neeq873964",
+    "stockShort": "富瑞雪",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "安徽扬子地板股份有限公司": {
+    "name": "安徽扬子地板股份有限公司",
+    "stockCode": "430539",
+    "stockSymbol": "neeq430539",
+    "stockShort": "扬子地板",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "安徽昊方机电股份有限公司": {
+    "name": "安徽昊方机电股份有限公司",
+    "stockCode": "831710",
+    "stockSymbol": "neeq831710",
+    "stockShort": "昊方机电",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "安徽涌诚机械股份有限公司": {
+    "name": "安徽涌诚机械股份有限公司",
+    "stockCode": "875176",
+    "stockSymbol": "neeq875176",
+    "stockShort": "涌诚机械",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "安徽瑞林精科股份有限公司": {
+    "name": "安徽瑞林精科股份有限公司",
+    "stockCode": "874184",
+    "stockSymbol": "neeq874184",
+    "stockShort": "瑞林精科",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "安徽省康利亚股份有限公司": {
+    "name": "安徽省康利亚股份有限公司",
+    "stockCode": "836225",
+    "stockSymbol": "neeq836225",
+    "stockShort": "康利亚",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "安徽省文胜生物工程股份有限公司": {
+    "name": "安徽省文胜生物工程股份有限公司",
+    "stockCode": "833921",
+    "stockSymbol": "neeq833921",
+    "stockShort": "文胜生物",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "安徽省金鼎安全科技股份有限公司": {
+    "name": "安徽省金鼎安全科技股份有限公司",
+    "stockCode": "836451",
+    "stockSymbol": "neeq836451",
+    "stockShort": "金鼎安全",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "安徽祥源科技股份有限公司": {
+    "name": "安徽祥源科技股份有限公司",
+    "stockCode": "836371",
+    "stockSymbol": "neeq836371",
+    "stockShort": "祥源科技",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "安徽舜富精密科技股份有限公司": {
+    "name": "安徽舜富精密科技股份有限公司",
+    "stockCode": "875009",
+    "stockSymbol": "neeq875009",
+    "stockShort": "舜富精密",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "安徽马钢表面技术股份有限公司": {
+    "name": "安徽马钢表面技术股份有限公司",
+    "stockCode": "873245",
+    "stockSymbol": "neeq873245",
+    "stockShort": "马钢表面",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "山东亚微软件股份有限公司": {
+    "name": "山东亚微软件股份有限公司",
+    "stockCode": "835203",
+    "stockSymbol": "neeq835203",
+    "stockShort": "亚微软件",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "山西山安蓝天节能科技股份有限公司": {
+    "name": "山西山安蓝天节能科技股份有限公司",
+    "stockCode": "873110",
+    "stockSymbol": "neeq873110",
+    "stockShort": "山安蓝天",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "山西清众科技股份有限公司": {
+    "name": "山西清众科技股份有限公司",
+    "stockCode": "834045",
+    "stockSymbol": "neeq834045",
+    "stockShort": "清众科技",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "常州爱特科技股份有限公司": {
+    "name": "常州爱特科技股份有限公司",
+    "stockCode": "831134",
+    "stockSymbol": "neeq831134",
+    "stockShort": "爱特科技",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "慧影医疗科技北京股份有限公司": {
+    "name": "慧影医疗科技北京股份有限公司",
+    "stockCode": "874245",
+    "stockSymbol": "neeq874245",
+    "stockShort": "慧影医疗",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "成都亚讯星科科技股份有限公司": {
+    "name": "成都亚讯星科科技股份有限公司",
+    "stockCode": "836191",
+    "stockSymbol": "neeq836191",
+    "stockShort": "亚讯星科",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "成都思晗科技股份有限公司": {
+    "name": "成都思晗科技股份有限公司",
+    "stockCode": "832714",
+    "stockSymbol": "neeq832714",
+    "stockShort": "思晗科技",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "成都正恒动力股份有限公司": {
+    "name": "成都正恒动力股份有限公司",
+    "stockCode": "874951",
+    "stockSymbol": "neeq874951",
+    "stockShort": "正恒动力",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "成都索贝数码科技股份有限公司": {
+    "name": "成都索贝数码科技股份有限公司",
+    "stockCode": "873624",
+    "stockSymbol": "neeq873624",
+    "stockShort": "索贝数码",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "成都美尔贝科技股份有限公司": {
+    "name": "成都美尔贝科技股份有限公司",
+    "stockCode": "872433",
+    "stockSymbol": "neeq872433",
+    "stockShort": "美尔贝",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "捷贝通石油技术集团股份有限公司": {
+    "name": "捷贝通石油技术集团股份有限公司",
+    "stockCode": "874324",
+    "stockSymbol": "neeq874324",
+    "stockShort": "捷贝通",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "数据堂北京科技股份有限公司": {
+    "name": "数据堂北京科技股份有限公司",
+    "stockCode": "831428",
+    "stockSymbol": "neeq831428",
+    "stockShort": "数据堂",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "新诺北斗航科信息技术厦门股份有限公司": {
+    "name": "新诺北斗航科信息技术厦门股份有限公司",
+    "stockCode": "836189",
+    "stockSymbol": "neeq836189",
+    "stockShort": "新诺北斗",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "无锡联云世纪科技股份有限公司": {
+    "name": "无锡联云世纪科技股份有限公司",
+    "stockCode": "871315",
+    "stockSymbol": "neeq871315",
+    "stockShort": "联云世纪",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "杭州优云科技股份有限公司": {
+    "name": "杭州优云科技股份有限公司",
+    "stockCode": "875011",
+    "stockSymbol": "neeq875011",
+    "stockShort": "优云科技",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "杭州哲达科技股份有限公司": {
+    "name": "杭州哲达科技股份有限公司",
+    "stockCode": "430470",
+    "stockSymbol": "neeq430470",
+    "stockShort": "哲达科技",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "武汉光谷信息技术股份有限公司": {
+    "name": "武汉光谷信息技术股份有限公司",
+    "stockCode": "430161",
+    "stockSymbol": "neeq430161",
+    "stockShort": "光谷信息",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "武汉迈威通信股份有限公司": {
+    "name": "武汉迈威通信股份有限公司",
+    "stockCode": "873461",
+    "stockSymbol": "neeq873461",
+    "stockShort": "迈威通信",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "江苏中盈高科智能信息股份有限公司": {
+    "name": "江苏中盈高科智能信息股份有限公司",
+    "stockCode": "837274",
+    "stockSymbol": "neeq837274",
+    "stockShort": "中盈高科",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "江苏南大先腾信息产业股份有限公司": {
+    "name": "江苏南大先腾信息产业股份有限公司",
+    "stockCode": "870716",
+    "stockSymbol": "neeq870716",
+    "stockShort": "南大先腾",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "江苏原力数字科技股份有限公司": {
+    "name": "江苏原力数字科技股份有限公司",
+    "stockCode": "874552",
+    "stockSymbol": "neeq874552",
+    "stockShort": "原力数字",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "江苏君立华域信息安全技术股份有限公司": {
+    "name": "江苏君立华域信息安全技术股份有限公司",
+    "stockCode": "871280",
+    "stockSymbol": "neeq871280",
+    "stockShort": "君立华域",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "江苏太湖云计算信息技术股份有限公司": {
+    "name": "江苏太湖云计算信息技术股份有限公司",
+    "stockCode": "871403",
+    "stockSymbol": "neeq871403",
+    "stockShort": "太湖云",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "江苏宙斯物联网科技集团股份有限公司": {
+    "name": "江苏宙斯物联网科技集团股份有限公司",
+    "stockCode": "837519",
+    "stockSymbol": "neeq837519",
+    "stockShort": "宙斯物联",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "江苏富深协通科技股份有限公司": {
+    "name": "江苏富深协通科技股份有限公司",
+    "stockCode": "831660",
+    "stockSymbol": "neeq831660",
+    "stockShort": "富深协通",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "江苏慧眼数据科技股份有限公司": {
+    "name": "江苏慧眼数据科技股份有限公司",
+    "stockCode": "838473",
+    "stockSymbol": "neeq838473",
+    "stockShort": "慧眼数据",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "江苏新视云科技股份有限公司": {
+    "name": "江苏新视云科技股份有限公司",
+    "stockCode": "874762",
+    "stockSymbol": "neeq874762",
+    "stockShort": "新视云",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "江苏泰得科技股份有限公司": {
+    "name": "江苏泰得科技股份有限公司",
+    "stockCode": "872223",
+    "stockSymbol": "neeq872223",
+    "stockShort": "泰得科技",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "江苏网进科技股份有限公司": {
+    "name": "江苏网进科技股份有限公司",
+    "stockCode": "873742",
+    "stockSymbol": "neeq873742",
+    "stockShort": "网进科技",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "江苏鑫亿软件股份有限公司": {
+    "name": "江苏鑫亿软件股份有限公司",
+    "stockCode": "838840",
+    "stockSymbol": "neeq838840",
+    "stockShort": "鑫亿软件",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "江苏鼎集智能科技股份有限公司": {
+    "name": "江苏鼎集智能科技股份有限公司",
+    "stockCode": "836954",
+    "stockSymbol": "neeq836954",
+    "stockShort": "鼎集智能",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "江西云眼视界科技股份有限公司": {
+    "name": "江西云眼视界科技股份有限公司",
+    "stockCode": "874515",
+    "stockSymbol": "neeq874515",
+    "stockShort": "云眼视界",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "河南神马催化科技股份有限公司": {
+    "name": "河南神马催化科技股份有限公司",
+    "stockCode": "872964",
+    "stockSymbol": "neeq872964",
+    "stockShort": "神马催化",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "浙江卓奥科技股份有限公司": {
+    "name": "浙江卓奥科技股份有限公司",
+    "stockCode": "872337",
+    "stockSymbol": "neeq872337",
+    "stockShort": "卓奥科技",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "浙江博凡动力装备股份有限公司": {
+    "name": "浙江博凡动力装备股份有限公司",
+    "stockCode": "831269",
+    "stockSymbol": "neeq831269",
+    "stockShort": "博凡动力",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "浙江宏伟供应链集团股份有限公司": {
+    "name": "浙江宏伟供应链集团股份有限公司",
+    "stockCode": "874665",
+    "stockSymbol": "neeq874665",
+    "stockShort": "宏伟供应",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "浙江晨泰科技股份有限公司": {
+    "name": "浙江晨泰科技股份有限公司",
+    "stockCode": "834948",
+    "stockSymbol": "neeq834948",
+    "stockShort": "晨泰科技",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "浙江朔翔科技股份有限公司": {
+    "name": "浙江朔翔科技股份有限公司",
+    "stockCode": "873579",
+    "stockSymbol": "neeq873579",
+    "stockShort": "朔翔科技",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "浙江臻善科技股份有限公司": {
+    "name": "浙江臻善科技股份有限公司",
+    "stockCode": "874490",
+    "stockSymbol": "neeq874490",
+    "stockShort": "臻善科技",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "浙江金网信息产业股份有限公司": {
+    "name": "浙江金网信息产业股份有限公司",
+    "stockCode": "835340",
+    "stockSymbol": "neeq835340",
+    "stockShort": "金网信息",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "海创汇科技创业发展股份有限公司": {
+    "name": "海创汇科技创业发展股份有限公司",
+    "stockCode": "873899",
+    "stockSymbol": "neeq873899",
+    "stockShort": "海创汇",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "深圳三地一芯电子股份有限公司": {
+    "name": "深圳三地一芯电子股份有限公司",
+    "stockCode": "874979",
+    "stockSymbol": "neeq874979",
+    "stockShort": "三地一芯",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "深圳市富泰和精密制造股份有限公司": {
+    "name": "深圳市富泰和精密制造股份有限公司",
+    "stockCode": "834044",
+    "stockSymbol": "neeq834044",
+    "stockShort": "富泰和",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "深圳市道尔智控科技股份有限公司": {
+    "name": "深圳市道尔智控科技股份有限公司",
+    "stockCode": "832966",
+    "stockSymbol": "neeq832966",
+    "stockShort": "道尔智控",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "深圳康泰健医疗科技股份有限公司": {
+    "name": "深圳康泰健医疗科技股份有限公司",
+    "stockCode": "874918",
+    "stockSymbol": "neeq874918",
+    "stockShort": "康泰健",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "深圳星网信通科技股份有限公司": {
+    "name": "深圳星网信通科技股份有限公司",
+    "stockCode": "874901",
+    "stockSymbol": "neeq874901",
+    "stockShort": "星网信通",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "深圳智微电子科技股份有限公司": {
+    "name": "深圳智微电子科技股份有限公司",
+    "stockCode": "875061",
+    "stockSymbol": "neeq875061",
+    "stockShort": "智微电子",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "湖南新亚胜光电股份有限公司": {
+    "name": "湖南新亚胜光电股份有限公司",
+    "stockCode": "871672",
+    "stockSymbol": "neeq871672",
+    "stockShort": "新亚胜",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "湖南皓志科技股份有限公司": {
+    "name": "湖南皓志科技股份有限公司",
+    "stockCode": "874231",
+    "stockSymbol": "neeq874231",
+    "stockShort": "皓志科技",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "百分点科技集团股份有限公司": {
+    "name": "百分点科技集团股份有限公司",
+    "stockCode": "875186",
+    "stockSymbol": "neeq875186",
+    "stockShort": "百分点",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "福建亿安智能技术股份有限公司": {
+    "name": "福建亿安智能技术股份有限公司",
+    "stockCode": "873678",
+    "stockSymbol": "neeq873678",
+    "stockShort": "亿安智能",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "福建巨联环境科技股份有限公司": {
+    "name": "福建巨联环境科技股份有限公司",
+    "stockCode": "874943",
+    "stockSymbol": "neeq874943",
+    "stockShort": "巨联环境",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "科睿特软件集团股份有限公司": {
+    "name": "科睿特软件集团股份有限公司",
+    "stockCode": "836679",
+    "stockSymbol": "neeq836679",
+    "stockShort": "科睿特",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "纯米科技上海股份有限公司": {
+    "name": "纯米科技上海股份有限公司",
+    "stockCode": "874920",
+    "stockSymbol": "neeq874920",
+    "stockShort": "纯米科技",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "芯来科技股份有限公司": {
+    "name": "芯来科技股份有限公司",
+    "stockCode": "875127",
+    "stockSymbol": "neeq875127",
+    "stockShort": "芯来科技",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "苏州上舜科技股份有限公司": {
+    "name": "苏州上舜科技股份有限公司",
+    "stockCode": "874414",
+    "stockSymbol": "neeq874414",
+    "stockShort": "上舜科技",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "苏州天立达精密科技股份有限公司": {
+    "name": "苏州天立达精密科技股份有限公司",
+    "stockCode": "874370",
+    "stockSymbol": "neeq874370",
+    "stockShort": "天立达",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "简称与代码核验一致"
+  },
+  "苏州澳冠智能装备股份有限公司": {
+    "name": "苏州澳冠智能装备股份有限公司",
+    "stockCode": "834276",
+    "stockSymbol": "neeq834276",
+    "stockShort": "澳冠智能",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "蒲惠智造科技股份有限公司": {
+    "name": "蒲惠智造科技股份有限公司",
+    "stockCode": "874872",
+    "stockSymbol": "neeq874872",
+    "stockShort": "蒲惠智造",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "重庆攸亮科技股份有限公司": {
+    "name": "重庆攸亮科技股份有限公司",
+    "stockCode": "873776",
+    "stockSymbol": "neeq873776",
+    "stockShort": "攸亮科技",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "长城信息股份有限公司": {
+    "name": "长城信息股份有限公司",
+    "stockCode": "874148",
+    "stockSymbol": "neeq874148",
+    "stockShort": "长城信息",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "长河信息股份有限公司": {
+    "name": "长河信息股份有限公司",
+    "stockCode": "872559",
+    "stockSymbol": "neeq872559",
+    "stockShort": "长河信息",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "长虹塑料集团英派瑞塑料股份有限公司": {
+    "name": "长虹塑料集团英派瑞塑料股份有限公司",
+    "stockCode": "430555",
+    "stockSymbol": "neeq430555",
+    "stockShort": "英派瑞",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "青岛中科英泰商用系统股份有限公司": {
+    "name": "青岛中科英泰商用系统股份有限公司",
+    "stockCode": "873881",
+    "stockSymbol": "neeq873881",
+    "stockShort": "中科英泰",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "青岛华晟智能装备股份有限公司": {
+    "name": "青岛华晟智能装备股份有限公司",
+    "stockCode": "874236",
+    "stockSymbol": "neeq874236",
+    "stockShort": "华晟智能",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "青岛城市大脑投资开发股份有限公司": {
+    "name": "青岛城市大脑投资开发股份有限公司",
+    "stockCode": "873528",
+    "stockSymbol": "neeq873528",
+    "stockShort": "城市大脑",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "青岛文达通科技股份有限公司": {
+    "name": "青岛文达通科技股份有限公司",
+    "stockCode": "430516",
+    "stockSymbol": "neeq430516",
+    "stockShort": "文达通",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "鱼鳞图信息技术股份有限公司": {
+    "name": "鱼鳞图信息技术股份有限公司",
+    "stockCode": "831885",
+    "stockSymbol": "neeq831885",
+    "stockShort": "鱼鳞图",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "北京天广实生物技术股份有限公司": {
+    "name": "北京天广实生物技术股份有限公司",
+    "stockCode": "874070",
+    "stockSymbol": "neeq874070",
+    "stockShort": "天广实",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "上海玖行能源科技股份有限公司": {
+    "name": "上海玖行能源科技股份有限公司",
+    "stockCode": "874949",
+    "stockSymbol": "neeq874949",
+    "stockShort": "玖行能源",
+    "matchLevel": "manual-review",
+    "market": "新三板",
+    "reviewNote": "新三板名单代码与简称吻合，主体核验一致"
+  },
+  "上海仙工智能科技股份有限公司": {
+    "name": "上海仙工智能科技股份有限公司",
+    "stockCode": "06106",
+    "stockSymbol": "hk06106",
+    "stockShort": "仙工智能",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "云知声智能科技股份有限公司": {
+    "name": "云知声智能科技股份有限公司",
+    "stockCode": "09678",
+    "stockSymbol": "hk09678",
+    "stockShort": "云知声",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "创新奇智科技集团股份有限公司": {
+    "name": "创新奇智科技集团股份有限公司",
+    "stockCode": "02121",
+    "stockSymbol": "hk02121",
+    "stockShort": "创新奇智",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "剂泰科技北京股份有限公司": {
+    "name": "剂泰科技北京股份有限公司",
+    "stockCode": "07666",
+    "stockSymbol": "hk07666",
+    "stockShort": "剂泰科技－Ｐ",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "北京中科闻歌科技股份有限公司": {
+    "name": "北京中科闻歌科技股份有限公司",
+    "stockCode": "01956",
+    "stockSymbol": "hk01956",
+    "stockShort": "中科闻歌",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "北京五一视界数字孪生科技股份有限公司": {
+    "name": "北京五一视界数字孪生科技股份有限公司",
+    "stockCode": "06651",
+    "stockSymbol": "hk06651",
+    "stockShort": "五一视界",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "北京海光芯正科技股份有限公司": {
+    "name": "北京海光芯正科技股份有限公司",
+    "stockCode": "01191",
+    "stockSymbol": "hk01191",
+    "stockShort": "海光芯正",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "北京深演智能科技股份有限公司": {
+    "name": "北京深演智能科技股份有限公司",
+    "stockCode": "02723",
+    "stockSymbol": "hk02723",
+    "stockShort": "深演智能",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "北京赛目科技股份有限公司": {
+    "name": "北京赛目科技股份有限公司",
+    "stockCode": "02571",
+    "stockSymbol": "hk02571",
+    "stockShort": "赛目科技",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "南京三宝科技股份有限公司": {
+    "name": "南京三宝科技股份有限公司",
+    "stockCode": "01708",
+    "stockSymbol": "hk01708",
+    "stockShort": "三宝科技",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "博泰车联网科技上海股份有限公司": {
+    "name": "博泰车联网科技上海股份有限公司",
+    "stockCode": "02889",
+    "stockSymbol": "hk02889",
+    "stockShort": "博泰车联",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "博雷顿科技股份公司": {
+    "name": "博雷顿科技股份公司",
+    "stockCode": "01333",
+    "stockSymbol": "hk01333",
+    "stockShort": "博雷顿",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "卧安机器人深圳股份有限公司": {
+    "name": "卧安机器人深圳股份有限公司",
+    "stockCode": "06600",
+    "stockSymbol": "hk06600",
+    "stockShort": "卧安机器人",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "合肥维天运通信息科技股份有限公司": {
+    "name": "合肥维天运通信息科技股份有限公司",
+    "stockCode": "02482",
+    "stockSymbol": "hk02482",
+    "stockShort": "维天运通",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "山东极视角科技股份有限公司": {
+    "name": "山东极视角科技股份有限公司",
+    "stockCode": "06636",
+    "stockSymbol": "hk06636",
+    "stockShort": "极视角",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "岚图汽车科技股份有限公司": {
+    "name": "岚图汽车科技股份有限公司",
+    "stockCode": "07489",
+    "stockSymbol": "hk07489",
+    "stockShort": "岚图汽车",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "易控智驾科技股份有限公司": {
+    "name": "易控智驾科技股份有限公司",
+    "stockCode": "07687",
+    "stockSymbol": "hk07687",
+    "stockShort": "易控智驾",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "梅卡曼德雄安机器人科技股份有限公司": {
+    "name": "梅卡曼德雄安机器人科技股份有限公司",
+    "stockCode": "09615",
+    "stockSymbol": "hk09615",
+    "stockShort": "梅卡曼德机器人",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "汇通达网络股份有限公司": {
+    "name": "汇通达网络股份有限公司",
+    "stockCode": "09878",
+    "stockSymbol": "hk09878",
+    "stockShort": "汇通达网络",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "浙江太美医疗科技股份有限公司": {
+    "name": "浙江太美医疗科技股份有限公司",
+    "stockCode": "02576",
+    "stockSymbol": "hk02576",
+    "stockShort": "太美医疗科技",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "浙江来福谐波传动股份有限公司": {
+    "name": "浙江来福谐波传动股份有限公司",
+    "stockCode": "03952",
+    "stockSymbol": "hk03952",
+    "stockShort": "来福谐波",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "深圳乐动机器人股份有限公司": {
+    "name": "深圳乐动机器人股份有限公司",
+    "stockCode": "01236",
+    "stockSymbol": "hk01236",
+    "stockShort": "乐动机器人",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "深圳佑驾创新科技股份有限公司": {
+    "name": "深圳佑驾创新科技股份有限公司",
+    "stockCode": "02431",
+    "stockSymbol": "hk02431",
+    "stockShort": "佑驾创新",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "深圳市优必选科技股份有限公司": {
+    "name": "深圳市优必选科技股份有限公司",
+    "stockCode": "09880",
+    "stockSymbol": "hk09880",
+    "stockShort": "优必选",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "深圳市元征科技股份有限公司": {
+    "name": "深圳市元征科技股份有限公司",
+    "stockCode": "02488",
+    "stockSymbol": "hk02488",
+    "stockShort": "元征科技",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "深圳海清智元科技股份有限公司": {
+    "name": "深圳海清智元科技股份有限公司",
+    "stockCode": "01392",
+    "stockSymbol": "hk01392",
+    "stockShort": "海清智元",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "滴普科技股份有限公司": {
+    "name": "滴普科技股份有限公司",
+    "stockCode": "01384",
+    "stockSymbol": "hk01384",
+    "stockShort": "滴普科技",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "百望股份有限公司": {
+    "name": "百望股份有限公司",
+    "stockCode": "06657",
+    "stockSymbol": "hk06657",
+    "stockShort": "百望股份",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "福信富通科技股份有限公司": {
+    "name": "福信富通科技股份有限公司",
+    "stockCode": "00465",
+    "stockSymbol": "hk00465",
+    "stockShort": "富通科技",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "范式智能技术集团股份有限公司": {
+    "name": "范式智能技术集团股份有限公司",
+    "stockCode": "06682",
+    "stockSymbol": "hk06682",
+    "stockShort": "范式智能",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "讯飞医疗科技股份有限公司": {
+    "name": "讯飞医疗科技股份有限公司",
+    "stockCode": "02506",
+    "stockSymbol": "hk02506",
+    "stockShort": "讯飞医疗科技",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "连连数字科技股份有限公司": {
+    "name": "连连数字科技股份有限公司",
+    "stockCode": "02598",
+    "stockSymbol": "hk02598",
+    "stockShort": "连连数字",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "驭势科技北京股份有限公司": {
+    "name": "驭势科技北京股份有限公司",
+    "stockCode": "01511",
+    "stockSymbol": "hk01511",
+    "stockShort": "驭势科技",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "上海瑛泰医疗器械股份有限公司": {
+    "name": "上海瑛泰医疗器械股份有限公司",
+    "stockCode": "01501",
+    "stockSymbol": "hk01501",
+    "stockShort": "瑛泰医疗",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "中国同辐股份有限公司": {
+    "name": "中国同辐股份有限公司",
+    "stockCode": "01763",
+    "stockSymbol": "hk01763",
+    "stockShort": "中国同辐",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "丹诺医药苏州股份有限公司": {
+    "name": "丹诺医药苏州股份有限公司",
+    "stockCode": "06872",
+    "stockSymbol": "hk06872",
+    "stockShort": "丹诺医药－Ｂ",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "乐普生物科技股份有限公司": {
+    "name": "乐普生物科技股份有限公司",
+    "stockCode": "02157",
+    "stockSymbol": "hk02157",
+    "stockShort": "乐普生物",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "四川科伦博泰生物医药股份有限公司": {
+    "name": "四川科伦博泰生物医药股份有限公司",
+    "stockCode": "06990",
+    "stockSymbol": "hk06990",
+    "stockShort": "科伦博泰生物",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "双登集团股份有限公司": {
+    "name": "双登集团股份有限公司",
+    "stockCode": "06960",
+    "stockSymbol": "hk06960",
+    "stockShort": "双登股份",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "哈尔滨电气股份有限公司": {
+    "name": "哈尔滨电气股份有限公司",
+    "stockCode": "01133",
+    "stockSymbol": "hk01133",
+    "stockShort": "哈尔滨电气",
+    "matchLevel": "manual-review",
+    "market": "港股",
+    "reviewNote": "港股名单代码与简称吻合，英文名核验一致"
+  },
+  "科兴生物制药股份有限公司": {
+    "name": "科兴生物制药股份有限公司",
+    "stockCode": "688136",
+    "stockSymbol": "sh688136",
+    "stockShort": "科兴制药",
+    "matchLevel": "manual-review",
+    "market": "A股",
+    "reviewNote": "美股候选SVA为误配，实为A股688136"
+  }
+}

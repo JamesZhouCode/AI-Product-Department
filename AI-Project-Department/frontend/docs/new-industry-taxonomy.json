@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-09-03",
+  "version": "new-industry-taxonomy-2026-09-v1",
+  "note": "2026-09 新增的三条一级产业链分类体系。二级链用于图例配色与图谱分组，三级链保留源表原始细分领域。源表未提供三级的，三级留空并由 classificationStatus 标记 pending，不编造细分环节冒充事实。",
+  "industries": {
+    "电力装备（含储能）": {
+      "code": "PE",
+      "source": "电力装备（含储能）.xlsx · sheet 模板 · A列行业分类 / B列客户名称",
+      "secondaryNote": "源表 A 列格式为「一级-二级（三级）」，按分隔符拆分。储能领域 55 家源表未提供三级。",
+      "secondary": [
+        { "code": "1", "label": "用电领域", "sourceLabels": ["用电领域"], "rowCount": 60 },
+        { "code": "2", "label": "储能领域", "sourceLabels": ["储能领域"], "rowCount": 55 }
+      ],
+      "tertiary": [
+        { "code": "1.1", "secondaryCode": "1", "label": "数据中心", "rowCount": 20 },
+        { "code": "1.2", "secondaryCode": "1", "label": "充电桩", "rowCount": 20 },
+        { "code": "1.3", "secondaryCode": "1", "label": "电机", "rowCount": 20 },
+        {
+          "code": "2.1",
+          "secondaryCode": "2",
+          "label": "储能系统（待细分）",
+          "rowCount": 55,
+          "status": "pending",
+          "note": "源表未提供三级，暂按二级链默认归类，待业务侧细分"
+        }
+      ]
+    },
+    "生物医药": {
+      "code": "BM",
+      "source": "生物医药20260814.xlsx · sheet 模板 · A列客户名称 / B列特色字段1",
+      "secondaryNote": "源表 B 列「特色字段1」为无语义占位列名，实际内容为「大类(小类)」。5 家企业占 2 行拥有双标签，企业到环节为多对多关系。",
+      "secondary": [
+        { "code": "1", "label": "创新药", "sourceLabels": ["创新药"], "rowCount": 53 },
+        { "code": "2", "label": "生物制造", "sourceLabels": ["生物制造"], "rowCount": 19 },
+        {
+          "code": "3",
+          "label": "医疗器械",
+          "sourceLabels": ["医疗器械(微创介入)", "医疗器械(高端影像)", "医疗器械(脑机接口)"],
+          "rowCount": 19
+        },
+        { "code": "4", "label": "CXO", "sourceLabels": ["CXO"], "rowCount": 9 }
+      ],
+      "tertiary": [
+        { "code": "3.1", "secondaryCode": "3", "label": "微创介入", "rowCount": 13 },
+        { "code": "3.2", "secondaryCode": "3", "label": "高端影像", "rowCount": 5 },
+        { "code": "3.3", "secondaryCode": "3", "label": "脑机接口", "rowCount": 1 }
+      ]
+    },
+    "人工智能": {
+      "code": "AI",
+      "source": "人工智能20260624.xlsx · sheet 风险部、审批部建议删除客户后去重 · C列细分领域",
+      "secondaryNote": "源表只有单一「细分领域」列共 11 个取值，无层级。按 AI 产业基础层→技术层→应用层归为 3 条二级链，11 个原始细分领域全部保留为三级，信息不丢失。其中「通用技术」1608 家（24.2%）语义过宽，属源表兜底桶，建议业务侧二次切分。",
+      "secondary": [
+        {
+          "code": "1",
+          "label": "AI 算力基础设施",
+          "sourceLabels": ["AI算力硬件", "AI算力服务", "AIDC投资运营"],
+          "rowCount": 907
+        },
+        {
+          "code": "2",
+          "label": "AI 技术与模型",
+          "sourceLabels": ["大模型", "基础算法", "通用技术"],
+          "rowCount": 2099
+        },
+        {
+          "code": "3",
+          "label": "AI 应用与终端",
+          "sourceLabels": [
+            "AIGC与垂直应用模型",
+            "具身智能",
+            "智能制造",
+            "智能驾驶",
+            "智能终端"
+          ],
+          "rowCount": 3651
+        }
+      ],
+      "tertiary": [
+        { "code": "1.1", "secondaryCode": "1", "label": "AI算力硬件", "rowCount": 490 },
+        { "code": "1.2", "secondaryCode": "1", "label": "AI算力服务", "rowCount": 327 },
+        { "code": "1.3", "secondaryCode": "1", "label": "AIDC投资运营", "rowCount": 90 },
+        { "code": "2.1", "secondaryCode": "2", "label": "大模型", "rowCount": 247 },
+        { "code": "2.2", "secondaryCode": "2", "label": "基础算法", "rowCount": 244 },
+        { "code": "2.3", "secondaryCode": "2", "label": "通用技术", "rowCount": 1608 },
+        { "code": "3.1", "secondaryCode": "3", "label": "AIGC与垂直应用模型", "rowCount": 1332 },
+        { "code": "3.2", "secondaryCode": "3", "label": "具身智能", "rowCount": 726 },
+        { "code": "3.3", "secondaryCode": "3", "label": "智能制造", "rowCount": 1010 },
+        { "code": "3.4", "secondaryCode": "3", "label": "智能驾驶", "rowCount": 267 },
+        { "code": "3.5", "secondaryCode": "3", "label": "智能终端", "rowCount": 316 }
+      ]
+    }
+  }
+}

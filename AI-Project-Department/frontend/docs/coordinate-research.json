@@ -1,0 +1,1006 @@
+{
+  "version": "2026-08-17",
+  "coordinateSystem": "WGS84/CGCS2000-compatible",
+  "note": "仅收录有公开来源明确给出项目/企业 POI 坐标的补充记录。高德原始 GCJ-02 坐标已在离线研究阶段转换为 WGS84；运行时不调用地理编码服务。",
+  "records": [
+    {
+      "name": "长鑫科技",
+      "address": "安徽省合肥市经济技术开发区启德路799号",
+      "addressType": "主要生产基地（集团运营主体）",
+      "region": {
+        "province": "安徽省",
+        "city": "合肥市",
+        "district": "蜀山区",
+        "street": ""
+      },
+      "location": {
+        "lng": 117.0206007299281,
+        "lat": 31.968173585985692,
+        "coordinateSystem": "WGS84",
+        "precision": "兴趣点",
+        "score": 94,
+        "query": "长鑫存储技术有限公司"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "长鑫存储主要生产基地企业 POI（原始 GCJ-02，研究阶段转换为 WGS84）；集团公开注册地址为合肥空港工业园兴业大道388号，地图主点位采用启德路799号运营基地",
+      "sourceUrl": [
+        "https://www.cxmt.com/clause.html",
+        "https://ditu.amap.com/place/B0FFHRRVJG"
+      ],
+      "sourcePublishedAt": "2026-08-17",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.94
+    },
+    {
+      "name": "阿石创",
+      "address": "福建省福州市长乐区漳港街道漳湖路66号",
+      "addressType": "主要生产地址（环评项目）",
+      "location": {
+        "lng": 119.640833,
+        "lat": 26.935,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 100,
+        "query": "福建省福州市长乐区漳港街道漳湖路66号"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "公司公开环评报告项目地理坐标；一次性固化为离线点位",
+      "sourceUrl": [
+        "https://www.acetron.com.cn/static/upload/file/20260210/1770684680861086.pdf",
+        "https://www.fzcl.gov.cn/xjwz/zwgk/zfxxgkzdgz/jycy/202603/t20260327_5301398.htm"
+      ],
+      "sourcePublishedAt": "2026-02-10",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "屹唐股份",
+      "address": "北京市北京经济技术开发区瑞合西二路9号",
+      "addressType": "总部/主要生产地址",
+      "location": {
+        "lng": 116.491257473459,
+        "lat": 39.72024989924137,
+        "coordinateSystem": "WGS84",
+        "precision": "兴趣点",
+        "score": 94,
+        "query": "北京屹唐半导体科技股份有限公司"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "高德地图公司 POI 坐标（原始 GCJ-02，研究阶段转换为 WGS84）",
+      "sourceUrl": [
+        "https://www.amap.com/place/B0JUUDKOJK"
+      ],
+      "sourcePublishedAt": "2026-08-17",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.94
+    },
+    {
+      "name": "时代电气",
+      "address": "湖南省株洲市石峰区时代路",
+      "addressType": "总部/主要经营地址",
+      "region": {
+        "province": "湖南省",
+        "city": "株洲市",
+        "district": "石峰区",
+        "street": "田心街道"
+      },
+      "location": {
+        "lng": 113.1232552,
+        "lat": 27.8939933,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 90,
+        "query": "时代电气 株洲",
+        "sourceCoordinateSystem": "GCJ-02",
+        "map360PoiId": "d94d526b69be0fa9"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI（时代电气电力电子事业部）与公司公开总部地址‘株洲市石峰区时代路’同片区；研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": [
+        "https://map.360.cn/",
+        "https://www.tec.crrczic.cc/"
+      ],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.9
+    },
+    {
+      "name": "西安奕材",
+      "address": "陕西省西安市高新区西沣南路1888号",
+      "addressType": "总部/主要生产地址",
+      "region": {
+        "province": "陕西省",
+        "city": "西安市",
+        "district": "长安区",
+        "street": ""
+      },
+      "location": {
+        "lng": 108.8233726,
+        "lat": 34.0881425,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址/地址 POI",
+        "score": 78,
+        "query": "西安市高新区西沣南路1888号",
+        "sourceCoordinateSystem": "GCJ-02",
+        "map360PoiId": "1813668eaa2a9a73"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "360地图地址 POI 与西安奕材公开地址匹配；POI 名称为其全资工厂‘西安奕斯伟硅片技术有限公司’，研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": [
+        "https://map.360.cn/",
+        "https://www.eswinsi.com/"
+      ],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.9
+    },
+    {
+      "name": "至纯科技",
+      "address": "上海市闵行区紫海路170号",
+      "addressType": "总部/主要经营地址",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "闵行区",
+        "street": "吴泾镇"
+      },
+      "location": {
+        "lng": 121.4525588,
+        "lat": 31.0262438,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 90,
+        "query": "至纯科技 上海",
+        "sourceCoordinateSystem": "GCJ-02",
+        "map360PoiId": "86ed3f3856cd1916"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI 与至纯科技官网公开地址‘上海市闵行区紫海路170号’对应；研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": [
+        "https://map.360.cn/",
+        "https://www.zuch.com/"
+      ],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.9
+    },
+    {
+      "name": "中船特气",
+      "address": "河北省邯郸市经济开发区世纪大街6号",
+      "addressType": "总部/主要生产地址",
+      "region": {
+        "province": "河北省",
+        "city": "邯郸市",
+        "district": "经开区",
+        "street": ""
+      },
+      "location": {
+        "lng": 114.5364482,
+        "lat": 36.6390704,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址/地址 POI",
+        "score": 76,
+        "query": "河北省邯郸市经济开发区世纪大街6号",
+        "sourceCoordinateSystem": "GCJ-02",
+        "map360PoiId": ""
+      },
+      "locationStatus": "已复核",
+      "locationSource": "360地图同地址门址 POI（718研究所）与中船特气公开登记地址一致；未将同址其他企业 POI 误作目标企业，点位作为地址级主点",
+      "sourceUrl": [
+        "https://map.360.cn/",
+        "https://static.cninfo.com.cn/finalpage/2025-04-26/1223315860.PDF"
+      ],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.76
+    },
+    {
+      "name": "欧莱新材",
+      "address": "广东省韶关市武江区创业路5号C幢厂房",
+      "addressType": "注册地址/生产地址",
+      "region": {
+        "province": "广东省",
+        "city": "韶关市",
+        "district": "武江区",
+        "street": ""
+      },
+      "location": {
+        "lng": 113.5136991,
+        "lat": 24.7843756,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 88,
+        "query": "欧莱新材 韶关",
+        "sourceCoordinateSystem": "GCJ-02",
+        "map360PoiId": ""
+      },
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘韶关市欧莱高新材料有限公司’与企业公开创业路5号地址匹配；研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": [
+        "https://www.omat.com.cn/aboutus/",
+        "https://map.360.cn/"
+      ],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.88
+    },
+    {
+      "name": "盛美上海",
+      "address": "中国（上海）自由贸易试验区丹桂路999弄5、6、7、8号全幢",
+      "addressType": "总部/办公地址",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "浦东新区",
+        "street": "张江镇"
+      },
+      "location": {
+        "lng": 121.6240071,
+        "lat": 31.2239454,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 94,
+        "query": "盛美半导体设备（上海）股份有限公司",
+        "sourceCoordinateSystem": "GCJ-02",
+        "map360PoiId": ""
+      },
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘盛美半导体设备（上海）股份有限公司’（丹桂路999号B4栋）与公司官网/年报地址匹配；研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": [
+        "https://www.acmrcsh.com.cn/index.html",
+        "https://www.acmrcsh.com.cn/relationship.html?CatalogId=75",
+        "https://map.360.cn/"
+      ],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.95
+    },
+    {
+      "name": "江波龙",
+      "address": "深圳市前海深港合作区南山街道听海大道5059号鸿荣源前海金融中心二期B座2001、2201、2301",
+      "addressType": "总部/办公地址",
+      "region": {
+        "province": "广东省",
+        "city": "深圳市",
+        "district": "南山区",
+        "street": "南山街道"
+      },
+      "location": {
+        "lng": 113.8926442,
+        "lat": 22.5317168,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址/地址 POI",
+        "score": 86,
+        "query": "听海大道5059号鸿荣源中心B座",
+        "sourceCoordinateSystem": "GCJ-02",
+        "map360PoiId": ""
+      },
+      "locationStatus": "已复核",
+      "locationSource": "360地图‘前海鸿荣源中心B座’地址 POI 与江波龙公告办公地址一致；研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": [
+        "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESZ_STOCK/2024/2024-7/2024-07-15/10330481.PDF",
+        "https://map.360.cn/"
+      ],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.88
+    },
+    {
+      "name": "龙迅股份",
+      "address": "安徽省合肥市经济技术开发区宿松路3963号智能装备科技园B3栋",
+      "addressType": "总部/办公地址",
+      "region": {
+        "province": "安徽省",
+        "city": "合肥市",
+        "district": "蜀山区",
+        "street": ""
+      },
+      "location": {
+        "lng": 117.2707038,
+        "lat": 31.7790632,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 95,
+        "query": "龙迅半导体（合肥）股份有限公司",
+        "sourceCoordinateSystem": "GCJ-02",
+        "map360PoiId": ""
+      },
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘龙迅半导体（合肥）股份有限公司’与公司公开宿松路3963号B3栋地址匹配；研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": [
+        "https://www.cs.com.cn/roadshow/ssys/688486/dmxx/",
+        "https://map.360.cn/"
+      ],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.95
+    },
+    {
+      "name": "扬杰科技",
+      "address": "江苏省扬州市邗江区新甘泉大道68号",
+      "addressType": "总部/主要生产地址",
+      "region": {
+        "province": "江苏省",
+        "city": "扬州市",
+        "district": "邗江区",
+        "street": ""
+      },
+      "location": {
+        "lng": 119.3437612,
+        "lat": 32.4380062,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 92,
+        "query": "扬杰科技 扬州",
+        "sourceCoordinateSystem": "GCJ-02",
+        "map360PoiId": ""
+      },
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘扬州扬杰电子科技有限公司（5号厂）’与公司公开新甘泉大道68号地址匹配；研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": [
+        "https://www.21yangjie.com/wp-content/uploads/2023/09/Yangjie-ESG-Report-.pdf",
+        "https://map.360.cn/"
+      ],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.92
+    },
+    {
+      "name": "宏光半导体",
+      "address": "香港干诺道中168–200号信德中心招商局大厦36楼15室",
+      "addressType": "香港总部/主要营业地点（2026年6月起）",
+      "region": {
+        "province": "香港特别行政区",
+        "city": "香港",
+        "district": "中西区",
+        "street": ""
+      },
+      "location": {
+        "lng": 114.151682,
+        "lat": 22.2879533,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址/地址 POI",
+        "score": 75,
+        "query": "香港干诺道中200号信德中心",
+        "sourceCoordinateSystem": "GCJ-02",
+        "map360PoiId": ""
+      },
+      "locationStatus": "已复核",
+      "locationSource": "360地图‘信德中心’建筑 POI 与宏光半导体香港营业地点地址匹配；研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": [
+        "https://ijiwei.com/n/1043692",
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2024/0927/2024092702180_c.pdf",
+        "https://map.360.cn/"
+      ],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.78
+    },
+    {
+      "name": "大族数控",
+      "address": "深圳市宝安区福海街道重庆路12号大族激光智造中心三栋",
+      "addressType": "总部/办公地址",
+      "region": {
+        "province": "广东省",
+        "city": "深圳市",
+        "district": "宝安区",
+        "street": "福海街道"
+      },
+      "location": {
+        "lng": 113.7928637,
+        "lat": 22.6866702,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 90,
+        "query": "深圳市大族数控科技股份有限公司",
+        "sourceCoordinateSystem": "GCJ-02",
+        "map360PoiId": ""
+      },
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘深圳市大族数控科技股份有限公司’位于大族激光智造中心三栋，与企业公开重庆路12号地址同园区；研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": [
+        "https://www.hanslaser.com/",
+        "https://map.360.cn/"
+      ],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.9
+    },
+    {
+      "name": "长光辰芯",
+      "address": "吉林省长春市经开区自由大路7691号光电信息产业园",
+      "addressType": "总部/研发地址",
+      "region": {
+        "province": "吉林省",
+        "city": "长春市",
+        "district": "二道区",
+        "street": ""
+      },
+      "location": {
+        "lng": 125.3956732,
+        "lat": 43.8631129,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 90,
+        "query": "长春长光辰芯微电子股份有限公司",
+        "sourceCoordinateSystem": "GCJ-02",
+        "map360PoiId": ""
+      },
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘长春长光辰芯微电子股份有限公司’与企业公开自由大路7691号园区地址同片区；研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": [
+        "https://www.gpixel.com/contact.html",
+        "https://map.360.cn/"
+      ],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.88
+    },
+    {
+      "name": "Synopsys",
+      "address": "上海市杨浦区惠民路387号EBA中心1号楼1-5层",
+      "addressType": "中国区上海研发/办公地址",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "杨浦区",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.5112526,
+        "lat": 31.2586036,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址/地址 POI",
+        "score": 86,
+        "query": "惠民路387号EBA中心",
+        "sourceCoordinateSystem": "GCJ-02",
+        "map360PoiId": ""
+      },
+      "locationStatus": "已复核",
+      "locationSource": "360地图光大安石中心（原 EBA 中心）T1 楼 POI 与 Synopsys 官方上海办公室地址惠民路387号EBA中心1号楼对应；研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": [
+        "https://www.synopsys.com/company/contact-synopsys/office-locations.html",
+        "https://www.synopsys.com/zh-cn/china/about-us.html",
+        "https://map.360.cn/"
+      ],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.88
+    },
+    {
+      "name": "赛微电子",
+      "address": "北京市西城区裕民路18号北环中心A座2607室",
+      "addressType": "注册地址/北京总部地址",
+      "region": {
+        "province": "北京市",
+        "city": "北京市",
+        "district": "西城区",
+        "street": "德胜街道"
+      },
+      "location": {
+        "lng": 116.3754679,
+        "lat": 39.9707375,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址/地址 POI",
+        "score": 94,
+        "query": "裕民路18号北环中心A座2607室",
+        "sourceCoordinateSystem": "GCJ-02",
+        "map360PoiId": ""
+      },
+      "locationStatus": "已复核",
+      "locationSource": "360地图 POI‘北京耐威科技股份有限公司’位于裕民路18号北环中心A座2607室；该公司已更名为北京赛微电子股份有限公司，地址为公司公开注册地址",
+      "sourceUrl": [
+        "https://www.smeiic.com/Branch.html",
+        "https://static.cninfo.com.cn/finalpage/2023-03-29/1216246151.PDF",
+        "https://map.360.cn/"
+      ],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.94
+    },
+    {
+      "name": "星宸科技",
+      "address": "福建省厦门市同安区后詹路1号星宸科技园16层",
+      "addressType": "总部/办公地址（园区主点位）",
+      "region": {
+        "province": "福建省",
+        "city": "厦门市",
+        "district": "同安区",
+        "street": "美林街道"
+      },
+      "location": {
+        "lng": 118.1200079,
+        "lat": 24.6088974,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "园区 POI",
+        "score": 72,
+        "query": "星宸科技园",
+        "sourceCoordinateSystem": "GCJ-02",
+        "map360PoiId": ""
+      },
+      "locationStatus": "已复核",
+      "locationSource": "360地图‘星宸科技园’园区 POI 与公司公开办公地址后詹路1号16层一致；地图未提供楼层级企业 POI，暂以园区主点位展示，避免使用无关租户坐标",
+      "sourceUrl": [
+        "https://www.sigmastar.com.cn/aboutUs",
+        "https://q.stock.sohu.com/cn/301536/gsjj.shtml",
+        "https://map.360.cn/"
+      ],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.72
+    },
+    {
+      "name": "沐曦股份",
+      "address": "中国（上海）自由贸易试验区郭守敬路498号8幢19号楼3层",
+      "addressType": "注册地址/总部地址（2025年年报）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "浦东新区",
+        "street": "张江镇"
+      },
+      "location": {
+        "lng": 121.5944667,
+        "lat": 31.2108198,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "门址/地址 POI",
+        "score": 84,
+        "query": "郭守敬路498号8幢19号楼",
+        "sourceCoordinateSystem": "GCJ-02",
+        "map360PoiId": ""
+      },
+      "locationStatus": "已复核",
+      "locationSource": "公司2025年年报披露注册地址为郭守敬路498号8幢19号楼3层；360地图同地址楼宇 POI 作为主点，未采用海科路999弄旧租赁地址或无关餐饮租户坐标",
+      "sourceUrl": [
+        "https://www.metax-tech.com/about.html",
+        "https://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260326/b544d8892833467d8d25d987ba7f2d9d.PDF",
+        "https://map.360.cn/"
+      ],
+      "sourcePublishedAt": "2026-03-26",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.86
+    },
+    {
+      "name": "林德集团",
+      "address": "上海市浦东新区金桥经济技术开发区川桥路1525号",
+      "addressType": "中国区企业 POI",
+      "region": {"province": "上海市", "city": "上海市", "district": "浦东新区", "street": "金桥镇"},
+      "location": {"lng": 121.6245112, "lat": 31.2517771, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 92, "query": "林德气体(上海)有限公司", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘林德气体(上海)有限公司’；作为林德集团在华运营实体主点，研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.linde.cn/", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.92
+    },
+    {
+      "name": "苹果",
+      "address": "上海市浦东新区中国（上海）自由贸易试验区马吉路88号",
+      "addressType": "中国区企业 POI",
+      "region": {"province": "上海市", "city": "上海市", "district": "浦东新区", "street": "高东镇"},
+      "location": {"lng": 121.586208, "lat": 31.3512206, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 92, "query": "苹果电脑贸易(上海)有限公司", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘苹果电脑贸易(上海)有限公司’；作为苹果中国法人主点，研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.apple.com.cn/", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.92
+    },
+    {
+      "name": "新美光",
+      "address": "江苏省苏州市吴中区通园路50号",
+      "addressType": "企业 POI",
+      "region": {"province": "江苏省", "city": "苏州市", "district": "吴中区", "street": ""},
+      "location": {"lng": 120.6665225, "lat": 31.2709005, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 92, "query": "新美光(苏州)半导体科技有限公司", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘新美光(苏州)半导体科技有限公司’；研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.9
+    },
+    {
+      "name": "富创精密",
+      "address": "辽宁省沈阳市浑南区飞云路15号IC装备产业园",
+      "addressType": "企业 POI",
+      "region": {"province": "辽宁省", "city": "沈阳市", "district": "浑南区", "street": ""},
+      "location": {"lng": 123.4671203, "lat": 41.7195878, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 94, "query": "沈阳富创精密设备股份有限公司", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘富创精密设备股份有限公司’；研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.94
+    },
+    {
+      "name": "珂玛科技",
+      "address": "江苏省苏州市虎丘区科技城漓江路155号",
+      "addressType": "企业 POI/主要厂区",
+      "region": {"province": "江苏省", "city": "苏州市", "district": "虎丘区", "street": ""},
+      "location": {"lng": 120.4069147, "lat": 31.3633111, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 90, "query": "苏州珂玛材料科技股份有限公司", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘苏州珂玛材料科技股份有限公司（三厂）’；研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.9
+    },
+    {
+      "name": "德国普发真空",
+      "address": "上海市浦东新区杨高南路428号由由世纪广场3号楼5层BCD",
+      "addressType": "中国区办公室 POI",
+      "region": {"province": "上海市", "city": "上海市", "district": "浦东新区", "street": ""},
+      "location": {"lng": 121.5300082, "lat": 31.2189229, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 92, "query": "普发真空技术(上海)有限公司", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘普发真空技术(上海)有限公司’；研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.pfeiffer-vacuum.com/cn/", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.92
+    },
+    {
+      "name": "铠侠",
+      "address": "上海市静安区南京西路1717号会德丰国际广场F5层",
+      "addressType": "中国区办公室 POI",
+      "region": {"province": "上海市", "city": "上海市", "district": "静安区", "street": ""},
+      "location": {"lng": 121.4401873, "lat": 31.2235691, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 90, "query": "铠侠电子(中国)有限公司", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘铠侠电子’；作为铠侠中国办公室主点，研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.kioxia-holdings.com/", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.9
+    },
+    {
+      "name": "威刚",
+      "address": "江苏省苏州市工业园区新发路28号",
+      "addressType": "中国区工厂 POI",
+      "region": {"province": "江苏省", "city": "苏州市", "district": "工业园区", "street": ""},
+      "location": {"lng": 120.7582664, "lat": 31.2810955, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 94, "query": "威刚科技(苏州)有限公司", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘威刚科技(苏州)有限公司’；研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.adata.com/", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.94
+    },
+    {
+      "name": "戴尔",
+      "address": "福建省厦门市湖里区金尚路与围里路交汇处附近",
+      "addressType": "中国区企业 POI",
+      "region": {"province": "福建省", "city": "厦门市", "district": "湖里区", "street": ""},
+      "location": {"lng": 118.136069, "lat": 24.5287181, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 88, "query": "戴尔(中国)有限公司 厦门", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘戴尔有限公司’；作为戴尔中国厦门运营实体主点，研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.dell.com/zh-cn", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.88
+    },
+    {
+      "name": "惠普",
+      "address": "上海市浦东新区中国（上海）自由贸易试验区加枫路20号二层",
+      "addressType": "中国区企业 POI",
+      "region": {"province": "上海市", "city": "上海市", "district": "浦东新区", "street": ""},
+      "location": {"lng": 121.600848, "lat": 31.3160592, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 92, "query": "惠普科技(上海)有限公司", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘惠普科技(上海)有限公司’；研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.hp.com/cn-zh/", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.92
+    },
+    {
+      "name": "阿里巴巴",
+      "address": "浙江省杭州市西湖区文一西路830号6楼",
+      "addressType": "中国区企业 POI",
+      "region": {"province": "浙江省", "city": "杭州市", "district": "西湖区", "street": ""},
+      "location": {"lng": 120.0636425, "lat": 30.2910813, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 90, "query": "阿里巴巴(中国)网络技术有限公司", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘阿里巴巴(中国)网络技术有限公司’；研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.alibabagroup.com/", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.9
+    },
+    {
+      "name": "中国巨石",
+      "address": "浙江省嘉兴市桐乡市凤鸣街道文华南路",
+      "addressType": "总部/主要生产基地 POI",
+      "region": {"province": "浙江省", "city": "嘉兴市", "district": "桐乡市", "street": "凤鸣街道"},
+      "location": {"lng": 120.5305238, "lat": 30.5999335, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 92, "query": "中国巨石股份有限公司", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘巨石集团公司’；作为中国巨石总部/主要生产基地主点，研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.jushi.com/", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.92
+    },
+    {
+      "name": "铜冠铜箔",
+      "address": "安徽省池州市贵池区江口街道清溪大道189号",
+      "addressType": "主要生产地址 POI",
+      "region": {"province": "安徽省", "city": "池州市", "district": "贵池区", "street": "江口街道"},
+      "location": {"lng": 117.5521419, "lat": 30.7047992, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 94, "query": "安徽铜冠铜箔集团股份有限公司", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘安徽铜冠铜箔集团股份有限公司’；研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.94
+    },
+    {
+      "name": "博通",
+      "address": "上海市静安区铜仁路195号中欣大厦30楼3006-3008室",
+      "addressType": "中国区代表处 POI",
+      "region": {"province": "上海市", "city": "上海市", "district": "静安区", "street": ""},
+      "location": {"lng": 121.4455274, "lat": 31.2272737, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 84, "query": "博通公司 上海", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "360地图‘新加坡博通私人有限公司上海代表处’；作为博通中国代表处主点，研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.broadcom.com/", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.84
+    },
+    {
+      "name": "特斯拉",
+      "address": "上海市浦东新区江山路5000号",
+      "addressType": "上海超级工厂 POI",
+      "region": {"province": "上海市", "city": "上海市", "district": "浦东新区", "street": "泥城镇"},
+      "location": {"lng": 121.8874862, "lat": 30.8661708, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 96, "query": "特斯拉(上海)有限公司", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘特斯拉(上海)有限公司’；研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.tesla.cn/", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.96
+    },
+    {
+      "name": "英飞凌",
+      "address": "上海市浦东新区张江镇高科技园区松涛路647弄1-16号",
+      "addressType": "中国区企业 POI",
+      "region": {"province": "上海市", "city": "上海市", "district": "浦东新区", "street": "张江镇"},
+      "location": {"lng": 121.5826266, "lat": 31.2064713, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 90, "query": "英飞凌科技(中国)有限公司", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘英飞凌科技(中国)公司’；作为中国区企业 POI 主点，研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.infineon.cn/", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.9
+    },
+    {
+      "name": "蔚来",
+      "address": "安徽省合肥市包河区经济技术开发区宿松路9766号",
+      "addressType": "主要制造基地 POI",
+      "region": {"province": "安徽省", "city": "合肥市", "district": "包河区", "street": ""},
+      "location": {"lng": 117.2303504, "lat": 31.6874816, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 86, "query": "蔚来汽车科技(安徽)有限公司", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘蔚来汽车科技(安徽)有限公司第一制造基地分公司’；作为蔚来制造基地主点，研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.nio.cn/", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.86
+    },
+    {
+      "name": "南方电网",
+      "address": "广东省广州市天河区华穗路6号",
+      "addressType": "总部 POI",
+      "region": {"province": "广东省", "city": "广州市", "district": "天河区", "street": ""},
+      "location": {"lng": 113.3134797, "lat": 23.1178988, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 94, "query": "中国南方电网有限责任公司", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘中国南方电网公司’；作为南方电网总部主点，研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.csg.cn/", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.94
+    },
+    {
+      "name": "宁德时代",
+      "address": "福建省宁德市蕉城区新港路2号",
+      "addressType": "总部/主要生产基地 POI",
+      "region": {"province": "福建省", "city": "宁德市", "district": "蕉城区", "street": ""},
+      "location": {"lng": 119.5694445, "lat": 26.7300176, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 94, "query": "宁德时代新能源科技股份有限公司", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘宁德时代新能源科技有限公司’；作为宁德时代主要制造基地主点，研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.catl.com/", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.94
+    },
+    {
+      "name": "美国MKS",
+      "address": "上海市徐汇区桂林路418号",
+      "addressType": "中国区企业 POI",
+      "region": {"province": "上海市", "city": "上海市", "district": "徐汇区", "street": ""},
+      "location": {"lng": 121.4099253, "lat": 31.1793471, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 90, "query": "MKS仪器(上海)有限公司", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘玛珂思仪器(上海)有限公司’；作为 MKS 中国运营实体主点，研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.mks.com/", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.9
+    },
+    {
+      "name": "应用材料",
+      "address": "上海市浦东新区张江镇张东路1388号",
+      "addressType": "中国区企业 POI",
+      "region": {"province": "上海市", "city": "上海市", "district": "浦东新区", "street": "张江镇"},
+      "location": {"lng": 121.6276121, "lat": 31.2194321, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 84, "query": "Applied Materials 上海", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘APPLIED应用材料’；与应用材料中国区上海业务 POI 匹配，研究阶段由 GCJ-02 转 WGS84；登记地址另保留在企业详情",
+      "sourceUrl": ["https://www.appliedmaterials.com/cn/zh_cn/contact/locations.html", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.84
+    },
+    {
+      "name": "亚马逊",
+      "address": "北京市朝阳区东四环中路58号远洋国际中心A座",
+      "addressType": "中国区办公室 POI",
+      "region": {"province": "北京市", "city": "北京市", "district": "朝阳区", "street": ""},
+      "location": {"lng": 116.48541, "lat": 39.9135328, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 90, "query": "亚马逊(中国)投资有限公司", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘亚马逊(中国)’；作为亚马逊中国办公室主点，研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.amazon.cn/", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.9
+    },
+    {
+      "name": "II-VI",
+      "address": "江苏省苏州市工业园区苏桐路12号",
+      "addressType": "中国区企业 POI",
+      "region": {"province": "江苏省", "city": "苏州市", "district": "工业园区", "street": ""},
+      "location": {"lng": 120.6702339, "lat": 31.3053614, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 90, "query": "贰陆光学(苏州)有限公司", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "360地图企业 POI‘贰陆光学(苏州)有限公司’（II-VI 中国运营实体）；研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.coherent.com/", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.9
+    },
+    {
+      "name": "先锋精科",
+      "address": "江苏省泰州市靖江市经济开发区新港大道195号",
+      "addressType": "注册地址/总部地址",
+      "region": {"province": "江苏省", "city": "泰州市", "district": "靖江市", "street": ""},
+      "location": {"lng": 120.3337133, "lat": 32.0118959, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 94, "query": "靖江市新港大道195号", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "360地图 POI‘靖江先锋半导体科技有限公司’位于先锋精科公开注册地址；该名称为公司前身/运营实体，研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.sprint-tech.com/", "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12073138", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.94
+    },
+    {
+      "name": "信越化学",
+      "address": "上海市徐汇区肇嘉浜路789号均瑶国际广场29楼",
+      "addressType": "中国区企业 POI",
+      "region": {"province": "上海市", "city": "上海市", "district": "徐汇区", "street": "徐家汇街道"},
+      "location": {"lng": 121.443988, "lat": 31.2001776, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 88, "query": "信越有机硅国际贸易(上海)有限公司", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "360地图 POI‘信越有机硅国际贸易(上海)有限公司’与信越化学中国官网披露的上海办公地址一致；研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.shinetsu.com.cn/about/", "https://www.shinetsu.com.cn/contact/", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.88
+    },
+    {
+      "name": "日本信越化学",
+      "address": "上海市徐汇区肇嘉浜路789号均瑶国际广场29楼",
+      "addressType": "中国区企业 POI",
+      "region": {"province": "上海市", "city": "上海市", "district": "徐汇区", "street": "徐家汇街道"},
+      "location": {"lng": 121.443988, "lat": 31.2001776, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 88, "query": "信越有机硅国际贸易(上海)有限公司", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": ""},
+      "locationStatus": "已复核",
+      "locationSource": "日本信越化学在本数据中的关系名称映射至信越化学中国上海运营实体；360地图 POI 与官网办公地址一致，研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.shinetsu.com.cn/about/", "https://www.shinetsu.com.cn/contact/", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.86
+    },
+    {
+      "name": "浪潮信息",
+      "address": "山东省济南市高新区草山岭南路801号",
+      "addressType": "总部/办公地址（年度报告）",
+      "region": {"province": "山东省", "city": "济南市", "district": "历下区", "street": "舜华路街道"},
+      "location": {"lng": 117.1255604, "lat": 36.6596273, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "门址/地址 POI", "score": 86, "query": "万科中心B座 济南", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": "cee6268dd3acbc2a"},
+      "locationStatus": "已复核",
+      "locationSource": "浪潮信息公开住所为草山岭南路801号；360地图命中同址万科中心B座地址 POI，研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://pdf.dfcfw.com/pdf/H2_AN202404191630727458_1.pdf", "https://www.shibor.org/dqs/cm-s-notice-query/fileDownLoad.do?contentId=2586037&mode=save&priority=0", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.86
+    },
+    {
+      "name": "中兴微电子",
+      "address": "广东省深圳市南山区西丽街道留仙大道中兴通讯工业园研2楼",
+      "addressType": "深圳总部/办公地址（官网）",
+      "region": {"province": "广东省", "city": "深圳市", "district": "南山区", "street": "西丽街道"},
+      "location": {"lng": 113.9294883, "lat": 22.5819995, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "园区 POI", "score": 78, "query": "中兴通讯工业园一期-北区", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": "d75845df5bce5eb4"},
+      "locationStatus": "已复核",
+      "locationSource": "中兴微电子官网确认办公地址位于中兴通讯工业园研2楼；360地图以同园区北区 POI 定位，未将园区点标记为门址，研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.sanechips.com.cn/chinese/service/index.html", "https://www.sanechips.com.cn/en/serviceSupportEn/index.html", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.78
+    },
+    {
+      "name": "JSR",
+      "address": "上海市松江区望东中路1号金地威新虹桥创新园北园3号楼",
+      "addressType": "中国区技术中心地址（官网）",
+      "region": {"province": "上海市", "city": "上海市", "district": "松江区", "street": ""},
+      "location": {"lng": 121.2901214, "lat": 31.1236126, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "门址/地址 POI", "score": 89, "query": "金地威新虹桥科创园(北园)3号楼", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": "d8f289d20146a500"},
+      "locationStatus": "已复核",
+      "locationSource": "JSR官网披露上海技术中心位于望东中路1号金地威新虹桥创新园3号楼；360地图命中同址北园3号楼 POI，研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.jsr.co.jp/jsr_e/news/2022/20220315.html", "https://www.jsr-sh.com.cn/SEMI/", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.9
+    },
+    {
+      "name": "东京应化",
+      "address": "上海市长宁区虹桥路1438号古北国际财富中心二期",
+      "addressType": "中国区办公室地址（官网）",
+      "region": {"province": "上海市", "city": "上海市", "district": "长宁区", "street": ""},
+      "location": {"lng": 121.3989085, "lat": 31.1997367, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 90, "query": "上海帝奥科电子科技有限公司", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": "43fb021cded6418f"},
+      "locationStatus": "已复核",
+      "locationSource": "东京应化官网海外据点列示上海帝奥科电子科技有限公司，360地图命中该中国运营实体 POI（虹桥路1438号），研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.tok.co.jp/company/overseas", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.9
+    },
+    {
+      "name": "恒运昌",
+      "address": "广东省深圳市宝安区西乡街道铁岗社区桃花源智创小镇功能配套区B栋101、201、301",
+      "addressType": "注册地址/办公地址（年报）",
+      "region": {"province": "广东省", "city": "深圳市", "district": "宝安区", "street": "西乡街道"},
+      "location": {"lng": 113.8802254, "lat": 22.6122, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "兴趣点", "score": 93, "query": "深圳市恒运昌真空技术有限公司", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": "97df419196a9596b"},
+      "locationStatus": "已复核",
+      "locationSource": "恒运昌公开披露注册地址/办公地址为桃花源智创小镇功能配套区B栋；360地图命中更名前公司 POI，研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://cniis.aastocks.com/CNSESH_STOCK/2026/2026-2/2026-02-28/11974812.pdf", "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12224167&stockid=688785", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.93
+    },
+    {
+      "name": "高通",
+      "address": "北京市东城区北三环东路36号环球贸易中心C栋6层",
+      "addressType": "中国区办公室地址（官网）",
+      "region": {"province": "北京市", "city": "北京市", "district": "东城区", "street": "和平里街道"},
+      "location": {"lng": 116.4035737, "lat": 39.9657787, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "门址/地址 POI", "score": 88, "query": "环球贸易中心C座", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": "273a0a476d206173"},
+      "locationStatus": "已复核",
+      "locationSource": "高通中国官网公开办公室地址为北三环东路36号环球贸易中心C栋；360地图命中同址C座地址 POI，研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.qualcomm.cn/company/offices", "https://www.qualcomm.cn/content/dam/qcomm-martech/dm-assets/documents/files/responsibility_report/qualcommchinacorporateresponsibilityreport2023chinese.pdf", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.88
+    },
+    {
+      "name": "紫光国微",
+      "address": "北京市海淀区知春路7号北航致真大厦B座16层",
+      "addressType": "北京总部/办公地址（官网）",
+      "region": {"province": "北京市", "city": "北京市", "district": "海淀区", "street": "学院路街道"},
+      "location": {"lng": 116.3453521, "lat": 39.9757073, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "门址/地址 POI", "score": 86, "query": "北航致真大厦B座", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": "2f089a079ea4760e"},
+      "locationStatus": "已复核",
+      "locationSource": "紫光国微官网公开联系方式列示北京知春路7号致真大厦B座16层；360地图命中同址B座地址 POI。注册地址仍保留在企业详情研究记录中，研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.gosinoic.com/index.php?catid=68&f=lists", "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12126332&stockid=002049", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.88
+    },
+    {
+      "name": "紫光国芯",
+      "address": "北京市海淀区知春路7号北航致真大厦B座16层",
+      "addressType": "与紫光国微同一主体的历史/品牌名称；北京办公地址（官网）",
+      "region": {"province": "北京市", "city": "北京市", "district": "海淀区", "street": "学院路街道"},
+      "location": {"lng": 116.3453521, "lat": 39.9757073, "coordinateSystem": "WGS84/CGCS2000-compatible", "precision": "门址/地址 POI", "score": 84, "query": "北航致真大厦B座", "sourceCoordinateSystem": "GCJ-02", "map360PoiId": "2f089a079ea4760e"},
+      "locationStatus": "已复核",
+      "locationSource": "紫光国芯为紫光国微历史/品牌名称，沿用同一主体北京办公地址与主点，研究阶段由 GCJ-02 转 WGS84",
+      "sourceUrl": ["https://www.gosinoic.com/index.php?catid=68&f=lists", "https://map.360.cn/"],
+      "sourcePublishedAt": "2026-08-18",
+      "verifiedAt": "2026-08-18",
+      "confidence": 0.84
+    }
+  ]
+}

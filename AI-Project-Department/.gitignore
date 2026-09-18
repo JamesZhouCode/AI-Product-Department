@@ -1,0 +1,27 @@
+node_modules/
+dist/
+frontend/node_modules/
+frontend/dist/
+.DS_Store
+/.amap-key
+frontend/.amap-key
+frontend/public/map/*.pmtiles
+frontend/public/map/.shanghai-detail-*.pmtiles
+frontend/public/assets/fonts/
+frontend/public/assets/sprites/
+tools/pmtiles
+可参考内容/
+frontend_demo/
+output/
+.workbuddy/
+
+# 本地构建残留：本机无法直接删除 dist，改用改名规避 emptyDir 失败，单目录可达数百 MB，勿提交
+frontend/dist_stale_*/
+# 无头浏览器验证截图（本地临时产物）
+/shots_*/
+# 根目录一次性验证脚本
+/verify-*.mjs
+/final-*.mjs
+# Python 缓存（数据管线脚本用）
+__pycache__/
+*.pyc

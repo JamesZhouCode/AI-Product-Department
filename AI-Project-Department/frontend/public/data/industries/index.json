@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-09-14",
+  "schemaVersion": 2,
+  "note": "按一级产业链分片的企业数据目录。集成电路沿用 public/data/companies.json，其余为 2026-09 新增；储能产业为电力装备的细分链，独立成片。",
+  "industries": [
+    {
+      "id": "integrated-circuit",
+      "code": "IC",
+      "label": "集成电路",
+      "file": "companies.json",
+      "source": "可参考内容/con_info1.xlsx",
+      "status": "ready"
+    },
+    {
+      "id": "power",
+      "code": "PE",
+      "label": "电力装备（含储能）",
+      "file": "industries/companies-power.json",
+      "source": "电力装备（含储能）.xlsx · sheet 模板 · A列行业分类 / B列客户名称",
+      "status": "ready"
+    },
+    {
+      "id": "storage",
+      "code": "ES",
+      "label": "储能产业",
+      "file": "industries/companies-storage.json",
+      "source": "环节与上市企业入链v2.xlsx（Sheet1 节点框架 / Sheet3 企业）+ 储能产业链_头部企业标记.xlsx · 7个一级环节 / 24个二级环节 / 237家上市企业",
+      "status": "ready"
+    },
+    {
+      "id": "biomed",
+      "code": "BM",
+      "label": "生物医药",
+      "file": "industries/companies-biomed.json",
+      "source": "生物医药20260814.xlsx · sheet 模板 · A列客户名称 / B列特色字段1",
+      "status": "ready"
+    },
+    {
+      "id": "ai",
+      "code": "AI",
+      "label": "人工智能",
+      "file": "industries/companies-ai.json",
+      "source": "人工智能20260624.xlsx · 风险部、审批部建议删除客户后去重 · C列细分领域",
+      "status": "ready"
+    }
+  ]
+}

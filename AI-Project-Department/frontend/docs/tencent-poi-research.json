@@ -1,0 +1,5673 @@
+{
+  "version": "2026-08-17T12:47:18.485Z",
+  "coordinateSystem": "WGS84/CGCS2000-compatible",
+  "source": "腾讯地图公开企业 POI 一次性检索（GCJ-02 转 WGS84）",
+  "records": [
+    {
+      "name": ">安徽国购科技投资股份有限公司",
+      "query": "安徽国购科技投资股份有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">北京诚通资本投资有限公司",
+      "query": "北京诚通资本投资有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">北京国有资本运营管理有限公司",
+      "query": "北京国有资本运营管理有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">北京七星华电科技集团有限责任公司",
+      "query": "北京七星华电科技集团有限责任公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">北京亦庄国际新兴产业投资中心",
+      "query": "北京亦庄国际新兴产业投资中心",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">北京紫光通信科技集团有限公司",
+      "query": "北京紫光通信科技集团有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">北京紫光资本管理有限公司",
+      "query": "北京紫光资本管理有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">陈鲁",
+      "query": "陈鲁",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">陈钦忠",
+      "query": "陈钦忠",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">陈向东",
+      "query": "陈向东",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">陈炎表",
+      "query": "陈炎表",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">成都市国有资产监督管理委员会",
+      "query": "成都市国有资产监督管理委员会",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">重庆市招赢朗曜成长二期股权投资基金合伙企业",
+      "query": "重庆市招赢朗曜成长二期股权投资基金合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">大族控股集团有限公司",
+      "query": "大族控股集团有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">德州万海长胜投资合伙企业",
+      "query": "德州万海长胜投资合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">翟桂芳",
+      "query": "翟桂芳",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">电信科学技术研究院有限公司",
+      "query": "电信科学技术研究院有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">东阳澜清企业管理咨询合伙企业",
+      "query": "东阳澜清企业管理咨询合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">福建大钲一期投资合伙企业",
+      "query": "福建大钲一期投资合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">福建三安集团有限公司",
+      "query": "福建三安集团有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">福州兴得利投资有限公司",
+      "query": "福州兴得利投资有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">赣州协多企业管理合伙企业",
+      "query": "赣州协多企业管理合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">高炎康",
+      "query": "高炎康",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">工银瑞信投资管理有限公司",
+      "query": "工银瑞信投资管理有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">龚央娜",
+      "query": "龚央娜",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">国家集成电路产业投资基金股份有限公司",
+      "query": "国家集成电路产业投资基金股份有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">国务院国有资产监督管理委员会",
+      "query": "国务院国有资产监督管理委员会",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">海口芯创企业管理合伙企业",
+      "query": "海口芯创企业管理合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">合肥市产业投资控股有限公司",
+      "query": "合肥市产业投资控股有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">合肥市建设投资控股有限公司",
+      "query": "合肥市建设投资控股有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">合肥市人民政府国有资产监督管理委员会",
+      "query": "合肥市人民政府国有资产监督管理委员会",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">合肥芯睿投资有限责任公司",
+      "query": "合肥芯睿投资有限责任公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">湖北集成电路产业投资基金股份有限公司",
+      "query": "湖北集成电路产业投资基金股份有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">华为投资控股有限公司",
+      "query": "华为投资控股有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">加速一号管理咨询合伙企业",
+      "query": "加速一号管理咨询合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">嘉兴元枢企业管理合伙企业",
+      "query": "嘉兴元枢企业管理合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">嘉兴元曜企业管理合伙企业",
+      "query": "嘉兴元曜企业管理合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">建信信托有限责任公司",
+      "query": "建信信托有限责任公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">蒋学明",
+      "query": "蒋学明",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">荆州市产业投资发展集团有限公司",
+      "query": "荆州市产业投资发展集团有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">昆山泛海轻舟创业投资合伙企业",
+      "query": "昆山泛海轻舟创业投资合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">李东生及其一致行动人",
+      "query": "李东生及其一致行动人",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">李旭东",
+      "query": "李旭东",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">梁勤",
+      "query": "梁勤",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">辽宁省咨询产业集团有限责任公司",
+      "query": "辽宁省咨询产业集团有限责任公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">刘益谦",
+      "query": "刘益谦",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">马玉涛",
+      "query": "马玉涛",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">南京大学",
+      "query": "南京大学",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">南京浦口开发区高科技投资有限公司",
+      "query": "南京浦口开发区高科技投资有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">宁波前湾发展有限公司",
+      "query": "宁波前湾发展有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">磐石香港有限公司",
+      "query": "磐石香港有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">钱舜",
+      "query": "钱舜",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">融科物业投资有限公司",
+      "query": "融科物业投资有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">陕西煤业化工集团有限责任公司",
+      "query": "陕西煤业化工集团有限责任公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">上海创业投资有限公司",
+      "query": "上海创业投资有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">上海浦东科创集团有限公司",
+      "query": "上海浦东科创集团有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">上海乾元嘉泰管理咨询有限公司",
+      "query": "上海乾元嘉泰管理咨询有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">上海清恩资产管理合伙企业",
+      "query": "上海清恩资产管理合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">上海市国有资产监督管理委员会",
+      "query": "上海市国有资产监督管理委员会",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">上海数垓伍企业管理咨询合伙企业",
+      "query": "上海数垓伍企业管理咨询合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">上海芯志翱企业管理合伙企业",
+      "query": "上海芯志翱企业管理合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">上海致能集成电路合伙企业",
+      "query": "上海致能集成电路合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">绍兴高新技术产业开发区投资发展集团有限公司",
+      "query": "绍兴高新技术产业开发区投资发展集团有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">绍兴市越城区集成电路产业股权投资基金合伙企业",
+      "query": "绍兴市越城区集成电路产业股权投资基金合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">申能有限公司",
+      "query": "申能有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">深圳市创新投资集团有限公司",
+      "query": "深圳市创新投资集团有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">深圳市族芯优才投资企业",
+      "query": "深圳市族芯优才投资企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">石明达",
+      "query": "石明达",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">市国资委",
+      "query": "市国资委",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">四川特驱投资集团有限公司",
+      "query": "四川特驱投资集团有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">苏州元禾控股股份有限公司",
+      "query": "苏州元禾控股股份有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">唐海蓉",
+      "query": "唐海蓉",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">天府清源控股有限公司",
+      "query": "天府清源控股有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">天壕投资集团有限公司",
+      "query": "天壕投资集团有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">天津玄算九号企业管理合伙企业",
+      "query": "天津玄算九号企业管理合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">王磊",
+      "query": "王磊",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">王敏文",
+      "query": "王敏文",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">王楠",
+      "query": "王楠",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">王顺波",
+      "query": "王顺波",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">王卫锋",
+      "query": "王卫锋",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">文宏福",
+      "query": "文宏福",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">无锡产业发展集团有限公司",
+      "query": "无锡产业发展集团有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">武汉芯腾科技投资有限公司",
+      "query": "武汉芯腾科技投资有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">肖胜利",
+      "query": "肖胜利",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">邢雁",
+      "query": "邢雁",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">英特尔亚洲控股有限公司",
+      "query": "英特尔亚洲控股有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">张勤",
+      "query": "张勤",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">张世龙",
+      "query": "张世龙",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">张学政",
+      "query": "张学政",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">张钰勃",
+      "query": "张钰勃",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">张祖蕾",
+      "query": "张祖蕾",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">长三角协同优势产业股权投资合伙企业",
+      "query": "长三角协同优势产业股权投资合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">郑勇军",
+      "query": "郑勇军",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">中国船舶集团投资有限公司",
+      "query": "中国船舶集团投资有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">中国船舶集团有限公司第七一八研究所",
+      "query": "中国船舶集团有限公司第七一八研究所",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">中国电子科技集团有限公司",
+      "query": "中国电子科技集团有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">中国电子信息产业集团有限公司",
+      "query": "中国电子信息产业集团有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">中国电子有限公司",
+      "query": "中国电子有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">中国国新控股有限责任公司",
+      "query": "中国国新控股有限责任公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">中国科学院计算技术研究所",
+      "query": "中国科学院计算技术研究所",
+      "address": "北京市北京市海淀区中关村科学院南路6号",
+      "addressType": "企业兴趣点（腾讯地图公开 POI）",
+      "region": {
+        "province": "北京市",
+        "city": "北京市",
+        "district": "海淀区",
+        "street": ""
+      },
+      "location": {
+        "lng": 116.3205259,
+        "lat": 39.9805942,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 0.9,
+        "query": "中国科学院计算技术研究所",
+        "sourceCoordinateSystem": "GCJ-02",
+        "tencentPoiId": "11203652762600995894"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "腾讯地图公开企业 POI；研究阶段 GCJ-02 转 WGS84",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "sourcePublishedAt": "",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.9,
+      "candidate": {
+        "name": "中国科学院计算技术研究所",
+        "address": "北京市海淀区中关村科学院南路6号",
+        "classes": "机构团体:科研机构",
+        "uid": "11203652762600995894",
+        "longitude": 116.326666,
+        "latitude": 39.981906
+      }
+    },
+    {
+      "name": ">中国中车股份有限公司",
+      "query": "中国中车股份有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">中华人民共和国财政部",
+      "query": "中华人民共和国财政部",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">珠海横琴承心创业投资合伙企业",
+      "query": "珠海横琴承心创业投资合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">Ace Unity Limited Partnership",
+      "query": "Ace Unity Limited Partnership",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">AHN SEUNG HAN",
+      "query": "AHN SEUNG HAN",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">JIE PAN",
+      "query": "JIE PAN",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">SEMICONDUCTOR MANUFACTURING INTERNATIONAL CORPORATION",
+      "query": "SEMICONDUCTOR MANUFACTURING INTERNATIONAL CORPORATION",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": ">TCL HOLDINGS  LIMITED",
+      "query": "TCL HOLDINGS  LIMITED",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "阿里巴巴",
+      "query": "阿里巴巴",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "阿里云",
+      "query": "阿里云",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "安徽红土创业投资有限公司",
+      "query": "安徽红土创业投资有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "巴斯夫",
+      "query": "巴斯夫",
+      "address": "上海市上海市浦东新区江心沙路333号",
+      "addressType": "企业兴趣点（腾讯地图公开 POI）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "浦东新区",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.535644,
+        "lat": 31.3515404,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 0.9,
+        "query": "巴斯夫",
+        "sourceCoordinateSystem": "GCJ-02",
+        "tencentPoiId": "2033386523589895902"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "腾讯地图公开企业 POI；研究阶段 GCJ-02 转 WGS84",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "sourcePublishedAt": "",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.9,
+      "candidate": {
+        "name": "巴斯夫新材料有限公司",
+        "address": "上海市浦东新区江心沙路333号",
+        "classes": "公司企业:公司企业",
+        "uid": "2033386523589895902",
+        "longitude": 121.53995,
+        "latitude": 31.349458
+      }
+    },
+    {
+      "name": "北方华创科技集团股份有限公司",
+      "query": "北方华创科技集团股份有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "北京艾溪科技中心",
+      "query": "北京艾溪科技中心",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "北京电子控股有限责任公司",
+      "query": "北京电子控股有限责任公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "北京九创汇新资产管理合伙企业",
+      "query": "北京九创汇新资产管理合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "北京屹唐盛龙半导体产业投资中心",
+      "query": "北京屹唐盛龙半导体产业投资中心",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "北京屹唐盛芯半导体产业投资中心",
+      "query": "北京屹唐盛芯半导体产业投资中心",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "北京中科算源资产管理有限公司",
+      "query": "北京中科算源资产管理有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "北京紫光展讯投资管理有限公司",
+      "query": "北京紫光展讯投资管理有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "比亚迪",
+      "query": "比亚迪",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "博通",
+      "query": "博通",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "博旭有限公司",
+      "query": "博旭有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "蔡华波",
+      "query": "蔡华波",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "陈春梅",
+      "query": "陈春梅",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "陈凯",
+      "query": "陈凯",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "陈天石",
+      "query": "陈天石",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "陈维良",
+      "query": "陈维良",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "陈秀梅",
+      "query": "陈秀梅",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "陈湛伦",
+      "query": "陈湛伦",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "成都产业投资集团有限公司",
+      "query": "成都产业投资集团有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "重庆宝利弘雅企业管理有限公司",
+      "query": "重庆宝利弘雅企业管理有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "重庆鸿顺祥泰企业管理有限公司",
+      "query": "重庆鸿顺祥泰企业管理有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "崔学峰",
+      "query": "崔学峰",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "大唐电信科技产业控股有限公司",
+      "query": "大唐电信科技产业控股有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "大族激光科技产业集团股份有限公司",
+      "query": "大族激光科技产业集团股份有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "大族数控",
+      "query": "大族数控",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "戴尔",
+      "query": "戴尔",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "德邦科技",
+      "query": "德邦科技",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "德国普发真空",
+      "query": "德国普发真空",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "德州万海长红投资合伙企业",
+      "query": "德州万海长红投资合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "地平线",
+      "query": "地平线",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "丁然",
+      "query": "丁然",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "东方恒信集团有限公司",
+      "query": "东方恒信集团有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "东方证券股份有限公司",
+      "query": "东方证券股份有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "东京应化",
+      "query": "东京应化",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "方红",
+      "query": "方红",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "福州科拓投资有限公司",
+      "query": "福州科拓投资有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "富策控股有限公司",
+      "query": "富策控股有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "富创精密",
+      "query": "富创精密",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "赣州常春新优投资合伙企业",
+      "query": "赣州常春新优投资合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "高通",
+      "query": "高通",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "葛卫东",
+      "query": "葛卫东",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "共青城明伦投资合伙企业",
+      "query": "共青城明伦投资合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "共青城尚纯科技产业投资合伙企业",
+      "query": "共青城尚纯科技产业投资合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "广东华特投资有限公司",
+      "query": "广东华特投资有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "国家电网",
+      "query": "国家电网",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "国家集成电路产业投资基金二期股份有限公司",
+      "query": "国家集成电路产业投资基金二期股份有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "国投创业投资管理有限公司-国投科技成果转化创业投资基金企业",
+      "query": "国投创业投资管理有限公司-国投科技成果转化创业投资基金企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "国新投资有限公司",
+      "query": "国新投资有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "哈勃科技创业投资有限公司",
+      "query": "哈勃科技创业投资有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "杭州广立共创投资合伙企业",
+      "query": "杭州广立共创投资合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "杭州广立微股权投资有限公司",
+      "query": "杭州广立微股权投资有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "杭州华傲管理咨询合伙企业",
+      "query": "杭州华傲管理咨询合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "杭州杰沃信息咨询合伙企业",
+      "query": "杭州杰沃信息咨询合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "杭州士兰控股有限公司",
+      "query": "杭州士兰控股有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "合肥清辉集电企业管理合伙企业",
+      "query": "合肥清辉集电企业管理合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "合肥赛富合元创业投资中心",
+      "query": "合肥赛富合元创业投资中心",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "合肥芯屏产业投资基金",
+      "query": "合肥芯屏产业投资基金",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "合肥长鑫集成电路有限责任公司",
+      "query": "合肥长鑫集成电路有限责任公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "恒运昌",
+      "query": "恒运昌",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "弘威国际发展有限公司",
+      "query": "弘威国际发展有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "宏光半导体",
+      "query": "宏光半导体",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "侯丽荣",
+      "query": "侯丽荣",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "湖北长晟发展有限责任公司",
+      "query": "湖北长晟发展有限责任公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "湖南国科控股有限公司",
+      "query": "湖南国科控股有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "湖南臻泰股权投资管理合伙企业-长沙先导高芯投资合伙企业",
+      "query": "湖南臻泰股权投资管理合伙企业-长沙先导高芯投资合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "华大半导体有限公司",
+      "query": "华大半导体有限公司 上海市",
+      "address": "上海市上海市浦东新区中科路1867号",
+      "addressType": "企业兴趣点（腾讯地图公开 POI）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "浦东新区",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.6159239,
+        "lat": 31.1897026,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 0.9,
+        "query": "华大半导体有限公司 上海市",
+        "sourceCoordinateSystem": "GCJ-02",
+        "tencentPoiId": "10969069831284727902"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "腾讯地图公开企业 POI；研究阶段 GCJ-02 转 WGS84",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "sourcePublishedAt": "",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.9,
+      "candidate": {
+        "name": "华大半导体有限公司",
+        "address": "上海市浦东新区中科路1867号",
+        "classes": "公司企业:公司企业",
+        "uid": "10969069831284727902",
+        "longitude": 121.620129,
+        "latitude": 31.18749
+      }
+    },
+    {
+      "name": "华海清科",
+      "query": "华海清科",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "华虹宏力半导体有限公司",
+      "query": "华虹宏力半导体有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "华勤技术",
+      "query": "华勤技术",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "华润集团有限公司",
+      "query": "华润集团有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "华为",
+      "query": "华为",
+      "address": "北京市北京市海淀区北清路156号中关村环保科技示范园内",
+      "addressType": "企业兴趣点（腾讯地图公开 POI）",
+      "region": {
+        "province": "北京市",
+        "city": "北京市",
+        "district": "海淀区",
+        "street": ""
+      },
+      "location": {
+        "lng": 116.1759187,
+        "lat": 40.0557224,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 0.9,
+        "query": "华为",
+        "sourceCoordinateSystem": "GCJ-02",
+        "tencentPoiId": "5376482060807702744"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "腾讯地图公开企业 POI；研究阶段 GCJ-02 转 WGS84",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "sourcePublishedAt": "",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.9,
+      "candidate": {
+        "name": "华为北京研究所(环保园)",
+        "address": "北京市海淀区北清路156号中关村环保科技示范园内",
+        "classes": "机构团体:科研机构",
+        "uid": "5376482060807702744",
+        "longitude": 116.182086,
+        "latitude": 40.057018
+      }
+    },
+    {
+      "name": "华为技术有限公司",
+      "query": "华为技术有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "华芯投资管理有限责任公司-国家集成电路产业投资基金二期股份有限公司",
+      "query": "华芯投资管理有限责任公司-国家集成电路产业投资基金二期股份有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "华卓精科",
+      "query": "华卓精科",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "黄善兵",
+      "query": "黄善兵",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "汇川技术",
+      "query": "汇川技术",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "汇发国际有限公司",
+      "query": "汇发国际有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "惠普",
+      "query": "惠普",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "嘉兴爱芯企业管理合伙企业",
+      "query": "嘉兴爱芯企业管理合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "嘉兴富瑞德投资合伙企业",
+      "query": "嘉兴富瑞德投资合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "嘉兴智芯元智企业管理合伙企业",
+      "query": "嘉兴智芯元智企业管理合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "建水县杰杰企业管理有限公司",
+      "query": "建水县杰杰企业管理有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "江波龙",
+      "query": "江波龙",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "江苏捷捷投资有限公司",
+      "query": "江苏捷捷投资有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "江苏扬杰投资有限公司",
+      "query": "江苏扬杰投资有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "蒋渊",
+      "query": "蒋渊",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "金海通",
+      "query": "金海通",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "金建萍",
+      "query": "金建萍",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "金钼股份",
+      "query": "金钼股份",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "金士顿",
+      "query": "金士顿",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "金向华",
+      "query": "金向华",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "荆州市古城国有投资有限责任公司",
+      "query": "荆州市古城国有投资有限责任公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "铠侠",
+      "query": "铠侠",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "康强电子",
+      "query": "康强电子",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "珂玛科技",
+      "query": "珂玛科技",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "科锐",
+      "query": "科锐",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "空气化工",
+      "query": "空气化工",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "浪潮信息",
+      "query": "浪潮信息",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "李福华",
+      "query": "李福华",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "李虎",
+      "query": "李虎",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "李锡光",
+      "query": "李锡光",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "李玉明",
+      "query": "李玉明",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "李兆桂",
+      "query": "李兆桂",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "李志雄",
+      "query": "李志雄",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "力晶创新投资控股股份有限公司",
+      "query": "力晶创新投资控股股份有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "联发科",
+      "query": "联发科",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "联想",
+      "query": "联想",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "辽宁科发实业有限公司",
+      "query": "辽宁科发实业有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "林德集团",
+      "query": "林德集团",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "刘强",
+      "query": "刘强",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "刘志宏",
+      "query": "刘志宏",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "龙波",
+      "query": "龙波",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "龙旗科技",
+      "query": "龙旗科技",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "龙迅股份",
+      "query": "龙迅股份",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "隆基绿能",
+      "query": "隆基绿能",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "陆龙英",
+      "query": "陆龙英",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "路新春",
+      "query": "路新春",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "美光科技",
+      "query": "美光科技",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "美国MKS",
+      "query": "美国MKS",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "沐曦股份",
+      "query": "沐曦股份",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "南方电网",
+      "query": "南方电网",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "南京大学资本运营有限公司",
+      "query": "南京大学资本运营有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "南京和利国信智芯股权投资合伙企业",
+      "query": "南京和利国信智芯股权投资合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "南京神傲管理咨询合伙企业",
+      "query": "南京神傲管理咨询合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "南京优昫股权投资合伙企业",
+      "query": "南京优昫股权投资合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "南通华达微电子集团股份有限公司",
+      "query": "南通华达微电子集团股份有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "南通中创投资管理有限公司",
+      "query": "南通中创投资管理有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "宁波拜耳克管理咨询有限公司",
+      "query": "宁波拜耳克管理咨询有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "宁波泓祥和创业投资合伙企业",
+      "query": "宁波泓祥和创业投资合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "宁波旭诺创业投资基金管理合伙企业",
+      "query": "宁波旭诺创业投资基金管理合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "宁波亦鼎创业投资合伙企业",
+      "query": "宁波亦鼎创业投资合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "宁德时代",
+      "query": "宁德时代",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "欧莱新材",
+      "query": "欧莱新材",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "欧阳忠",
+      "query": "欧阳忠",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "派瑞科技有限公司",
+      "query": "派瑞科技有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "磐石润企信息管理有限公司",
+      "query": "磐石润企信息管理有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "彭骞",
+      "query": "彭骞",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "苹果",
+      "query": "苹果",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "亓蓉",
+      "query": "亓蓉",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "强脑科技",
+      "query": "强脑科技",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "清控创业投资有限公司",
+      "query": "清控创业投资有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "全国社保基金一一零组合",
+      "query": "全国社保基金一一零组合",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "全国社保基金一一三组合",
+      "query": "全国社保基金一一三组合",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "日本信越化学",
+      "query": "日本信越化学",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "赛微电子",
+      "query": "赛微电子",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "三安光电股份有限公司回购专用证券账户",
+      "query": "三安光电股份有限公司回购专用证券账户",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "三星",
+      "query": "三星",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "三星电子",
+      "query": "三星电子",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "厦门傅里叶企业管理咨询合伙企业",
+      "query": "厦门傅里叶企业管理咨询合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "厦门华弘多福投资合伙企业",
+      "query": "厦门华弘多福投资合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "厦门三安电子有限公司",
+      "query": "厦门三安电子有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "陕西煤业股份有限公司",
+      "query": "陕西煤业股份有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "上海安析亚管理咨询合伙企业",
+      "query": "上海安析亚管理咨询合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "上海安芯企业管理合伙企业",
+      "query": "上海安芯企业管理合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "上海壁立仞企业管理咨询合伙企业",
+      "query": "上海壁立仞企业管理咨询合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "上海电气控股集团有限公司",
+      "query": "上海电气控股集团有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "上海傅里叶管理咨询合伙企业",
+      "query": "上海傅里叶管理咨询合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "上海光微青合投资中心",
+      "query": "上海光微青合投资中心",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "上海国盛有限公司",
+      "query": "上海国盛有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "上海华虹宏力半导体制造有限公司",
+      "query": "上海华虹宏力半导体制造有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "上海科技创业投资有限公司",
+      "query": "上海科技创业投资有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "上海浦东新兴产业投资有限公司",
+      "query": "上海浦东新兴产业投资有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "上海天壕科技有限公司",
+      "query": "上海天壕科技有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "上海武岳峰集成电路股权投资合伙企业",
+      "query": "上海武岳峰集成电路股权投资合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "上海曦识企业管理咨询合伙企业",
+      "query": "上海曦识企业管理咨询合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "上海银圣宇企业管理咨询合伙企业",
+      "query": "上海银圣宇企业管理咨询合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "上海玉旷科技合伙企业",
+      "query": "上海玉旷科技合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "上海志颀企业管理咨询合伙企业",
+      "query": "上海志颀企业管理咨询合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "上海致能工业电子有限公司",
+      "query": "上海致能工业电子有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "上海智鼎博能投资合伙企业",
+      "query": "上海智鼎博能投资合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "绍兴滨海新区芯兴股权投资基金合伙企业",
+      "query": "绍兴滨海新区芯兴股权投资基金合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "绍兴市韦豪股权投资基金合伙企业",
+      "query": "绍兴市韦豪股权投资基金合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "绍兴市越城区集成电路产业基金合伙企业",
+      "query": "绍兴市越城区集成电路产业基金合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "深南电路",
+      "query": "深南电路",
+      "address": "无锡市江苏省无锡市新吴区长江东路18号",
+      "addressType": "企业兴趣点（腾讯地图公开 POI）",
+      "region": {
+        "province": "江苏省",
+        "city": "无锡市",
+        "district": "新吴区",
+        "street": ""
+      },
+      "location": {
+        "lng": 120.4708307,
+        "lat": 31.4655912,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 0.9,
+        "query": "深南电路",
+        "sourceCoordinateSystem": "GCJ-02",
+        "tencentPoiId": "4759651219564297315"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "腾讯地图公开企业 POI；研究阶段 GCJ-02 转 WGS84",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "sourcePublishedAt": "",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.9,
+      "candidate": {
+        "name": "无锡深南电路半导体封装基板",
+        "address": "江苏省无锡市新吴区长江东路18号",
+        "classes": "公司企业:企业/工厂",
+        "uid": "4759651219564297315",
+        "longitude": 120.475356,
+        "latitude": 31.463708
+      }
+    },
+    {
+      "name": "深圳市宏文创鑫科技有限公司",
+      "query": "深圳市宏文创鑫科技有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "深圳市信科基金管理合伙企业-深圳思齐资本信息技术私募创业投资基金企业",
+      "query": "深圳市信科基金管理合伙企业-深圳思齐资本信息技术私募创业投资基金企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "深圳市远致一号私募股权投资基金合伙企业",
+      "query": "深圳市远致一号私募股权投资基金合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "深圳市招银成长拾柒号股权投资基金合伙企业",
+      "query": "深圳市招银成长拾柒号股权投资基金合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "深圳市族芯聚贤投资企业",
+      "query": "深圳市族芯聚贤投资企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "深圳小纳光实验室投资企业",
+      "query": "深圳小纳光实验室投资企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "沈馥",
+      "query": "沈馥",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "沈洁",
+      "query": "沈洁",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "沈琦",
+      "query": "沈琦",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "沈锡强",
+      "query": "沈锡强",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "沈亦晨",
+      "query": "沈亦晨",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "生益科技",
+      "query": "生益科技",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "盛合晶微",
+      "query": "盛合晶微",
+      "address": "无锡市江苏省无锡市江阴市澄江街道东盛西路9号",
+      "addressType": "企业兴趣点（腾讯地图公开 POI）",
+      "region": {
+        "province": "江苏省",
+        "city": "无锡市",
+        "district": "江阴市",
+        "street": ""
+      },
+      "location": {
+        "lng": 120.3321618,
+        "lat": 31.9094546,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 0.9,
+        "query": "盛合晶微",
+        "sourceCoordinateSystem": "GCJ-02",
+        "tencentPoiId": "13377382418803663948"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "腾讯地图公开企业 POI；研究阶段 GCJ-02 转 WGS84",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "sourcePublishedAt": "",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.9,
+      "candidate": {
+        "name": "盛合晶微半导体(江阴)有限公司厂区",
+        "address": "江苏省无锡市江阴市澄江街道东盛西路9号",
+        "classes": "公司企业:企业/工厂",
+        "uid": "13377382418803663948",
+        "longitude": 120.336845,
+        "latitude": 31.907587
+      }
+    },
+    {
+      "name": "盛美上海",
+      "query": "盛美上海",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "盛云",
+      "query": "盛云",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "石平湘",
+      "query": "石平湘",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "时代电气",
+      "query": "时代电气",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "史峥",
+      "query": "史峥",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "曙光信息产业股份有限公司",
+      "query": "曙光信息产业股份有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "思摩尔有限公司",
+      "query": "思摩尔有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "苏州东芯科创股权投资合伙企业",
+      "query": "苏州东芯科创股权投资合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "苏州翌流明光电科技有限公司",
+      "query": "苏州翌流明光电科技有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "孙迎彤",
+      "query": "孙迎彤",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "台积电",
+      "query": "台积电",
+      "address": "上海市上海市松江区松江科技园区文翔路4000号",
+      "addressType": "企业兴趣点（腾讯地图公开 POI）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "松江区",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.1550996,
+        "lat": 31.0418658,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 0.9,
+        "query": "台积电",
+        "sourceCoordinateSystem": "GCJ-02",
+        "tencentPoiId": "17814410053906895172"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "腾讯地图公开企业 POI；研究阶段 GCJ-02 转 WGS84",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "sourcePublishedAt": "",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.9,
+      "candidate": {
+        "name": "台积电(中国)有限公司(十厂)",
+        "address": "上海市松江区松江科技园区文翔路4000号",
+        "classes": "公司企业:企业/工厂",
+        "uid": "17814410053906895172",
+        "longitude": 121.159632,
+        "latitude": 31.039858
+      }
+    },
+    {
+      "name": "特斯拉",
+      "query": "特斯拉",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "腾讯",
+      "query": "腾讯",
+      "address": "北京市北京市昌平区双营西路79号院昌平生命谷产业基地31号楼",
+      "addressType": "企业兴趣点（腾讯地图公开 POI）",
+      "region": {
+        "province": "北京市",
+        "city": "北京市",
+        "district": "昌平区",
+        "street": ""
+      },
+      "location": {
+        "lng": 116.281575,
+        "lat": 40.1998165,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 0.9,
+        "query": "腾讯",
+        "sourceCoordinateSystem": "GCJ-02",
+        "tencentPoiId": "2997854810863947267"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "腾讯地图公开企业 POI；研究阶段 GCJ-02 转 WGS84",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "sourcePublishedAt": "",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.9,
+      "candidate": {
+        "name": "腾讯大地通途(北京)科技有限公司",
+        "address": "北京市昌平区双营西路79号院昌平生命谷产业基地31号楼",
+        "classes": "公司企业:公司企业",
+        "uid": "2997854810863947267",
+        "longitude": 116.287665,
+        "latitude": 40.201079
+      }
+    },
+    {
+      "name": "腾讯云",
+      "query": "腾讯云",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "天津海富天鼎科技合伙企业",
+      "query": "天津海富天鼎科技合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "天津力神电池股份有限公司",
+      "query": "天津力神电池股份有限公司",
+      "address": "天津市天津市西青区海泰南道与幸福路交叉口西北方向240米左右",
+      "addressType": "企业兴趣点（腾讯地图公开 POI）",
+      "region": {
+        "province": "天津市",
+        "city": "天津市",
+        "district": "西青区",
+        "street": ""
+      },
+      "location": {
+        "lng": 117.064197,
+        "lat": 39.0743383,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 0.9,
+        "query": "天津力神电池股份有限公司",
+        "sourceCoordinateSystem": "GCJ-02",
+        "tencentPoiId": "11053411488835274311"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "腾讯地图公开企业 POI；研究阶段 GCJ-02 转 WGS84",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "sourcePublishedAt": "",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.9,
+      "candidate": {
+        "name": "天津力神电池股份有限公司(东厂区)",
+        "address": "天津市西青区海泰南道与幸福路交叉口西北方向240米左右",
+        "classes": "公司企业:公司企业",
+        "uid": "11053411488835274311",
+        "longitude": 117.070581,
+        "latitude": 39.075462
+      }
+    },
+    {
+      "name": "天津融泽通远私募基金管理合伙企业-珠海融林股权投资合伙企业",
+      "query": "天津融泽通远私募基金管理合伙企业-珠海融林股权投资合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "天数智芯",
+      "query": "天数智芯",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "天水华天电子集团股份有限公司",
+      "query": "天水华天电子集团股份有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "天岳先进",
+      "query": "天岳先进",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "铜冠铜箔",
+      "query": "铜冠铜箔",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "王成名",
+      "query": "王成名",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "王升杨",
+      "query": "王升杨",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "威刚",
+      "query": "威刚",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "蔚来",
+      "query": "蔚来",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "魏宏章",
+      "query": "魏宏章",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "闻天下科技集团有限公司",
+      "query": "闻天下科技集团有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "无锡产发科创基金合伙企业",
+      "query": "无锡产发科创基金合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "无锡国联产业投资有限公司-无锡国联集成电路投资中心",
+      "query": "无锡国联产业投资有限公司-无锡国联集成电路投资中心",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "无锡聚海盈管理咨询合伙企业",
+      "query": "无锡聚海盈管理咨询合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "芜湖旷沄人工智能产业投资基金",
+      "query": "芜湖旷沄人工智能产业投资基金",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "武汉文发熠晟私募基金管理有限公司-文发长江2号私募证券投资基金",
+      "query": "武汉文发熠晟私募基金管理有限公司-文发长江2号私募证券投资基金",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "武汉芯飞科技投资有限公司",
+      "query": "武汉芯飞科技投资有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "武秀山",
+      "query": "武秀山",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "西安奕材",
+      "query": "西安奕材",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "西藏东方企慧投资有限公司",
+      "query": "西藏东方企慧投资有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "西藏万海盈创业投资合伙企业",
+      "query": "西藏万海盈创业投资合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "西藏紫光春华科技有限公司",
+      "query": "西藏紫光春华科技有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "先锋精科",
+      "query": "先锋精科",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "香港斯达控股有限公司",
+      "query": "香港斯达控股有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "香港中央结算有限公司",
+      "query": "香港中央结算有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "襄阳新仪元半导体有限责任公司",
+      "query": "襄阳新仪元半导体有限责任公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "向平",
+      "query": "向平",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "小米",
+      "query": "小米",
+      "address": "北京市北京市昌平区回昌东路七辛中街交叉口西行100m",
+      "addressType": "企业兴趣点（腾讯地图公开 POI）",
+      "region": {
+        "province": "北京市",
+        "city": "北京市",
+        "district": "昌平区",
+        "street": ""
+      },
+      "location": {
+        "lng": 116.299152,
+        "lat": 40.1049159,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 0.9,
+        "query": "小米",
+        "sourceCoordinateSystem": "GCJ-02",
+        "tencentPoiId": "11796923354350881550"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "腾讯地图公开企业 POI；研究阶段 GCJ-02 转 WGS84",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "sourcePublishedAt": "",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.9,
+      "candidate": {
+        "name": "小米智能工厂",
+        "address": "北京市昌平区回昌东路七辛中街交叉口西行100m",
+        "classes": "公司企业:企业/工厂",
+        "uid": "11796923354350881550",
+        "longitude": 116.305261,
+        "latitude": 40.106195
+      }
+    },
+    {
+      "name": "新理益集团有限公司",
+      "query": "新理益集团有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "新美光",
+      "query": "新美光",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "信息未公开",
+      "query": "信息未公开",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "信越化学",
+      "query": "信越化学",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "星宸科技",
+      "query": "星宸科技",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "兴森科技",
+      "query": "兴森科技",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "徐小林",
+      "query": "徐小林",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "巽鑫投资有限公司",
+      "query": "巽鑫投资有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "亚马逊",
+      "query": "亚马逊",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "扬杰科技",
+      "query": "扬杰科技",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "阳光电源",
+      "query": "阳光电源",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "杨荣生",
+      "query": "杨荣生",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "杨小奇",
+      "query": "杨小奇",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "姚力军",
+      "query": "姚力军",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "应用材料",
+      "query": "应用材料",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "英飞凌",
+      "query": "英飞凌",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "英特尔",
+      "query": "英特尔",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "英特尔有限公司",
+      "query": "英特尔有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "英伟达",
+      "query": "英伟达",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "虞仁荣",
+      "query": "虞仁荣",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "张帆",
+      "query": "张帆",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "张建辉",
+      "query": "张建辉",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "张建中",
+      "query": "张建中",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "张兴国",
+      "query": "张兴国",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "长光辰芯",
+      "query": "长光辰芯",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "长沙芯途投资管理有限公司",
+      "query": "长沙芯途投资管理有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "长鑫存储",
+      "query": "长鑫存储",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "招商银行股份有限公司-华夏上证科创板50成份交易型开放式指数证券投资基金",
+      "query": "招商银行股份有限公司-华夏上证科创板50成份交易型开放式指数证券投资基金",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "招商银行股份有限公司-泰康新锐成长混合型证券投资基金",
+      "query": "招商银行股份有限公司-泰康新锐成长混合型证券投资基金",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "招商银行股份有限公司-兴全合润混合型证券投资基金",
+      "query": "招商银行股份有限公司-兴全合润混合型证券投资基金",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "赵善麒",
+      "query": "赵善麒",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "赵轶",
+      "query": "赵轶",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "浙江朗迪集团股份有限公司",
+      "query": "浙江朗迪集团股份有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "浙江舜元控股有限公司",
+      "query": "浙江舜元控股有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "浙江兴得利纺织有限公司",
+      "query": "浙江兴得利纺织有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "浙江甬顺芯电子有限公司",
+      "query": "浙江甬顺芯电子有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "至纯科技",
+      "query": "至纯科技",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "中车株洲电力机车研究所有限公司",
+      "query": "中车株洲电力机车研究所有限公司 株洲市",
+      "address": "株洲市湖南省株洲市石峰区时代路169号",
+      "addressType": "企业兴趣点（腾讯地图公开 POI）",
+      "region": {
+        "province": "湖南省",
+        "city": "株洲市",
+        "district": "石峰区",
+        "street": ""
+      },
+      "location": {
+        "lng": 113.1223083,
+        "lat": 27.9048361,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 0.9,
+        "query": "中车株洲电力机车研究所有限公司 株洲市",
+        "sourceCoordinateSystem": "GCJ-02",
+        "tencentPoiId": "4930652144619941972"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "腾讯地图公开企业 POI；研究阶段 GCJ-02 转 WGS84",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "sourcePublishedAt": "",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.9,
+      "candidate": {
+        "name": "中车株洲电力机车研究所有限公司",
+        "address": "湖南省株洲市石峰区时代路169号",
+        "classes": "公司企业:公司企业",
+        "uid": "4930652144619941972",
+        "longitude": 113.12815,
+        "latitude": 27.90169
+      }
+    },
+    {
+      "name": "中船特气",
+      "query": "中船特气",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "中船投资发展有限公司",
+      "query": "中船投资发展有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "中电金投控股有限公司",
+      "query": "中电金投控股有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "中电科投资控股有限公司",
+      "query": "中电科投资控股有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "中电科芯片技术有限公司",
+      "query": "中电科芯片技术有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "中国巨石",
+      "query": "中国巨石",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "中国农业银行股份有限公司-东方人工智能主题混合型证券投资基金",
+      "query": "中国农业银行股份有限公司-东方人工智能主题混合型证券投资基金",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "中国农业银行股份有限公司-中证500交易型开放式指数证券投资基金",
+      "query": "中国农业银行股份有限公司-中证500交易型开放式指数证券投资基金",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "中国稀土集团",
+      "query": "中国稀土集团",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "中国信息通信科技集团有限公司",
+      "query": "中国信息通信科技集团有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "中建材私募基金管理有限公司-国材股权投资基金合伙企业",
+      "query": "中建材私募基金管理有限公司-国材股权投资基金合伙企业",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "中微半导体设备股份有限公司",
+      "query": "中微半导体设备股份有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "中芯国际控股有限公司",
+      "query": "中芯国际控股有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "中芯集电投资有限公司CORPORATION）",
+      "query": "中芯集电投资有限公司CORPORATION）",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "中新苏州工业园区创业投资有限公司",
+      "query": "中新苏州工业园区创业投资有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "中信证券股份有限公司-嘉实上证科创板芯片交易型开放式指数证券投资基金",
+      "query": "中信证券股份有限公司-嘉实上证科创板芯片交易型开放式指数证券投资基金",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "中兴微电子",
+      "query": "中兴微电子",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "中意宁波生态园控股集团有限公司",
+      "query": "中意宁波生态园控股集团有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "钟锋浩",
+      "query": "钟锋浩",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "朱根林",
+      "query": "朱根林",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "朱星火",
+      "query": "朱星火",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "朱一明",
+      "query": "朱一明",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "住友电工",
+      "query": "住友电工",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "紫光国微",
+      "query": "紫光国微",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "字节跳动",
+      "query": "字节跳动 北京市",
+      "address": "北京市北京市海淀区北三环西路甲18号",
+      "addressType": "企业兴趣点（腾讯地图公开 POI）",
+      "region": {
+        "province": "北京市",
+        "city": "北京市",
+        "district": "海淀区",
+        "street": ""
+      },
+      "location": {
+        "lng": 116.3355366,
+        "lat": 39.9648803,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 0.9,
+        "query": "字节跳动 北京市",
+        "sourceCoordinateSystem": "GCJ-02",
+        "tencentPoiId": "14091154969574252399"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "腾讯地图公开企业 POI；研究阶段 GCJ-02 转 WGS84",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "sourcePublishedAt": "",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.9,
+      "candidate": {
+        "name": "字节跳动",
+        "address": "北京市海淀区北三环西路甲18号",
+        "classes": "公司企业:公司企业",
+        "uid": "14091154969574252399",
+        "longitude": 116.341709,
+        "latitude": 39.96622
+      }
+    },
+    {
+      "name": "宗艳民",
+      "query": "宗艳民",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "ACM RESEARCH",
+      "query": "ACM RESEARCH",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "AMD",
+      "query": "AMD",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "AmlogicLimited",
+      "query": "AmlogicLimited",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "Anji Microelectronics Co.Ltd.",
+      "query": "Anji Microelectronics Co.Ltd.",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "ARM",
+      "query": "ARM",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "Beken Corporation",
+      "query": "Beken Corporation",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "BEST Holdings #1",
+      "query": "BEST Holdings #1",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "Cadence",
+      "query": "Cadence",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "FENG CHEN",
+      "query": "FENG CHEN",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "HKSCC NOMINEES LIMITED",
+      "query": "HKSCC NOMINEES LIMITED",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "II-VI",
+      "query": "II-VI",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "INC.",
+      "query": "INC.",
+      "address": "上海市上海市嘉定区嘉新公路1355号",
+      "addressType": "企业兴趣点（腾讯地图公开 POI）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "嘉定区",
+        "street": ""
+      },
+      "location": {
+        "lng": 121.284815,
+        "lat": 31.3426672,
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "兴趣点",
+        "score": 0.9,
+        "query": "INC.",
+        "sourceCoordinateSystem": "GCJ-02",
+        "tencentPoiId": "8281164127022155564"
+      },
+      "locationStatus": "已复核",
+      "locationSource": "腾讯地图公开企业 POI；研究阶段 GCJ-02 转 WGS84",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "sourcePublishedAt": "",
+      "verifiedAt": "2026-08-17",
+      "confidence": 0.9,
+      "candidate": {
+        "name": "Azurewave Technologies (Shanghai) Inc.",
+        "address": "上海市嘉定区嘉新公路1355号",
+        "classes": "公司企业:公司企业",
+        "uid": "8281164127022155564",
+        "longitude": 121.289287,
+        "latitude": 31.340718
+      }
+    },
+    {
+      "name": "InnoScience Holding Pte. Ltd.",
+      "query": "InnoScience Holding Pte. Ltd.",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "JoulWatt Technology Inc.Limited",
+      "query": "JoulWatt Technology Inc.Limited",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "JSR",
+      "query": "JSR",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "KLProTech H.K. Limited",
+      "query": "KLProTech H.K. Limited",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "L.P.",
+      "query": "L.P.",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "LI",
+      "query": "LI",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "LLC",
+      "query": "LLC",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "Oceanpine Marvelous Limited",
+      "query": "Oceanpine Marvelous Limited",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "OPPO",
+      "query": "OPPO",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "QM120 Limited",
+      "query": "QM120 Limited",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "RED AVENUE INVESTMENT GROUP LIMITED",
+      "query": "RED AVENUE INVESTMENT GROUP LIMITED",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "SK海力士",
+      "query": "SK海力士",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "Smile Baby Investment Limited",
+      "query": "Smile Baby Investment Limited",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "Synopsys",
+      "query": "Synopsys",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "TCL科技集团股份有限公司",
+      "query": "TCL科技集团股份有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "TCL科技集团有限公司",
+      "query": "TCL科技集团有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "TCL王牌电器有限公司",
+      "query": "TCL王牌电器有限公司",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "TCL中环",
+      "query": "TCL中环",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "VeriSilicon Limited",
+      "query": "VeriSilicon Limited",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "Virgin Holdings Limited",
+      "query": "Virgin Holdings Limited",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "vivo",
+      "query": "vivo",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "WEI MIN",
+      "query": "WEI MIN",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "Weiwei Luo",
+      "query": "Weiwei Luo",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "Wen Zhang",
+      "query": "Wen Zhang",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "WLT Partners",
+      "query": "WLT Partners",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "腾讯地图网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://map.qq.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    }
+  ]
+}

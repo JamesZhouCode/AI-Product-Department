@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-09-03",
+  "unlistedChecked": 752,
+  "candidateCount": 1,
+  "candidates": [
+    {
+      "industry": "生物医药",
+      "name": "科兴生物制药股份有限公司",
+      "evidence": [
+        {
+          "market": "美股",
+          "code": "SVA",
+          "short": "科兴生物",
+          "level": "prefix"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1250 @@
+{
+  "version": "2026-08-21T08:11:34.378Z",
+  "coordinateSystem": "WGS84/CGCS2000-compatible",
+  "source": "一次性区域参考点研究；区域参考点不计入精准企业点位",
+  "records": [
+    {
+      "name": "北京芯格诺微电子有限公司",
+      "query": "北京市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "北京市",
+        "city": "北京市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 116.4011447,
+        "lat": 39.9027757,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "北京市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "北京紫光青藤微系统有限公司",
+      "query": "北京市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "北京市",
+        "city": "北京市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 116.4011447,
+        "lat": 39.9027757,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "北京市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "成都启臣微电子股份有限公司",
+      "query": "成都市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "四川省",
+        "city": "成都市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 104.0637964,
+        "lat": 30.5754155,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "成都市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "光微半导体材料（宁波）有限公司",
+      "query": "宁波市",
+      "address": "浙江省宁波杭州湾新区兴慈一路290号3号楼111-5室",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "浙江省",
+        "city": "宁波市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 121.620438,
+        "lat": 29.8628767,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "宁波市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "广东鸿钧微电子科技有限公司",
+      "query": "广州市南沙区翠瑜街7号",
+      "address": "广州市南沙区翠瑜街7号",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "广东省",
+        "city": "广州市",
+        "district": "南沙区",
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 113.5151663,
+        "lat": 22.8012371,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "广州市南沙区翠瑜街7号"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://m.zhipin.com/companys/8dcb8ff1e4253c5e03B629S_GVo~.html",
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "广州建瓴科技有限公司",
+      "query": "广州市",
+      "address": "广州市增城区朱村街朱村大道西108号1栋102单元",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "广东省",
+        "city": "广州市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 113.2591693,
+        "lat": 23.1327372,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "广州市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "广州新锐光掩模科技有限公司",
+      "query": "广州市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "广东省",
+        "city": "广州市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 113.2591693,
+        "lat": 23.1327372,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "广州市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "河北光兴半导体技术有限公司",
+      "query": "石家庄市裕华区珠江大道369号",
+      "address": "石家庄高新区中山东路931号",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "河北省",
+        "city": "石家庄市",
+        "district": "裕华区",
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 114.6629832,
+        "lat": 38.0250986,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "石家庄市裕华区珠江大道369号"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://career.hebut.edu.cn/company/index/id/7284.html",
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "湖北江城实验室",
+      "query": "武汉市光谷一路227号",
+      "address": "武汉市光谷一路227号",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "湖北省",
+        "city": "武汉市",
+        "district": "江夏区",
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 114.4341065,
+        "lat": 30.4588101,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "武汉市光谷一路227号"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/place/text",
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "华芯程（杭州）科技有限公司",
+      "query": "杭州市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 120.2053659,
+        "lat": 30.248993,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "杭州市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "晶铁半导体技术（广东）有限公司",
+      "query": "广州市黄埔区香雪八路98号",
+      "address": "广州市黄埔区香雪八路98号",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "广东省",
+        "city": "广州市",
+        "district": "黄埔区",
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 113.491736,
+        "lat": 23.180143,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "广州市黄埔区香雪八路98号"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://m.pedaily.cn/vc/company/710314.html",
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "纳能微电子（成都）股份有限公司",
+      "query": "成都市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "四川省",
+        "city": "成都市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 104.0637964,
+        "lat": 30.5754155,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "成都市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "纳思达股份有限公司",
+      "query": "珠海市香洲区珠海大道3883号",
+      "address": "珠海市香洲区珠海大道3883号",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "广东省",
+        "city": "珠海市",
+        "district": "香洲区",
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 113.4372126,
+        "lat": 22.2010315,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "珠海市香洲区珠海大道3883号"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10868612",
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "南京羿泰微电子技术有限公司",
+      "query": "南京市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "江苏省",
+        "city": "南京市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 118.7914401,
+        "lat": 32.0614191,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "南京市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "南通赛勒光电科技有限公司",
+      "query": "南通市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "江苏省",
+        "city": "南通市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 120.8903063,
+        "lat": 31.9834392,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "南通市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "宁波芯健半导体有限公司",
+      "query": "宁波市",
+      "address": "浙江省宁波杭州湾新区庵东工业园区华兴地块中横路18号",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "浙江省",
+        "city": "宁波市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 121.620438,
+        "lat": 29.8628767,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "宁波市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "奇异摩尔（衢州）集成电路设计有限公司",
+      "query": "衢州市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "浙江省",
+        "city": "衢州市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 118.8545122,
+        "lat": 28.9733143,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "衢州市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "赛迪半导体（天津）有限公司",
+      "query": "天津市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "天津市",
+        "city": "天津市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 117.1952119,
+        "lat": 39.0843123,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "天津市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "上海复矽微电子有限公司",
+      "query": "上海市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 121.4691438,
+        "lat": 31.2324671,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "上海市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "上海高性能集成电路设计中心",
+      "query": "上海市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 121.4691438,
+        "lat": 31.2324671,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "上海市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "上海亿双精密仪器有限公司",
+      "query": "上海市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 121.4691438,
+        "lat": 31.2324671,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "上海市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "上海宇勘科技有限公司",
+      "query": "上海市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 121.4691438,
+        "lat": 31.2324671,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "上海市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "深圳市爱信新材料有限公司",
+      "query": "深圳市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "广东省",
+        "city": "深圳市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 114.0528249,
+        "lat": 22.5462441,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "深圳市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "深圳市纽瑞芯科技有限公司",
+      "query": "深圳市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "广东省",
+        "city": "深圳市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 114.0528249,
+        "lat": 22.5462441,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "深圳市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "深圳市星光芯电子有限公司",
+      "query": "深圳市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "广东省",
+        "city": "深圳市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 114.0528249,
+        "lat": 22.5462441,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "深圳市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "舜宇奥来微纳光学（上海）有限公司",
+      "query": "上海市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 121.4691438,
+        "lat": 31.2324671,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "上海市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "无锡玖熠半导体科技有限公司",
+      "query": "无锡市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "江苏省",
+        "city": "无锡市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 120.3072804,
+        "lat": 31.4929532,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "无锡市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "无锡慕微测试技术有限公司",
+      "query": "无锡市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "江苏省",
+        "city": "无锡市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 120.3072804,
+        "lat": 31.4929532,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "无锡市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "武汉恩达通科技有限公司",
+      "query": "武汉市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "湖北省",
+        "city": "武汉市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 114.2991253,
+        "lat": 30.5957648,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "武汉市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "芯慧联新（苏州）科技有限公司",
+      "query": "苏州市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "江苏省",
+        "city": "苏州市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 120.5811165,
+        "lat": 31.3019424,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "苏州市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "烟台睿创微纳技术股份有限公司",
+      "query": "烟台市",
+      "address": "中国（山东）自由贸易试验区烟台片区南昌大街3号八角湾中央创新区国际科创中心C楼",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "山东省",
+        "city": "烟台市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 121.4425478,
+        "lat": 37.4635797,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "烟台市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "浙江化讯半导体材料有限公司",
+      "query": "浙江省嘉兴市嘉善县惠民街道陆家浜支路8号",
+      "address": "浙江省嘉兴市嘉善县惠民街道陆家浜支路8号",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "浙江省",
+        "city": "嘉兴市",
+        "district": "嘉善县",
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 120.9536593,
+        "lat": 30.8492076,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "浙江省嘉兴市嘉善县惠民街道陆家浜支路8号"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://www.samcien.com/aboutus/",
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "至讯创新科技（无锡）有限公司",
+      "query": "无锡市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "江苏省",
+        "city": "无锡市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 120.3072804,
+        "lat": 31.4929532,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "无锡市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "中茵微电子（北京）有限公司",
+      "query": "北京市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "北京市",
+        "city": "北京市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 116.4011447,
+        "lat": 39.9027757,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "北京市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "中锃半导体（深圳）有限公司",
+      "query": "深圳市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "广东省",
+        "city": "深圳市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 114.0528249,
+        "lat": 22.5462441,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "深圳市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "篆芯半导体（苏州）有限公司",
+      "query": "苏州市",
+      "address": "苏州高新区悦峰大厦1幢101室16楼1601",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "江苏省",
+        "city": "苏州市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 120.5811165,
+        "lat": 31.3019424,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "苏州市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "GALAXYCORE INC.",
+      "query": "上海市浦东新区盛夏路560号2幢",
+      "address": "上海市浦东新区盛夏路560号2幢",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "上海市",
+        "city": "上海市",
+        "district": "浦东新区",
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 121.6223071,
+        "lat": 31.2106008,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "上海市浦东新区盛夏路560号2幢"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://en.gcoreinc.com/about/contact",
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "GOODIX TECHNOLOGY （HK） COMPANY LIMITED",
+      "query": "中国香港湾仔皇后大道东183号合和中心48楼4801室",
+      "address": "中国香港湾仔皇后大道东183号合和中心48楼4801室",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "中国香港",
+        "city": "香港",
+        "district": "湾仔",
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 114.1716735,
+        "lat": 22.274671,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "中国香港湾仔皇后大道东183号合和中心48楼4801室"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://www.goodix.com/en/about_goodix/contact_us",
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "NEW VISION MICROELECTRONICS （HK） LIMITED",
+      "query": "中国香港金钟道89号力宝中心2座4楼417室",
+      "address": "中国香港金钟道89号力宝中心2座4楼417室",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "中国香港",
+        "city": "香港",
+        "district": "金钟",
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 114.1633347,
+        "lat": 22.2794436,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "中国香港金钟道89号力宝中心2座4楼417室"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202211/001257_20221115_ZLR6.pdf",
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "OMNIVISION TECHNOLOGIES SINGAPORE PTE.LTD.",
+      "query": "1 Venture Avenue #04-02 Perennial Business City Singapore 608521",
+      "address": "1 Venture Avenue #04-02 Perennial Business City Singapore 608521",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "新加坡",
+        "city": "新加坡",
+        "district": "",
+        "street": ""
+      },
+      "regionLocation": {
+        "lng": 103.8198,
+        "lat": 1.3521,
+        "sourceCoordinateSystem": "WGS84",
+        "coordinateSystem": "WGS84",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "1 Venture Avenue #04-02 Perennial Business City Singapore 608521"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://opengovsg.com/corporate/201207875E"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "S2C JAPAN CO LTD",
+      "query": "日本神奈川县横滨市港北区新横滨3-8-8",
+      "address": "日本神奈川县横滨市港北区新横滨3-8-8",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "日本",
+        "city": "横滨市",
+        "district": "港北区",
+        "street": ""
+      },
+      "regionLocation": {
+        "lng": 139.638,
+        "lat": 35.4437,
+        "sourceCoordinateSystem": "WGS84",
+        "coordinateSystem": "WGS84",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "日本神奈川县横滨市港北区新横滨3-8-8"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://jp.s2cinc.com/jp/info-pr-291"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "S2C KOREA",
+      "query": "韩国首尔江南区彦州路118号",
+      "address": "韩国首尔江南区彦州路118号",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "韩国",
+        "city": "首尔",
+        "district": "",
+        "street": ""
+      },
+      "regionLocation": {
+        "lng": 126.978,
+        "lat": 37.5665,
+        "sourceCoordinateSystem": "WGS84",
+        "coordinateSystem": "WGS84",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "韩国首尔江南区彦州路118号"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://craft.co/s2c/locations"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "SILAN ELECTRONICS, LTD",
+      "query": "杭州市",
+      "address": "",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": [],
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 120.2053659,
+        "lat": 30.248993,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "杭州市"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://silan.com.cn/",
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "name": "SPREADTRUM HONG KONG LIMITED",
+      "query": "香港九龙长沙湾道833号长沙湾广场2座8楼810A",
+      "address": "香港九龙长沙湾道833号长沙湾广场2座8楼810A",
+      "addressType": "区域参考地址（非企业门址）",
+      "region": {
+        "province": "中国香港",
+        "city": "香港",
+        "district": "九龙",
+        "street": []
+      },
+      "regionLocation": {
+        "lng": 114.1486109,
+        "lat": 22.3370823,
+        "sourceCoordinateSystem": "GCJ-02",
+        "coordinateSystem": "WGS84/CGCS2000-compatible",
+        "precision": "区域参考",
+        "score": 0.35,
+        "query": "香港九龙长沙湾道833号长沙湾广场2座8楼810A"
+      },
+      "locationStatus": "区域参考",
+      "locationSource": "公开企业区域信息 + 高德/开放地图区域地理编码；仅用于全量地图展示，不代表企业门址",
+      "sourceUrl": [
+        "https://www.sec.gov/Archives/edgar/data/1287950/000119312510113017/dex81.htm",
+        "https://restapi.amap.com/v3/geocode/geo"
+      ],
+      "confidence": 0.35,
+      "verifiedAt": "2026-08-21"
+    }
+  ]
+}

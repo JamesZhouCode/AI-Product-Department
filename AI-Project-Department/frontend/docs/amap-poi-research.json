@@ -1,0 +1,151 @@
+{
+  "version": "2026-08-17T19:16:44.816Z",
+  "coordinateSystem": "WGS84/CGCS2000-compatible",
+  "source": "高德地图公开企业 POI 一次性检索（GCJ-02 转 WGS84）",
+  "records": [
+    {
+      "name": "华海清科",
+      "query": "华海清科",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "高德网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://www.amap.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "江波龙",
+      "query": "江波龙",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "高德网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://www.amap.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "金海通",
+      "query": "金海通",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "高德网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://www.amap.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "龙迅股份",
+      "query": "龙迅股份",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "高德网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://www.amap.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "欧莱新材",
+      "query": "欧莱新材",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "高德网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://www.amap.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "赛微电子",
+      "query": "赛微电子",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "高德网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://www.amap.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "盛美上海",
+      "query": "盛美上海",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "高德网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://www.amap.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "星宸科技",
+      "query": "星宸科技",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "高德网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://www.amap.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "至纯科技",
+      "query": "至纯科技",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "高德网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://www.amap.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "中船特气",
+      "query": "中船特气",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "高德网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://www.amap.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "紫光国微",
+      "query": "紫光国微",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "高德网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://www.amap.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    },
+    {
+      "name": "TCL中环",
+      "query": "TCL中环",
+      "location": null,
+      "locationStatus": "待复核",
+      "locationSource": "高德网页企业 POI 批量检索未找到可确认的企业兴趣点",
+      "sourceUrl": [
+        "https://www.amap.com/"
+      ],
+      "verifiedAt": "2026-08-17",
+      "confidence": 0
+    }
+  ]
+}

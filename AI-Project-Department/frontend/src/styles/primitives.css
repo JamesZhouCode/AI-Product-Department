@@ -1,0 +1,50 @@
+.eyebrow {
+  color: #7890a4;
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.17em;
+}
+
+.legend-line {
+  width: 17px;
+  height: 0;
+  display: inline-block;
+  flex: 0 0 17px;
+  border-top: 2px dashed var(--purple);
+}
+.legend-line.supply {
+  border-color: var(--blue);
+}
+.legend-line.distribution {
+  border-color: var(--orange);
+}
+.legend-line.equity {
+  border-color: #9651c7;
+}
+
+.relation-kind {
+  flex: 0 0 28px;
+  width: 28px;
+  padding: 3px 2px;
+  color: var(--blue-deep);
+  background: #e9f2ff;
+  border-radius: 3px;
+  font-size: 8px;
+  font-style: normal;
+  text-align: center;
+}
+.relation-kind.经销 {
+  color: #95530e;
+  background: #fff1df;
+}
+.relation-kind.股权 {
+  color: #7045a0;
+  background: #f3ebfb;
+}
+
+.muted {
+  color: #8495a4;
+  font-size: 10px;
+  line-height: 1.5;
+}

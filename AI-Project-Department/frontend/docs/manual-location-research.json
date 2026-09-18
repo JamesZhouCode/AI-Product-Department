@@ -1,0 +1,384 @@
+{
+  "version": "2026-08-17",
+  "records": [
+    {
+      "name": "盛合晶微",
+      "address": "江苏省无锡市江阴市东盛西路9号",
+      "addressType": "主要生产经营地址",
+      "region": {
+        "province": "江苏省",
+        "city": "无锡市",
+        "district": "江阴市",
+        "street": ""
+      },
+      "sourceUrl": [
+        "https://www.sjsemi.com/contact/",
+        "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-06-27/688820_20260627_GNXN.pdf"
+      ],
+      "sourcePublishedAt": "2026-08-17",
+      "confidence": 0.99
+    },
+    {
+      "name": "天域半导体",
+      "address": "广东省东莞市松山湖高新技术产业开发园区工业北一路5号",
+      "addressType": "总部/主要生产地址",
+      "sourceUrl": ["https://www.sicty.com/"],
+      "sourcePublishedAt": "2026-02-06",
+      "confidence": 0.96
+    },
+    {
+      "name": "壁仞科技",
+      "address": "中国上海市闵行区陈行公路2388号16幢13楼1302室",
+      "addressType": "注册地址/总部地址",
+      "sourceUrl": ["https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1222/11962792/2025122200072_c.pdf"],
+      "sourcePublishedAt": "2025-12-22",
+      "confidence": 0.97
+    },
+    {
+      "name": "天数智芯",
+      "address": "上海市闵行区陈行公路2168号3幢101室",
+      "addressType": "上海总部地址",
+      "sourceUrl": ["https://www.iluvatar.com/concactus", "https://www.hkexnews.hk/listedco/listconews/sehk/2025/1230/11969956/2025123000072.pdf"],
+      "sourcePublishedAt": "2025-12-30",
+      "confidence": 0.98
+    },
+    {
+      "name": "英诺赛科",
+      "address": "苏州市吴江区黎里镇新黎路98号",
+      "addressType": "总部/办公地址",
+      "sourceUrl": ["https://www.innoscience.com/cn/investor-relations/ir-contacts"],
+      "sourcePublishedAt": "2026-08-17",
+      "confidence": 0.96
+    },
+    {
+      "name": "傅里叶半导体",
+      "address": "中国（上海）自由贸易试验区临港新片区云鹃路88弄11号港城广场二街坊4号楼303室",
+      "addressType": "上海总部地址",
+      "sourceUrl": ["https://www.foursemi.com/contact.html"],
+      "sourcePublishedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "爱芯元智",
+      "address": "宁波市镇海区庄市街道中官西路777号科创大厦17楼59室",
+      "addressType": "公司住所（章程）",
+      "sourceUrl": ["https://www.axera-tech.com/sites/default/files/2026-01/2026013000085_c_0.pdf"],
+      "sourcePublishedAt": "2026-01-30",
+      "confidence": 0.95
+    },
+    {
+      "name": "宏光半导体",
+      "address": "香港干诺道中168–200号信德中心招商局大厦36楼15室",
+      "addressType": "香港总部/主要营业地点（2026年6月起）",
+      "sourceUrl": ["https://www.hkexnews.hk/listedco/listconews/sehk/2024/0927/2024092702180_c.pdf", "https://ijiwei.com/n/1043692"],
+      "sourcePublishedAt": "2026-06-01",
+      "confidence": 0.96
+    },
+    {
+      "name": "长光辰芯",
+      "address": "吉林省长春市经开区自由大路7691号光电信息产业园一期1号、5号办公楼",
+      "addressType": "总部地址",
+      "sourceUrl": ["https://www.gpixel.com/contact.html"],
+      "sourcePublishedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "曦智科技",
+      "address": "中国（上海）自由贸易试验区博霞路111号、125号、139号",
+      "addressType": "注册地址/总部地址",
+      "sourceUrl": ["https://www.hkexnews.hk/listedco/listconews/sehk/2026/0514/2026051401637_c.pdf"],
+      "sourcePublishedAt": "2026-05-14",
+      "confidence": 0.97
+    },
+    {
+      "name": "长江存储",
+      "address": "中国湖北省武汉市东湖新技术开发区未来三路88号",
+      "addressType": "总部地址",
+      "sourceUrl": ["https://www.ymtc.com/cn/contact.html"],
+      "sourcePublishedAt": "2026-08-17",
+      "confidence": 0.98
+    },
+    {
+      "name": "华为海思",
+      "address": "深圳市龙岗区坂田街道华为基地",
+      "addressType": "深圳总部/研发基地",
+      "sourceUrl": ["https://www.hisilicon.com/cn/about-us/company"],
+      "sourcePublishedAt": "2026-08-17",
+      "confidence": 0.9
+    },
+    {
+      "name": "上海微电子(SMEE)",
+      "address": "上海浦东新区张东路1525号",
+      "addressType": "总部/办公地址",
+      "sourceUrl": ["https://www.smee.com.cn/", "https://www.smee.com.cn/eis.pub?method=indexinfo&onclicknodeno=1_2_1&service=homepageService"],
+      "sourcePublishedAt": "2026-08-17",
+      "confidence": 0.99
+    },
+    {
+      "name": "超硅",
+      "address": "上海市松江区鼎松路150弄1-15号",
+      "addressType": "总部/注册地址（公开工商）",
+      "sourceUrl": ["https://www.ast.com.cn/", "https://www.maigoo.com/company/675831.html"],
+      "sourcePublishedAt": "2025-06-26",
+      "confidence": 0.84
+    },
+    {
+      "name": "比亚迪半导体",
+      "address": "深圳市大鹏新区葵涌街道延安路1号",
+      "addressType": "注册地址/主要经营地址",
+      "sourceUrl": ["https://www.bydmicro.com/cn/p-policy.html", "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_00017A34A169F33FC77BE1E95217383F.pdf"],
+      "sourcePublishedAt": "2021-06-21",
+      "confidence": 0.98
+    },
+    {
+      "name": "武汉新芯",
+      "address": "湖北省武汉市东湖新技术开发区高新四路18号",
+      "addressType": "总部/主要生产经营地址",
+      "sourceUrl": ["https://www.xmcwh.com/site/details/1044", "https://www.xmcwh.com/site/acmp-detail"],
+      "sourcePublishedAt": "2026-08-17",
+      "confidence": 0.99
+    },
+    {
+      "name": "华卓精科",
+      "address": "北京市北京经济技术开发区科创十街19号院",
+      "addressType": "总部/办公地址",
+      "sourceUrl": ["https://www.u-precision.com/"],
+      "sourcePublishedAt": "2026-08-17",
+      "confidence": 0.98
+    },
+    {
+      "name": "燧原科技",
+      "address": "上海市浦东新区盛夏路61弄1号",
+      "addressType": "主要经营地址",
+      "sourceUrl": ["https://pdf.dfcfw.com/pdf/H2_AN202604161821265136_1.pdf", "https://static.sse.com.cn/stock/disclosure/announcement/c/202601/002175_20260122_8YKF.pdf"],
+      "sourcePublishedAt": "2026-04-16",
+      "confidence": 0.95
+    },
+    {
+      "name": "昆仑芯",
+      "address": "北京市海淀区信息路甲9号",
+      "addressType": "总部/办公地址",
+      "sourceUrl": ["https://www.kunlunxin.com/account/forget", "https://www.kunlunxin.com/company-profile"],
+      "sourcePublishedAt": "2026-08-17",
+      "confidence": 0.95
+    },
+    {
+      "name": "辰瑞光学",
+      "address": "江苏省常州市新北区新竹路2号（综合保税区内）",
+      "addressType": "主要生产地址",
+      "sourceUrl": ["https://www.cznd.gov.cn/uploadfile/cznd/2024/0313/20240313145620_97128.pdf", "https://www.aacoptics.com/?page_id=745"],
+      "sourcePublishedAt": "2024-03-13",
+      "confidence": 0.9
+    },
+    {
+      "name": "飞骧科技",
+      "address": "深圳市南山区南光路286号水木一方大厦A栋16F",
+      "addressType": "总部地址",
+      "sourceUrl": ["https://www.lansus.com/about/contact"],
+      "sourcePublishedAt": "2026-08-17",
+      "confidence": 0.98
+    },
+    {
+      "name": "强脑科技",
+      "address": "浙江省杭州市余杭区人工智能小镇1幢2层",
+      "addressType": "杭州总部/办公地址",
+      "sourceUrl": ["https://www.brainco.cn/contact"],
+      "sourcePublishedAt": "2026-08-17",
+      "confidence": 0.95
+    },
+    {
+      "name": "粤芯半导体",
+      "address": "广州市黄埔区中新广州知识城凤凰五路28号",
+      "addressType": "总部/主要生产经营地址",
+      "sourceUrl": ["https://www.cansemitech.com/?page_id=6", "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_0817308EAA964D501D4AB9BD81D83FA1FB4A44.pdf"],
+      "sourcePublishedAt": "2026-06-01",
+      "confidence": 0.98
+    },
+    {
+      "name": "新芯集成",
+      "address": "湖北省武汉市东湖新技术开发区高新四路18号",
+      "addressType": "与武汉新芯同一主体的品牌/简称",
+      "sourceUrl": ["https://www.xmcwh.com/site/about-XMC", "https://pitchhub.36kr.com/project/2012742293259781"],
+      "sourcePublishedAt": "2026-08-17",
+      "confidence": 0.98
+    },
+    {
+      "name": "中欣晶圆",
+      "address": "浙江省杭州市钱塘区东垦路888号",
+      "addressType": "总部/主要生产地址",
+      "sourceUrl": ["https://www.ftwafer.com/contacts.html", "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/db5a87c48edd00a230e31e5b86269a41.pdf"],
+      "sourcePublishedAt": "2025-01-01",
+      "confidence": 0.96
+    },
+    {
+      "name": "集创北方",
+      "address": "北京市经济技术开发区博兴街道科创十街9号院A座",
+      "addressType": "北京总部地址",
+      "sourceUrl": ["https://www.chiponeic.com/lxwm", "https://cnsubsites.chinadaily.com.cn/etowncapital/2023-12/01/c_179768.htm"],
+      "sourcePublishedAt": "2026-08-17",
+      "confidence": 0.98
+    },
+    {
+      "name": "伏达半导体",
+      "address": "广东省深圳市宝安区新安街道兴东社区69区中粮创芯研发中心1栋1701",
+      "addressType": "深圳办公地址",
+      "sourceUrl": ["https://www.nuvoltatech.com.cn/about/news/470.html"],
+      "sourcePublishedAt": "2026-04-22",
+      "confidence": 0.96
+    },
+    {
+      "name": "紫光国芯",
+      "address": "河北省唐山市玉田县玉田镇玉月路1008号",
+      "addressType": "与紫光国微同一主体的历史/品牌名称",
+      "sourceUrl": ["https://static.cninfo.com.cn/finalpage/2025-04-18/1223127190.PDF"],
+      "sourcePublishedAt": "2025-04-18",
+      "confidence": 0.9
+    },
+    {
+      "name": "云英谷",
+      "address": "广东省深圳市南山区粤海街道高新南七道20号国家工程实验室大楼A座1603-1605室",
+      "addressType": "深圳总部/办公地址",
+      "sourceUrl": ["https://www.viewtrixtech.com/about-us/company-profile", "https://www.viewtrixtech.com/privacy"],
+      "sourcePublishedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "曦华科技",
+      "address": "深圳市南山区西丽街道深圳国际创新谷三期7栋D座201室",
+      "addressType": "深圳总部地址",
+      "sourceUrl": ["https://www.cvachip.com/"],
+      "sourcePublishedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "嘉立创",
+      "address": "广东省深圳市福田区莲花街道景华社区商报路2号奥林匹克大厦27层",
+      "addressType": "深圳总部/办公地址",
+      "sourceUrl": ["https://www.jlc.com/portal/1/vcontact.html", "https://lceda.cn/page/company"],
+      "sourcePublishedAt": "2026-08-17",
+      "confidence": 0.99
+    },
+    {
+      "name": "拓荆科技",
+      "address": "辽宁省沈阳市浑南区全运路109-3号14层",
+      "addressType": "注册地址（2025年年报）",
+      "sourceUrl": ["https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12234583", "https://www.piotech.cn/"],
+      "sourcePublishedAt": "2026-04-01",
+      "confidence": 0.94
+    },
+    {
+      "name": "欧莱新材",
+      "address": "广东省韶关市武江区创业路5号C幢厂房",
+      "addressType": "注册地址/生产地址（公开公告）",
+      "sourceUrl": ["https://www.omat.com.cn/case/", "https://static.cninfo.com.cn/finalpage/2025-12-16/1224880004.PDF"],
+      "sourcePublishedAt": "2025-12-16",
+      "confidence": 0.97
+    },
+    {
+      "name": "星宸科技",
+      "address": "厦门市同安区后詹路1号16层",
+      "addressType": "办公地址（年度报告）",
+      "sourceUrl": ["https://static.cninfo.com.cn/finalpage/2024-03-08/1219256718.PDF", "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10905923&stockid=301536"],
+      "sourcePublishedAt": "2024-03-08",
+      "confidence": 0.97
+    },
+    {
+      "name": "赛微电子",
+      "address": "北京市北京经济技术开发区科创八街21号院1号楼",
+      "addressType": "北京分支机构/研发地址（企业官网）",
+      "sourceUrl": ["https://www.smeiic.com/Branch.html", "https://www.smeiic.com/About.html"],
+      "sourcePublishedAt": "2026-08-17",
+      "confidence": 0.97
+    },
+    {
+      "name": "OPPO",
+      "address": "广东省东莞市长安镇乌沙海滨路18号",
+      "addressType": "中国总部/注册地址",
+      "region": {"province": "广东省", "city": "东莞市", "district": "长安镇", "street": "乌沙海滨路"},
+      "sourceUrl": ["https://business.oppo.com/", "https://privacy.oppo.com/cn/policy/"],
+      "sourcePublishedAt": "2026-08-18",
+      "confidence": 0.97
+    },
+    {
+      "name": "vivo",
+      "address": "广东省东莞市长安镇维沃路1号",
+      "addressType": "中国总部地址",
+      "region": {"province": "广东省", "city": "东莞市", "district": "长安镇", "street": "维沃路"},
+      "sourceUrl": ["https://www.vivo.com.cn/about-vivo/privacy-policy.html", "https://wwwresstatic.vivo.com.cn/vivoportal/files/resource/files/1725879702055/vivo低碳行动白皮书.pdf"],
+      "sourcePublishedAt": "2024-10-30",
+      "confidence": 0.95
+    },
+    {
+      "name": "地平线",
+      "address": "北京市海淀区丰豪东路9号院2号楼3层1单元301",
+      "addressType": "北京总部/注册地址",
+      "region": {"province": "北京市", "city": "北京市", "district": "海淀区", "street": ""},
+      "sourceUrl": ["https://www.horizon.auto/legal/privacy", "https://www.horizon.auto/investor-relations"],
+      "sourcePublishedAt": "2026-08-18",
+      "confidence": 0.97
+    },
+    {
+      "name": "中兴微电子",
+      "address": "广东省深圳市南山区西丽街道留仙大道中兴工业园研2楼",
+      "addressType": "深圳总部/办公地址",
+      "region": {"province": "广东省", "city": "深圳市", "district": "南山区", "street": "西丽街道"},
+      "sourceUrl": ["https://www.sanechips.com.cn/chinese/service/index.html", "https://www.sanechips.com.cn/en/serviceSupportEn/index.html"],
+      "sourcePublishedAt": "2026-08-18",
+      "confidence": 0.94
+    },
+    {
+      "name": "Synopsys",
+      "address": "上海市杨浦区惠民路387号EBA中心1号楼1-5层",
+      "addressType": "中国区上海研发/办公地址",
+      "region": {"province": "上海市", "city": "上海市", "district": "杨浦区", "street": ""},
+      "sourceUrl": ["https://www.synopsys.com/company/contact-synopsys/office-locations.html", "https://www.synopsys.com/zh-cn/china/about-us.html"],
+      "sourcePublishedAt": "2026-08-18",
+      "confidence": 0.96
+    },
+    {
+      "name": "浪潮信息",
+      "address": "山东省济南市高新区草山岭南路801号",
+      "addressType": "总部/办公地址（年度报告）",
+      "region": {"province": "山东省", "city": "济南市", "district": "历下区", "street": ""},
+      "sourceUrl": ["https://pdf.dfcfw.com/pdf/H2_AN202404191630727458_1.pdf", "https://static.cninfo.com.cn/finalpage/2020-03-06/1207347972.PDF"],
+      "sourcePublishedAt": "2024-04-19",
+      "confidence": 0.93
+    },
+    {
+      "name": "长鑫存储",
+      "address": "安徽省合肥市经济技术开发区兴业大道388号",
+      "addressType": "总部/主要生产经营地址",
+      "region": {"province": "安徽省", "city": "合肥市", "district": "经开区", "street": ""},
+      "sourceUrl": ["https://www.cxmt.com/about.html", "https://www.cxmt.com/uploadfile/2023/0627/20230627054246654.pdf"],
+      "sourcePublishedAt": "2023-06-27",
+      "confidence": 0.96
+    },
+    {
+      "name": "高通",
+      "address": "北京市东城区北三环东路36号环球贸易中心C栋6层",
+      "addressType": "中国区办公室地址",
+      "region": {"province": "北京市", "city": "北京市", "district": "东城区", "street": ""},
+      "sourceUrl": ["https://www.qualcomm.cn/company/offices", "https://www.qualcomm.cn/content/dam/qcomm-martech/dm-assets/documents/files/responsibility_report/qualcommchinacorporateresponsibilityreport2023chinese.pdf"],
+      "sourcePublishedAt": "2026-08-18",
+      "confidence": 0.96
+    },
+    {
+      "name": "应用材料",
+      "address": "上海市浦东新区银冬路20弄7号楼",
+      "addressType": "中国区总部地址",
+      "region": {"province": "上海市", "city": "上海市", "district": "浦东新区", "street": ""},
+      "sourceUrl": ["https://www.appliedmaterials.com/cn/zh_cn/contact/locations.html", "https://www.appliedmaterials.com/cn/zh_cn/about/china-overview.html"],
+      "sourcePublishedAt": "2026-08-18",
+      "confidence": 0.97
+    },
+    {
+      "name": "英飞凌",
+      "address": "上海市浦东新区张江高科技园区川和路55弄4号2层",
+      "addressType": "大中华区总部/办公地址",
+      "region": {"province": "上海市", "city": "上海市", "district": "浦东新区", "street": ""},
+      "sourceUrl": ["https://www.infineon.cn/legal/privacy-policy", "https://www.infineon.cn/partners/partner-ecosystems/greater-china/autoeco/news/2019/infineon-new-headquarters-for-greater-china-in-shanghai-"],
+      "sourcePublishedAt": "2026-08-18",
+      "confidence": 0.95
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+.workspace {
+  position: relative;
+  min-height: 0;
+  flex: 1;
+  display: block;
+  overflow: hidden;
+}
+.left-rail {
+  position: absolute;
+  top: 10px;
+  z-index: 12;
+  min-height: 0;
+  background: rgba(255, 255, 255, 0.94);
+  border: 1px solid rgba(205, 220, 231, 0.9);
+  border-radius: var(--radius-panel);
+  box-shadow: var(--shadow-md);
+  backdrop-filter: blur(16px);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.left-rail {
+  left: 27px;
+  top: 60px;
+  width: 262px;
+  max-height: calc(100% - 120px);
+  padding: 14px;
+  overflow-y: auto;
+}
+.left-rail::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 1180px) {
+  .left-rail {
+    width: 238px;
+  }
+}
+
+@media (max-width: 940px) {
+  .left-rail {
+    display: none;
+  }
+}

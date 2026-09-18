@@ -1,0 +1,2953 @@
+{
+  "generatedAt": "2026-09-03T02:13:46.021Z",
+  "source": "旧 130 家重点企业调研数据 + con_info1.xlsx",
+  "profileCount": 130,
+  "matchedCount": 122,
+  "sourceNotFoundCount": 8,
+  "needsReviewCount": 8,
+  "records": [
+    {
+      "profileId": "key-016",
+      "profileName": "阿石创",
+      "targetId": "company-4067",
+      "targetName": "福建阿石创新材料股份有限公司",
+      "targetAddress": "福州市长乐区漳港街道漳湖路66号",
+      "confidence": 0.47307692307692306,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-4067",
+          "name": "福建阿石创新材料股份有限公司",
+          "address": "福州市长乐区漳港街道漳湖路66号",
+          "score": 246
+        }
+      ]
+    },
+    {
+      "profileId": "key-103",
+      "profileName": "爱芯元智",
+      "targetId": "company-3724",
+      "targetName": "爱芯元智半导体股份有限公司",
+      "targetAddress": "浙江省宁波市庄市街道中官西路777号科创大厦17楼59室",
+      "confidence": 0.7615384615384615,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-3724",
+          "name": "爱芯元智半导体股份有限公司",
+          "address": "浙江省宁波市庄市街道中官西路777号科创大厦17楼59室",
+          "score": 396
+        }
+      ]
+    },
+    {
+      "profileId": "key-012",
+      "profileName": "安集科技",
+      "targetId": "company-0150",
+      "targetName": "安集微电子科技（上海）股份有限公司",
+      "targetAddress": "上海市浦东新区华东路5001号金桥出口加工区（南区）T6－9幢底层",
+      "confidence": 0.7769230769230769,
+      "status": "matched",
+      "method": "alias-name-city-address",
+      "candidates": [
+        {
+          "id": "company-0150",
+          "name": "安集微电子科技（上海）股份有限公司",
+          "address": "上海市浦东新区华东路5001号金桥出口加工区（南区）T6－9幢底层",
+          "score": 404
+        },
+        {
+          "id": "company-0773",
+          "name": "上海安集电子材料有限公司",
+          "address": "上海化学工业区目华路201号1幢20层2008室",
+          "score": 154
+        },
+        {
+          "id": "company-1420",
+          "name": "车安集成电路（深圳）有限公司",
+          "address": "深圳市龙华区民治街道大岭社区红山六九七九一期6栋1310",
+          "score": -21
+        },
+        {
+          "id": "company-3705",
+          "name": "宁波安集微电子科技有限公司",
+          "address": "浙江省宁波市北仑区柴桥街道青山路79号",
+          "score": -21
+        },
+        {
+          "id": "company-4073",
+          "name": "泉州市三安集成电路有限公司",
+          "address": "福建省泉州市南安市石井镇古山村莲山工业区2号",
+          "score": -21
+        }
+      ]
+    },
+    {
+      "profileId": "key-042",
+      "profileName": "安路科技",
+      "targetId": "company-0064",
+      "targetName": "上海安路信息科技股份有限公司",
+      "targetAddress": "上海市虹口区纪念路500号5幢202室",
+      "confidence": 0.35,
+      "status": "matched",
+      "method": "alias-name-city-address",
+      "candidates": [
+        {
+          "id": "company-0064",
+          "name": "上海安路信息科技股份有限公司",
+          "address": "上海市虹口区纪念路500号5幢202室",
+          "score": 154
+        }
+      ]
+    },
+    {
+      "profileId": "key-036",
+      "profileName": "佰维存储",
+      "targetId": "company-1314",
+      "targetName": "深圳佰维存储科技股份有限公司",
+      "targetAddress": "深圳市南山区桃源街道平山社区留仙大道1213号众冠红花岭工业南区2区4、8栋1层-3层及4栋4层",
+      "confidence": 0.65,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1314",
+          "name": "深圳佰维存储科技股份有限公司",
+          "address": "深圳市南山区桃源街道平山社区留仙大道1213号众冠红花岭工业南区2区4、8栋1层-3层及4栋4层",
+          "score": 338
+        }
+      ]
+    },
+    {
+      "profileId": "key-019",
+      "profileName": "北方华创",
+      "targetId": "company-1188",
+      "targetName": "北京北方华创微电子装备有限公司",
+      "targetAddress": "北京市北京经济技术开发区文昌大道8号",
+      "confidence": 0.65,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1188",
+          "name": "北京北方华创微电子装备有限公司",
+          "address": "北京市北京经济技术开发区文昌大道8号",
+          "score": 338
+        },
+        {
+          "id": "company-1128",
+          "name": "北方华创科技集团股份有限公司",
+          "address": "北京市朝阳区酒仙桥东路1号",
+          "score": 268
+        },
+        {
+          "id": "company-0195",
+          "name": "上海北方华创微电子装备有限公司",
+          "address": "中国（上海）自由贸易试验区临港新片区海洋三路199弄16号4层",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "profileId": "key-054",
+      "profileName": "北京君正",
+      "targetId": "company-1138",
+      "targetName": "北京君正集成电路股份有限公司",
+      "targetAddress": "北京市海淀区西北旺东路10号院东区14号楼一层A101-A113",
+      "confidence": 0.7,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1138",
+          "name": "北京君正集成电路股份有限公司",
+          "address": "北京市海淀区西北旺东路10号院东区14号楼一层A101-A113",
+          "score": 364
+        }
+      ]
+    },
+    {
+      "profileId": "key-114",
+      "profileName": "比亚迪半导体",
+      "targetId": "company-1347",
+      "targetName": "比亚迪半导体股份有限公司",
+      "targetAddress": "深圳市大鹏新区葵涌街道延安路1号",
+      "confidence": 0.99,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1347",
+          "name": "比亚迪半导体股份有限公司",
+          "address": "深圳市大鹏新区葵涌街道延安路1号",
+          "score": 772
+        },
+        {
+          "id": "company-3753",
+          "name": "宁波比亚迪半导体有限公司",
+          "address": "浙江省宁波保税区南区庐山西路155号",
+          "score": 27
+        }
+      ]
+    },
+    {
+      "profileId": "key-099",
+      "profileName": "壁仞科技",
+      "targetId": "company-0077",
+      "targetName": "上海壁仞科技股份有限公司",
+      "targetAddress": "上海市闵行区陈行公路2388号16幢13层1302室",
+      "confidence": 0.5884615384615385,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0077",
+          "name": "上海壁仞科技股份有限公司",
+          "address": "上海市闵行区陈行公路2388号16幢13层1302室",
+          "score": 306
+        }
+      ]
+    },
+    {
+      "profileId": "key-045",
+      "profileName": "博通集成",
+      "targetId": "company-0104",
+      "targetName": "博通集成电路（上海）股份有限公司",
+      "targetAddress": "中国（上海）自由贸易试验区张东路1387号41幢101（复式）室2F-3F/102（复式）室",
+      "confidence": 0.6038461538461538,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0104",
+          "name": "博通集成电路（上海）股份有限公司",
+          "address": "中国（上海）自由贸易试验区张东路1387号41幢101（复式）室2F-3F/102（复式）室",
+          "score": 314
+        }
+      ]
+    },
+    {
+      "profileId": "key-113",
+      "profileName": "超硅",
+      "targetId": "company-0143",
+      "targetName": "上海超硅半导体股份有限公司",
+      "targetAddress": "上海市松江区鼎松路150弄1-15号（一照多址企业）",
+      "confidence": 0.6038461538461538,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0143",
+          "name": "上海超硅半导体股份有限公司",
+          "address": "上海市松江区鼎松路150弄1-15号（一照多址企业）",
+          "score": 314
+        },
+        {
+          "id": "company-0762",
+          "name": "重庆超硅半导体有限公司",
+          "address": "重庆市两江新区水土街道云福路101号",
+          "score": -21
+        }
+      ]
+    },
+    {
+      "profileId": "key-119",
+      "profileName": "辰瑞光学",
+      "targetId": "",
+      "targetName": "",
+      "targetAddress": "江苏省常州市新北区新竹路2号（综合保税区内）",
+      "confidence": 0,
+      "status": "source-not-found",
+      "method": "not-in-master-workbook",
+      "candidates": []
+    },
+    {
+      "profileId": "key-047",
+      "profileName": "大唐电信",
+      "targetId": "company-1159",
+      "targetName": "大唐电信科技股份有限公司",
+      "targetAddress": "北京市海淀区永嘉北路6号5幢",
+      "confidence": 0.823076923076923,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1159",
+          "name": "大唐电信科技股份有限公司",
+          "address": "北京市海淀区永嘉北路6号5幢",
+          "score": 428
+        }
+      ]
+    },
+    {
+      "profileId": "key-105",
+      "profileName": "大族数控",
+      "targetId": "company-1663",
+      "targetName": "深圳市大族数控科技股份有限公司",
+      "targetAddress": "深圳市宝安区福海街道和平社区重庆路12号大族激光智造中心3栋厂房101、3栋1楼、3栋2楼、3栋4楼、3栋7楼、4栋1楼、4栋4楼",
+      "confidence": 0.49615384615384617,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1663",
+          "name": "深圳市大族数控科技股份有限公司",
+          "address": "深圳市宝安区福海街道和平社区重庆路12号大族激光智造中心3栋厂房101、3栋1楼、3栋2楼、3栋4楼、3栋7楼、4栋1楼、4栋4楼",
+          "score": 258
+        }
+      ]
+    },
+    {
+      "profileId": "key-052",
+      "profileName": "德明利",
+      "targetId": "company-1336",
+      "targetName": "深圳市德明利技术股份有限公司",
+      "targetAddress": "深圳市福田区梅林街道梅都社区中康路136号深圳新一代产业园1栋2301、2401、2501",
+      "confidence": 0.6269230769230769,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1336",
+          "name": "深圳市德明利技术股份有限公司",
+          "address": "深圳市福田区梅林街道梅都社区中康路136号深圳新一代产业园1栋2301、2401、2501",
+          "score": 326
+        }
+      ]
+    },
+    {
+      "profileId": "key-048",
+      "profileName": "电科芯片",
+      "targetId": "company-4242",
+      "targetName": "中电科芯片技术（集团）有限公司",
+      "targetAddress": "重庆市沙坪坝区西永大道23号",
+      "confidence": 0.49615384615384617,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-4242",
+          "name": "中电科芯片技术（集团）有限公司",
+          "address": "重庆市沙坪坝区西永大道23号",
+          "score": 258
+        },
+        {
+          "id": "company-4243",
+          "name": "中电科芯片技术股份有限公司",
+          "address": "重庆市璧山区璧泉街道永嘉大道111号",
+          "score": 178
+        }
+      ]
+    },
+    {
+      "profileId": "key-053",
+      "profileName": "东芯股份",
+      "targetId": "company-0115",
+      "targetName": "东芯半导体股份有限公司",
+      "targetAddress": "上海市青浦区赵巷镇沪青平公路2875号3幢13层B区1336室",
+      "confidence": 0.46923076923076923,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0115",
+          "name": "东芯半导体股份有限公司",
+          "address": "上海市青浦区赵巷镇沪青平公路2875号3幢13层B区1336室",
+          "score": 244
+        },
+        {
+          "id": "company-3828",
+          "name": "广东芯聚能半导体有限公司",
+          "address": "广州市南沙区万顷沙镇正翔路6号",
+          "score": -21
+        },
+        {
+          "id": "company-3857",
+          "name": "广东芯思迈半导体有限公司",
+          "address": "广东省东莞市塘厦镇沙新路61号1栋103室",
+          "score": -21
+        },
+        {
+          "id": "company-1421",
+          "name": "广东芯微精密半导体设备有限公司",
+          "address": "深圳市宝安区沙井街道共和社区新桥同富裕工业区恒明珠科技工业园11栋一层（一照多址企业）",
+          "score": -21
+        },
+        {
+          "id": "company-3969",
+          "name": "广东芯阅科技有限公司",
+          "address": "珠海市高新区唐家湾镇科昌路108号3栋701室",
+          "score": -21
+        }
+      ]
+    },
+    {
+      "profileId": "key-120",
+      "profileName": "飞骧科技",
+      "targetId": "company-1361",
+      "targetName": "深圳飞骧科技股份有限公司",
+      "targetAddress": "深圳市南山区南头街道大汪山社区南光路286号水木一方大厦1栋1601",
+      "confidence": 0.49615384615384617,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1361",
+          "name": "深圳飞骧科技股份有限公司",
+          "address": "深圳市南山区南头街道大汪山社区南光路286号水木一方大厦1栋1601",
+          "score": 258
+        }
+      ]
+    },
+    {
+      "profileId": "key-067",
+      "profileName": "峰岹科技",
+      "targetId": "company-1328",
+      "targetName": "峰岹科技（深圳）股份有限公司",
+      "targetAddress": "深圳市南山区高新中区科技中2路1号深圳软件园（2期）11栋203室（仅限办公）",
+      "confidence": 0.823076923076923,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1328",
+          "name": "峰岹科技（深圳）股份有限公司",
+          "address": "深圳市南山区高新中区科技中2路1号深圳软件园（2期）11栋203室（仅限办公）",
+          "score": 428
+        }
+      ]
+    },
+    {
+      "profileId": "key-127",
+      "profileName": "伏达半导体",
+      "targetId": "company-2007",
+      "targetName": "伏达半导体（合肥）股份有限公司",
+      "targetAddress": "安徽省合肥市高新区望江西路900号中安创谷科技园B4栋5层01室",
+      "confidence": 0.35,
+      "status": "matched",
+      "method": "explicit-name-address",
+      "candidates": [
+        {
+          "id": "company-2007",
+          "name": "伏达半导体（合肥）股份有限公司",
+          "address": "安徽省合肥市高新区望江西路900号中安创谷科技园B4栋5层01室",
+          "score": 105
+        },
+        {
+          "id": "company-0495",
+          "name": "上海伏达半导体有限公司",
+          "address": "中国（上海）自由贸易试验区科苑路399号10幢3层301室",
+          "score": 15
+        }
+      ]
+    },
+    {
+      "profileId": "key-043",
+      "profileName": "复旦微电",
+      "targetId": "company-0013",
+      "targetName": "上海复旦微电子集团股份有限公司",
+      "targetAddress": "上海市邯郸路220号",
+      "confidence": 0.35,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0013",
+          "name": "上海复旦微电子集团股份有限公司",
+          "address": "上海市邯郸路220号",
+          "score": 178
+        }
+      ]
+    },
+    {
+      "profileId": "key-102",
+      "profileName": "傅里叶半导体",
+      "targetId": "company-0311",
+      "targetName": "上海傅里叶半导体股份有限公司",
+      "targetAddress": "中国（上海）自由贸易试验区临港新片区云鹃路88弄11号港城广场二街坊4号楼303室",
+      "confidence": 0.6961538461538461,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0311",
+          "name": "上海傅里叶半导体股份有限公司",
+          "address": "中国（上海）自由贸易试验区临港新片区云鹃路88弄11号港城广场二街坊4号楼303室",
+          "score": 362
+        }
+      ]
+    },
+    {
+      "profileId": "key-056",
+      "profileName": "富瀚微",
+      "targetId": "company-0105",
+      "targetName": "上海富瀚微电子股份有限公司",
+      "targetAddress": "上海市徐汇区宜山路717号6楼",
+      "confidence": 0.6269230769230769,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0105",
+          "name": "上海富瀚微电子股份有限公司",
+          "address": "上海市徐汇区宜山路717号6楼",
+          "score": 326
+        }
+      ]
+    },
+    {
+      "profileId": "key-002",
+      "profileName": "概伦电子",
+      "targetId": "company-0014",
+      "targetName": "上海概伦电子股份有限公司",
+      "targetAddress": "中国（上海）自由贸易试验区临港新片区环湖西二路888号C楼",
+      "confidence": 0.35,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0014",
+          "name": "上海概伦电子股份有限公司",
+          "address": "中国（上海）自由贸易试验区临港新片区环湖西二路888号C楼",
+          "score": 178
+        }
+      ]
+    },
+    {
+      "profileId": "key-004",
+      "profileName": "广立微",
+      "targetId": "company-3331",
+      "targetName": "杭州广立微电子股份有限公司",
+      "targetAddress": "浙江省杭州市滨江区浦沿街道潮涌路1095号10层",
+      "confidence": 0.35,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-3331",
+          "name": "杭州广立微电子股份有限公司",
+          "address": "浙江省杭州市滨江区浦沿街道潮涌路1095号10层",
+          "score": 166
+        },
+        {
+          "id": "company-0585",
+          "name": "广立微（上海）技术有限公司",
+          "address": "中国（上海）自由贸易试验区临港新片区海基六路99弄45、48、51号8层",
+          "score": 81
+        }
+      ]
+    },
+    {
+      "profileId": "key-057",
+      "profileName": "国科微",
+      "targetId": "",
+      "targetName": "",
+      "targetAddress": "长沙经济技术开发区泉塘街道东十路南段9号",
+      "confidence": 0,
+      "status": "source-not-found",
+      "method": "not-in-master-workbook",
+      "candidates": [
+        {
+          "id": "company-0439",
+          "name": "国科海芯（上海）微电子有限公司",
+          "address": "上海市徐汇区宜山路1398号1幢306-311室",
+          "score": 69
+        },
+        {
+          "id": "company-4215",
+          "name": "国科天骥（山东）新材料有限责任公司",
+          "address": "山东省滨州经济技术开发区长江五路渤海二十四路333号",
+          "score": 69
+        },
+        {
+          "id": "company-1168",
+          "name": "北京国科天迅科技股份有限公司",
+          "address": "北京市北京经济技术开发区科谷一街8号院6号楼7层701",
+          "score": -21
+        },
+        {
+          "id": "company-1521",
+          "name": "深圳市森国科科技股份有限公司",
+          "address": "深圳市南山区西丽街道西丽社区打石一路深圳国际创新谷八栋A座3502",
+          "score": -21
+        },
+        {
+          "id": "company-2721",
+          "name": "苏州国科测试科技有限公司",
+          "address": "中国（江苏）自由贸易试验区苏州片区苏州工业园区阳浦路98号1幢",
+          "score": -21
+        }
+      ]
+    },
+    {
+      "profileId": "key-059",
+      "profileName": "国民技术",
+      "targetId": "company-1331",
+      "targetName": "国民技术股份有限公司",
+      "targetAddress": "深圳市南山区西丽街道松坪山社区宝深路109号国民技术大厦1楼",
+      "confidence": 0.99,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1331",
+          "name": "国民技术股份有限公司",
+          "address": "深圳市南山区西丽街道松坪山社区宝深路109号国民技术大厦1楼",
+          "score": 748
+        }
+      ]
+    },
+    {
+      "profileId": "key-032",
+      "profileName": "海光信息",
+      "targetId": "company-3773",
+      "targetName": "海光信息技术股份有限公司",
+      "targetAddress": "天津华苑产业区海泰西路18号北2-204工业孵化-3-8",
+      "confidence": 0.35,
+      "status": "matched",
+      "method": "explicit-name-address",
+      "candidates": [
+        {
+          "id": "company-3773",
+          "name": "海光信息技术股份有限公司",
+          "address": "天津华苑产业区海泰西路18号北2-204工业孵化-3-8",
+          "score": 93
+        }
+      ]
+    },
+    {
+      "profileId": "key-033",
+      "profileName": "寒武纪",
+      "targetId": "company-1144",
+      "targetName": "中科寒武纪科技股份有限公司",
+      "targetAddress": "北京市海淀区知春路7号致真大厦D座16层1601房",
+      "confidence": 0.55,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1144",
+          "name": "中科寒武纪科技股份有限公司",
+          "address": "北京市海淀区知春路7号致真大厦D座16层1601房",
+          "score": 286
+        },
+        {
+          "id": "company-2382",
+          "name": "寒武纪行歌（南京）科技有限公司",
+          "address": "南京市麒麟科技创新园创研路266号人工智能产业园5号楼607室",
+          "score": 81
+        },
+        {
+          "id": "company-0078",
+          "name": "上海寒武纪信息科技有限公司",
+          "address": "中国（上海）自由贸易试验区临港新片区环湖西二路888号",
+          "score": -9
+        }
+      ]
+    },
+    {
+      "profileId": "key-098",
+      "profileName": "豪威集团",
+      "targetId": "company-0010",
+      "targetName": "豪威集成电路（集团）股份有限公司",
+      "targetAddress": "中国（上海）自由贸易试验区龙东大道3000号1幢C楼7层",
+      "confidence": 0.46923076923076923,
+      "status": "matched",
+      "method": "explicit-name-address",
+      "candidates": [
+        {
+          "id": "company-0054",
+          "name": "豪威科技（上海）有限公司",
+          "address": "中国（上海）自由贸易试验区上科路88号",
+          "score": 324
+        },
+        {
+          "id": "company-0108",
+          "name": "豪威半导体（上海）有限责任公司",
+          "address": "上海市松江区茸华路211号",
+          "score": 244
+        },
+        {
+          "id": "company-0051",
+          "name": "豪威光电子科技（上海）有限公司",
+          "address": "上海市松江区茸华路211号1幢2层",
+          "score": 244
+        },
+        {
+          "id": "company-0010",
+          "name": "豪威集成电路（集团）股份有限公司",
+          "address": "中国（上海）自由贸易试验区龙东大道3000号1幢C楼7层",
+          "score": 244
+        },
+        {
+          "id": "company-0117",
+          "name": "豪威芯仑传感器（上海）有限公司",
+          "address": "上海市普陀区云岭西路600弄6号505室",
+          "score": 244
+        }
+      ]
+    },
+    {
+      "profileId": "key-104",
+      "profileName": "宏光半导体",
+      "targetId": "",
+      "targetName": "",
+      "targetAddress": "香港干诺道中168–200号信德中心招商局大厦36楼15室",
+      "confidence": 0,
+      "status": "source-not-found",
+      "method": "not-in-master-workbook",
+      "candidates": []
+    },
+    {
+      "profileId": "key-091",
+      "profileName": "宏微科技",
+      "targetId": "company-2296",
+      "targetName": "江苏宏微科技股份有限公司",
+      "targetAddress": "常州市新北区华山路18号",
+      "confidence": 0.65,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-2296",
+          "name": "江苏宏微科技股份有限公司",
+          "address": "常州市新北区华山路18号",
+          "score": 338
+        }
+      ]
+    },
+    {
+      "profileId": "key-005",
+      "profileName": "沪硅产业",
+      "targetId": "company-0021",
+      "targetName": "上海硅产业集团股份有限公司",
+      "targetAddress": "上海市嘉定区兴邦路755号3幢",
+      "confidence": 0.35,
+      "status": "matched",
+      "method": "alias-name-city-address",
+      "candidates": [
+        {
+          "id": "company-0021",
+          "name": "上海硅产业集团股份有限公司",
+          "address": "上海市嘉定区兴邦路755号3幢",
+          "score": 166
+        }
+      ]
+    },
+    {
+      "profileId": "key-001",
+      "profileName": "华大九天",
+      "targetId": "company-1134",
+      "targetName": "北京华大九天科技股份有限公司",
+      "targetAddress": "北京市朝阳区利泽中二路2号A座二层",
+      "confidence": 0.65,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1134",
+          "name": "北京华大九天科技股份有限公司",
+          "address": "北京市朝阳区利泽中二路2号A座二层",
+          "score": 338
+        },
+        {
+          "id": "company-4345",
+          "name": "成都华大九天科技有限公司",
+          "address": "成都市双流区国芯大道518号",
+          "score": 3
+        },
+        {
+          "id": "company-2412",
+          "name": "南京华大九天科技有限公司",
+          "address": "南京市江北新区星火路17号创智大厦01幢801室",
+          "score": 3
+        },
+        {
+          "id": "company-0096",
+          "name": "上海华大九天信息科技有限公司",
+          "address": "中国（上海）自由贸易试验区临港新片区海洋二路88弄9号1层",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "profileId": "key-026",
+      "profileName": "华海清科",
+      "targetId": "company-3761",
+      "targetName": "华海清科股份有限公司",
+      "targetAddress": "天津市津南区咸水沽镇聚兴道11号",
+      "confidence": 0.99,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-3761",
+          "name": "华海清科股份有限公司",
+          "address": "天津市津南区咸水沽镇聚兴道11号",
+          "score": 748
+        },
+        {
+          "id": "company-3766",
+          "name": "华海清科（上海）半导体有限公司",
+          "address": "上海市浦东新区利川路89弄8号1层102室、2层202室",
+          "score": 93
+        }
+      ]
+    },
+    {
+      "profileId": "key-097",
+      "profileName": "华虹半导体",
+      "targetId": "company-2900",
+      "targetName": "华虹半导体（无锡）有限公司",
+      "targetAddress": "无锡市新吴区新洲路30号",
+      "confidence": 0.35,
+      "status": "matched",
+      "method": "explicit-name-address",
+      "candidates": [
+        {
+          "id": "company-2900",
+          "name": "华虹半导体（无锡）有限公司",
+          "address": "无锡市新吴区新洲路30号",
+          "score": 105
+        },
+        {
+          "id": "company-2901",
+          "name": "华虹半导体制造（无锡）有限公司",
+          "address": "无锡市新吴区新洲路30-1号",
+          "score": 105
+        }
+      ]
+    },
+    {
+      "profileId": "key-071",
+      "profileName": "华虹公司",
+      "targetId": "company-0053",
+      "targetName": "上海华虹（集团）有限公司",
+      "targetAddress": "中国（上海）自由贸易试验区碧波路177号",
+      "confidence": 0.35,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0053",
+          "name": "上海华虹（集团）有限公司",
+          "address": "中国（上海）自由贸易试验区碧波路177号",
+          "score": 154
+        },
+        {
+          "id": "company-0031",
+          "name": "上海华虹宏力半导体制造有限公司",
+          "address": "中国（上海）自由贸易试验区祖冲之路1399号",
+          "score": 154
+        },
+        {
+          "id": "company-0050",
+          "name": "上海华虹集成电路有限责任公司",
+          "address": "中国（上海）自由贸易试验区中科路1867号1幢A座6层",
+          "score": 154
+        },
+        {
+          "id": "company-0079",
+          "name": "上海华虹挚芯电子科技有限公司",
+          "address": "中国（上海）自由贸易试验区碧波路177号402部位401－403室",
+          "score": 154
+        },
+        {
+          "id": "company-2900",
+          "name": "华虹半导体（无锡）有限公司",
+          "address": "无锡市新吴区新洲路30号",
+          "score": 69
+        }
+      ]
+    },
+    {
+      "profileId": "key-084",
+      "profileName": "华润微",
+      "targetId": "company-0035",
+      "targetName": "华润微电子有限公司",
+      "targetAddress": "江苏省无锡市梁溪路14号",
+      "confidence": 0.35,
+      "status": "matched",
+      "method": "explicit-name-address",
+      "candidates": [
+        {
+          "id": "company-2925",
+          "name": "华润微集成电路（无锡）有限公司",
+          "address": "无锡太湖国际科技园菱湖大道180号-6",
+          "score": 256
+        },
+        {
+          "id": "company-2902",
+          "name": "无锡华润微电子有限公司",
+          "address": "无锡太湖国际科技园菱湖大道180号-6",
+          "score": 166
+        },
+        {
+          "id": "company-0035",
+          "name": "华润微电子有限公司",
+          "address": "",
+          "score": 126
+        },
+        {
+          "id": "company-4236",
+          "name": "华润微电子（重庆）有限公司",
+          "address": "重庆市沙坪坝区西永大道25号",
+          "score": 81
+        },
+        {
+          "id": "company-0120",
+          "name": "华润微电子控股有限公司",
+          "address": "上海市静安区汶水路299弄11、12号第5层",
+          "score": 81
+        }
+      ]
+    },
+    {
+      "profileId": "key-013",
+      "profileName": "华特气体",
+      "targetId": "company-3862",
+      "targetName": "广东华特气体股份有限公司",
+      "targetAddress": "佛山市南海区里水镇和顺逢西村文头岭脚东侧",
+      "confidence": 0.35,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-3862",
+          "name": "广东华特气体股份有限公司",
+          "address": "佛山市南海区里水镇和顺逢西村文头岭脚东侧",
+          "score": 178
+        }
+      ]
+    },
+    {
+      "profileId": "key-078",
+      "profileName": "华天科技",
+      "targetId": "company-2508",
+      "targetName": "华天科技（昆山）电子有限公司",
+      "targetAddress": "江苏省昆山开发区龙腾路112号",
+      "confidence": 0.35,
+      "status": "matched",
+      "method": "group-subsidiary",
+      "candidates": [
+        {
+          "id": "company-2356",
+          "name": "华天科技（江苏）有限公司",
+          "address": "南京市浦口区丁香路18号",
+          "score": 93
+        },
+        {
+          "id": "company-2508",
+          "name": "华天科技（昆山）电子有限公司",
+          "address": "江苏省昆山开发区龙腾路112号",
+          "score": 93
+        },
+        {
+          "id": "company-2388",
+          "name": "华天科技（南京）有限公司",
+          "address": "南京市浦口区桥林街道丁香路16号",
+          "score": 93
+        }
+      ]
+    },
+    {
+      "profileId": "key-090",
+      "profileName": "华微电子",
+      "targetId": "",
+      "targetName": "",
+      "targetAddress": "吉林省吉林市高新区深圳街99号",
+      "confidence": 0,
+      "status": "source-not-found",
+      "method": "not-in-master-workbook",
+      "candidates": [
+        {
+          "id": "company-1297",
+          "name": "北京康华微电子有限公司",
+          "address": "北京市丰台区康庄东路9号院5号楼4层2088",
+          "score": 48
+        },
+        {
+          "id": "company-0840",
+          "name": "北京科华微电子材料有限公司",
+          "address": "北京市顺义区竺园路4号（天竺综合保税区）",
+          "score": 48
+        },
+        {
+          "id": "company-4294",
+          "name": "成都华微电子科技股份有限公司",
+          "address": "中国（四川）自由贸易试验区成都高新区益州大道中段1800号1栋22-23层2201号、2301号",
+          "score": 48
+        },
+        {
+          "id": "company-3866",
+          "name": "广州华微电子有限公司",
+          "address": "广州保税区保盈大道15号",
+          "score": 48
+        },
+        {
+          "id": "company-3334",
+          "name": "杭州晶华微电子股份有限公司",
+          "address": "浙江省杭州市滨江区长河街道长河路351号4号楼5层A座501室",
+          "score": 48
+        }
+      ]
+    },
+    {
+      "profileId": "key-109",
+      "profileName": "华为海思",
+      "targetId": "company-1345",
+      "targetName": "深圳市海思半导体有限公司",
+      "targetAddress": "深圳市龙岗区坂田华为基地华为电气生产中心",
+      "confidence": 0.35,
+      "status": "matched",
+      "method": "alias-name-city-address",
+      "candidates": [
+        {
+          "id": "company-1345",
+          "name": "深圳市海思半导体有限公司",
+          "address": "深圳市龙岗区坂田华为基地华为电气生产中心",
+          "score": 154
+        },
+        {
+          "id": "company-1745",
+          "name": "海思光电子有限公司",
+          "address": "武汉东湖新技术开发区九峰三路207号（自贸区武汉片区）",
+          "score": 69
+        },
+        {
+          "id": "company-0070",
+          "name": "海思技术有限公司",
+          "address": "上海市青浦区金泽镇培雅南路100号",
+          "score": 69
+        },
+        {
+          "id": "company-2611",
+          "name": "江苏海思半导体科技有限公司",
+          "address": "江苏省苏州市相城区渭塘镇凤阳路1777号苏州钧创智合绿色科技产业园3号楼04层401",
+          "score": -21
+        },
+        {
+          "id": "company-0632",
+          "name": "上海思尔芯技术股份有限公司",
+          "address": "中国（上海）自由贸易试验区临港新片区秋山路1775弄29、30号6楼27室",
+          "score": -21
+        }
+      ]
+    },
+    {
+      "profileId": "key-116",
+      "profileName": "华卓精科",
+      "targetId": "company-1161",
+      "targetName": "北京华卓精科科技股份有限公司",
+      "targetAddress": "北京市北京经济技术开发区科创十街19号院2号楼2层(北京自贸试验区高端产业片区亦庄组团)",
+      "confidence": 0.65,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1161",
+          "name": "北京华卓精科科技股份有限公司",
+          "address": "北京市北京经济技术开发区科创十街19号院2号楼2层(北京自贸试验区高端产业片区亦庄组团)",
+          "score": 338
+        }
+      ]
+    },
+    {
+      "profileId": "key-040",
+      "profileName": "汇顶科技",
+      "targetId": "company-1312",
+      "targetName": "深圳市汇顶科技股份有限公司",
+      "targetAddress": "深圳市福田区保税区腾飞工业大厦B座13层",
+      "confidence": 0.35,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1312",
+          "name": "深圳市汇顶科技股份有限公司",
+          "address": "深圳市福田区保税区腾飞工业大厦B座13层",
+          "score": 178
+        }
+      ]
+    },
+    {
+      "profileId": "key-126",
+      "profileName": "集创北方",
+      "targetId": "company-1260",
+      "targetName": "北京集创北方科技股份有限公司",
+      "targetAddress": "北京市北京经济技术开发区博兴街道科创十街9号院1号楼9层901",
+      "confidence": 0.35,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1260",
+          "name": "北京集创北方科技股份有限公司",
+          "address": "北京市北京经济技术开发区博兴街道科创十街9号院1号楼9层901",
+          "score": 178
+        }
+      ]
+    },
+    {
+      "profileId": "key-112",
+      "profileName": "嘉立创",
+      "targetId": "",
+      "targetName": "",
+      "targetAddress": "广东省深圳市福田区莲花街道景华社区商报路2号奥林匹克大厦27层",
+      "confidence": 0,
+      "status": "source-not-found",
+      "method": "not-in-master-workbook",
+      "candidates": []
+    },
+    {
+      "profileId": "key-051",
+      "profileName": "江波龙",
+      "targetId": "company-1313",
+      "targetName": "深圳市江波龙电子股份有限公司",
+      "targetAddress": "深圳市前海深港合作区南山街道听海大道5059号鸿荣源前海金融中心二期B座2001、2201、2301",
+      "confidence": 0.6269230769230769,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1313",
+          "name": "深圳市江波龙电子股份有限公司",
+          "address": "深圳市前海深港合作区南山街道听海大道5059号鸿荣源前海金融中心二期B座2001、2201、2301",
+          "score": 326
+        },
+        {
+          "id": "company-0098",
+          "name": "上海江波龙存储技术有限公司",
+          "address": "中国（上海）自由贸易试验区临港新片区业盛路190号17层1723室",
+          "score": -9
+        },
+        {
+          "id": "company-0705",
+          "name": "上海江波龙电子有限公司",
+          "address": "上海市杨浦区昆明路596号6幢506室、507室、508室",
+          "score": -9
+        },
+        {
+          "id": "company-0706",
+          "name": "上海江波龙数字技术有限公司",
+          "address": "中国（上海）自由贸易试验区临港新片区环湖西二路888号C楼",
+          "score": -9
+        }
+      ]
+    },
+    {
+      "profileId": "key-018",
+      "profileName": "江丰电子",
+      "targetId": "company-0146",
+      "targetName": "宁波江丰电子材料股份有限公司",
+      "targetAddress": "浙江省余姚市经济开发区名邦科技工业园区安山路（一照多址）",
+      "confidence": 0.35,
+      "status": "matched",
+      "method": "explicit-name-address",
+      "candidates": [
+        {
+          "id": "company-0146",
+          "name": "宁波江丰电子材料股份有限公司",
+          "address": "浙江省余姚市经济开发区名邦科技工业园区安山路（一照多址）",
+          "score": 178
+        },
+        {
+          "id": "company-0023",
+          "name": "上海江丰电子材料有限公司",
+          "address": "中国（上海）自由贸易试验区临港新片区翠波路201、221号1幢4层401室",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "profileId": "key-062",
+      "profileName": "杰华特",
+      "targetId": "company-3339",
+      "targetName": "杰华特微电子股份有限公司",
+      "targetAddress": "浙江省杭州市西湖区三墩镇圣塘坝街19号圣塘芯城",
+      "confidence": 0.49230769230769234,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-3339",
+          "name": "杰华特微电子股份有限公司",
+          "address": "浙江省杭州市西湖区三墩镇圣塘坝街19号圣塘芯城",
+          "score": 256
+        },
+        {
+          "id": "company-4145",
+          "name": "杰华特微电子（厦门）有限公司",
+          "address": "中国(福建)自由贸易试验区厦门片区嵩屿南二路99号1303室之367",
+          "score": 81
+        },
+        {
+          "id": "company-0713",
+          "name": "杰华特微电子（上海）有限公司",
+          "address": "中国（上海）自由贸易试验区盛荣路88弄1号410室",
+          "score": 81
+        }
+      ]
+    },
+    {
+      "profileId": "key-092",
+      "profileName": "捷捷微电",
+      "targetId": "company-2294",
+      "targetName": "江苏捷捷微电子股份有限公司",
+      "targetAddress": "江苏省启东市经济开发区钱塘江路3000号",
+      "confidence": 0.65,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-2294",
+          "name": "江苏捷捷微电子股份有限公司",
+          "address": "江苏省启东市经济开发区钱塘江路3000号",
+          "score": 338
+        },
+        {
+          "id": "company-4330",
+          "name": "捷捷微电（成都）科技有限公司",
+          "address": "成都高新区合顺路2号2栋2单元9楼3号",
+          "score": 93
+        },
+        {
+          "id": "company-0262",
+          "name": "捷捷微电（上海）科技有限公司",
+          "address": "中国（上海）自由贸易试验区临港新片区海洋一路333号1号楼、2号楼",
+          "score": 93
+        }
+      ]
+    },
+    {
+      "profileId": "key-029",
+      "profileName": "金海通",
+      "targetId": "company-3781",
+      "targetName": "天津金海通半导体设备股份有限公司",
+      "targetAddress": "天津华苑产业区物华道8号A106",
+      "confidence": 0.35,
+      "status": "matched",
+      "method": "explicit-name-address",
+      "candidates": [
+        {
+          "id": "company-3781",
+          "name": "天津金海通半导体设备股份有限公司",
+          "address": "天津华苑产业区物华道8号A106",
+          "score": -9
+        }
+      ]
+    },
+    {
+      "profileId": "key-014",
+      "profileName": "金宏气体",
+      "targetId": "company-2769",
+      "targetName": "金宏气体股份有限公司",
+      "targetAddress": "苏州市相城区黄埭镇潘阳工业园安民路",
+      "confidence": 0.99,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-2769",
+          "name": "金宏气体股份有限公司",
+          "address": "苏州市相城区黄埭镇潘阳工业园安民路",
+          "score": 748
+        }
+      ]
+    },
+    {
+      "profileId": "key-060",
+      "profileName": "晶晨股份",
+      "targetId": "company-0066",
+      "targetName": "晶晨半导体（上海）股份有限公司",
+      "targetAddress": "中国（上海）自由贸易试验区春晓路350号南楼406室",
+      "confidence": 0.46923076923076923,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0066",
+          "name": "晶晨半导体（上海）股份有限公司",
+          "address": "中国（上海）自由贸易试验区春晓路350号南楼406室",
+          "score": 244
+        },
+        {
+          "id": "company-0122",
+          "name": "晶晨半导体（香港）有限公司",
+          "address": "",
+          "score": 114
+        },
+        {
+          "id": "company-1637",
+          "name": "晶晨半导体（深圳）有限公司",
+          "address": "深圳市前海深港合作区前湾一路1号A栋201室（入驻深圳市前海商务秘书有限公司）",
+          "score": 69
+        }
+      ]
+    },
+    {
+      "profileId": "key-080",
+      "profileName": "晶方科技",
+      "targetId": "company-2539",
+      "targetName": "苏州晶方半导体科技股份有限公司",
+      "targetAddress": "苏州工业园区汀兰巷29号",
+      "confidence": 0.6038461538461538,
+      "status": "matched",
+      "method": "alias-name-city-address",
+      "candidates": [
+        {
+          "id": "company-2539",
+          "name": "苏州晶方半导体科技股份有限公司",
+          "address": "苏州工业园区汀兰巷29号",
+          "score": 314
+        }
+      ]
+    },
+    {
+      "profileId": "key-072",
+      "profileName": "晶合集成",
+      "targetId": "company-1940",
+      "targetName": "合肥晶合集成电路股份有限公司",
+      "targetAddress": "安徽省合肥市新站区合肥综合保税区内西淝河路88号",
+      "confidence": 0.65,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1940",
+          "name": "合肥晶合集成电路股份有限公司",
+          "address": "安徽省合肥市新站区合肥综合保税区内西淝河路88号",
+          "score": 338
+        }
+      ]
+    },
+    {
+      "profileId": "key-009",
+      "profileName": "晶瑞电材",
+      "targetId": "company-2478",
+      "targetName": "晶瑞电子材料股份有限公司",
+      "targetAddress": "苏州市吴中经济开发区河东工业园善丰路168号",
+      "confidence": 0.6230769230769231,
+      "status": "matched",
+      "method": "alias-name-city-address",
+      "candidates": [
+        {
+          "id": "company-2478",
+          "name": "晶瑞电子材料股份有限公司",
+          "address": "苏州市吴中经济开发区河东工业园善丰路168号",
+          "score": 324
+        },
+        {
+          "id": "company-1721",
+          "name": "晶瑞（湖北）微电子材料有限公司",
+          "address": "潜江市江汉盐化工业园园区东路1号",
+          "score": 69
+        },
+        {
+          "id": "company-3608",
+          "name": "浙江晶瑞电子材料有限公司",
+          "address": "浙江省杭州湾上虞经济技术开发区东二区舜园路",
+          "score": -21
+        }
+      ]
+    },
+    {
+      "profileId": "key-028",
+      "profileName": "精测电子",
+      "targetId": "company-1715",
+      "targetName": "武汉精测电子集团股份有限公司",
+      "targetAddress": "洪山区书城路48#（北港工业园）1栋11层",
+      "confidence": 0.35,
+      "status": "matched",
+      "method": "explicit-name-address",
+      "candidates": [
+        {
+          "id": "company-1715",
+          "name": "武汉精测电子集团股份有限公司",
+          "address": "洪山区书城路48#（北港工业园）1栋11层",
+          "score": 48
+        }
+      ]
+    },
+    {
+      "profileId": "key-050",
+      "profileName": "聚辰股份",
+      "targetId": "company-0106",
+      "targetName": "聚辰半导体股份有限公司",
+      "targetAddress": "中国（上海）自由贸易试验区张东路1761号10幢",
+      "confidence": 0.7769230769230769,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0106",
+          "name": "聚辰半导体股份有限公司",
+          "address": "中国（上海）自由贸易试验区张东路1761号10幢",
+          "score": 404
+        }
+      ]
+    },
+    {
+      "profileId": "key-118",
+      "profileName": "昆仑芯",
+      "targetId": "company-1140",
+      "targetName": "昆仑芯（北京）科技股份有限公司",
+      "targetAddress": "北京市海淀区上地信息路19号1号楼三层321",
+      "confidence": 0.49230769230769234,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1140",
+          "name": "昆仑芯（北京）科技股份有限公司",
+          "address": "北京市海淀区上地信息路19号1号楼三层321",
+          "score": 256
+        }
+      ]
+    },
+    {
+      "profileId": "key-083",
+      "profileName": "蓝箭电子",
+      "targetId": "company-3800",
+      "targetName": "佛山市蓝箭电子股份有限公司",
+      "targetAddress": "佛山市禅城区古新路45号",
+      "confidence": 0.49615384615384617,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-3800",
+          "name": "佛山市蓝箭电子股份有限公司",
+          "address": "佛山市禅城区古新路45号",
+          "score": 258
+        }
+      ]
+    },
+    {
+      "profileId": "key-037",
+      "profileName": "澜起科技",
+      "targetId": "company-0011",
+      "targetName": "澜起科技股份有限公司",
+      "targetAddress": "上海市徐汇区漕宝路181号1幢15层",
+      "confidence": 0.99,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0011",
+          "name": "澜起科技股份有限公司",
+          "address": "上海市徐汇区漕宝路181号1幢15层",
+          "score": 695
+        }
+      ]
+    },
+    {
+      "profileId": "key-006",
+      "profileName": "立昂微",
+      "targetId": "company-3335",
+      "targetName": "杭州立昂微电子股份有限公司",
+      "targetAddress": "杭州经济技术开发区20号大街199号",
+      "confidence": 0.6269230769230769,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-3335",
+          "name": "杭州立昂微电子股份有限公司",
+          "address": "杭州经济技术开发区20号大街199号",
+          "score": 326
+        }
+      ]
+    },
+    {
+      "profileId": "key-061",
+      "profileName": "龙迅股份",
+      "targetId": "company-1970",
+      "targetName": "龙迅半导体（合肥）股份有限公司",
+      "targetAddress": "安徽省合肥市经济技术开发区宿松路3963号智能装备科技园B3栋",
+      "confidence": 0.7769230769230769,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1970",
+          "name": "龙迅半导体（合肥）股份有限公司",
+          "address": "安徽省合肥市经济技术开发区宿松路3963号智能装备科技园B3栋",
+          "score": 404
+        }
+      ]
+    },
+    {
+      "profileId": "key-068",
+      "profileName": "摩尔线程",
+      "targetId": "company-1135",
+      "targetName": "摩尔线程智能科技（北京）股份有限公司",
+      "targetAddress": "北京市海淀区翠微中里14号楼四层B655",
+      "confidence": 0.5153846153846153,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1135",
+          "name": "摩尔线程智能科技（北京）股份有限公司",
+          "address": "北京市海淀区翠微中里14号楼四层B655",
+          "score": 268
+        }
+      ]
+    },
+    {
+      "profileId": "key-069",
+      "profileName": "沐曦股份",
+      "targetId": "company-0018",
+      "targetName": "沐曦集成电路（上海）股份有限公司",
+      "targetAddress": "中国（上海）自由贸易试验区郭守敬路498号8幢19号楼3层",
+      "confidence": 0.7769230769230769,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0018",
+          "name": "沐曦集成电路（上海）股份有限公司",
+          "address": "中国（上海）自由贸易试验区郭守敬路498号8幢19号楼3层",
+          "score": 404
+        }
+      ]
+    },
+    {
+      "profileId": "key-066",
+      "profileName": "纳芯微",
+      "targetId": "company-2572",
+      "targetName": "苏州纳芯微电子股份有限公司",
+      "targetAddress": "苏州工业园区东荡田巷9号",
+      "confidence": 0.6269230769230769,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-2572",
+          "name": "苏州纳芯微电子股份有限公司",
+          "address": "苏州工业园区东荡田巷9号",
+          "score": 326
+        }
+      ]
+    },
+    {
+      "profileId": "key-008",
+      "profileName": "南大光电",
+      "targetId": "company-2477",
+      "targetName": "江苏南大光电材料股份有限公司",
+      "targetAddress": "苏州工业园区胜浦平胜路67号",
+      "confidence": 0.65,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-2477",
+          "name": "江苏南大光电材料股份有限公司",
+          "address": "苏州工业园区胜浦平胜路67号",
+          "score": 338
+        },
+        {
+          "id": "company-4169",
+          "name": "南大光电（淄博）有限公司",
+          "address": "山东省淄博市高青县高城镇高青化工产业园飞源南路1号",
+          "score": 93
+        },
+        {
+          "id": "company-3697",
+          "name": "宁波南大光电材料有限公司",
+          "address": "浙江省宁波市北仑区柴桥街道扬舟岙路233号",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "profileId": "key-017",
+      "profileName": "欧莱新材",
+      "targetId": "company-3977",
+      "targetName": "广东欧莱高新材料股份有限公司",
+      "targetAddress": "韶关市武江区创业路5号C幢厂房",
+      "confidence": 0.46153846153846156,
+      "status": "matched",
+      "method": "explicit-name-address",
+      "candidates": []
+    },
+    {
+      "profileId": "key-049",
+      "profileName": "普冉股份",
+      "targetId": "company-0092",
+      "targetName": "普冉半导体（上海）股份有限公司",
+      "targetAddress": "中国（上海）自由贸易试验区银冬路20弄8号地下1层、地下2层、地下3层、2层、3层、4层、5层",
+      "confidence": 0.46923076923076923,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0092",
+          "name": "普冉半导体（上海）股份有限公司",
+          "address": "中国（上海）自由贸易试验区银冬路20弄8号地下1层、地下2层、地下3层、2层、3层、4层、5层",
+          "score": 244
+        }
+      ]
+    },
+    {
+      "profileId": "key-121",
+      "profileName": "强脑科技",
+      "targetId": "",
+      "targetName": "",
+      "targetAddress": "浙江省杭州市余杭区人工智能小镇1幢2层",
+      "confidence": 0,
+      "status": "source-not-found",
+      "method": "not-in-master-workbook",
+      "candidates": []
+    },
+    {
+      "profileId": "key-058",
+      "profileName": "全志科技",
+      "targetId": "company-3794",
+      "targetName": "珠海全志科技股份有限公司",
+      "targetAddress": "珠海市高新区唐家湾镇科技二路9号",
+      "confidence": 0.65,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-3794",
+          "name": "珠海全志科技股份有限公司",
+          "address": "珠海市高新区唐家湾镇科技二路9号",
+          "score": 338
+        }
+      ]
+    },
+    {
+      "profileId": "key-039",
+      "profileName": "瑞芯微",
+      "targetId": "company-4063",
+      "targetName": "瑞芯微电子股份有限公司",
+      "targetAddress": "福州市鼓楼区软件大道89号18号楼",
+      "confidence": 0.5942307692307692,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-4063",
+          "name": "瑞芯微电子股份有限公司",
+          "address": "福州市鼓楼区软件大道89号18号楼",
+          "score": 309
+        },
+        {
+          "id": "company-4474",
+          "name": "成都华光瑞芯微电子股份有限公司",
+          "address": "成都高新区天虹路5号",
+          "score": -9
+        }
+      ]
+    },
+    {
+      "profileId": "key-073",
+      "profileName": "赛微电子",
+      "targetId": "company-1149",
+      "targetName": "北京赛微电子股份有限公司",
+      "targetAddress": "北京市西城区裕民路18号北环中心A座2607室(德胜园区)",
+      "confidence": 0.5884615384615385,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1149",
+          "name": "北京赛微电子股份有限公司",
+          "address": "北京市西城区裕民路18号北环中心A座2607室(德胜园区)",
+          "score": 306
+        },
+        {
+          "id": "company-0660",
+          "name": "昂赛微电子（上海）有限公司",
+          "address": "中国（上海）自由贸易试验区盛荣路333号1幢16层1602-A室",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "profileId": "key-094",
+      "profileName": "三安光电",
+      "targetId": "company-4469",
+      "targetName": "三安光电股份有限公司",
+      "targetAddress": "湖北省荆州市荆州开发区东方大道131号",
+      "confidence": 0.7942307692307692,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-4469",
+          "name": "三安光电股份有限公司",
+          "address": "湖北省荆州市荆州开发区东方大道131号",
+          "score": 413
+        },
+        {
+          "id": "company-4137",
+          "name": "厦门三安光电有限公司",
+          "address": "厦门火炬高新区（翔安）产业区民安大道841-899号",
+          "score": 178
+        },
+        {
+          "id": "company-1722",
+          "name": "湖北三安光电有限公司",
+          "address": "湖北省鄂州市葛店开发区高新五路18号",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "profileId": "key-041",
+      "profileName": "上海贝岭",
+      "targetId": "company-0111",
+      "targetName": "上海贝岭股份有限公司",
+      "targetAddress": "上海市宜山路810号",
+      "confidence": 0.99,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0111",
+          "name": "上海贝岭股份有限公司",
+          "address": "上海市宜山路810号",
+          "score": 748
+        }
+      ]
+    },
+    {
+      "profileId": "key-110",
+      "profileName": "上海微电子(SMEE)",
+      "targetId": "company-0027",
+      "targetName": "上海微电子装备（集团）股份有限公司",
+      "targetAddress": "中国（上海）自由贸易试验区张东路1525号",
+      "confidence": 0.7384615384615385,
+      "status": "matched",
+      "method": "alias-name-city-address",
+      "candidates": [
+        {
+          "id": "company-0027",
+          "name": "上海微电子装备（集团）股份有限公司",
+          "address": "中国（上海）自由贸易试验区张东路1525号",
+          "score": 384
+        }
+      ]
+    },
+    {
+      "profileId": "key-082",
+      "profileName": "深科技",
+      "targetId": "company-1339",
+      "targetName": "深圳长城开发科技股份有限公司",
+      "targetAddress": "深圳市福田区彩田路7006号",
+      "confidence": 0.65,
+      "status": "matched",
+      "method": "alias-name-city-address",
+      "candidates": [
+        {
+          "id": "company-1339",
+          "name": "深圳长城开发科技股份有限公司",
+          "address": "深圳市福田区彩田路7006号",
+          "score": 338
+        }
+      ]
+    },
+    {
+      "profileId": "key-055",
+      "profileName": "圣邦股份",
+      "targetId": "company-1150",
+      "targetName": "圣邦微电子（北京）股份有限公司",
+      "targetAddress": "北京市海淀区西三环北路87号11层4-1106",
+      "confidence": 0.7769230769230769,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1150",
+          "name": "圣邦微电子（北京）股份有限公司",
+          "address": "北京市海淀区西三环北路87号11层4-1106",
+          "score": 404
+        },
+        {
+          "id": "company-3112",
+          "name": "江阴圣邦微电子制造有限公司",
+          "address": "江阴市东盛路16号",
+          "score": -21
+        },
+        {
+          "id": "company-0709",
+          "name": "上海圣邦骏盈微电子有限公司",
+          "address": "中国（上海）自由贸易试验区临港新片区环湖西二路888号C楼",
+          "score": -21
+        }
+      ]
+    },
+    {
+      "profileId": "key-079",
+      "profileName": "盛合晶微",
+      "targetId": "company-2937",
+      "targetName": "盛合晶微半导体（江阴）有限公司",
+      "targetAddress": "江阴市东盛西路9号",
+      "confidence": 0.5153846153846153,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-2937",
+          "name": "盛合晶微半导体（江阴）有限公司",
+          "address": "江阴市东盛西路9号",
+          "score": 268
+        }
+      ]
+    },
+    {
+      "profileId": "key-024",
+      "profileName": "盛美上海",
+      "targetId": "company-0026",
+      "targetName": "盛美半导体设备（上海）股份有限公司",
+      "targetAddress": "中国（上海）自由贸易试验区丹桂路999弄5、6、7、8号全幢",
+      "confidence": 0.7769230769230769,
+      "status": "matched",
+      "method": "alias-name-city-address",
+      "candidates": [
+        {
+          "id": "company-0026",
+          "name": "盛美半导体设备（上海）股份有限公司",
+          "address": "中国（上海）自由贸易试验区丹桂路999弄5、6、7、8号全幢",
+          "score": 404
+        },
+        {
+          "id": "company-2955",
+          "name": "盛美半导体设备无锡有限公司",
+          "address": "无锡新区出口加工区J1地块6号房",
+          "score": 69
+        }
+      ]
+    },
+    {
+      "profileId": "key-089",
+      "profileName": "时代电气",
+      "targetId": "company-1308",
+      "targetName": "株洲中车时代半导体有限公司",
+      "targetAddress": "湖南省株洲市石峰区时代路",
+      "confidence": 0.46153846153846156,
+      "status": "matched",
+      "method": "explicit-name-address",
+      "candidates": []
+    },
+    {
+      "profileId": "key-085",
+      "profileName": "士兰微",
+      "targetId": "company-3332",
+      "targetName": "杭州士兰微电子股份有限公司",
+      "targetAddress": "浙江省杭州市黄姑山路4号",
+      "confidence": 0.6269230769230769,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-3332",
+          "name": "杭州士兰微电子股份有限公司",
+          "address": "浙江省杭州市黄姑山路4号",
+          "score": 326
+        },
+        {
+          "id": "company-4144",
+          "name": "厦门士兰微电子有限公司",
+          "address": "厦门市海沧区兰英路99-1号2楼",
+          "score": -9
+        }
+      ]
+    },
+    {
+      "profileId": "key-087",
+      "profileName": "斯达半导",
+      "targetId": "company-3338",
+      "targetName": "斯达半导体股份有限公司",
+      "targetAddress": "浙江省嘉兴市南湖区科兴路988号",
+      "confidence": 0.823076923076923,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-3338",
+          "name": "斯达半导体股份有限公司",
+          "address": "浙江省嘉兴市南湖区科兴路988号",
+          "score": 428
+        },
+        {
+          "id": "company-0062",
+          "name": "斯达半导体（上海）有限公司",
+          "address": "上海市嘉定区恒永路518弄7号3层321室",
+          "score": 93
+        }
+      ]
+    },
+    {
+      "profileId": "key-117",
+      "profileName": "燧原科技",
+      "targetId": "company-0075",
+      "targetName": "上海燧原科技股份有限公司",
+      "targetAddress": "中国（上海）自由贸易试验区临港新片区业盛路188号A-522室",
+      "confidence": 0.35,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0075",
+          "name": "上海燧原科技股份有限公司",
+          "address": "中国（上海）自由贸易试验区临港新片区业盛路188号A-522室",
+          "score": 178
+        }
+      ]
+    },
+    {
+      "profileId": "key-022",
+      "profileName": "拓荆科技",
+      "targetId": "company-4048",
+      "targetName": "拓荆科技股份有限公司",
+      "targetAddress": "辽宁省沈阳市浑南区全运路109-3号（109-3号）14层",
+      "confidence": 0.99,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-4048",
+          "name": "拓荆科技股份有限公司",
+          "address": "辽宁省沈阳市浑南区全运路109-3号（109-3号）14层",
+          "score": 748
+        },
+        {
+          "id": "company-3301",
+          "name": "拓荆科技（青岛）有限公司",
+          "address": "山东省青岛市黄岛区灵珠山街道柳西社区股份经济合作社办公室116室",
+          "score": 93
+        },
+        {
+          "id": "company-0030",
+          "name": "拓荆科技（上海）有限公司",
+          "address": "中国（上海）自由贸易试验区临港新片区飞舟路1868号",
+          "score": 93
+        }
+      ]
+    },
+    {
+      "profileId": "key-093",
+      "profileName": "台基股份",
+      "targetId": "company-1738",
+      "targetName": "湖北台基半导体股份有限公司",
+      "targetAddress": "湖北省襄阳市襄城区胜利街162号",
+      "confidence": 0.6038461538461538,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1738",
+          "name": "湖北台基半导体股份有限公司",
+          "address": "湖北省襄阳市襄城区胜利街162号",
+          "score": 314
+        }
+      ]
+    },
+    {
+      "profileId": "key-100",
+      "profileName": "天数智芯",
+      "targetId": "company-0069",
+      "targetName": "上海天数智芯半导体股份有限公司",
+      "targetAddress": "上海市闵行区陈行公路2168号3幢101室",
+      "confidence": 0.65,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0069",
+          "name": "上海天数智芯半导体股份有限公司",
+          "address": "上海市闵行区陈行公路2168号3幢101室",
+          "score": 338
+        }
+      ]
+    },
+    {
+      "profileId": "key-096",
+      "profileName": "天域半导体",
+      "targetId": "company-3974",
+      "targetName": "广东天域半导体股份有限公司",
+      "targetAddress": "广东省东莞市松山湖园区工业北一路5号",
+      "confidence": 0.36538461538461536,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-3974",
+          "name": "广东天域半导体股份有限公司",
+          "address": "广东省东莞市松山湖园区工业北一路5号",
+          "score": 190
+        }
+      ]
+    },
+    {
+      "profileId": "key-095",
+      "profileName": "天岳先进",
+      "targetId": "company-0145",
+      "targetName": "山东天岳先进科技股份有限公司",
+      "targetAddress": "山东省济南市槐荫区天岳南路99号",
+      "confidence": 0.65,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0145",
+          "name": "山东天岳先进科技股份有限公司",
+          "address": "山东省济南市槐荫区天岳南路99号",
+          "score": 338
+        }
+      ]
+    },
+    {
+      "profileId": "key-077",
+      "profileName": "通富微电",
+      "targetId": "company-2168",
+      "targetName": "通富微电子股份有限公司",
+      "targetAddress": "南通市崇川路288号",
+      "confidence": 0.6692307692307692,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-2168",
+          "name": "通富微电子股份有限公司",
+          "address": "南通市崇川路288号",
+          "score": 348
+        },
+        {
+          "id": "company-1963",
+          "name": "合肥通富微电子有限公司",
+          "address": "安徽省合肥市经济技术开发区卫星路578号",
+          "score": 3
+        },
+        {
+          "id": "company-4136",
+          "name": "厦门通富微电子有限公司",
+          "address": "中国（福建）自由贸易试验区厦门片区建港路29号海沧国际物流大厦10楼1001单元F0193",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "profileId": "key-010",
+      "profileName": "彤程新材",
+      "targetId": "company-0159",
+      "targetName": "彤程新材料集团股份有限公司",
+      "targetAddress": "中国（上海）自由贸易试验区银城中路501号上海中心25层2501室",
+      "confidence": 0.823076923076923,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0159",
+          "name": "彤程新材料集团股份有限公司",
+          "address": "中国（上海）自由贸易试验区银城中路501号上海中心25层2501室",
+          "score": 428
+        }
+      ]
+    },
+    {
+      "profileId": "key-023",
+      "profileName": "微导纳米",
+      "targetId": "company-2946",
+      "targetName": "江苏微导纳米科技股份有限公司",
+      "targetAddress": "无锡市新吴区长江南路27号",
+      "confidence": 0.65,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-2946",
+          "name": "江苏微导纳米科技股份有限公司",
+          "address": "无锡市新吴区长江南路27号",
+          "score": 338
+        }
+      ]
+    },
+    {
+      "profileId": "key-034",
+      "profileName": "韦尔股份",
+      "targetId": "company-0054",
+      "targetName": "豪威科技（上海）有限公司",
+      "targetAddress": "中国（上海）自由贸易试验区上科路88号",
+      "confidence": 0.46153846153846156,
+      "status": "matched",
+      "method": "name-address-subsidiary",
+      "candidates": []
+    },
+    {
+      "profileId": "key-086",
+      "profileName": "闻泰科技",
+      "targetId": "company-1658",
+      "targetName": "闻泰科技股份有限公司",
+      "targetAddress": "湖北省黄石市开发区·铁山区汪仁镇新城路东18号",
+      "confidence": 0.7942307692307692,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1658",
+          "name": "闻泰科技股份有限公司",
+          "address": "湖北省黄石市开发区·铁山区汪仁镇新城路东18号",
+          "score": 413
+        }
+      ]
+    },
+    {
+      "profileId": "key-115",
+      "profileName": "武汉新芯",
+      "targetId": "company-1697",
+      "targetName": "武汉新芯集成电路股份有限公司",
+      "targetAddress": "武汉市东湖开发区高新四路18号",
+      "confidence": 0.6692307692307692,
+      "status": "matched",
+      "method": "explicit-name-address",
+      "candidates": [
+        {
+          "id": "company-1697",
+          "name": "武汉新芯集成电路股份有限公司",
+          "address": "武汉市东湖开发区高新四路18号",
+          "score": 348
+        }
+      ]
+    },
+    {
+      "profileId": "key-124",
+      "profileName": "西安奕材",
+      "targetId": "company-1309",
+      "targetName": "西安奕斯伟材料科技股份有限公司",
+      "targetAddress": "陕西省西安市高新区西沣南路1888号1-3-029室",
+      "confidence": 0.5711538461538461,
+      "status": "matched",
+      "method": "alias-name-city-address",
+      "candidates": [
+        {
+          "id": "company-1309",
+          "name": "西安奕斯伟材料科技股份有限公司",
+          "address": "陕西省西安市高新区西沣南路1888号1-3-029室",
+          "score": 297
+        }
+      ]
+    },
+    {
+      "profileId": "key-130",
+      "profileName": "曦华科技",
+      "targetId": "company-1549",
+      "targetName": "深圳曦华科技股份有限公司",
+      "targetAddress": "深圳市南山区西丽街道西丽社区打石一路深圳国际创新谷七栋D座201房",
+      "confidence": 0.49615384615384617,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1549",
+          "name": "深圳曦华科技股份有限公司",
+          "address": "深圳市南山区西丽街道西丽社区打石一路深圳国际创新谷七栋D座201房",
+          "score": 258
+        }
+      ]
+    },
+    {
+      "profileId": "key-107",
+      "profileName": "曦智科技",
+      "targetId": "company-0087",
+      "targetName": "上海曦智科技股份有限公司",
+      "targetAddress": "中国（上海）自由贸易试验区博霞路111号、125号、139号",
+      "confidence": 0.65,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0087",
+          "name": "上海曦智科技股份有限公司",
+          "address": "中国（上海）自由贸易试验区博霞路111号、125号、139号",
+          "score": 338
+        }
+      ]
+    },
+    {
+      "profileId": "key-074",
+      "profileName": "芯联集成",
+      "targetId": "company-3341",
+      "targetName": "芯联集成电路制造股份有限公司",
+      "targetAddress": "浙江省绍兴市越城区皋埠街道临江路518号",
+      "confidence": 0.823076923076923,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-3341",
+          "name": "芯联集成电路制造股份有限公司",
+          "address": "浙江省绍兴市越城区皋埠街道临江路518号",
+          "score": 428
+        }
+      ]
+    },
+    {
+      "profileId": "key-003",
+      "profileName": "芯原股份",
+      "targetId": "company-0012",
+      "targetName": "芯原微电子（上海）股份有限公司",
+      "targetAddress": "中国（上海）自由贸易试验区春晓路289号张江大厦20A",
+      "confidence": 0.7769230769230769,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0012",
+          "name": "芯原微电子（上海）股份有限公司",
+          "address": "中国（上海）自由贸易试验区春晓路289号张江大厦20A",
+          "score": 404
+        },
+        {
+          "id": "company-0669",
+          "name": "芯原科技（上海）有限公司",
+          "address": "中国（上海）自由贸易试验区临港新片区海港大道1555号1501、1502、1503、1504室",
+          "score": 244
+        }
+      ]
+    },
+    {
+      "profileId": "key-025",
+      "profileName": "芯源微",
+      "targetId": "company-4042",
+      "targetName": "沈阳芯源微电子设备股份有限公司",
+      "targetAddress": "辽宁省沈阳市浑南区飞云路16号",
+      "confidence": 0.6269230769230769,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-4042",
+          "name": "沈阳芯源微电子设备股份有限公司",
+          "address": "辽宁省沈阳市浑南区飞云路16号",
+          "score": 326
+        },
+        {
+          "id": "company-0549",
+          "name": "上海大恩芯源微电子有限公司",
+          "address": "上海市静安区万荣路700号39幢",
+          "score": -9
+        },
+        {
+          "id": "company-0970",
+          "name": "上海芯源微企业发展有限公司",
+          "address": "中国（上海）自由贸易试验区临港新片区飞渡路1388号",
+          "score": -9
+        }
+      ]
+    },
+    {
+      "profileId": "key-123",
+      "profileName": "新芯集成",
+      "targetId": "company-1697",
+      "targetName": "武汉新芯集成电路股份有限公司",
+      "targetAddress": "武汉市东湖开发区高新四路18号",
+      "confidence": 0.49615384615384617,
+      "status": "matched",
+      "method": "explicit-name-address",
+      "candidates": [
+        {
+          "id": "company-1697",
+          "name": "武汉新芯集成电路股份有限公司",
+          "address": "武汉市东湖开发区高新四路18号",
+          "score": 258
+        }
+      ]
+    },
+    {
+      "profileId": "key-064",
+      "profileName": "星宸科技",
+      "targetId": "company-4092",
+      "targetName": "星宸科技股份有限公司",
+      "targetAddress": "厦门火炬高新区（翔安）产业区同龙二路942号423-49",
+      "confidence": 0.99,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-4092",
+          "name": "星宸科技股份有限公司",
+          "address": "厦门火炬高新区（翔安）产业区同龙二路942号423-49",
+          "score": 588
+        }
+      ]
+    },
+    {
+      "profileId": "key-011",
+      "profileName": "雅克科技",
+      "targetId": "company-2956",
+      "targetName": "江苏雅克科技股份有限公司",
+      "targetAddress": "无锡宜兴经济开发区荆溪北路16号",
+      "confidence": 0.49615384615384617,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-2956",
+          "name": "江苏雅克科技股份有限公司",
+          "address": "无锡宜兴经济开发区荆溪北路16号",
+          "score": 258
+        }
+      ]
+    },
+    {
+      "profileId": "key-088",
+      "profileName": "扬杰科技",
+      "targetId": "company-2295",
+      "targetName": "扬州扬杰电子科技股份有限公司",
+      "targetAddress": "江苏扬州维扬经济开发区",
+      "confidence": 0.35,
+      "status": "matched",
+      "method": "alias-name-city-address",
+      "candidates": [
+        {
+          "id": "company-2295",
+          "name": "扬州扬杰电子科技股份有限公司",
+          "address": "江苏扬州维扬经济开发区",
+          "score": 154
+        },
+        {
+          "id": "company-0263",
+          "name": "上海芯扬杰电子有限公司",
+          "address": "上海市闵行区申虹路666弄1号403室",
+          "score": -21
+        }
+      ]
+    },
+    {
+      "profileId": "key-021",
+      "profileName": "屹唐股份",
+      "targetId": "company-1147",
+      "targetName": "北京屹唐半导体科技股份有限公司",
+      "targetAddress": "北京市北京经济技术开发区瑞合西二路9号",
+      "confidence": 0.6038461538461538,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1147",
+          "name": "北京屹唐半导体科技股份有限公司",
+          "address": "北京市北京经济技术开发区瑞合西二路9号",
+          "score": 314
+        }
+      ]
+    },
+    {
+      "profileId": "key-101",
+      "profileName": "英诺赛科",
+      "targetId": "company-0008",
+      "targetName": "英诺赛科（苏州）半导体有限公司",
+      "targetAddress": "苏州市吴江区黎里镇北厍新黎路98号",
+      "confidence": 0.6692307692307692,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0008",
+          "name": "英诺赛科（苏州）半导体有限公司",
+          "address": "苏州市吴江区黎里镇北厍新黎路98号",
+          "score": 348
+        },
+        {
+          "id": "company-0144",
+          "name": "英诺赛科（苏州）科技股份有限公司",
+          "address": "苏州市吴江区黎里镇北厍新黎路98号",
+          "score": 348
+        },
+        {
+          "id": "company-3815",
+          "name": "英诺赛科（珠海）科技有限公司",
+          "address": "珠海市高新区金园二路39号",
+          "score": 93
+        }
+      ]
+    },
+    {
+      "profileId": "key-046",
+      "profileName": "盈方微",
+      "targetId": "company-0208",
+      "targetName": "上海盈方微电子有限公司",
+      "targetAddress": "中国（上海）自由贸易试验区张衡路200号2幢3层",
+      "confidence": 0.35,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0208",
+          "name": "上海盈方微电子有限公司",
+          "address": "中国（上海）自由贸易试验区张衡路200号2幢3层",
+          "score": 166
+        },
+        {
+          "id": "company-1704",
+          "name": "盈方微电子股份有限公司",
+          "address": "湖北省荆州市沙市区北京中路282号津谷大厦1102、1103室（自主申报）",
+          "score": 81
+        }
+      ]
+    },
+    {
+      "profileId": "key-081",
+      "profileName": "甬矽电子",
+      "targetId": "company-3755",
+      "targetName": "甬矽电子（宁波）股份有限公司",
+      "targetAddress": "浙江省余姚市中意宁波生态园兴舜路22号（一照多址）",
+      "confidence": 0.823076923076923,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-3755",
+          "name": "甬矽电子（宁波）股份有限公司",
+          "address": "浙江省余姚市中意宁波生态园兴舜路22号（一照多址）",
+          "score": 428
+        }
+      ]
+    },
+    {
+      "profileId": "key-065",
+      "profileName": "源杰科技",
+      "targetId": "",
+      "targetName": "",
+      "targetAddress": "陕西省西咸新区沣西新城开元路1265号",
+      "confidence": 0,
+      "status": "source-not-found",
+      "method": "not-in-master-workbook",
+      "candidates": []
+    },
+    {
+      "profileId": "key-122",
+      "profileName": "粤芯半导体",
+      "targetId": "company-3792",
+      "targetName": "粤芯半导体技术股份有限公司",
+      "targetAddress": "广州市黄埔区凤凰五路28号",
+      "confidence": 0.6923076923076923,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-3792",
+          "name": "粤芯半导体技术股份有限公司",
+          "address": "广州市黄埔区凤凰五路28号",
+          "score": 360
+        }
+      ]
+    },
+    {
+      "profileId": "key-129",
+      "profileName": "云英谷",
+      "targetId": "company-1320",
+      "targetName": "云英谷科技股份有限公司",
+      "targetAddress": "深圳市南山区粤海街道高新区社区高新南七道20号深圳国家工程实验室大楼A1603、1604、1605室",
+      "confidence": 0.5942307692307692,
+      "status": "matched",
+      "method": "alias-name-city-address",
+      "candidates": [
+        {
+          "id": "company-1320",
+          "name": "云英谷科技股份有限公司",
+          "address": "深圳市南山区粤海街道高新区社区高新南七道20号深圳国家工程实验室大楼A1603、1604、1605室",
+          "score": 309
+        }
+      ]
+    },
+    {
+      "profileId": "key-031",
+      "profileName": "长川科技",
+      "targetId": "company-3325",
+      "targetName": "杭州长川科技股份有限公司",
+      "targetAddress": "浙江省杭州市滨江区聚才路410号",
+      "confidence": 0.49615384615384617,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-3325",
+          "name": "杭州长川科技股份有限公司",
+          "address": "浙江省杭州市滨江区聚才路410号",
+          "score": 258
+        },
+        {
+          "id": "company-2870",
+          "name": "长川科技（苏州）有限公司",
+          "address": "苏州工业园区金鸡湖大道88号人工智能产业园内E2E3-301单元",
+          "score": 93
+        }
+      ]
+    },
+    {
+      "profileId": "key-076",
+      "profileName": "长电科技",
+      "targetId": "company-0131",
+      "targetName": "江苏长电科技股份有限公司",
+      "targetAddress": "江阴市澄江镇长山路78号",
+      "confidence": 0.35,
+      "status": "matched",
+      "method": "explicit-name-address",
+      "candidates": [
+        {
+          "id": "company-3280",
+          "name": "长电科技（江阴）有限公司",
+          "address": "江阴市长山路78号",
+          "score": 268
+        },
+        {
+          "id": "company-0131",
+          "name": "江苏长电科技股份有限公司",
+          "address": "江阴市澄江镇长山路78号",
+          "score": 178
+        },
+        {
+          "id": "company-0019",
+          "name": "长电科技管理有限公司",
+          "address": "中国（上海）自由贸易试验区郭守敬路77弄1号1-7层、地下1层",
+          "score": 93
+        },
+        {
+          "id": "company-0133",
+          "name": "长电科技汽车电子（上海）有限公司",
+          "address": "中国（上海）自由贸易试验区临港新片区江山路3588号",
+          "score": 93
+        }
+      ]
+    },
+    {
+      "profileId": "key-106",
+      "profileName": "长光辰芯",
+      "targetId": "",
+      "targetName": "",
+      "targetAddress": "吉林省长春市经开区自由大路7691号光电信息产业园",
+      "confidence": 0,
+      "status": "source-not-found",
+      "method": "not-in-master-workbook",
+      "candidates": []
+    },
+    {
+      "profileId": "key-108",
+      "profileName": "长江存储",
+      "targetId": "company-1723",
+      "targetName": "长江存储科技有限责任公司",
+      "targetAddress": "武汉东湖新技术开发区未来三路88号",
+      "confidence": 0.6692307692307692,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1723",
+          "name": "长江存储科技有限责任公司",
+          "address": "武汉东湖新技术开发区未来三路88号",
+          "score": 348
+        },
+        {
+          "id": "company-1700",
+          "name": "长江存储控股股份有限公司",
+          "address": "武汉东湖新技术开发区高新大道999号海外人才大楼A座1701室",
+          "score": 268
+        }
+      ]
+    },
+    {
+      "profileId": "key-075",
+      "profileName": "长鑫科技",
+      "targetId": "company-1942",
+      "targetName": "长鑫科技集团股份有限公司",
+      "targetAddress": "安徽省合肥市经济技术开发区空港工业园兴业大道388号",
+      "confidence": 0.5153846153846153,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1942",
+          "name": "长鑫科技集团股份有限公司",
+          "address": "安徽省合肥市经济技术开发区空港工业园兴业大道388号",
+          "score": 268
+        }
+      ]
+    },
+    {
+      "profileId": "key-035",
+      "profileName": "兆易创新",
+      "targetId": "company-1145",
+      "targetName": "兆易创新科技集团股份有限公司",
+      "targetAddress": "北京市海淀区丰豪东路9号院8号楼1至5层101",
+      "confidence": 0.6692307692307692,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1145",
+          "name": "兆易创新科技集团股份有限公司",
+          "address": "北京市海淀区丰豪东路9号院8号楼1至5层101",
+          "score": 348
+        }
+      ]
+    },
+    {
+      "profileId": "key-030",
+      "profileName": "至纯科技",
+      "targetId": "company-0185",
+      "targetName": "上海至纯洁净系统科技股份有限公司",
+      "targetAddress": "上海市闵行区紫海路170号",
+      "confidence": 0.6038461538461538,
+      "status": "matched",
+      "method": "alias-name-city-address",
+      "candidates": [
+        {
+          "id": "company-0185",
+          "name": "上海至纯洁净系统科技股份有限公司",
+          "address": "上海市闵行区紫海路170号",
+          "score": 314
+        },
+        {
+          "id": "company-0950",
+          "name": "上海至纯半导体设备有限公司",
+          "address": "上海市闵行区紫海路170号1幢304室",
+          "score": 261
+        },
+        {
+          "id": "company-1012",
+          "name": "上海至纯电子科技有限公司",
+          "address": "上海市闵行区紫海路170号1幢405室",
+          "score": 261
+        },
+        {
+          "id": "company-1008",
+          "name": "上海至纯系统集成有限公司",
+          "address": "上海市闵行区紫海路170号2幢3、4层",
+          "score": 261
+        },
+        {
+          "id": "company-0784",
+          "name": "上海至纯电子材料有限公司",
+          "address": "上海市金山区漕泾镇雄华路59号2幢013室（上海化学工业区）",
+          "score": 154
+        }
+      ]
+    },
+    {
+      "profileId": "key-015",
+      "profileName": "中船特气",
+      "targetId": "company-4407",
+      "targetName": "中船（邯郸）派瑞特种气体股份有限公司",
+      "targetAddress": "河北省邯郸市肥乡区化工工业聚集区纬五路1号（经营场所：纬五路1号、世纪大街6号)",
+      "confidence": 0.38846153846153847,
+      "status": "matched",
+      "method": "alias-name-city-address",
+      "candidates": [
+        {
+          "id": "company-4407",
+          "name": "中船（邯郸）派瑞特种气体股份有限公司",
+          "address": "河北省邯郸市肥乡区化工工业聚集区纬五路1号（经营场所：纬五路1号、世纪大街6号)",
+          "score": 202
+        },
+        {
+          "id": "company-0170",
+          "name": "中船派瑞特种气体（上海）有限公司",
+          "address": "上海市金山区漕泾镇雄华路59号2幢014室（上海化学工业区）",
+          "score": 27
+        }
+      ]
+    },
+    {
+      "profileId": "key-027",
+      "profileName": "中科飞测",
+      "targetId": "company-1316",
+      "targetName": "深圳中科飞测科技股份有限公司",
+      "targetAddress": "深圳市龙华区观澜街道新澜社区观光路1301-14号101、102",
+      "confidence": 0.35,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1316",
+          "name": "深圳中科飞测科技股份有限公司",
+          "address": "深圳市龙华区观澜街道新澜社区观光路1301-14号101、102",
+          "score": 178
+        },
+        {
+          "id": "company-0192",
+          "name": "上海中科飞测半导体科技有限公司",
+          "address": "中国（上海）自由贸易试验区临港新片区玉宇路1068号、飞渡路1568号、天高路1111号6幢",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "profileId": "key-063",
+      "profileName": "中微半导",
+      "targetId": "company-1332",
+      "targetName": "中微半导体（深圳）股份有限公司",
+      "targetAddress": "深圳市前海深港合作区南山街道桂湾三路91号景兴海上大厦2101",
+      "confidence": 0.823076923076923,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-1332",
+          "name": "中微半导体（深圳）股份有限公司",
+          "address": "深圳市前海深港合作区南山街道桂湾三路91号景兴海上大厦2101",
+          "score": 428
+        },
+        {
+          "id": "company-0183",
+          "name": "中微半导体（上海）有限公司",
+          "address": "中国（上海）自由贸易试验区临港新片区江山路4168号",
+          "score": 93
+        },
+        {
+          "id": "company-0025",
+          "name": "中微半导体设备（上海）股份有限公司",
+          "address": "上海市浦东新区金桥出口加工区（南区）泰华路188号",
+          "score": 93
+        }
+      ]
+    },
+    {
+      "profileId": "key-020",
+      "profileName": "中微公司",
+      "targetId": "company-0025",
+      "targetName": "中微半导体设备（上海）股份有限公司",
+      "targetAddress": "上海市浦东新区金桥出口加工区（南区）泰华路188号",
+      "confidence": 0.7769230769230769,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0025",
+          "name": "中微半导体设备（上海）股份有限公司",
+          "address": "上海市浦东新区金桥出口加工区（南区）泰华路188号",
+          "score": 404
+        },
+        {
+          "id": "company-0183",
+          "name": "中微半导体（上海）有限公司",
+          "address": "中国（上海）自由贸易试验区临港新片区江山路4168号",
+          "score": 244
+        },
+        {
+          "id": "company-0678",
+          "name": "中微沪芯（上海）集成电路有限公司",
+          "address": "上海市嘉定工业区叶城路912号J20605室",
+          "score": 244
+        },
+        {
+          "id": "company-0997",
+          "name": "中微汇链科技（上海）有限公司",
+          "address": "中国（上海）自由贸易试验区中科路1819号第7层（名义楼层，实际楼层第6层）706单元",
+          "score": 244
+        },
+        {
+          "id": "company-0995",
+          "name": "中微惠创科技（上海）有限公司",
+          "address": "中国（上海）自由贸易试验区临港新片区竹柏路750号205室",
+          "score": 244
+        }
+      ]
+    },
+    {
+      "profileId": "key-070",
+      "profileName": "中芯国际",
+      "targetId": "company-0130",
+      "targetName": "中芯国际集成电路新技术研发（上海）有限公司",
+      "targetAddress": "中国（上海）自由贸易试验区张江路18号3号楼6楼",
+      "confidence": 0.6692307692307692,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0130",
+          "name": "中芯国际集成电路新技术研发（上海）有限公司",
+          "address": "中国（上海）自由贸易试验区张江路18号3号楼6楼",
+          "score": 348
+        },
+        {
+          "id": "company-0045",
+          "name": "中芯国际集成电路制造（上海）有限公司",
+          "address": "中国（上海）自由贸易试验区张江路18号",
+          "score": 348
+        },
+        {
+          "id": "company-0001",
+          "name": "中芯国际控股有限公司",
+          "address": "中国（上海）自由贸易试验区丹桂路1059号1幢",
+          "score": 268
+        },
+        {
+          "id": "company-0033",
+          "name": "中芯国际集成电路制造（北京）有限公司",
+          "address": "北京市北京经济技术开发区文昌大道18号",
+          "score": 173
+        },
+        {
+          "id": "company-0056",
+          "name": "中芯国际集成电路制造（深圳）有限公司",
+          "address": "深圳市坪山区龙田街道老坑社区高芯路18号",
+          "score": 173
+        }
+      ]
+    },
+    {
+      "profileId": "key-125",
+      "profileName": "中欣晶圆",
+      "targetId": "company-3348",
+      "targetName": "杭州中欣晶圆半导体股份有限公司",
+      "targetAddress": "浙江省杭州市钱塘区东垦路888号",
+      "confidence": 0.65,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-3348",
+          "name": "杭州中欣晶圆半导体股份有限公司",
+          "address": "浙江省杭州市钱塘区东垦路888号",
+          "score": 338
+        },
+        {
+          "id": "company-0813",
+          "name": "上海中欣晶圆半导体科技有限公司",
+          "address": "上海市宝山区山连路181号1幢",
+          "score": 3
+        },
+        {
+          "id": "company-3389",
+          "name": "浙江丽水中欣晶圆半导体材料有限公司",
+          "address": "浙江省丽水市莲都区南明山街道绿谷大道309号国际车城15号楼11层-462（一照多址）",
+          "score": 3
+        },
+        {
+          "id": "company-3576",
+          "name": "浙江丽水中欣晶圆半导体科技有限公司",
+          "address": "浙江省丽水市莲都区南明山街道成大街618号、桥亭路288号",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "profileId": "key-038",
+      "profileName": "卓胜微",
+      "targetId": "company-2898",
+      "targetName": "江苏卓胜微电子股份有限公司",
+      "targetAddress": "无锡市滨湖区建筑西路777号A3幢11层",
+      "confidence": 0.35,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-2898",
+          "name": "江苏卓胜微电子股份有限公司",
+          "address": "无锡市滨湖区建筑西路777号A3幢11层",
+          "score": 166
+        },
+        {
+          "id": "company-0731",
+          "name": "卓胜微电子（上海）有限公司",
+          "address": "中国（上海）自由贸易试验区芳春路400号1幢3层",
+          "score": 81
+        }
+      ]
+    },
+    {
+      "profileId": "key-044",
+      "profileName": "紫光国微",
+      "targetId": "company-4400",
+      "targetName": "紫光国芯微电子股份有限公司",
+      "targetAddress": "河北省唐山市玉田县玉田镇玉月路1008号",
+      "confidence": 0.46153846153846156,
+      "status": "matched",
+      "method": "explicit-name-address",
+      "candidates": [
+        {
+          "id": "company-1142",
+          "name": "紫光股份有限公司",
+          "address": "北京市海淀区清华大学紫光大楼",
+          "score": 244
+        }
+      ]
+    },
+    {
+      "profileId": "key-128",
+      "profileName": "紫光国芯",
+      "targetId": "company-4400",
+      "targetName": "紫光国芯微电子股份有限公司",
+      "targetAddress": "河北省唐山市玉田县玉田镇玉月路1008号",
+      "confidence": 0.35,
+      "status": "matched",
+      "method": "explicit-name-address",
+      "candidates": [
+        {
+          "id": "company-1142",
+          "name": "紫光股份有限公司",
+          "address": "北京市海淀区清华大学紫光大楼",
+          "score": 244
+        },
+        {
+          "id": "company-4400",
+          "name": "紫光国芯微电子股份有限公司",
+          "address": "河北省唐山市玉田县玉田镇玉月路1008号",
+          "score": 93
+        }
+      ]
+    },
+    {
+      "profileId": "key-111",
+      "profileName": "紫光展锐",
+      "targetId": "company-0015",
+      "targetName": "紫光展锐（上海）科技股份有限公司",
+      "targetAddress": "中国（上海）自由贸易试验区祖冲之路2288弄3号429室",
+      "confidence": 0.7211538461538461,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-0015",
+          "name": "紫光展锐（上海）科技股份有限公司",
+          "address": "中国（上海）自由贸易试验区祖冲之路2288弄3号429室",
+          "score": 375
+        },
+        {
+          "id": "company-0125",
+          "name": "紫光展锐（重庆）科技有限公司",
+          "address": "重庆市两江新区金渝大道22号2幢1-6层",
+          "score": 93
+        },
+        {
+          "id": "company-1142",
+          "name": "紫光股份有限公司",
+          "address": "北京市海淀区清华大学紫光大楼",
+          "score": 69
+        },
+        {
+          "id": "company-0312",
+          "name": "厦门紫光展锐科技有限公司",
+          "address": "厦门火炬高新区科技创新园滨海西大道美峰南路901号601室",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "profileId": "key-007",
+      "profileName": "TCL中环",
+      "targetId": "company-3769",
+      "targetName": "TCL中环新能源科技股份有限公司",
+      "targetAddress": "天津新技术产业园区华苑产业区（环外）海泰东路12号",
+      "confidence": 0.5384615384615384,
+      "status": "matched",
+      "method": "name-city-address",
+      "candidates": [
+        {
+          "id": "company-3769",
+          "name": "TCL中环新能源科技股份有限公司",
+          "address": "天津新技术产业园区华苑产业区（环外）海泰东路12号",
+          "score": 280
+        }
+      ]
+    }
+  ]
+}

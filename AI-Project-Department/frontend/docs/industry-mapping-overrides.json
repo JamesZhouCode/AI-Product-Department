@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "records": [
+    {
+      "companyId": "company-0054",
+      "secondaryCode": "3",
+      "tertiaryCode": "3.4",
+      "note": "豪威科技（上海）以 CMOS 图像传感器、显示驱动芯片为主营画像，按芯片设计的数模混合电路芯片归类。"
+    },
+    {
+      "companyId": "company-0208",
+      "secondaryCode": "3",
+      "tertiaryCode": "3.4",
+      "note": "上海盈方微画像为 Fabless 影像处理芯片企业，不能沿用旧的晶圆制造标签。"
+    },
+    {
+      "companyId": "company-1134",
+      "secondaryCode": "3",
+      "tertiaryCode": "3.1",
+      "note": "华大九天的晶圆制造字段指 EDA 工具服务对象，不代表企业自身从事晶圆制造。"
+    },
+    {
+      "companyId": "company-1159",
+      "secondaryCode": "3",
+      "tertiaryCode": "3.2",
+      "note": "大唐电信画像以安全芯片、CPU 和智能卡芯片技术为主，按数字电路芯片归类。"
+    },
+    {
+      "companyId": "company-1328",
+      "secondaryCode": "3",
+      "tertiaryCode": "3.3",
+      "note": "峰岹科技的核心产品是电机驱动控制芯片，归入模拟电路芯片。"
+    },
+    {
+      "companyId": "company-1339",
+      "secondaryCode": "5",
+      "tertiaryCode": "5.1",
+      "note": "深圳长城开发的画像明确包含 DRAM/DDR5 封装测试，按专业测试归类。"
+    },
+    {
+      "companyId": "company-1549",
+      "secondaryCode": "3",
+      "tertiaryCode": "3.3",
+      "note": "深圳曦华科技的核心产品是车规 MCU、电机控制和电源管理芯片，按模拟电路芯片归类。"
+    },
+    {
+      "companyId": "company-1658",
+      "secondaryCode": "4",
+      "tertiaryCode": "4.3",
+      "note": "闻泰科技的半导体业务明确包含 IDM 和功率半导体制造，按特色工艺芯片制造归类。"
+    },
+    {
+      "companyId": "company-2898",
+      "secondaryCode": "3",
+      "tertiaryCode": "3.3",
+      "note": "卓胜微以射频开关、低噪声放大器和射频滤波器等芯片设计为主，不能沿用旧的晶圆制造标签。"
+    },
+    {
+      "companyId": "company-3339",
+      "secondaryCode": "3",
+      "tertiaryCode": "3.3",
+      "note": "杰华特为电源管理 IC 设计企业，旧的晶圆制造标签与企业画像不一致。"
+    },
+    {
+      "companyId": "company-2390",
+      "secondaryCode": "2",
+      "tertiaryCode": "2.3",
+      "note": "波长光电招股说明书披露其主营为精密光学元件、组件及光学设计与检测系统，并已进入半导体领域；在现有目录中按半导体设备配套零部件归类。来源：深交所招股说明书 https://disc.static.szse.cn/disc/disk03/finalpage/2023-08-17/2d89e9d6-5cc5-40cb-a65a-ecd81ca79f38.PDF（第122—126页）。"
+    },
+    {
+      "companyId": "company-3252",
+      "secondaryCode": "1",
+      "tertiaryCode": "1.1",
+      "note": "百川股份2024年年报披露业务以精细化工、新材料和新能源为主，产品含绝缘树脂、针状焦、石墨负极材料等；源表已将其纳入集成电路范围，现按制造材料挂载，但其半导体应用边界仍建议业务复核。来源：巨潮资讯网2024年年度报告 https://static.cninfo.com.cn/finalpage/2025-03-20/1222844761.PDF（第9—13页）。"
+    },
+    {
+      "companyId": "company-3253",
+      "secondaryCode": "1",
+      "tertiaryCode": "1.1",
+      "note": "广信材料官网披露其研发、生产和销售光刻胶及其配套材料、功能涂层材料，产品覆盖PCB光刻胶、显示光刻胶和半导体光刻胶；按集成电路材料中的制造材料归类。来源：广信材料官网关于廣信 https://www.kuangshun.com/about。"
+    }
+  ]
+}

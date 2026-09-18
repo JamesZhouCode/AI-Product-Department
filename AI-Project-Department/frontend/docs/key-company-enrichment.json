@@ -1,0 +1,89 @@
+{
+  "generatedAt": "2026-08-21",
+  "purpose": "为旧重点企业研究档案补充公开来源；这些档案在新 4,477 行企业主表中没有可安全对应的法人行，因此以重点企业补充记录进入统一主表。",
+  "records": [
+    {
+      "profileName": "辰瑞光学",
+      "sourceCoverage": "profile-only",
+      "officialName": "辰瑞光学（常州）股份有限公司",
+      "locationEvidence": [
+        "https://www.aacoptics.com/?page_id=769",
+        "https://www.aacoptics.com/"
+      ],
+      "researchNote": "企业官网确认辰瑞光学（常州）股份有限公司及 WLG 晶圆级光学玻璃业务；地图点位沿用已核验的常州新北区新竹路 2 号研发/生产地址。"
+    },
+    {
+      "profileName": "宏光半导体",
+      "sourceCoverage": "profile-only",
+      "officialName": "宏光半导体有限公司",
+      "locationEvidence": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043003715_c.pdf",
+        "https://www.hkexnews.hk/"
+      ],
+      "researchNote": "香港交易所公开文件确认宏光半导体有限公司；地图点位沿用已核验的香港信德中心办公地址。"
+    },
+    {
+      "profileName": "嘉立创",
+      "sourceCoverage": "profile-only",
+      "officialName": "深圳嘉立创科技集团股份有限公司",
+      "locationEvidence": [
+        "https://lceda.cn/page/company",
+        "https://www.jlc-fpc.com/aboutUs",
+        "https://reportdocs.static.sse.org.cn/UpFiles/rasinfodisc1/202306/RAS_202306_2FF38F1354B4410891D07337CD220846.pdf"
+      ],
+      "researchNote": "嘉立创官网及公开发行文件确认集团主体和深圳福田商报路 2 号奥林匹克大厦总部地址。"
+    },
+    {
+      "profileName": "强脑科技",
+      "sourceCoverage": "profile-only",
+      "officialName": "浙江强脑科技有限公司",
+      "locationEvidence": [
+        "https://www.brainco.cn/contact",
+        "https://www.zhicuhui.com/index/member_unit/192.html"
+      ],
+      "researchNote": "强脑科技官网确认杭州余杭区人工智能小镇办公地址；技术资料按脑机接口企业保留在重点企业档案中。"
+    },
+    {
+      "profileName": "源杰科技",
+      "sourceCoverage": "profile-only",
+      "officialName": "陕西源杰半导体科技股份有限公司",
+      "locationEvidence": [
+        "https://www.yj-semitech.com/html/tel/index.html",
+        "https://epaper.stcn.com/pic/202602/10/c2e1e7d50995267dc5b76135643a97ff.pdf"
+      ],
+      "researchNote": "源杰科技官网确认陕西西咸新区沣西新城开元路 1265 号办公地址。"
+    },
+    {
+      "profileName": "长光辰芯",
+      "sourceCoverage": "profile-only",
+      "officialName": "长春长光辰芯微电子股份有限公司",
+      "locationEvidence": [
+        "https://www.gpixel.com/contact.html",
+        "https://gpixel.com/Office_Location.html",
+        "https://www.gpixel.com/about.html"
+      ],
+      "researchNote": "长光辰芯官网确认长春总部及 CMOS 图像传感器业务，地图点位使用自由大路 7691 号光电信息产业园地址。"
+    },
+    {
+      "profileName": "国科微",
+      "sourceCoverage": "profile-only",
+      "officialName": "湖南国科微电子股份有限公司",
+      "locationEvidence": [
+        "https://www.gokemicro.com/",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11997386&stockid=300672"
+      ],
+      "researchNote": "国科微官网确认长沙总部和集成电路设计业务；新表中的“国科天骥”等相似名称不是同一法人，未强行合并。"
+    },
+    {
+      "profileName": "华微电子",
+      "sourceCoverage": "profile-only",
+      "officialName": "吉林华微电子股份有限公司",
+      "locationEvidence": [
+        "https://www.hwdz.com.cn/",
+        "https://www.hwdz.com.cn/About/164",
+        "https://www.hwdz.com.cn/Stock/"
+      ],
+      "researchNote": "华微电子官网确认吉林市深圳街 99 号总部；新表中的“深圳市振华微电子”等相似名称不是同一法人，未强行合并。"
+    }
+  ]
+}
