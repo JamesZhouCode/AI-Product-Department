@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { INDUSTRY_OPTIONS } from './chainPalette';
 import { IndustryFlowPage, IntegratedCircuitFishbonePage, WeeklyReportPage } from './insightPages';
+import CreditOverviewPage from './features/credit/CreditOverviewPage';
 import AppHeader from './features/app/AppHeader';
 import { useAppData } from './features/app/useAppData';
 import MapWorkspace from './features/map/MapWorkspace';
@@ -10,7 +11,9 @@ import './features/app/AppShell.css';
 function App() {
   const [activeTab, setActiveTab] = useState('map');
   // 一级链提升到 App：数据分片加载与地图筛选共用同一个来源，避免双向同步。
-  const [activeIndustry, setActiveIndustry] = useState(INDUSTRY_OPTIONS[0]);
+  // 默认进入「储能产业」，与授信 tab 的完整数据口径对齐。
+  const defaultIndustry = INDUSTRY_OPTIONS.includes('储能产业') ? '储能产业' : INDUSTRY_OPTIONS[0];
+  const [activeIndustry, setActiveIndustry] = useState(defaultIndustry);
   const {
     bankRelationOverrides,
     data,
@@ -80,6 +83,7 @@ function App() {
         />
       )}
       {activeTab === 'report' && <WeeklyReportPage data={data} selectedIndustry={activeIndustry} />}
+      {activeTab === 'credit' && <CreditOverviewPage selectedIndustry={activeIndustry} />}
     </div>
   );
 }

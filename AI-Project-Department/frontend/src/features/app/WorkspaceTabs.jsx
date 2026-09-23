@@ -5,6 +5,7 @@ const WORKSPACE_TABS = [
   ['fishbone', '图谱'],
   ['map', '地图'],
   ['report', '周报'],
+  ['credit', '授信'],
 ];
 
 export default function WorkspaceTabs({ activeTab, onChange }) {

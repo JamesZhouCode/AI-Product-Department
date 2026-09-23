@@ -14,6 +14,7 @@
     "prepare:data": "node scripts/prepare-company-master.mjs && node scripts/audit-company-master.mjs",
     "prepare:new-industries": "node scripts/prepare-new-industries.mjs && node scripts/build-new-industry-relations.mjs && node scripts/prepare-new-industries.mjs && node scripts/derive-region-from-address.mjs",
     "audit:data": "node scripts/audit-company-master.mjs",
+    "prepare:credit": "node scripts/prepare-credit-mock.mjs",
     "smoke": "node scripts/smoke.mjs",
     "research:360": "node scripts/research-360-pois.mjs",
     "research:qq": "node scripts/research-qq-pois.mjs",
@@ -23,7 +24,7 @@
     "research:reference": "node scripts/research-reference-locations.mjs",
     "research:amap-geocode": "node scripts/research-amap-geocode.mjs",
     "download:map-assets": "node scripts/download-map-assets.mjs",
-    "extract:map": "bash scripts/extract-map-assets.sh",
+    "extract:map": "node scripts/extract-map-assets.mjs",
     "verify:map": "node scripts/verify-map-assets.mjs",
     "check": "pnpm format:check && pnpm lint && pnpm test && pnpm build"
   },

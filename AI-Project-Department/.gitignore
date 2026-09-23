@@ -17,6 +17,9 @@ output/
 
 # 本地构建残留：本机无法直接删除 dist，改用改名规避 emptyDir 失败，单目录可达数百 MB，勿提交
 frontend/dist_stale_*/
+# 构建验证输出目录（--outDir dist-verify），同样含地图分片等大文件，勿提交
+frontend/dist-verify/
+dist-verify/
 # 无头浏览器验证截图（本地临时产物）
 /shots_*/
 # 根目录一次性验证脚本
