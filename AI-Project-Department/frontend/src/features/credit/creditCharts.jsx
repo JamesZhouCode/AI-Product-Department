@@ -2,24 +2,20 @@
 // 不引入图表库，保持与现有工程一致的轻量依赖。
 
 import SourceBadge from './SourceBadge';
+import { DIMENSION_META } from './creditConfig';
 
-const RADAR_DIMS = [
-  { key: 'chain', label: '产业链价值' },
-  { key: 'operation', label: '经营质量' },
-  { key: 'financial', label: '财务偿债' },
-  { key: 'technology', label: '技术竞争力' },
-  { key: 'trade', label: '交易质量' },
-  { key: 'governance', label: '治理信用' },
-];
+// 八维雷达图（V2.0：八维评价模型）。画布比雷达本体更宽，给两侧维度标签留出空间。
+const RADAR_DIMS = DIMENSION_META.map((item) => ({ key: item.key, label: item.short }));
+
+// 画布尺寸同时被抽屉用于定位「维度溯源」浮层坐标，故与组件同文件导出。
+// eslint-disable-next-line react-refresh/only-export-components
+export const CREDIT_RADAR_SIZE = { width: 440, height: 372 };
 
 export function CreditRadarChart({ dimensions, onDimensionSelect }) {
-  // 画布比雷达本体更宽，给左右两侧的维度标签（textAnchor=start/end 向外延伸）留出空间，
-  // 避免「交易信用」「经营质量 xx/25」等文字被 SVG 视口裁剪。
-  const width = 400;
-  const height = 316;
+  const { width, height } = CREDIT_RADAR_SIZE;
   const cx = width / 2;
-  const cy = 150;
-  const radius = 96;
+  const cy = 172;
+  const radius = 104;
   const angleFor = (index) => (Math.PI * 2 * index) / RADAR_DIMS.length - Math.PI / 2;
   const pointFor = (index, ratio) => {
     const angle = angleFor(index);
@@ -37,7 +33,7 @@ export function CreditRadarChart({ dimensions, onDimensionSelect }) {
       className="credit-radar"
       viewBox={`0 0 ${width} ${height}`}
       role="img"
-      aria-label="六维评分雷达图"
+      aria-label="八维评分雷达图"
     >
       {rings.map((ring) => (
         <polygon
@@ -59,10 +55,10 @@ export function CreditRadarChart({ dimensions, onDimensionSelect }) {
         return <circle key={`${dim.key}-dot`} className="credit-radar-dot" cx={x} cy={y} r="3" />;
       })}
       {RADAR_DIMS.map((dim, index) => {
-        const [x, y] = pointFor(index, 1.25);
+        const [x, y] = pointFor(index, 1.22);
         const value = dimensions?.[dim.key];
         const text = `${dim.label} ${Math.round(value?.score || 0)}/${value?.max || 0}`;
-        const anchor = Math.abs(x - cx) < 12 ? 'middle' : x > cx ? 'start' : 'end';
+        const anchor = Math.abs(x - cx) < 14 ? 'middle' : x > cx ? 'start' : 'end';
         return (
           <text
             key={`${dim.key}-label`}

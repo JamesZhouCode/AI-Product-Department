@@ -28,6 +28,7 @@ const DATA_FILE_BY_INDUSTRY = {
   storage: 'industries/companies-storage.json',
   biomed: 'industries/companies-biomed.json',
   ai: 'industries/companies-ai.json',
+  compute: 'industries/companies-compute.json',
 };
 
 // 目录服务不可用时仍保留各条链的正确映射，避免把其他产业链误显示成集成电路。

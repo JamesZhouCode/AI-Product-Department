@@ -1,0 +1,1594 @@
+{
+ "schemaVersion": 1,
+ "industry": "储能产业",
+ "source": "储能资讯站语料 + 公开检索（构建期）",
+ "generatedAt": "2026-10-12T07:43:40.498Z",
+ "note": "企业近况由公开资讯整理，仅作走访前的快速背景参考，不构成投资或授信建议；每条均保留原文链接。",
+ "count": 23,
+ "companies": {
+  "宁德时代": {
+   "name": "宁德时代",
+   "count": 2,
+   "updatedAt": "2026-10-12",
+   "summary": "宁德时代近况：近期检索到 2 条相关资讯，集中在「政策机制」、「技术产品」，情绪偏暖。最新一条为「3.15GW！辽宁“十五五”第一批储能项目发布！宁德时代/…」（10月12日）。",
+   "items": [
+    {
+     "id": "supplement-1wy4bxy",
+     "title": "宁德时代再获 3GWh 欧洲大单，全年钠电储能订单攀升至 70GWh",
+     "summary": "德国系统集成商 Intilion 宣布与宁德时代达成协议，未来五年在 DACH 地区（德国、奥地利、瑞士）落地采用钠离子电池方案的储能项目，目标总规模最高 3GWh；宁德时代 2026 年已公开钠电储能订单升至 70GWh。披露的性能指标为往返效率超 96.5%、高温循环次数超 15000 次、低温容量保持率高于 9…",
+     "url": "https://finance.sina.com.cn/roll/2026-10-11/doc-iniuvhur7373425.shtml",
+     "source": "新浪财经",
+     "sourceId": "supplement",
+     "channel": "出海",
+     "publishedAt": "2026-10-11",
+     "category": "tech",
+     "categoryLabel": "技术产品",
+     "categoryWeight": 3,
+     "sentiment": "positive",
+     "sentimentLabel": "正面",
+     "sentimentScore": 3.5,
+     "segments": [
+      "电池与核心部件",
+      "系统集成与工程建设"
+     ],
+     "keywords": [
+      "钠离子电池",
+      "钠电"
+     ],
+     "signals": [
+      "route",
+      "launch"
+     ],
+     "companies": [
+      "宁德时代"
+     ],
+     "companyHits": [
+      {
+       "name": "宁德时代",
+       "code": "300750",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      }
+     ],
+     "impact": 4
+    },
+    {
+     "id": "inen-h6ag71",
+     "title": "3.15GW！辽宁“十五五”第一批储能项目发布！宁德时代/海博思创/阳光电源/远景/华润等入选！",
+     "summary": "储能头条获悉，10月10日，辽宁省发改委发布了《关于“十五五”第一批新型储能项目遴选结果的公示》，共公示了22个项目，总容量315万千瓦（3.15GW）。项目以磷酸…",
+     "url": "https://chuneng.in-en.com/html/chunengy-59097.shtml",
+     "source": "国际储能网",
+     "sourceId": "inen",
+     "channel": "政策",
+     "publishedAt": "2026-10-12",
+     "category": "policy",
+     "categoryLabel": "政策机制",
+     "categoryWeight": 3,
+     "sentiment": "positive",
+     "sentimentLabel": "正面",
+     "sentimentScore": 1,
+     "segments": [],
+     "keywords": [
+      "十五五"
+     ],
+     "signals": [
+      "launch"
+     ],
+     "companies": [
+      "宁德时代",
+      "海博思创",
+      "阳光电源"
+     ],
+     "companyHits": [
+      {
+       "name": "宁德时代",
+       "code": "300750",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      },
+      {
+       "name": "海博思创",
+       "code": "688411",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      },
+      {
+       "name": "阳光电源",
+       "code": "300274",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      }
+     ],
+     "impact": 3
+    }
+   ]
+  },
+  "比亚迪": {
+   "name": "比亚迪",
+   "count": 2,
+   "updatedAt": "2026-10-09",
+   "summary": "比亚迪近况：近期检索到 2 条相关资讯，集中在「产能项目」、「政策机制」，情绪偏暖。最新一条为「比亚迪总冠名，九大赛道全覆盖，CESC第四届储能大会暨展览…」（10月9日）。",
+   "items": [
+    {
+     "id": "inen-16ryecg",
+     "title": "比亚迪总冠名，九大赛道全覆盖，CESC第四届储能大会暨展览会什么来头？",
+     "summary": "CESC第四届储能大会暨展览会什么来头？,2026年作为“十五五”规划开局之年，我国新型储能产业迈入市场化转型关键窗口期。伴随容量电价机制落地、《中国能源法》确立储能独立市场主体地位，产业发展由政…",
+     "url": "https://chuneng.in-en.com/html/chunengy-59019.shtml",
+     "source": "国际储能网",
+     "sourceId": "inen",
+     "channel": "资讯",
+     "publishedAt": "2026-10-09",
+     "category": "policy",
+     "categoryLabel": "政策机制",
+     "categoryWeight": 12,
+     "sentiment": "neutral",
+     "sentimentLabel": "中性",
+     "sentimentScore": 0,
+     "segments": [
+      "应用与运营"
+     ],
+     "keywords": [
+      "容量电价",
+      "十五五"
+     ],
+     "signals": [],
+     "companies": [
+      "比亚迪"
+     ],
+     "companyHits": [
+      {
+       "name": "比亚迪",
+       "code": "002594",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      }
+     ],
+     "impact": 4
+    },
+    {
+     "id": "supplement-ze1xu3",
+     "title": "2.4GWh 储能开工！比亚迪“浩瀚系统”落地波兰",
+     "summary": "波兰最大规模电池储能项目 Siedlce 600MW/2.4GWh 储能电站开工，全套核心储能系统由比亚迪储能独家供货，采用 4 小时长时储能配置。项目方案含 210 个电池集装箱与 105 台带 PCS 的变压器集装箱，搭载 2710Ah 储能专用刀片电池，单最小单元容量可达 14.5MWh。",
+     "url": "https://www.toutiao.com/article/7694188392380924443",
+     "source": "今日头条",
+     "sourceId": "supplement",
+     "channel": "出海",
+     "publishedAt": "2026-10-08",
+     "category": "capacity",
+     "categoryLabel": "产能项目",
+     "categoryWeight": 5,
+     "sentiment": "positive",
+     "sentimentLabel": "正面",
+     "sentimentScore": 1.5,
+     "segments": [
+      "核心装备",
+      "电池与核心部件"
+     ],
+     "keywords": [
+      "长时储能",
+      "PCS"
+     ],
+     "signals": [
+      "route"
+     ],
+     "companies": [
+      "比亚迪"
+     ],
+     "companyHits": [
+      {
+       "name": "比亚迪",
+       "code": "002594",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      }
+     ],
+     "impact": 4
+    }
+   ]
+  },
+  "亿纬锂能": {
+   "name": "亿纬锂能",
+   "count": 1,
+   "updatedAt": "2026-10-09",
+   "summary": "亿纬锂能近况：近期检索到 1 条相关资讯，集中在「出海海外」，情绪中性。最新一条为「206GWh、签到 2031 年：储能出海进入“锁量长协”…」（10月9日）。",
+   "items": [
+    {
+     "id": "supplement-w2us1s",
+     "title": "206GWh、签到 2031 年：储能出海进入“锁量长协”时代",
+     "summary": "亿纬锂能子公司湖北亿纬动力与美国储能集成商 Fluence 签订五年期供货框架协议，约定 2027 年至 2031 年累计生产交付 206GWh 电池产品，其中 2027 年承诺交付 16GWh、2028—2031 年预留容量合计 190GWh；2026 年第三季度中国储能企业披露的储能系统签约订单中海外占比达 93…",
+     "url": "https://www.sohu.com/a/1085631691_115377",
+     "source": "搜狐",
+     "sourceId": "supplement",
+     "channel": "出海",
+     "publishedAt": "2026-10-09",
+     "category": "overseas",
+     "categoryLabel": "出海海外",
+     "categoryWeight": 7,
+     "sentiment": "neutral",
+     "sentimentLabel": "中性",
+     "sentimentScore": 0,
+     "segments": [
+      "电池与核心部件",
+      "系统集成与工程建设"
+     ],
+     "keywords": [
+      "出海"
+     ],
+     "signals": [
+      "launch"
+     ],
+     "companies": [],
+     "companyHits": [],
+     "impact": 3
+    }
+   ]
+  },
+  "欣旺达": {
+   "name": "欣旺达",
+   "count": 2,
+   "updatedAt": "2026-09-04",
+   "summary": "欣旺达近况：近期检索到 2 条相关资讯，集中在「企业动态」，情绪中性。最新一条为「源荷醇储协同发力｜欣旺达储能探索油田绿色低碳转型新路径」（9月4日）。",
+   "items": [
+    {
+     "id": "corpus-1djrazj",
+     "title": "源荷醇储协同发力｜欣旺达储能探索油田绿色低碳转型新路径",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-57956.shtml",
+     "source": "国际储能网·项目",
+     "sourceId": "corpus",
+     "channel": "国际储能网·项目",
+     "publishedAt": "2026-09-04",
+     "category": "company",
+     "categoryLabel": "企业动态",
+     "categoryWeight": 0,
+     "sentiment": "neutral",
+     "sentimentLabel": "中性",
+     "sentimentScore": 0,
+     "segments": [],
+     "keywords": [],
+     "signals": [],
+     "companies": [],
+     "companyHits": [],
+     "impact": 1
+    },
+    {
+     "id": "corpus-1etubti",
+     "title": "聚焦4小时储能需求，欣旺达亮相IGEM 2026",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-59038.shtml",
+     "source": "国际储能网·电化学",
+     "sourceId": "corpus",
+     "channel": "国际储能网·电化学",
+     "publishedAt": "",
+     "category": "company",
+     "categoryLabel": "企业动态",
+     "categoryWeight": 0,
+     "sentiment": "neutral",
+     "sentimentLabel": "中性",
+     "sentimentScore": 0,
+     "segments": [],
+     "keywords": [],
+     "signals": [
+      "launch"
+     ],
+     "companies": [],
+     "companyHits": [],
+     "impact": 1
+    }
+   ]
+  },
+  "阳光电源": {
+   "name": "阳光电源",
+   "count": 2,
+   "updatedAt": "2026-10-12",
+   "summary": "阳光电源近况：近期检索到 2 条相关资讯，集中在「企业动态」、「政策机制」，情绪偏暖。最新一条为「3.15GW！辽宁“十五五”第一批储能项目发布！宁德时代/…」（10月12日）。",
+   "items": [
+    {
+     "id": "inen-h6ag71",
+     "title": "3.15GW！辽宁“十五五”第一批储能项目发布！宁德时代/海博思创/阳光电源/远景/华润等入选！",
+     "summary": "储能头条获悉，10月10日，辽宁省发改委发布了《关于“十五五”第一批新型储能项目遴选结果的公示》，共公示了22个项目，总容量315万千瓦（3.15GW）。项目以磷酸…",
+     "url": "https://chuneng.in-en.com/html/chunengy-59097.shtml",
+     "source": "国际储能网",
+     "sourceId": "inen",
+     "channel": "政策",
+     "publishedAt": "2026-10-12",
+     "category": "policy",
+     "categoryLabel": "政策机制",
+     "categoryWeight": 3,
+     "sentiment": "positive",
+     "sentimentLabel": "正面",
+     "sentimentScore": 1,
+     "segments": [],
+     "keywords": [
+      "十五五"
+     ],
+     "signals": [
+      "launch"
+     ],
+     "companies": [
+      "宁德时代",
+      "海博思创",
+      "阳光电源"
+     ],
+     "companyHits": [
+      {
+       "name": "宁德时代",
+       "code": "300750",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      },
+      {
+       "name": "海博思创",
+       "code": "688411",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      },
+      {
+       "name": "阳光电源",
+       "code": "300274",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      }
+     ],
+     "impact": 3
+    },
+    {
+     "id": "inen-1ip7llo",
+     "title": "储能「周事迹」：涉及阳光电源/海博思创/派能科技/融和元储/易储数智/国轩高科/国润储能/天启鸿源/湖南裕能/汇川技术/海信网络能源等",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-58959.shtml",
+     "source": "国际储能网",
+     "sourceId": "inen",
+     "channel": "资讯",
+     "publishedAt": "2026-10-08",
+     "category": "company",
+     "categoryLabel": "企业动态",
+     "categoryWeight": 0,
+     "sentiment": "neutral",
+     "sentimentLabel": "中性",
+     "sentimentScore": 0,
+     "segments": [],
+     "keywords": [],
+     "signals": [
+      "route"
+     ],
+     "companies": [
+      "湖南裕能",
+      "国轩高科",
+      "派能科技",
+      "海博思创",
+      "汇川技术",
+      "阳光电源"
+     ],
+     "companyHits": [
+      {
+       "name": "湖南裕能",
+       "code": "301358",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "资源与材料"
+      },
+      {
+       "name": "国轩高科",
+       "code": "002074",
+       "tier": "core",
+       "tierLabel": "骨干",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      },
+      {
+       "name": "派能科技",
+       "code": "688063",
+       "tier": "core",
+       "tierLabel": "骨干",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      },
+      {
+       "name": "海博思创",
+       "code": "688411",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      },
+      {
+       "name": "汇川技术",
+       "code": "300124",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件"
+      },
+      {
+       "name": "阳光电源",
+       "code": "300274",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      }
+     ],
+     "impact": 2
+    }
+   ]
+  },
+  "国轩高科": {
+   "name": "国轩高科",
+   "count": 3,
+   "updatedAt": "2026-10-12",
+   "summary": "国轩高科近况：近期检索到 3 条相关资讯，集中在「产能项目」、「企业动态」，情绪中性。最新一条为「超 240 亿！国轩高科联合大众汽车布局欧非，共建锂电池与…」（10月12日）。",
+   "items": [
+    {
+     "id": "supplement-12a95r0",
+     "title": "超 240 亿！国轩高科联合大众汽车布局欧非，共建锂电池与磷酸铁锂正极海外产能",
+     "summary": "国轩高科与大众汽车拟在西班牙瓦伦西亚、斯洛伐克苏拉尼、摩洛哥肯尼特拉组建三家合资公司，投资建设锂电池和正极材料生产基地，预计总投资约 32.22 亿欧元（折合约 245.68 亿元人民币）。另据同源报道，中比新能源 12GWh 钠离子电芯项目落地江苏南京高淳，规划总投资约 30 亿元。",
+     "url": "https://finance.sina.com.cn/roll/2026-10-12/doc-iniuxrzn0508042.shtml",
+     "source": "新浪财经",
+     "sourceId": "supplement",
+     "channel": "资本",
+     "publishedAt": "2026-10-12",
+     "category": "overseas",
+     "categoryLabel": "出海海外",
+     "categoryWeight": 3,
+     "sentiment": "neutral",
+     "sentimentLabel": "中性",
+     "sentimentScore": 0,
+     "segments": [
+      "资源与材料",
+      "电池与核心部件"
+     ],
+     "keywords": [],
+     "signals": [
+      "route"
+     ],
+     "companies": [
+      "国轩高科"
+     ],
+     "companyHits": [
+      {
+       "name": "国轩高科",
+       "code": "002074",
+       "tier": "core",
+       "tierLabel": "骨干",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      }
+     ],
+     "impact": 3
+    },
+    {
+     "id": "inen-1ip7llo",
+     "title": "储能「周事迹」：涉及阳光电源/海博思创/派能科技/融和元储/易储数智/国轩高科/国润储能/天启鸿源/湖南裕能/汇川技术/海信网络能源等",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-58959.shtml",
+     "source": "国际储能网",
+     "sourceId": "inen",
+     "channel": "资讯",
+     "publishedAt": "2026-10-08",
+     "category": "company",
+     "categoryLabel": "企业动态",
+     "categoryWeight": 0,
+     "sentiment": "neutral",
+     "sentimentLabel": "中性",
+     "sentimentScore": 0,
+     "segments": [],
+     "keywords": [],
+     "signals": [
+      "route"
+     ],
+     "companies": [
+      "湖南裕能",
+      "国轩高科",
+      "派能科技",
+      "海博思创",
+      "汇川技术",
+      "阳光电源"
+     ],
+     "companyHits": [
+      {
+       "name": "湖南裕能",
+       "code": "301358",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "资源与材料"
+      },
+      {
+       "name": "国轩高科",
+       "code": "002074",
+       "tier": "core",
+       "tierLabel": "骨干",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      },
+      {
+       "name": "派能科技",
+       "code": "688063",
+       "tier": "core",
+       "tierLabel": "骨干",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      },
+      {
+       "name": "海博思创",
+       "code": "688411",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      },
+      {
+       "name": "汇川技术",
+       "code": "300124",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件"
+      },
+      {
+       "name": "阳光电源",
+       "code": "300274",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      }
+     ],
+     "impact": 2
+    },
+    {
+     "id": "corpus-1vinvg8",
+     "title": "国轩高科携手大众汽车，拟32.22亿欧元投建锂电池及正极材料基地",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-58865.shtml",
+     "source": "国际储能网·电化学",
+     "sourceId": "corpus",
+     "channel": "国际储能网·电化学",
+     "publishedAt": "2026-09-29",
+     "category": "capacity",
+     "categoryLabel": "产能项目",
+     "categoryWeight": 2,
+     "sentiment": "neutral",
+     "sentimentLabel": "中性",
+     "sentimentScore": 0,
+     "segments": [
+      "资源与材料",
+      "电池与核心部件"
+     ],
+     "keywords": [],
+     "signals": [],
+     "companies": [],
+     "companyHits": [],
+     "impact": 1
+    }
+   ]
+  },
+  "海博思创": {
+   "name": "海博思创",
+   "count": 2,
+   "updatedAt": "2026-10-12",
+   "summary": "海博思创近况：近期检索到 2 条相关资讯，集中在「企业动态」、「政策机制」，情绪偏暖。最新一条为「3.15GW！辽宁“十五五”第一批储能项目发布！宁德时代/…」（10月12日）。",
+   "items": [
+    {
+     "id": "inen-h6ag71",
+     "title": "3.15GW！辽宁“十五五”第一批储能项目发布！宁德时代/海博思创/阳光电源/远景/华润等入选！",
+     "summary": "储能头条获悉，10月10日，辽宁省发改委发布了《关于“十五五”第一批新型储能项目遴选结果的公示》，共公示了22个项目，总容量315万千瓦（3.15GW）。项目以磷酸…",
+     "url": "https://chuneng.in-en.com/html/chunengy-59097.shtml",
+     "source": "国际储能网",
+     "sourceId": "inen",
+     "channel": "政策",
+     "publishedAt": "2026-10-12",
+     "category": "policy",
+     "categoryLabel": "政策机制",
+     "categoryWeight": 3,
+     "sentiment": "positive",
+     "sentimentLabel": "正面",
+     "sentimentScore": 1,
+     "segments": [],
+     "keywords": [
+      "十五五"
+     ],
+     "signals": [
+      "launch"
+     ],
+     "companies": [
+      "宁德时代",
+      "海博思创",
+      "阳光电源"
+     ],
+     "companyHits": [
+      {
+       "name": "宁德时代",
+       "code": "300750",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      },
+      {
+       "name": "海博思创",
+       "code": "688411",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      },
+      {
+       "name": "阳光电源",
+       "code": "300274",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      }
+     ],
+     "impact": 3
+    },
+    {
+     "id": "inen-1ip7llo",
+     "title": "储能「周事迹」：涉及阳光电源/海博思创/派能科技/融和元储/易储数智/国轩高科/国润储能/天启鸿源/湖南裕能/汇川技术/海信网络能源等",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-58959.shtml",
+     "source": "国际储能网",
+     "sourceId": "inen",
+     "channel": "资讯",
+     "publishedAt": "2026-10-08",
+     "category": "company",
+     "categoryLabel": "企业动态",
+     "categoryWeight": 0,
+     "sentiment": "neutral",
+     "sentimentLabel": "中性",
+     "sentimentScore": 0,
+     "segments": [],
+     "keywords": [],
+     "signals": [
+      "route"
+     ],
+     "companies": [
+      "湖南裕能",
+      "国轩高科",
+      "派能科技",
+      "海博思创",
+      "汇川技术",
+      "阳光电源"
+     ],
+     "companyHits": [
+      {
+       "name": "湖南裕能",
+       "code": "301358",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "资源与材料"
+      },
+      {
+       "name": "国轩高科",
+       "code": "002074",
+       "tier": "core",
+       "tierLabel": "骨干",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      },
+      {
+       "name": "派能科技",
+       "code": "688063",
+       "tier": "core",
+       "tierLabel": "骨干",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      },
+      {
+       "name": "海博思创",
+       "code": "688411",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      },
+      {
+       "name": "汇川技术",
+       "code": "300124",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件"
+      },
+      {
+       "name": "阳光电源",
+       "code": "300274",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      }
+     ],
+     "impact": 2
+    }
+   ]
+  },
+  "华自科技": {
+   "name": "华自科技",
+   "count": 1,
+   "updatedAt": "",
+   "summary": "华自科技近况：近期检索到 1 条相关资讯，集中在「企业动态」，情绪偏暖。最新一条为「华自科技与江西水建集团签署“源网荷储”一体化项目战略合作协议」。",
+   "items": [
+    {
+     "id": "corpus-1b3r52e",
+     "title": "华自科技与江西水建集团签署“源网荷储”一体化项目战略合作协议",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-59010.shtml",
+     "source": "国际储能网·项目",
+     "sourceId": "corpus",
+     "channel": "国际储能网·项目",
+     "publishedAt": "",
+     "category": "company",
+     "categoryLabel": "企业动态",
+     "categoryWeight": 1,
+     "sentiment": "positive",
+     "sentimentLabel": "正面",
+     "sentimentScore": 1,
+     "segments": [],
+     "keywords": [
+      "源网荷储"
+     ],
+     "signals": [],
+     "companies": [],
+     "companyHits": [],
+     "impact": 1
+    }
+   ]
+  },
+  "汇川技术": {
+   "name": "汇川技术",
+   "count": 3,
+   "updatedAt": "2026-10-08",
+   "summary": "汇川技术近况：近期检索到 3 条相关资讯，集中在「企业动态」、「招投标」，情绪偏暖。最新一条为「中标 | 科华数能、南瑞继保、汇川技术中标！3.6GWh构…」（10月8日）。",
+   "items": [
+    {
+     "id": "corpus-947zr7",
+     "title": "中标 | 科华数能、南瑞继保、汇川技术中标！3.6GWh构网型储能PCS采购项目成交结果公示！",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-58953.shtml",
+     "source": "国际储能网·电化学",
+     "sourceId": "corpus",
+     "channel": "国际储能网·电化学",
+     "publishedAt": "2026-10-08",
+     "category": "bidding",
+     "categoryLabel": "招投标",
+     "categoryWeight": 7,
+     "sentiment": "positive",
+     "sentimentLabel": "正面",
+     "sentimentScore": 1,
+     "segments": [
+      "核心装备",
+      "系统集成与工程建设"
+     ],
+     "keywords": [
+      "构网型",
+      "PCS"
+     ],
+     "signals": [
+      "route"
+     ],
+     "companies": [],
+     "companyHits": [],
+     "impact": 4
+    },
+    {
+     "id": "inen-1ip7llo",
+     "title": "储能「周事迹」：涉及阳光电源/海博思创/派能科技/融和元储/易储数智/国轩高科/国润储能/天启鸿源/湖南裕能/汇川技术/海信网络能源等",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-58959.shtml",
+     "source": "国际储能网",
+     "sourceId": "inen",
+     "channel": "资讯",
+     "publishedAt": "2026-10-08",
+     "category": "company",
+     "categoryLabel": "企业动态",
+     "categoryWeight": 0,
+     "sentiment": "neutral",
+     "sentimentLabel": "中性",
+     "sentimentScore": 0,
+     "segments": [],
+     "keywords": [],
+     "signals": [
+      "route"
+     ],
+     "companies": [
+      "湖南裕能",
+      "国轩高科",
+      "派能科技",
+      "海博思创",
+      "汇川技术",
+      "阳光电源"
+     ],
+     "companyHits": [
+      {
+       "name": "湖南裕能",
+       "code": "301358",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "资源与材料"
+      },
+      {
+       "name": "国轩高科",
+       "code": "002074",
+       "tier": "core",
+       "tierLabel": "骨干",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      },
+      {
+       "name": "派能科技",
+       "code": "688063",
+       "tier": "core",
+       "tierLabel": "骨干",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      },
+      {
+       "name": "海博思创",
+       "code": "688411",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      },
+      {
+       "name": "汇川技术",
+       "code": "300124",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件"
+      },
+      {
+       "name": "阳光电源",
+       "code": "300274",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      }
+     ],
+     "impact": 2
+    },
+    {
+     "id": "corpus-c1d8ed",
+     "title": "链动储能产业新势能｜南京开关厂 × 汇川技术开启战略协同新篇章",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-58375.shtml",
+     "source": "国际储能网·电化学",
+     "sourceId": "corpus",
+     "channel": "国际储能网·电化学",
+     "publishedAt": "2026-09-17",
+     "category": "company",
+     "categoryLabel": "企业动态",
+     "categoryWeight": 0,
+     "sentiment": "neutral",
+     "sentimentLabel": "中性",
+     "sentimentScore": 0,
+     "segments": [],
+     "keywords": [],
+     "signals": [
+      "route"
+     ],
+     "companies": [],
+     "companyHits": [],
+     "impact": 1
+    }
+   ]
+  },
+  "太阳能": {
+   "name": "太阳能",
+   "count": 3,
+   "updatedAt": "2026-09-24",
+   "summary": "太阳能近况：近期检索到 3 条相关资讯，集中在「技术产品」、「招投标」，情绪偏暖。最新一条为「中标|0.6951-0.7238元/Wh！中建七局、南瑞新…」（9月24日）。",
+   "items": [
+    {
+     "id": "corpus-5k5s2h",
+     "title": "中标|0.6951-0.7238元/Wh！中建七局、南瑞新能源、中建科工智慧停车公司入围中节能太阳能新疆储能EPC招标",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-58754.shtml",
+     "source": "国际储能网·项目",
+     "sourceId": "corpus",
+     "channel": "国际储能网·项目",
+     "publishedAt": "2026-09-24",
+     "category": "bidding",
+     "categoryLabel": "招投标",
+     "categoryWeight": 6,
+     "sentiment": "positive",
+     "sentimentLabel": "正面",
+     "sentimentScore": 1,
+     "segments": [
+      "系统集成与工程建设"
+     ],
+     "keywords": [
+      "EPC"
+     ],
+     "signals": [
+      "cost"
+     ],
+     "companies": [],
+     "companyHits": [],
+     "impact": 2
+    },
+    {
+     "id": "corpus-16mxkwg",
+     "title": "中节能太阳能首个“电化学+飞轮”混合储能项目在宁夏成功备案",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-57933.shtml",
+     "source": "国际储能网·飞轮",
+     "sourceId": "corpus",
+     "channel": "国际储能网·飞轮",
+     "publishedAt": "2026-09-03",
+     "category": "tech",
+     "categoryLabel": "技术产品",
+     "categoryWeight": 3,
+     "sentiment": "positive",
+     "sentimentLabel": "正面",
+     "sentimentScore": 1,
+     "segments": [],
+     "keywords": [
+      "飞轮"
+     ],
+     "signals": [
+      "route"
+     ],
+     "companies": [],
+     "companyHits": [],
+     "impact": 2
+    },
+    {
+     "id": "corpus-1uc2i8w",
+     "title": "中节能太阳能公司首个藏区“光伏+构网型储能”一体化项目成功备案",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-59045.shtml",
+     "source": "国际储能网·项目",
+     "sourceId": "corpus",
+     "channel": "国际储能网·项目",
+     "publishedAt": "",
+     "category": "tech",
+     "categoryLabel": "技术产品",
+     "categoryWeight": 3,
+     "sentiment": "positive",
+     "sentimentLabel": "正面",
+     "sentimentScore": 1,
+     "segments": [],
+     "keywords": [
+      "构网型"
+     ],
+     "signals": [
+      "route"
+     ],
+     "companies": [],
+     "companyHits": [],
+     "impact": 2
+    }
+   ]
+  },
+  "中国能建": {
+   "name": "中国能建",
+   "count": 2,
+   "updatedAt": "2026-09-30",
+   "summary": "中国能建近况：近期检索到 2 条相关资讯，集中在「招投标」、「企业动态」，情绪偏暖。最新一条为「中标 | 中国能建山西院中标晋控天镇500兆瓦光储一体化基…」（9月30日）。",
+   "items": [
+    {
+     "id": "inen-1gby3wd",
+     "title": "中标 | 中国能建山西院中标晋控天镇500兆瓦光储一体化基地EPC总承包项目",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-58901.shtml",
+     "source": "国际储能网",
+     "sourceId": "inen",
+     "channel": "项目",
+     "publishedAt": "2026-09-30",
+     "category": "bidding",
+     "categoryLabel": "招投标",
+     "categoryWeight": 5,
+     "sentiment": "positive",
+     "sentimentLabel": "正面",
+     "sentimentScore": 1,
+     "segments": [
+      "系统集成与工程建设"
+     ],
+     "keywords": [
+      "EPC"
+     ],
+     "signals": [],
+     "companies": [
+      "中国能建"
+     ],
+     "companyHits": [
+      {
+       "name": "中国能建",
+       "code": "601868",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "核心装备 · 系统集成与工程建设 · 应用与运营"
+      }
+     ],
+     "impact": 3
+    },
+    {
+     "id": "corpus-1rgtx1y",
+     "title": "中国能建山西院成功签署日本AEJ Nozu储能项目EPC合同",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-59096.shtml",
+     "source": "国际储能网·项目",
+     "sourceId": "corpus",
+     "channel": "国际储能网·项目",
+     "publishedAt": "",
+     "category": "company",
+     "categoryLabel": "企业动态",
+     "categoryWeight": 0,
+     "sentiment": "positive",
+     "sentimentLabel": "正面",
+     "sentimentScore": 1,
+     "segments": [
+      "系统集成与工程建设"
+     ],
+     "keywords": [
+      "EPC"
+     ],
+     "signals": [],
+     "companies": [],
+     "companyHits": [],
+     "impact": 1
+    }
+   ]
+  },
+  "湖南裕能": {
+   "name": "湖南裕能",
+   "count": 2,
+   "updatedAt": "2026-10-08",
+   "summary": "湖南裕能近况：近期检索到 2 条相关资讯，集中在「企业动态」、「出海海外」，情绪中性。最新一条为「储能「周事迹」：涉及阳光电源/海博思创/派能科技/融和元储…」（10月8日）。",
+   "items": [
+    {
+     "id": "inen-1ip7llo",
+     "title": "储能「周事迹」：涉及阳光电源/海博思创/派能科技/融和元储/易储数智/国轩高科/国润储能/天启鸿源/湖南裕能/汇川技术/海信网络能源等",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-58959.shtml",
+     "source": "国际储能网",
+     "sourceId": "inen",
+     "channel": "资讯",
+     "publishedAt": "2026-10-08",
+     "category": "company",
+     "categoryLabel": "企业动态",
+     "categoryWeight": 0,
+     "sentiment": "neutral",
+     "sentimentLabel": "中性",
+     "sentimentScore": 0,
+     "segments": [],
+     "keywords": [],
+     "signals": [
+      "route"
+     ],
+     "companies": [
+      "湖南裕能",
+      "国轩高科",
+      "派能科技",
+      "海博思创",
+      "汇川技术",
+      "阳光电源"
+     ],
+     "companyHits": [
+      {
+       "name": "湖南裕能",
+       "code": "301358",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "资源与材料"
+      },
+      {
+       "name": "国轩高科",
+       "code": "002074",
+       "tier": "core",
+       "tierLabel": "骨干",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      },
+      {
+       "name": "派能科技",
+       "code": "688063",
+       "tier": "core",
+       "tierLabel": "骨干",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      },
+      {
+       "name": "海博思创",
+       "code": "688411",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      },
+      {
+       "name": "汇川技术",
+       "code": "300124",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件"
+      },
+      {
+       "name": "阳光电源",
+       "code": "300274",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      }
+     ],
+     "impact": 2
+    },
+    {
+     "id": "corpus-4elc9b",
+     "title": "湖南裕能上调西班牙锂电池正极材料项目投资规模",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-58866.shtml",
+     "source": "国际储能网·电化学",
+     "sourceId": "corpus",
+     "channel": "国际储能网·电化学",
+     "publishedAt": "2026-09-29",
+     "category": "overseas",
+     "categoryLabel": "出海海外",
+     "categoryWeight": 2,
+     "sentiment": "neutral",
+     "sentimentLabel": "中性",
+     "sentimentScore": 0,
+     "segments": [
+      "资源与材料",
+      "电池与核心部件"
+     ],
+     "keywords": [],
+     "signals": [],
+     "companies": [],
+     "companyHits": [],
+     "impact": 2
+    }
+   ]
+  },
+  "华友钴业": {
+   "name": "华友钴业",
+   "count": 1,
+   "updatedAt": "2026-09-23",
+   "summary": "华友钴业近况：近期检索到 1 条相关资讯，集中在「企业动态」，情绪偏暖。最新一条为「华友钴业达成2.1亿美元加纳锂矿交易」（9月23日）。",
+   "items": [
+    {
+     "id": "corpus-dd9ea0",
+     "title": "华友钴业达成2.1亿美元加纳锂矿交易",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-58653.shtml",
+     "source": "国际储能网·电化学",
+     "sourceId": "corpus",
+     "channel": "国际储能网·电化学",
+     "publishedAt": "2026-09-23",
+     "category": "company",
+     "categoryLabel": "企业动态",
+     "categoryWeight": 0,
+     "sentiment": "positive",
+     "sentimentLabel": "正面",
+     "sentimentScore": 1,
+     "segments": [
+      "资源与材料"
+     ],
+     "keywords": [],
+     "signals": [],
+     "companies": [],
+     "companyHits": [],
+     "impact": 1
+    }
+   ]
+  },
+  "鹏辉能源": {
+   "name": "鹏辉能源",
+   "count": 1,
+   "updatedAt": "2026-10-10",
+   "summary": "鹏辉能源近况：近期检索到 1 条相关资讯，集中在「技术产品」，情绪偏暖。最新一条为「鹏辉能源风鹏电芯 587Ah 正式量产下线」（10月10日）。",
+   "items": [
+    {
+     "id": "supplement-1cxxr90",
+     "title": "鹏辉能源风鹏电芯 587Ah 正式量产下线",
+     "summary": "鹏辉能源在衢州零碳工厂二期举行风鹏电芯 587Ah 量产下线仪式，标志其储能大电芯进入大批量生产交付阶段。该电芯 25℃ 常温能效超 95%、45℃ 高温能效超 96%，常温循环寿命达 10000 次，已通过针刺、热失控、过充等安全测试并获得 UN38.3 认证。",
+     "url": "https://chuneng.in-en.com/html/chunengy-59118.shtml",
+     "source": "国际储能网",
+     "sourceId": "supplement",
+     "channel": "技术",
+     "publishedAt": "2026-10-10",
+     "category": "tech",
+     "categoryLabel": "技术产品",
+     "categoryWeight": 9,
+     "sentiment": "positive",
+     "sentimentLabel": "正面",
+     "sentimentScore": 1,
+     "segments": [
+      "检测认证与标准",
+      "电池与核心部件"
+     ],
+     "keywords": [
+      "587ah",
+      "循环寿命",
+      "热失控"
+     ],
+     "signals": [
+      "route",
+      "launch"
+     ],
+     "companies": [
+      "鹏辉能源"
+     ],
+     "companyHits": [
+      {
+       "name": "鹏辉能源",
+       "code": "300438",
+       "tier": "core",
+       "tierLabel": "骨干",
+       "level1": "电池与核心部件"
+      }
+     ],
+     "impact": 3
+    }
+   ]
+  },
+  "先导智能": {
+   "name": "先导智能",
+   "count": 1,
+   "updatedAt": "",
+   "summary": "先导智能近况：近期检索到 1 条相关资讯，集中在「技术产品」，情绪偏暖。最新一条为「筑牢量产核心支撑，先导智能温等静压设备加速固态电池产业化」。",
+   "items": [
+    {
+     "id": "corpus-1wcpmgt",
+     "title": "筑牢量产核心支撑，先导智能温等静压设备加速固态电池产业化",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-59040.shtml",
+     "source": "国际储能网·电化学",
+     "sourceId": "corpus",
+     "channel": "国际储能网·电化学",
+     "publishedAt": "",
+     "category": "tech",
+     "categoryLabel": "技术产品",
+     "categoryWeight": 5,
+     "sentiment": "positive",
+     "sentimentLabel": "正面",
+     "sentimentScore": 1.5,
+     "segments": [
+      "电池与核心部件"
+     ],
+     "keywords": [
+      "固态电池"
+     ],
+     "signals": [
+      "route",
+      "launch"
+     ],
+     "companies": [],
+     "companyHits": [],
+     "impact": 1
+    }
+   ]
+  },
+  "阿特斯": {
+   "name": "阿特斯",
+   "count": 1,
+   "updatedAt": "",
+   "summary": "阿特斯近况：近期检索到 1 条相关资讯，集中在「产能项目」，情绪偏暖。最新一条为「100MW/200MWh！阿特斯储能斩获澳大利亚大型光储项…」。",
+   "items": [
+    {
+     "id": "corpus-1rger9j",
+     "title": "100MW/200MWh！阿特斯储能斩获澳大利亚大型光储项目订单",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-58997.shtml",
+     "source": "国际储能网·项目",
+     "sourceId": "corpus",
+     "channel": "国际储能网·项目",
+     "publishedAt": "",
+     "category": "capacity",
+     "categoryLabel": "产能项目",
+     "categoryWeight": 2,
+     "sentiment": "positive",
+     "sentimentLabel": "正面",
+     "sentimentScore": 1.5,
+     "segments": [],
+     "keywords": [],
+     "signals": [
+      "launch"
+     ],
+     "companies": [],
+     "companyHits": [],
+     "impact": 1
+    }
+   ]
+  },
+  "龙蟠科技": {
+   "name": "龙蟠科技",
+   "count": 1,
+   "updatedAt": "",
+   "summary": "龙蟠科技近况：近期检索到 1 条相关资讯，集中在「企业动态」，情绪中性。最新一条为「龙蟠科技子公司签署磷酸铁锂五年长单，合计销售37.86万吨…」。",
+   "items": [
+    {
+     "id": "corpus-1f74mo6",
+     "title": "龙蟠科技子公司签署磷酸铁锂五年长单，合计销售37.86万吨—56.78万吨",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-59025.shtml",
+     "source": "国际储能网·电化学",
+     "sourceId": "corpus",
+     "channel": "国际储能网·电化学",
+     "publishedAt": "",
+     "category": "company",
+     "categoryLabel": "企业动态",
+     "categoryWeight": 0,
+     "sentiment": "neutral",
+     "sentimentLabel": "中性",
+     "sentimentScore": 0,
+     "segments": [
+      "资源与材料"
+     ],
+     "keywords": [],
+     "signals": [],
+     "companies": [],
+     "companyHits": [],
+     "impact": 1
+    }
+   ]
+  },
+  "派能科技": {
+   "name": "派能科技",
+   "count": 2,
+   "updatedAt": "2026-10-08",
+   "summary": "派能科技近况：近期检索到 2 条相关资讯，集中在「企业动态」，情绪中性。最新一条为「储能「周事迹」：涉及阳光电源/海博思创/派能科技/融和元储…」（10月8日）。",
+   "items": [
+    {
+     "id": "inen-1ip7llo",
+     "title": "储能「周事迹」：涉及阳光电源/海博思创/派能科技/融和元储/易储数智/国轩高科/国润储能/天启鸿源/湖南裕能/汇川技术/海信网络能源等",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-58959.shtml",
+     "source": "国际储能网",
+     "sourceId": "inen",
+     "channel": "资讯",
+     "publishedAt": "2026-10-08",
+     "category": "company",
+     "categoryLabel": "企业动态",
+     "categoryWeight": 0,
+     "sentiment": "neutral",
+     "sentimentLabel": "中性",
+     "sentimentScore": 0,
+     "segments": [],
+     "keywords": [],
+     "signals": [
+      "route"
+     ],
+     "companies": [
+      "湖南裕能",
+      "国轩高科",
+      "派能科技",
+      "海博思创",
+      "汇川技术",
+      "阳光电源"
+     ],
+     "companyHits": [
+      {
+       "name": "湖南裕能",
+       "code": "301358",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "资源与材料"
+      },
+      {
+       "name": "国轩高科",
+       "code": "002074",
+       "tier": "core",
+       "tierLabel": "骨干",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      },
+      {
+       "name": "派能科技",
+       "code": "688063",
+       "tier": "core",
+       "tierLabel": "骨干",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      },
+      {
+       "name": "海博思创",
+       "code": "688411",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      },
+      {
+       "name": "汇川技术",
+       "code": "300124",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件"
+      },
+      {
+       "name": "阳光电源",
+       "code": "300274",
+       "tier": "leader",
+       "tierLabel": "龙头",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      }
+     ],
+     "impact": 2
+    },
+    {
+     "id": "inen-1ok3fno",
+     "title": "钠锂协同破局！派能科技为AIDC高可靠供电提供新路径",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-54563.shtml",
+     "source": "国际储能网",
+     "sourceId": "inen",
+     "channel": "资讯",
+     "publishedAt": "",
+     "category": "company",
+     "categoryLabel": "企业动态",
+     "categoryWeight": 0,
+     "sentiment": "neutral",
+     "sentimentLabel": "中性",
+     "sentimentScore": 0,
+     "segments": [],
+     "keywords": [],
+     "signals": [],
+     "companies": [
+      "派能科技"
+     ],
+     "companyHits": [
+      {
+       "name": "派能科技",
+       "code": "688063",
+       "tier": "core",
+       "tierLabel": "骨干",
+       "level1": "电池与核心部件 · 系统集成与工程建设"
+      }
+     ],
+     "impact": 2
+    }
+   ]
+  },
+  "星云股份": {
+   "name": "星云股份",
+   "count": 1,
+   "updatedAt": "2026-09-16",
+   "summary": "星云股份近况：近期检索到 1 条相关资讯，集中在「出海海外」，情绪偏暖。最新一条为「加速拓展海外储能市场 星云股份PCS 100kW/125k…」（9月16日）。",
+   "items": [
+    {
+     "id": "corpus-jni0i4",
+     "title": "加速拓展海外储能市场 星云股份PCS 100kW/125kW系列产品获CE认证",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-58286.shtml",
+     "source": "国际储能网·电化学",
+     "sourceId": "corpus",
+     "channel": "国际储能网·电化学",
+     "publishedAt": "2026-09-16",
+     "category": "overseas",
+     "categoryLabel": "出海海外",
+     "categoryWeight": 3,
+     "sentiment": "positive",
+     "sentimentLabel": "正面",
+     "sentimentScore": 1,
+     "segments": [
+      "核心装备",
+      "检测认证与标准"
+     ],
+     "keywords": [
+      "PCS"
+     ],
+     "signals": [
+      "route",
+      "launch"
+     ],
+     "companies": [],
+     "companyHits": [],
+     "impact": 2
+    }
+   ]
+  },
+  "昱能科技": {
+   "name": "昱能科技",
+   "count": 1,
+   "updatedAt": "",
+   "summary": "昱能科技近况：近期检索到 1 条相关资讯，集中在「出海海外」，情绪偏暖。最新一条为「首秀意大利国际能源展，昱能科技携全场景光储方案加速南欧市场…」。",
+   "items": [
+    {
+     "id": "corpus-tlopnj",
+     "title": "首秀意大利国际能源展，昱能科技携全场景光储方案加速南欧市场拓展",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-59020.shtml",
+     "source": "国际储能网·电化学",
+     "sourceId": "corpus",
+     "channel": "国际储能网·电化学",
+     "publishedAt": "",
+     "category": "overseas",
+     "categoryLabel": "出海海外",
+     "categoryWeight": 2,
+     "sentiment": "positive",
+     "sentimentLabel": "正面",
+     "sentimentScore": 0.5,
+     "segments": [],
+     "keywords": [],
+     "signals": [],
+     "companies": [],
+     "companyHits": [],
+     "impact": 2
+    }
+   ]
+  },
+  "禾望电气": {
+   "name": "禾望电气",
+   "count": 1,
+   "updatedAt": "2026-09-02",
+   "summary": "禾望电气近况：近期检索到 1 条相关资讯，集中在「企业动态」，情绪中性。最新一条为「聚力拉美光储｜禾望电气亮相Intersolar South…」（9月2日）。",
+   "items": [
+    {
+     "id": "corpus-f9yf6",
+     "title": "聚力拉美光储｜禾望电气亮相Intersolar South America 2026",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-57859.shtml",
+     "source": "国际储能网·电化学",
+     "sourceId": "corpus",
+     "channel": "国际储能网·电化学",
+     "publishedAt": "2026-09-02",
+     "category": "company",
+     "categoryLabel": "企业动态",
+     "categoryWeight": 0,
+     "sentiment": "neutral",
+     "sentimentLabel": "中性",
+     "sentimentScore": 0,
+     "segments": [],
+     "keywords": [],
+     "signals": [
+      "launch"
+     ],
+     "companies": [],
+     "companyHits": [],
+     "impact": 1
+    }
+   ]
+  },
+  "南网储能": {
+   "name": "南网储能",
+   "count": 1,
+   "updatedAt": "",
+   "summary": "南网储能近况：近期检索到 1 条相关资讯，集中在「产能项目」，情绪中性。最新一条为「南网储能惠州中洞抽水蓄能电站首台机组转子顺利吊装」。",
+   "items": [
+    {
+     "id": "corpus-1dc1gcz",
+     "title": "南网储能惠州中洞抽水蓄能电站首台机组转子顺利吊装",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-59072.shtml",
+     "source": "国际储能网·抽蓄",
+     "sourceId": "corpus",
+     "channel": "国际储能网·抽蓄",
+     "publishedAt": "",
+     "category": "capacity",
+     "categoryLabel": "产能项目",
+     "categoryWeight": 2,
+     "sentiment": "neutral",
+     "sentimentLabel": "中性",
+     "sentimentScore": 0,
+     "segments": [],
+     "keywords": [],
+     "signals": [
+      "launch"
+     ],
+     "companies": [],
+     "companyHits": [],
+     "impact": 1
+    }
+   ]
+  },
+  "杉杉股份": {
+   "name": "杉杉股份",
+   "count": 1,
+   "updatedAt": "2026-09-23",
+   "summary": "杉杉股份近况：近期检索到 1 条相关资讯，集中在「产能项目」，情绪中性。最新一条为「杉杉股份拟51亿元投建年产15万吨锂离子电池负极材料一体化…」（9月23日）。",
+   "items": [
+    {
+     "id": "corpus-19od370",
+     "title": "杉杉股份拟51亿元投建年产15万吨锂离子电池负极材料一体化基地项目",
+     "summary": "",
+     "url": "https://chuneng.in-en.com/html/chunengy-58692.shtml",
+     "source": "国际储能网·电化学",
+     "sourceId": "corpus",
+     "channel": "国际储能网·电化学",
+     "publishedAt": "2026-09-23",
+     "category": "capacity",
+     "categoryLabel": "产能项目",
+     "categoryWeight": 2,
+     "sentiment": "neutral",
+     "sentimentLabel": "中性",
+     "sentimentScore": 0,
+     "segments": [
+      "资源与材料",
+      "电池与核心部件"
+     ],
+     "keywords": [],
+     "signals": [],
+     "companies": [],
+     "companyHits": [],
+     "impact": 1
+    }
+   ]
+  }
+ }
+}

@@ -2,3 +2,4 @@ export { default as IntegratedCircuitFishbonePage } from './features/atlas/Indus
 export { default as WeeklyReportPage } from './features/report/WeeklyReportPage';
 export { default as IndustryFlowPage } from './features/flow/IndustryFlowPage';
 export { default as CreditOverviewPage } from './features/credit/CreditOverviewPage';
+export { default as AnalysisPage } from './features/analysis/AnalysisPage';

@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { CHAIN_COLOR_POOL } from '../../chainPalette';
 import { normalize } from '../../shared/text';
 import CompanyDetailRail from '../company/CompanyDetailRail';
+import CompanyRelationsPanel from '../company/CompanyRelationsPanel';
 import './flow.css';
 
 // 「产业链流程」页：把一套业务方法论拆成可逐步查看的 4 步，
@@ -87,6 +88,13 @@ function StepBar({ steps, activeIndex, onSelect }) {
 }
 
 /* ---------------- 可点击的企业标签 ---------------- */
+
+// 企业标签的 title：集成电路源清单没有股票代码 / 制品字段，缺哪段就跳过哪段，
+// 避免出现「名称（）· · 点击查看详情」这种空占位。
+function companyTitle(company, ...parts) {
+  const head = company.code ? `${company.name}（${company.code}）` : company.name;
+  return [head, ...parts.filter(Boolean), '点击查看详情'].join(' · ');
+}
 
 function CompanyChip({ name, tone, tier, title, entity, onOpen, score, gated = false }) {
   // tone 用于 step2 的「储能相关度」配色，tier 用于 step1/3/4 的「龙头/骨干/长尾」配色。
@@ -207,7 +215,7 @@ function SkeletonCard({ level, color, expanded, onToggle, entityByName, onOpen }
                   <CompanyChip
                     key={`${child.nodeKey}-${company.name}`}
                     name={company.name}
-                    title={`${company.name}（${company.code}）· 点击查看详情`}
+                    title={companyTitle(company)}
                     entity={entityByName.get(normalize(company.name))}
                     onOpen={onOpen}
                   />
@@ -250,7 +258,11 @@ function CompaniesCard({ level, color, showCompanies, expanded, onToggle, entity
                       key={`${child.nodeKey}-${company.name}`}
                       name={company.name}
                       tone={gradeMeta(company.grade).tone}
-                      title={`${company.name}（${company.code}）· ${gradeMeta(company.grade).short} · ${company.products} · 点击查看详情`}
+                      title={companyTitle(
+                        company,
+                        gradeMeta(company.grade).short,
+                        company.products,
+                      )}
                       entity={entityByName.get(normalize(company.name))}
                       onOpen={onOpen}
                     />
@@ -790,7 +802,7 @@ const COVERAGE_META = {
   preferences: { tone: 'pref', label: '关键人偏好' },
 };
 
-function RelationsPanel({ step, hubs }) {
+function RelationsPanel({ step, hubs, total = 0 }) {
   const maxHub = hubs.length ? hubs[0].count : 1;
   return (
     <section className="flow-rel-panel" aria-label="关系档案覆盖与链内关系">
@@ -807,7 +819,7 @@ function RelationsPanel({ step, hubs }) {
           </div>
           <div>
             <b>{step.stats.equity}</b>
-            <span>股权</span>
+            <span>股权与集团</span>
           </div>
           <div>
             <b>{step.stats.companies}</b>
@@ -815,13 +827,25 @@ function RelationsPanel({ step, hubs }) {
           </div>
         </div>
         <p className="flow-rel-hint">
-          依据关系档案里「前五大客户 / 供应商」的具名披露与「股权穿透」，只保留两端都在本链 237
-          家之内的关系。
+          依据企百科客户 / 供应商明细（招投标 + 公开披露）与股权穿透，只保留两端都在本链{' '}
+          {total ? `${total.toLocaleString()} 家` : '在链主体'}
+          之内的关系；被点名但不在链内的交易对手 {step.stats.external?.toLocaleString() || 0}{' '}
+          个在企业详情页单列。
         </p>
       </div>
 
       <div className="flow-rel-block">
-        <span className="flow-rel-eyebrow">关系档案覆盖（{step.stats.profiles} / 237 家）</span>
+        <span className="flow-rel-eyebrow">
+          关系档案覆盖（{step.stats.profiles} /{' '}
+          {/* 分母用在链主体数：coverage 每行都各自等于全量，按行相加会把分母放大 4 倍 */}
+          {total ||
+            step.coverage?.reduce(
+              (sum, item) => sum + item.full + item.partial + item.missing,
+              0,
+            ) ||
+            '—'}{' '}
+          家）
+        </span>
         <div className="flow-rel-coverage">
           {step.coverage.map((item) => {
             const total = item.full + item.partial + item.missing || 1;
@@ -896,7 +920,7 @@ function TerritoryPanel({ territory, customerTerritory, customerStats, placement
   const maxProvince = territory.topProvinces[0].v || 1;
   const maxCity = territory.topCities[0]?.v || 1;
   const districtMissing = territory.total - territory.withDistrict;
-  // 全量客户视图（237 上市 + 1740 非上市）：条形按上市 / 非上市堆叠
+  // 全量在链视图（376 上市 + 2,081 非上市）：条形按上市 / 非上市堆叠
   const all = customerTerritory;
   const maxAllProvince = all ? Math.max(...all.topProvinces.map((p) => p.listed + p.other), 1) : 1;
   const maxAllCity = all ? Math.max(...all.topCities.map((p) => p.listed + p.other), 1) : 1;
@@ -1029,13 +1053,17 @@ function TerritoryPanel({ territory, customerTerritory, customerStats, placement
           <span>
             非上市客户来源：
             {customerStats.otherBySource.map((x) => `${x.k} ${x.v}`).join(' · ')}；核验状态：
-            {customerStats.otherByVerify.map((x) => `${x.k} ${x.v}`).join(' · ')}
+            {(customerStats.otherByKeyStatus || customerStats.otherByVerify || [])
+              .map((x) => `${x.k} ${x.v}`)
+              .join(' · ')}
           </span>
         )}
         {territory.offshoreList?.length > 0 && (
           <span className="flow-terr-offshore">
-            离岸注册 {territory.offshore} 家：
-            {territory.offshoreList.map((item) => `${item.name}（${item.province}）`).join('、')}
+            离岸注册 {territory.offshore ?? territory.offshoreList.length} 家：
+            {territory.offshoreList
+              .map((item) => (item.province ? `${item.name}（${item.province}）` : item.name))
+              .join('、')}
             ，境内另有运营主体
           </span>
         )}
@@ -1266,10 +1294,12 @@ function RelField({ label, value }) {
 }
 
 function RelationRail({ company, edges, onClose, onOpen }) {
-  const profile = company.profile || {};
+  // 储能链的画像在 company.profile；算力链把实控人 / 法人等直接写在企业对象上，
+  // 这里统一兼容，字段缺失时如实显示「待识别」。
+  const profile = company.profile || company;
   const completeness = profile.completeness || {};
-  const out = edges.filter((rel) => rel.sourceFromProfile === company.name);
-  const incoming = edges.filter((rel) => rel.sourceToProfile === company.name);
+  const out = edges.filter((rel) => (rel.sourceFromProfile || rel.from) === company.name);
+  const incoming = edges.filter((rel) => (rel.sourceToProfile || rel.to) === company.name);
 
   return (
     <aside className="flow-rel-rail" role="dialog" aria-label={`${company.name}关系档案`}>
@@ -1322,11 +1352,11 @@ function RelationRail({ company, edges, onClose, onOpen }) {
                   type="button"
                   className="flow-rel-edge"
                   key={rel.id}
-                  onClick={() => onOpen(rel.sourceToProfile)}
+                  onClick={() => onOpen(rel.sourceToProfile || rel.to)}
                   disabled={!onOpen}
                 >
                   <em>→</em>
-                  <span>{rel.sourceToProfile}</span>
+                  <span>{rel.sourceToProfile || rel.to}</span>
                   <i>{rel.relationType}</i>
                 </button>
               ))}
@@ -1340,10 +1370,10 @@ function RelationRail({ company, edges, onClose, onOpen }) {
                   type="button"
                   className="flow-rel-edge"
                   key={rel.id}
-                  onClick={() => onOpen(rel.sourceFromProfile)}
+                  onClick={() => onOpen(rel.sourceFromProfile || rel.from)}
                 >
                   <em>←</em>
-                  <span>{rel.sourceFromProfile}</span>
+                  <span>{rel.sourceFromProfile || rel.from}</span>
                   <i>{rel.relationType}</i>
                 </button>
               ))}
@@ -1399,12 +1429,33 @@ function RelationRail({ company, edges, onClose, onOpen }) {
           <RelField label="发言主题" value={profile.prefSpeeches} />
           <RelField label="备注" value={profile.prefNote} />
         </section>
+        {/* 算力链：实控人 / 前十大股东 / 客户供应商明细（按信用代码按需加载） */}
+        <CompanyRelationsPanel entity={company} />
       </div>
     </aside>
   );
 }
 
 /* ---------------- 页面 ---------------- */
+
+// 已建成完整建链数据的行业 → 链文件与企业分片。未列出的行业显示空状态提示，不静默回落。
+// 集成电路的分片沿用 public/data/companies.json（就是该行业的全量企业主表，含画像与关系）。
+const CHAIN_FILES_BY_INDUSTRY = {
+  集成电路: {
+    chain: 'data/industries/ic-chain.json',
+    shard: 'data/companies.json',
+  },
+  储能产业: {
+    chain: 'data/industries/storage-chain.json',
+    shard: 'data/industries/companies-storage.json',
+  },
+  算力产业: {
+    chain: 'data/industries/compute-chain.json',
+    shard: 'data/industries/companies-compute.json',
+  },
+};
+
+const FLOW_INDUSTRIES = Object.keys(CHAIN_FILES_BY_INDUSTRY);
 
 export default function IndustryFlowPage({ selectedIndustry = '', companyDetailPropsFor }) {
   const [data, setData] = useState(null);
@@ -1425,13 +1476,23 @@ export default function IndustryFlowPage({ selectedIndustry = '', companyDetailP
   useEffect(() => {
     let cancelled = false;
     const base = document.baseURI;
+    const files = CHAIN_FILES_BY_INDUSTRY[selectedIndustry];
+    setData(null);
+    setShard(null);
+    setError('');
+    setActiveStep(0);
+    setExpanded('');
+    setSelectedCompany(null);
+    setSelectedRelation(null);
+    // 未建设建链数据的行业不发起请求，渲染层会给出可见的空状态提示。
+    if (!files) return undefined;
     Promise.all([
-      fetch(new URL('data/industries/storage-chain.json', base).href).then((response) => {
+      fetch(new URL(files.chain, base).href).then((response) => {
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         return response.json();
       }),
       // 企业分片用于点击标签后打开企业详情；缺失时不阻塞页面。
-      fetch(new URL('data/industries/companies-storage.json', base).href)
+      fetch(new URL(files.shard, base).href)
         .then((response) => (response.ok ? response.json() : null))
         .catch(() => null),
     ])
@@ -1446,7 +1507,7 @@ export default function IndustryFlowPage({ selectedIndustry = '', companyDetailP
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [selectedIndustry]);
 
   // 企业简称 / 全称 -> 分片里的企业对象，供标签点击联动详情
   const entityByName = useMemo(() => {
@@ -1489,7 +1550,7 @@ export default function IndustryFlowPage({ selectedIndustry = '', companyDetailP
   const edgesByShort = useMemo(() => {
     const map = new Map();
     relations.forEach((rel) => {
-      [rel.sourceFromProfile, rel.sourceToProfile].forEach((key) => {
+      [rel.sourceFromProfile || rel.from, rel.sourceToProfile || rel.to].forEach((key) => {
         if (!key) return;
         map.set(key, (map.get(key) || 0) + 1);
       });
@@ -1506,7 +1567,10 @@ export default function IndustryFlowPage({ selectedIndustry = '', companyDetailP
   );
 
   const relationEdgesFor = (short) =>
-    relations.filter((rel) => rel.sourceFromProfile === short || rel.sourceToProfile === short);
+    relations.filter(
+      (rel) =>
+        (rel.sourceFromProfile || rel.from) === short || (rel.sourceToProfile || rel.to) === short,
+    );
 
   // ---- step3：维度池（可增删）+ 权重 + 分档阈值 + 壁垒门槛，改动后实时重算 ----
   const headRule = useMemo(() => steps.find((s) => s.id === 'heads')?.rule || null, [steps]);
@@ -1683,11 +1747,25 @@ export default function IndustryFlowPage({ selectedIndustry = '', companyDetailP
     });
   };
 
+  // 未建设建链数据的行业：给出可见的空状态，不静默显示其他产业链的内容。
+  if (!FLOW_INDUSTRIES.includes(selectedIndustry)) {
+    return (
+      <main className="flow-page">
+        <div className="flow-empty" role="status">
+          「{selectedIndustry || '当前产业链'}
+          」的建链流程数据暂未建成。已建成
+          {FLOW_INDUSTRIES.map((name) => `「${name}」`).join('')}
+          ，请通过右上角产业链切换查看。
+        </div>
+      </main>
+    );
+  }
+
   if (error) {
     return (
       <main className="flow-page">
         <div className="flow-error" role="alert">
-          储能产业数据加载失败：{error}
+          {selectedIndustry || '产业链'}数据加载失败：{error}
         </div>
       </main>
     );
@@ -1697,7 +1775,7 @@ export default function IndustryFlowPage({ selectedIndustry = '', companyDetailP
     return (
       <main className="flow-page">
         <div className="flow-loading" role="status">
-          正在加载储能产业数据…
+          正在加载{selectedIndustry || '产业链'}数据…
         </div>
       </main>
     );
@@ -1714,9 +1792,17 @@ export default function IndustryFlowPage({ selectedIndustry = '', companyDetailP
           <span>产业链流程</span>
           <strong>{data.industry} · 建链四步</strong>
         </div>
-        <div className="flow-toolbar-summary">
+        <div
+          className="flow-toolbar-summary"
+          title={
+            data.stats.rawRows && data.stats.rawRows !== data.stats.companies
+              ? `源表 ${data.stats.rawRows} 行；按统一社会信用代码去重后 ${data.stats.companies} 个在链主体`
+              : undefined
+          }
+        >
           <b>{data.stats.level1}</b> 个一级环节 <i>·</i> <b>{data.stats.level2}</b> 个二级环节{' '}
-          <i>·</i> <b>{data.stats.companies}</b> 家上市企业
+          <i>·</i> <b>{data.stats.listed ?? data.stats.companies}</b> 家上市企业 /{' '}
+          <b>{data.stats.rawRows ?? data.stats.companies}</b> 家在链
         </div>
         {activeStep === 1 && (
           <button
@@ -1753,8 +1839,8 @@ export default function IndustryFlowPage({ selectedIndustry = '', companyDetailP
 
       {industryMismatch && (
         <p className="flow-industry-notice">
-          本页演示的是<b>{data.industry}</b>的建链方法，数据固定为储能产业；顶部当前一级链为「
-          {selectedIndustry}」，图谱 / 地图 / 周报页签会跟随该选择切换。
+          本页演示的是<b>{data.industry}</b>的建链方法；顶部当前一级链为「{selectedIndustry}
+          」，本页暂无该行业独立建链数据，图谱 / 地图 / 周报页签会跟随该选择切换。
         </p>
       )}
 
@@ -1785,23 +1871,32 @@ export default function IndustryFlowPage({ selectedIndustry = '', companyDetailP
             {activeStep === 1 && (
               <>
                 <div>
-                  <b>{current.stats.companies}</b>
+                  <b>{current.stats.listed ?? current.stats.companies}</b>
                   <span>上市企业</span>
                 </div>
                 <div className="is-other">
-                  <b>{current.stats.other ?? 0}</b>
-                  <span>非上市客户</span>
+                  <b>{current.stats.nonListed ?? current.stats.other ?? 0}</b>
+                  <span>非上市主体</span>
+                </div>
+                <div
+                  title={
+                    current.stats.rawRows && current.stats.rawRows !== current.stats.companies
+                      ? `源表 ${current.stats.rawRows} 行（含跨环节重复）；去重后主体 ${current.stats.companies} 个`
+                      : undefined
+                  }
+                >
+                  <b>{current.stats.rawRows ?? current.stats.total ?? current.stats.companies}</b>
+                  <span>全量在链</span>
                 </div>
                 <div>
-                  <b>{current.stats.total ?? current.stats.companies}</b>
-                  <span>全量客户</span>
-                </div>
-                <div>
-                  <b>{current.stats.coreMain + current.stats.core}</b>
+                  <b>
+                    {(current.stats.coreMain ?? data.stats.coreMain ?? 0) +
+                      (current.stats.core ?? 0)}
+                  </b>
                   <span>核心档</span>
                 </div>
                 <div>
-                  <b>{current.stats.important}</b>
+                  <b>{current.stats.coreGrade ?? current.stats.important ?? 0}</b>
                   <span>相关重要</span>
                 </div>
               </>
@@ -1848,12 +1943,18 @@ export default function IndustryFlowPage({ selectedIndustry = '', companyDetailP
 
           {activeStep === 1 && (
             <div className="flow-grade-legend">
-              <span className="flow-legend-title">储能相关度</span>
-              {data.distributions.grades.map((item) => (
-                <span className={`flow-legend-item tone-${gradeMeta(item.k).tone}`} key={item.k}>
+              {/* 图例标题跟随当前一级链，避免集成电路 / 算力链下仍写「储能相关度」 */}
+              <span className="flow-legend-title">
+                {(data.industry || '产业').replace(/产业$/, '')}相关度
+              </span>
+              {(data.distributions?.grades || []).map((item) => (
+                <span
+                  className={`flow-legend-item tone-${gradeMeta(item.grade ?? item.k).tone}`}
+                  key={item.grade ?? item.k}
+                >
                   <i />
-                  {gradeMeta(item.k).short}
-                  <b>{item.v}</b>
+                  {gradeMeta(item.grade ?? item.k).short}
+                  <b>{item.count ?? item.v}</b>
                 </span>
               ))}
             </div>
@@ -1916,7 +2017,9 @@ export default function IndustryFlowPage({ selectedIndustry = '', companyDetailP
             />
           )}
 
-          {activeStep === 3 && <RelationsPanel step={current} hubs={hubs} />}
+          {activeStep === 3 && (
+            <RelationsPanel step={current} hubs={hubs} total={(data?.companies || []).length} />
+          )}
           {activeStep === 3 && (
             <ExternalPanel
               mentions={data.externalMentions || []}

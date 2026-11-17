@@ -11,7 +11,7 @@ test('industry catalog keeps every independent runtime shard addressable', () =>
   const ids = BUILT_IN_INDUSTRY_CATALOG.map((entry) => entry.id);
   const files = BUILT_IN_INDUSTRY_CATALOG.map((entry) => entry.file);
 
-  assert.deepEqual(ids, ['integrated-circuit', 'power', 'storage', 'biomed', 'ai']);
+  assert.deepEqual(ids, ['integrated-circuit', 'power', 'storage', 'biomed', 'ai', 'compute']);
   assert.equal(new Set(files).size, files.length);
   assert.equal(industryEntryFor({ industries: BUILT_IN_INDUSTRY_CATALOG }, '人工智能').id, 'ai');
   assert.equal(

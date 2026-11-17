@@ -15,6 +15,9 @@
     "prepare:new-industries": "node scripts/prepare-new-industries.mjs && node scripts/build-new-industry-relations.mjs && node scripts/prepare-new-industries.mjs && node scripts/derive-region-from-address.mjs",
     "audit:data": "node scripts/audit-company-master.mjs",
     "prepare:credit": "node scripts/prepare-credit-mock.mjs",
+    "prepare:analysis": "node scripts/prepare-analysis-mock.mjs",
+    "prepare:sentiment": "node scripts/prepare-storage-sentiment.mjs",
+    "prepare:company": "node scripts/prepare-company-digest.mjs",
     "smoke": "node scripts/smoke.mjs",
     "research:360": "node scripts/research-360-pois.mjs",
     "research:qq": "node scripts/research-qq-pois.mjs",
@@ -23,17 +26,15 @@
     "research:regions": "node scripts/research-region-fallbacks.mjs",
     "research:reference": "node scripts/research-reference-locations.mjs",
     "research:amap-geocode": "node scripts/research-amap-geocode.mjs",
-    "download:map-assets": "node scripts/download-map-assets.mjs",
-    "extract:map": "node scripts/extract-map-assets.mjs",
-    "verify:map": "node scripts/verify-map-assets.mjs",
     "check": "pnpm format:check && pnpm lint && pnpm test && pnpm build"
   },
   "dependencies": {
-    "@protomaps/basemaps": "^5.7.2",
     "maplibre-gl": "^5.6.2",
-    "pmtiles": "^4.3.0",
+    "pdfjs-dist": "^6.4.299",
+    "pmtiles": "^4.5.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "three": "^0.186.1",
     "xlsx": "^0.18.5"
   },
   "devDependencies": {

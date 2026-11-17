@@ -1,0 +1,70 @@
+{
+  "generatedAt": "2026-10-21 22:49:19",
+  "companies": 2457,
+  "levels": [
+    {
+      "label": "资源与材料",
+      "position": "上游",
+      "companies": 555,
+      "children": 3
+    },
+    {
+      "label": "核心电子器件",
+      "position": "上游",
+      "companies": 182,
+      "children": 1
+    },
+    {
+      "label": "核心装备",
+      "position": "上游",
+      "companies": 462,
+      "children": 3
+    },
+    {
+      "label": "检测认证与标准",
+      "position": "上游",
+      "companies": 80,
+      "children": 1
+    },
+    {
+      "label": "电池与核心部件",
+      "position": "中游",
+      "companies": 757,
+      "children": 6
+    },
+    {
+      "label": "系统集成与工程建设",
+      "position": "中游",
+      "companies": 219,
+      "children": 4
+    },
+    {
+      "label": "应用与运营",
+      "position": "下游",
+      "companies": 202,
+      "children": 6
+    }
+  ],
+  "statsBefore": {
+    "companies": 2458,
+    "listed": 377,
+    "leader": 71,
+    "core": 464,
+    "tail": 1923,
+    "level2": 24
+  },
+  "statsAfter": {
+    "companies": 2457,
+    "listed": 376,
+    "leader": 70,
+    "core": 464,
+    "tail": 1923,
+    "level2": 24
+  },
+  "chainRichProfilesAttached": 242,
+  "demotedCount": 0,
+  "demoted": [],
+  "otherCustomersBefore": 1740,
+  "otherCustomersAfter": 1740,
+  "fileSizeMB": 15.09
+}

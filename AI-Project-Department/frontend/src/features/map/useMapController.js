@@ -1,8 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import maplibregl from 'maplibre-gl';
+import { Protocol as PmtilesProtocol } from 'pmtiles';
 import { buildMapStyle } from '../../mapStyle';
-import { OFFLINE_BASEMAP_BOUNDS, registerMergedBasemapProtocol } from '../../mergedBasemapProtocol';
-import { publicUrl } from '../../shared/publicPaths';
 import { relationFeature } from './mapFeatures';
 import { normalize } from '../../shared/text';
 import {
@@ -114,16 +113,20 @@ class ZoomToolbarControl {
   }
 }
 
-function updateBasemapViewport(map) {
-  const camera = map.cameraForBounds(OFFLINE_BASEMAP_BOUNDS, {
-    padding: 24,
-    maxZoom: 18,
-  });
-  if (!camera?.center || !Number.isFinite(camera.zoom)) return;
+// 底图数据：Natural Earth GeoJSON（公有领域）+ OSM 全国 pmtiles（ODbL，须署名）。
+// 限制可视范围，避免用户把地图拖到没有底图的区域。
+const MAP_BOUNDS = [
+  [62, -2],
+  [150, 58],
+];
 
-  map.setMaxBounds(OFFLINE_BASEMAP_BOUNDS);
-  map.setMinZoom(camera.zoom);
-  if (map.getZoom() < camera.zoom) map.jumpTo(camera);
+// PMTiles 协议注册是全局副作用，只需执行一次。
+let pmtilesRegistered = false;
+function ensurePmtilesProtocol() {
+  if (pmtilesRegistered) return;
+  const protocol = new PmtilesProtocol();
+  maplibregl.addProtocol('pmtiles', protocol.tile);
+  pmtilesRegistered = true;
 }
 
 export function useMapController({
@@ -139,7 +142,6 @@ export function useMapController({
   setActiveRelation,
   setActiveOverlap,
 }) {
-  const [hasBasemap, setHasBasemap] = useState(null);
   const [mapReady, setMapReady] = useState(false);
   const mapRef = useRef(null);
   const mapContainerRef = useRef(null);
@@ -151,37 +153,21 @@ export function useMapController({
   }, [activeTab, isMapFullscreen, mapReady]);
 
   useEffect(() => {
-    const isPmtilesArchive = async (url) => {
-      try {
-        const response = await fetch(url, { headers: { Range: 'bytes=0-7' } });
-        if (!response.ok) return false;
-        const bytes = new Uint8Array(await response.arrayBuffer());
-        // PMTiles v3 archives (including the Node extractor output) are
-        // identified by the two-byte `PM` magic; missing Vite SPA fallbacks
-        // begin with `<!` and therefore do not pass this check.
-        return new TextDecoder().decode(bytes.slice(0, 2)) === 'PM' && bytes[7] === 3;
-      } catch {
-        return false;
-      }
-    };
-    Promise.all(
-      [publicUrl('map/china-overview.pmtiles'), publicUrl('map/shanghai-detail.pmtiles')].map(
-        isPmtilesArchive,
-      ),
-    ).then(([overview, detail]) => setHasBasemap(overview && detail));
-  }, []);
-
-  useEffect(() => {
-    if (!mapContainerRef.current || hasBasemap === null || mapRef.current) return undefined;
-    const basemapProtocol = hasBasemap ? registerMergedBasemapProtocol() : null;
+    if (!mapContainerRef.current || mapRef.current) return undefined;
+    ensurePmtilesProtocol();
     const map = new maplibregl.Map({
       container: mapContainerRef.current,
-      style: buildMapStyle(hasBasemap),
+      style: buildMapStyle(),
       center: [104, 38.2],
       zoom: 3.1,
       minZoom: 3.1,
       maxZoom: 18,
-      attributionControl: false,
+      maxBounds: MAP_BOUNDS,
+      // NE 部分无署名义务；OSM 街道底图走 ODbL，须在地图角落署名。
+      attributionControl: {
+        compact: true,
+        custom: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a>',
+      },
       dragRotate: false,
       cooperativeGestures: false,
     });
@@ -264,31 +250,21 @@ export function useMapController({
     }
     const resizeObserver = new ResizeObserver(() => {
       map.resize();
-      if (hasBasemap && map.loaded()) updateBasemapViewport(map);
     });
     resizeObserver.observe(mapContainerRef.current);
     setTimeout(() => {
       map.resize();
-      if (hasBasemap && map.loaded()) updateBasemapViewport(map);
     }, 0);
     return () => {
       resizeObserver.disconnect();
       map.remove();
-      basemapProtocol?.unregister();
       mapRef.current = null;
       if (import.meta.env.DEV) {
         delete window.__industryMap;
         delete window.__icMap;
       }
     };
-  }, [hasBasemap, setActiveOverlap, setActiveRelation, setSelectedName]);
-
-  useEffect(() => {
-    const map = mapRef.current;
-    if (!map || !mapReady || !hasBasemap) return;
-    const frame = window.requestAnimationFrame(() => updateBasemapViewport(map));
-    return () => window.cancelAnimationFrame(frame);
-  }, [hasBasemap, isMapFullscreen, mapReady]);
+  }, [setActiveOverlap, setActiveRelation, setSelectedName]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -346,5 +322,5 @@ export function useMapController({
     );
   };
 
-  return { hasBasemap, mapContainerRef, mapReady, mapRef, focusDistrict };
+  return { mapContainerRef, mapReady, mapRef, focusDistrict };
 }

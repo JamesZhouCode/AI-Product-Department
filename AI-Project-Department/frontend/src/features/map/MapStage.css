@@ -244,34 +244,6 @@
   text-shadow: 0 1px 2px rgba(255, 255, 255, 0.96);
   font-size: 8px;
 }
-.asset-callout {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  max-width: 280px;
-  padding: 14px 17px;
-  transform: translate(-50%, -50%);
-  color: #5c7488;
-  background: rgba(255, 255, 255, 0.92);
-  border: 1px solid #cfdae4;
-  border-radius: var(--radius-card);
-  box-shadow: var(--shadow-md);
-  pointer-events: none;
-  text-align: center;
-  backdrop-filter: blur(14px);
-}
-.asset-callout b {
-  color: #29475d;
-  font-size: 11px;
-}
-.asset-callout span {
-  color: #74899a;
-  font-size: 9px;
-  line-height: 1.5;
-}
 
 .map-data-notice {
   position: absolute;

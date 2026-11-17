@@ -4,10 +4,21 @@ import { WARNING_LEVELS } from './creditConfig';
 import { formatWan } from './creditEngine';
 import CreditProfileDrawer from './CreditProfileDrawer';
 import CreditRulesModal from './CreditRulesModal';
-import { useCreditData } from './useCreditData';
+import NegativeListPanel from './NegativeListPanel';
+import ProjectCreditPanel from './ProjectCreditPanel';
+import { creditDataFileFor, useCreditData } from './useCreditData';
 import './credit.css';
 
-const CREDIT_INDUSTRY = '储能产业';
+// 已建成独立授信数据的一级链。
+const CREDIT_INDUSTRIES = ['集成电路', '储能产业', '算力产业'];
+// 已建成「客户授信 / 项目授信 / 负面清单」三模块的产业链。
+const DECISION_TAB_INDUSTRIES = ['算力产业'];
+
+const DECISION_TABS = [
+  { key: 'customer', label: '客户授信分析' },
+  { key: 'project', label: '项目授信分析' },
+  { key: 'negative', label: '负面清单' },
+];
 
 const DEFAULT_FILTERS = {
   chain: 'all',
@@ -16,23 +27,16 @@ const DEFAULT_FILTERS = {
   listed: 'all',
   tier: 'all',
   grade: 'all',
-  scoreRange: 'all',
-  riskTag: 'all',
+  valueLevel: 'all',
+  creditLevel: 'all',
   warningLevel: 'all',
   query: '',
 };
 
-const SCORE_RANGES = [
-  { key: 'all', label: '全部', test: () => true },
-  { key: '90+', label: '90+', min: 90, max: 101 },
-  { key: '80', label: '80-89', min: 80, max: 90 },
-  { key: '70', label: '70-79', min: 70, max: 80 },
-  { key: '60', label: '60-69', min: 60, max: 70 },
-  { key: 'lt60', label: '<60', min: 0, max: 60 },
-];
-
 const SORT_FIELDS = [
   { key: 'total', label: '综合评分' },
+  { key: 'value', label: '经营价值' },
+  { key: 'credit', label: '信用适配' },
   { key: 'revenue', label: '营收' },
   { key: 'netProfit', label: '净利润' },
   { key: 'operatingCashFlow', label: '经营现金流' },
@@ -40,7 +44,7 @@ const SORT_FIELDS = [
   { key: 'interestBearingDebt', label: '有息负债' },
   { key: 'accountsReceivable', label: '应收账款' },
   { key: 'inventory', label: '存货' },
-  { key: 'limit', label: '建议额度' },
+  { key: 'limit', label: '参考额度' },
   { key: 'warning', label: '风险等级' },
 ];
 
@@ -51,8 +55,80 @@ function metricOf(company, key) {
   return company.metrics?.[key] ?? (key === 'debtRatio' ? Infinity : -Infinity);
 }
 
-export default function CreditOverviewPage({ selectedIndustry }) {
-  const { status, data, error } = useCreditData();
+export default function CreditOverviewPage({ selectedIndustry, followed }) {
+  const { status, data, error } = useCreditData(selectedIndustry);
+  const [tab, setTab] = useState('customer');
+  const hasDecisionTabs = DECISION_TAB_INDUSTRIES.includes(selectedIndustry);
+  const activeTab = hasDecisionTabs ? tab : 'customer';
+  const industryLabel = data?.raw?.industryLabel || selectedIndustry;
+
+  if (!CREDIT_INDUSTRIES.includes(selectedIndustry)) {
+    return (
+      <main className="credit-page">
+        <div className="credit-empty-state">
+          <h2>产业链智能授信</h2>
+          <p>
+            授信评价模块当前已完成
+            {CREDIT_INDUSTRIES.map((name) => `「${name}」`).join('')}
+            建设，请通过右上角产业链切换至对应产业后查看客户分层与授信分析。
+          </p>
+        </div>
+      </main>
+    );
+  }
+  if (status === 'loading') {
+    return (
+      <main className="credit-page">
+        <div className="credit-empty-state">授信评价数据加载中…</div>
+      </main>
+    );
+  }
+  if (status === 'error') {
+    return (
+      <main className="credit-page">
+        <div className="credit-empty-state error">
+          <h2>授信数据加载失败</h2>
+          <p>
+            {error?.message ||
+              `请检查 public/${creditDataFileFor(selectedIndustry)} 是否存在，可运行 pnpm prepare:credit 重新生成。`}
+          </p>
+        </div>
+      </main>
+    );
+  }
+
+  return (
+    <main className={`credit-page ${hasDecisionTabs ? 'has-tabs' : ''}`}>
+      {hasDecisionTabs && (
+        <div className="credit-tabs" role="tablist" aria-label={`${industryLabel}授信决策`}>
+          {DECISION_TABS.map((item) => (
+            <button
+              key={item.key}
+              type="button"
+              role="tab"
+              aria-selected={activeTab === item.key}
+              className={`credit-tab ${activeTab === item.key ? 'is-active' : ''}`}
+              onClick={() => setTab(item.key)}
+            >
+              {item.label}
+            </button>
+          ))}
+          <span className="credit-tabs-note muted">
+            客户准入 · 项目准入 · 负面清单 —— 授信管理的三个前置关口
+          </span>
+        </div>
+      )}
+
+      {activeTab === 'customer' && (
+        <CustomerCreditTab data={data} selectedIndustry={selectedIndustry} followed={followed} />
+      )}
+      {activeTab === 'project' && <ProjectCreditPanel data={data} industryLabel={industryLabel} />}
+      {activeTab === 'negative' && <NegativeListPanel data={data} industryLabel={industryLabel} />}
+    </main>
+  );
+}
+
+function CustomerCreditTab({ data, selectedIndustry, followed }) {
   const [filters, setFilters] = useState(DEFAULT_FILTERS);
   const [sort, setSort] = useState({ key: 'total', dir: 'desc' });
   const [selectedId, setSelectedId] = useState(null);
@@ -61,12 +137,11 @@ export default function CreditOverviewPage({ selectedIndustry }) {
   const [page, setPage] = useState(1);
 
   const chainOrder = useMemo(
-    () => chainPaletteFor(CREDIT_INDUSTRY).map((group) => group.label),
-    [],
+    () => chainPaletteFor(selectedIndustry).map((group) => group.label),
+    [selectedIndustry],
   );
 
   const sectorOptions = useMemo(() => {
-    if (!data) return [];
     const sectors = new Set();
     for (const entry of data.entries) {
       if (filters.chain !== 'all' && entry.company.chain !== filters.chain) continue;
@@ -76,8 +151,6 @@ export default function CreditOverviewPage({ selectedIndustry }) {
   }, [data, filters.chain]);
 
   const filtered = useMemo(() => {
-    if (!data) return [];
-    const range = SCORE_RANGES.find((item) => item.key === filters.scoreRange) || SCORE_RANGES[0];
     const query = filters.query.trim();
     return data.entries.filter(({ company, evaluation }) => {
       if (filters.chain !== 'all' && company.chain !== filters.chain) return false;
@@ -90,16 +163,10 @@ export default function CreditOverviewPage({ selectedIndustry }) {
         if (!evaluation || String(evaluation.tier) !== filters.tier) return false;
       }
       if (filters.grade !== 'all' && evaluation?.grade !== filters.grade) return false;
-      if (filters.scoreRange !== 'all') {
-        if (!evaluation || evaluation.total < range.min || evaluation.total >= range.max)
-          return false;
-      }
-      if (
-        filters.riskTag !== 'all' &&
-        !evaluation?.riskTags.some((tag) => tag.key === filters.riskTag && tag.level !== 'positive')
-      ) {
+      if (filters.valueLevel !== 'all' && evaluation?.valueLevel.key !== filters.valueLevel)
         return false;
-      }
+      if (filters.creditLevel !== 'all' && evaluation?.creditLevel.key !== filters.creditLevel)
+        return false;
       if (filters.warningLevel !== 'all' && evaluation?.warningLevel !== filters.warningLevel)
         return false;
       if (query && !company.name.includes(query) && !(company.stockShort || '').includes(query))
@@ -115,6 +182,10 @@ export default function CreditOverviewPage({ selectedIndustry }) {
       switch (sort.key) {
         case 'total':
           return evaluation?.total ?? -1;
+        case 'value':
+          return evaluation?.value.score ?? -1;
+        case 'credit':
+          return evaluation?.credit.score ?? -1;
         case 'limit':
           return evaluation?.creditLimit.amount ?? -1;
         case 'warning':
@@ -148,52 +219,22 @@ export default function CreditOverviewPage({ selectedIndustry }) {
       prev.key === key ? { key, dir: prev.dir === 'desc' ? 'asc' : 'desc' } : { key, dir: 'desc' },
     );
   };
-  const selectedCompany = data?.companiesById.get(selectedId) || null;
-
-  if (selectedIndustry !== CREDIT_INDUSTRY) {
-    return (
-      <main className="credit-page">
-        <div className="credit-empty-state">
-          <h2>储能产业链智能授信</h2>
-          <p>
-            授信评价模块当前面向「储能产业」建设，请通过右上角产业链切换至储能产业后查看客户分层与授信分析。
-          </p>
-        </div>
-      </main>
-    );
-  }
-  if (status === 'loading') {
-    return (
-      <main className="credit-page">
-        <div className="credit-empty-state">授信评价数据加载中…</div>
-      </main>
-    );
-  }
-  if (status === 'error') {
-    return (
-      <main className="credit-page">
-        <div className="credit-empty-state error">
-          <h2>授信数据加载失败</h2>
-          <p>
-            {error?.message ||
-              '请检查 public/data/credit/storage-credit-mock.json 是否存在，可运行 pnpm prepare:credit 重新生成。'}
-          </p>
-        </div>
-      </main>
-    );
-  }
+  const selectedCompany = data.companiesById.get(selectedId) || null;
 
   const { overview } = data;
 
   return (
-    <main className="credit-page">
+    <>
       <section className="credit-panel-box">
         <div className="credit-hero">
           <div>
-            <h2>储能产业客户授信分析</h2>
+            <h2>{data.raw?.industryLabel || selectedIndustry}客户授信分析</h2>
             <p className="muted">
-              产业链地图 → 企业画像 → 六维评价 → 客户分层 → 授信策略 → 动态预警 · 数据生成于{' '}
-              {data.generatedAt}
+              产业链地图 → 企业画像 → 八维评价 → 经营价值 × 信用风险双评价 → 参考分层与预警 ·
+              数据生成于 {data.generatedAt}
+            </p>
+            <p className="muted">
+              客户分层、评级与额度为参考值，不构成授信审批结论；经营价值评价不得替代信用审查。
             </p>
           </div>
           <button type="button" className="credit-rules-button" onClick={() => setRulesOpen(true)}>
@@ -210,171 +251,66 @@ export default function CreditOverviewPage({ selectedIndustry }) {
           <KpiCard
             label="已评价企业"
             value={overview.evaluatedCount.toLocaleString()}
-            sub={`均分 ${overview.avgScore}`}
+            sub={`综合均分 ${overview.avgScore}`}
           />
-          <KpiCard label="第一层" value={overview.tierCounts[1]} sub="重点支持类" tone="green" />
-          <KpiCard label="第二层" value={overview.tierCounts[2]} sub="条件支持类" tone="orange" />
-          <KpiCard label="第三层" value={overview.tierCounts[3]} sub="严格准入类" tone="red" />
           <KpiCard
-            label="待评价"
-            value={overview.pendingCount.toLocaleString()}
-            sub="待接入财务数据"
+            label="经营价值均分"
+            value={overview.avgValue}
+            sub={`优先关注 ${overview.valueCounts.A} 家`}
+            tone="green"
+          />
+          <KpiCard
+            label="信用适配均分"
+            value={overview.avgCredit}
+            sub={`可准入 ${overview.creditCounts.pass} 家`}
+            tone="blue"
+          />
+          <KpiCard
+            label="参考第一层"
+            value={overview.tierCounts[1]}
+            sub="重点支持类（参考）"
+            tone="green"
+          />
+          <KpiCard
+            label="参考第二层"
+            value={overview.tierCounts[2]}
+            sub="条件支持类（参考）"
+            tone="orange"
+          />
+          <KpiCard
+            label="参考第三层"
+            value={overview.tierCounts[3]}
+            sub="严格准入类（参考）"
+            tone="red"
           />
           <KpiCard
             label="风险预警企业"
             value={(overview.warningCounts.orange + overview.warningCounts.red).toLocaleString()}
-            sub={`其中高风险 ${overview.warningCounts.red}`}
+            sub={`高风险 ${overview.warningCounts.red} · 待核实红线 ${overview.pendingRedlineCount}`}
             tone="red"
-          />
-          <KpiCard
-            label="建议授信总额"
-            value={`约 ${formatWan(overview.totalLimit)}`}
-            sub="一票否决企业已降级"
-            tone="blue"
           />
         </div>
 
         <div className="credit-panels">
-          <div className="credit-col">
-            <section className="credit-section">
-              <h3>产业链 × 授信层级矩阵</h3>
-              <p className="muted">点击格子筛选该环节对应层级的企业</p>
-              <table className="credit-matrix">
-                <thead>
-                  <tr>
-                    <th>产业链环节</th>
-                    <th className="num">第一层</th>
-                    <th className="num">第二层</th>
-                    <th className="num">第三层</th>
-                    <th className="num">合计</th>
-                    <th className="num">建议授信</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {chainOrder.map((chain) => {
-                    const bucket = overview.chains.find((item) => item.chain === chain);
-                    if (!bucket) return null;
-                    return (
-                      <tr key={chain}>
-                        <th>{chain}</th>
-                        {[1, 2, 3].map((tier) => (
-                          <td key={tier} className="num">
-                            <button
-                              type="button"
-                              className="credit-matrix-cell"
-                              onClick={() => patchFilter({ chain, tier: String(tier) })}
-                            >
-                              {bucket.tiers[tier]}
-                            </button>
-                          </td>
-                        ))}
-                        <td className="num strong">{bucket.total}</td>
-                        <td className="num">{formatWan(bucket.limit)}</td>
-                      </tr>
-                    );
-                  })}
-                </tbody>
-              </table>
-            </section>
-
-            <section className="credit-section credit-section-stack">
-              <h3>风险标签分析</h3>
-              <p className="muted">统计 ⚠ 类标签，点击反向筛选企业</p>
-              <div className="credit-bars">
-                {overview.riskTags.slice(0, 10).map((tag) => (
-                  <button
-                    key={tag.key}
-                    type="button"
-                    className={`credit-bar-row ${filters.riskTag === tag.key ? 'active' : ''}`}
-                    onClick={() =>
-                      patchFilter({ riskTag: filters.riskTag === tag.key ? 'all' : tag.key })
-                    }
-                  >
-                    <span className="credit-bar-label wide">{tag.label}</span>
-                    <span className="credit-bar-track">
-                      <span
-                        className="credit-bar-fill risk"
-                        style={{ width: `${(tag.count / overview.riskTags[0].count) * 100}%` }}
-                      />
-                    </span>
-                    <span className="credit-bar-value">{tag.count}</span>
-                  </button>
-                ))}
-              </div>
-            </section>
-          </div>
-
-          <div className="credit-col">
-            <section className="credit-section">
-              <h3>客户评分分布</h3>
-              <p className="muted">点击区间筛选企业</p>
-              <div className="credit-bars">
-                {overview.scoreDist.map((bucket) => (
-                  <button
-                    key={bucket.key}
-                    type="button"
-                    className={`credit-bar-row ${filters.scoreRange === bucket.key ? 'active' : ''}`}
-                    onClick={() =>
-                      patchFilter({
-                        scoreRange: filters.scoreRange === bucket.key ? 'all' : bucket.key,
-                      })
-                    }
-                  >
-                    <span className="credit-bar-label">{bucket.label}</span>
-                    <span className="credit-bar-track">
-                      <span
-                        className="credit-bar-fill"
-                        style={{
-                          width: `${(bucket.count / Math.max(overview.evaluatedCount, 1)) * 100}%`,
-                        }}
-                      />
-                    </span>
-                    <span className="credit-bar-value">{bucket.count}</span>
-                  </button>
-                ))}
-              </div>
-              <h3 className="credit-panel-sub">预警等级分布</h3>
-              <div className="credit-warning-row">
-                {Object.entries(WARNING_LEVELS).map(([key, meta]) => (
-                  <button
-                    key={key}
-                    type="button"
-                    className={`credit-warning-chip level-${key} ${filters.warningLevel === key ? 'active' : ''}`}
-                    style={{ borderColor: meta.color, color: meta.color }}
-                    onClick={() =>
-                      patchFilter({ warningLevel: filters.warningLevel === key ? 'all' : key })
-                    }
-                  >
-                    {meta.label} {overview.warningCounts[key]}
-                  </button>
-                ))}
-              </div>
-              <h3 className="credit-panel-sub">地区分布 Top 8</h3>
-              <div className="credit-region-list">
-                {overview.regions.slice(0, 8).map((region) => (
-                  <button
-                    key={region.province}
-                    type="button"
-                    className={`credit-bar-row ${filters.region === region.province ? 'active' : ''}`}
-                    onClick={() =>
-                      patchFilter({
-                        region: filters.region === region.province ? 'all' : region.province,
-                      })
-                    }
-                  >
-                    <span className="credit-bar-label">{region.province}</span>
-                    <span className="credit-bar-track">
-                      <span
-                        className="credit-bar-fill region"
-                        style={{ width: `${(region.count / overview.regions[0].count) * 100}%` }}
-                      />
-                    </span>
-                    <span className="credit-bar-value">{region.count}</span>
-                  </button>
-                ))}
-              </div>
-            </section>
-          </div>
+          <section className="credit-section">
+            <h3>预警等级分布</h3>
+            <p className="muted">点击档位筛选企业 · 等级由红线项与扣分项聚合得出</p>
+            <div className="credit-warning-row">
+              {Object.entries(WARNING_LEVELS).map(([key, meta]) => (
+                <button
+                  key={key}
+                  type="button"
+                  className={`credit-warning-chip level-${key} ${filters.warningLevel === key ? 'active' : ''}`}
+                  style={{ borderColor: meta.color, color: meta.color }}
+                  onClick={() =>
+                    patchFilter({ warningLevel: filters.warningLevel === key ? 'all' : key })
+                  }
+                >
+                  {meta.label} {overview.warningCounts[key]}
+                </button>
+              ))}
+            </div>
+          </section>
         </div>
       </section>
 
@@ -459,6 +395,28 @@ export default function CreditOverviewPage({ selectedIndustry }) {
               </option>
             ))}
           </select>
+          <select
+            value={filters.valueLevel}
+            onChange={(event) => patchFilter({ valueLevel: event.target.value })}
+          >
+            <option value="all">全部经营价值</option>
+            {overview.valueDist.map((bucket) => (
+              <option key={bucket.key} value={bucket.key}>
+                {bucket.label}
+              </option>
+            ))}
+          </select>
+          <select
+            value={filters.creditLevel}
+            onChange={(event) => patchFilter({ creditLevel: event.target.value })}
+          >
+            <option value="all">全部信用适配</option>
+            {overview.creditDist.map((bucket) => (
+              <option key={bucket.key} value={bucket.key}>
+                {bucket.label}
+              </option>
+            ))}
+          </select>
         </div>
         <div className="credit-sort-row">
           <span className="muted">排序：</span>
@@ -482,12 +440,13 @@ export default function CreditOverviewPage({ selectedIndustry }) {
                 <th>产业链环节</th>
                 <th>地区</th>
                 <th>上市</th>
-                <th className="num">评分</th>
-                <th>层级</th>
-                <th>评级</th>
+                <th className="num">综合</th>
+                <th>经营价值</th>
+                <th>信用适配</th>
+                <th>参考层级</th>
                 <th>预警</th>
                 <th>主要风险标签</th>
-                <th className="num">建议额度</th>
+                <th className="num">参考额度</th>
               </tr>
             </thead>
             <tbody>
@@ -501,6 +460,24 @@ export default function CreditOverviewPage({ selectedIndustry }) {
                   <td>{company.region?.province || '—'}</td>
                   <td>{company.listed ? '上市' : '—'}</td>
                   <td className="num">{evaluation ? evaluation.total : '待评价'}</td>
+                  <td>
+                    {evaluation ? (
+                      <span className={`credit-eval-chip lv-${evaluation.valueLevel.key}`}>
+                        {evaluation.valueLevel.label} {evaluation.value.score}
+                      </span>
+                    ) : (
+                      '—'
+                    )}
+                  </td>
+                  <td>
+                    {evaluation ? (
+                      <span className={`credit-eval-chip lv-${evaluation.creditLevel.key}`}>
+                        {evaluation.creditLevel.label} {evaluation.credit.score}
+                      </span>
+                    ) : (
+                      '—'
+                    )}
+                  </td>
                   <td>
                     {evaluation ? (
                       <span
@@ -519,7 +496,6 @@ export default function CreditOverviewPage({ selectedIndustry }) {
                       '—'
                     )}
                   </td>
-                  <td>{evaluation ? evaluation.grade : '—'}</td>
                   <td>
                     {evaluation ? (
                       <span className={`credit-warning-badge level-${evaluation.warningLevel}`}>
@@ -591,7 +567,11 @@ export default function CreditOverviewPage({ selectedIndustry }) {
         </div>
       </section>
 
-      <CreditRulesModal open={rulesOpen} onClose={() => setRulesOpen(false)} />
+      <CreditRulesModal
+        open={rulesOpen}
+        onClose={() => setRulesOpen(false)}
+        industryLabel={data.raw?.industryLabel || selectedIndustry}
+      />
 
       <CreditProfileDrawer
         company={selectedCompany}
@@ -604,8 +584,16 @@ export default function CreditOverviewPage({ selectedIndustry }) {
         relations={data.relations}
         onClose={() => setSelectedId(null)}
         onSelectCompany={setSelectedId}
+        follow={
+          followed
+            ? {
+                followed: followed.has(selectedCompany),
+                onToggle: () => followed.toggle(selectedCompany),
+              }
+            : undefined
+        }
       />
-    </main>
+    </>
   );
 }
 

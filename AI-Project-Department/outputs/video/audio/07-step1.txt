@@ -1,0 +1,2 @@
+file 'D:/ai_project/AI-Project-Department/AI-Project-Department/outputs/video/audio/sil.wav'
+file 'D:/ai_project/AI-Project-Department/AI-Project-Department/outputs/video/audio/07-step1-body.wav'

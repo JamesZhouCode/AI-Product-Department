@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1180px; height: 430px;
+    font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;
+    background: #f6f9fc;
+    display: flex; flex-direction: column;
+  }
+  .head {
+    display: flex; align-items: center; gap: 12px;
+    padding: 14px 22px 10px;
+  }
+  .head .title { font-size: 22px; font-weight: 800; color: #12324f; }
+  .head .src {
+    font-size: 15px; color: #5b7288; background: #e3edf5;
+    padding: 3px 12px; border-radius: 999px;
+  }
+  .body { flex: 1; display: flex; align-items: center; padding: 0 22px 16px; gap: 0; }
+  .root {
+    width: 118px; align-self: center;
+    background: #123a5c; color: #fff; border-radius: 14px;
+    text-align: center; padding: 20px 10px;
+    font-size: 20px; font-weight: 800; line-height: 1.5;
+    box-shadow: 0 4px 14px rgba(18,58,92,0.35);
+  }
+  .wire { width: 34px; align-self: center; height: 3px; background: #b9cbda; }
+  .branches { flex: 1; display: flex; flex-direction: column; gap: 12px; }
+  .branch { display: flex; align-items: center; gap: 12px; }
+  .bnode {
+    width: 208px; color: #fff; border-radius: 10px; padding: 9px 14px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.18);
+  }
+  .bname { font-size: 18px; font-weight: 700; }
+  .btag { font-size: 13px; opacity: 0.85; margin-top: 2px; }
+  .items { display: flex; flex-wrap: wrap; gap: 6px; }
+  .item {
+    font-size: 14.5px; color: #2c4a63; background: #fff;
+    border: 1px solid #c7d6e2; border-radius: 999px;
+    padding: 4px 12px; white-space: nowrap;
+  }
+</style>
+</head>
+<body>
+  <div class="head">
+    <div class="title">企业获取渠道（四类）</div>
+    <div class="src">方法导图 · 分支 5</div>
+  </div>
+  <div class="body">
+    <div class="root">多来源<br>采集</div>
+    <div class="wire"></div>
+    <div class="branches">
+    <div class="branch">
+      <div class="bnode" style="background:#0b6e8a;">
+        <div class="bname">① 行业权威名单</div>
+        <div class="btag">优先级最高</div>
+      </div>
+      <div class="items">
+        <div class="item">CNESA 储能企业名单</div><div class="item">中国电池工业协会</div><div class="item">化学与物理电源行业协会</div><div class="item">工信部锂电规范名单</div><div class="item">上市公司储能业务名单</div>
+      </div>
+    </div>
+    <div class="branch">
+      <div class="bnode" style="background:#b06a1e;">
+        <div class="bname">② 项目反推企业</div>
+        <div class="btag">招标 → 中标 → 入库</div>
+      </div>
+      <div class="items">
+        <div class="item">储能项目 · 招标公告</div><div class="item">中标企业 · 设备供应商</div><div class="item">EPC / 系统集成 / 电池</div><div class="item">配件辅材 / 消防温控</div>
+      </div>
+    </div>
+    <div class="branch">
+      <div class="bnode" style="background:#7a3fa0;">
+        <div class="bname">③ 资本市场反推</div>
+        <div class="btag">公告 · 招股书</div>
+      </div>
+      <div class="items">
+        <div class="item">A 股公告 / IPO 招股书 / 定增</div><div class="item">储能系统 · PCS · BMS · EMS</div><div class="item">结构件 / 胶粘 / 绝缘 / 导热</div>
+      </div>
+    </div>
+    <div class="branch">
+      <div class="bnode" style="background:#2e7d32;">
+        <div class="bname">④ 工商关键词搜索</div>
+        <div class="btag">名称 · 经营范围</div>
+      </div>
+      <div class="items">
+        <div class="item">储能 / 电池 / 新能源 / 电化学</div><div class="item">集装箱 / 预制舱 / 结构件</div><div class="item">连接器 / 线束 / 铜排</div>
+      </div>
+    </div></div>
+  </div>
+</body>
+</html>

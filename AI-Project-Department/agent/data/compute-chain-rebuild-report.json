@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-11-09 11:30:35",
+  "companies": 3475,
+  "levels": [
+    {
+      "label": "算力芯片与核心器件",
+      "position": "上游",
+      "companies": 1148,
+      "children": 5
+    },
+    {
+      "label": "算力设备与网络",
+      "position": "中游",
+      "companies": 872,
+      "children": 7
+    },
+    {
+      "label": "算力基础设施",
+      "position": "下游",
+      "companies": 508,
+      "children": 2
+    },
+    {
+      "label": "算力服务与运营",
+      "position": "下游",
+      "companies": 815,
+      "children": 3
+    },
+    {
+      "label": "算力需求方",
+      "position": "需求侧",
+      "companies": 132,
+      "children": 1
+    }
+  ],
+  "statsBefore": {
+    "companies": 1764,
+    "listed": 338,
+    "leader": 66,
+    "core": 191,
+    "tail": 401,
+    "level2": 18
+  },
+  "statsAfter": {
+    "companies": 3475,
+    "listed": 452,
+    "leader": 76,
+    "core": 205,
+    "tail": 424,
+    "level2": 18
+  },
+  "demotedCount": 0,
+  "demoted": [],
+  "otherCustomersBefore": 1021,
+  "otherCustomersAfter": 1021,
+  "fileSizeMB": 19.66
+}

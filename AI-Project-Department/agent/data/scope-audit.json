@@ -1,0 +1,211 @@
+{
+  "total": 2495,
+  "overall": {
+    "core_main": 125,
+    "core_related": 91,
+    "related_active": 817,
+    "related_potential": 1213,
+    "pending_verify": 249
+  },
+  "evidence": {
+    "B": 1227,
+    "A": 906,
+    "C": 243,
+    "none": 119
+  },
+  "byPosition": {
+    "上游": {
+      "related_active": 405,
+      "core_related": 39,
+      "related_potential": 661,
+      "pending_verify": 132,
+      "core_main": 54
+    },
+    "中游": {
+      "related_active": 429,
+      "related_potential": 610,
+      "core_main": 78,
+      "core_related": 33,
+      "pending_verify": 115
+    },
+    "下游": {
+      "related_active": 183,
+      "related_potential": 236,
+      "core_main": 9,
+      "core_related": 30,
+      "pending_verify": 4
+    }
+  },
+  "byLevel1": {
+    "资源与材料": {
+      "related_active": 171,
+      "core_related": 26,
+      "related_potential": 268,
+      "pending_verify": 58,
+      "core_main": 35
+    },
+    "电池与核心部件": {
+      "related_active": 351,
+      "related_potential": 533,
+      "core_main": 75,
+      "core_related": 31,
+      "pending_verify": 35
+    },
+    "应用与运营": {
+      "related_active": 183,
+      "related_potential": 236,
+      "core_main": 9,
+      "core_related": 30,
+      "pending_verify": 4
+    },
+    "核心装备": {
+      "related_active": 169,
+      "related_potential": 329,
+      "core_related": 14,
+      "core_main": 9,
+      "pending_verify": 17
+    },
+    "系统集成与工程建设": {
+      "related_potential": 180,
+      "related_active": 160,
+      "core_related": 29,
+      "core_main": 22,
+      "pending_verify": 82
+    },
+    "核心电子器件": {
+      "related_potential": 69,
+      "core_main": 6,
+      "related_active": 54,
+      "pending_verify": 55
+    },
+    "检测认证与标准": {
+      "related_potential": 38,
+      "core_main": 5,
+      "related_active": 37,
+      "pending_verify": 2
+    }
+  },
+  "byStatus": {
+    "行业龙头": {
+      "related_active": 11,
+      "core_related": 28,
+      "core_main": 32
+    },
+    "行业骨干": {
+      "related_active": 321,
+      "core_related": 62,
+      "core_main": 93
+    },
+    "行业长尾": {
+      "related_active": 485,
+      "related_potential": 1213,
+      "pending_verify": 249,
+      "core_related": 1
+    }
+  },
+  "bySource": {
+    "1977 户原清单": {
+      "related_active": 661,
+      "core_related": 91,
+      "related_potential": 1100,
+      "core_main": 125
+    },
+    "补充客户清单（新增）": {
+      "related_potential": 113,
+      "related_active": 156,
+      "pending_verify": 249
+    }
+  },
+  "relevanceCovered": 237,
+  "chainRelationCompanies": 906,
+  "withRelation": 906,
+  "seatConflict": {
+    "total": 71,
+    "outsideCore": 11,
+    "items": [
+      "云南云天化股份有限公司（观察·related_active）",
+      "湖北兴发化工集团股份有限公司（观察·related_active）",
+      "厦门海辰储能科技股份有限公司（未评·related_active）",
+      "北京英博电气股份有限公司（未评·related_active）",
+      "北京索英电气技术股份有限公司（未评·related_active）",
+      "双登集团股份有限公司（未评·related_active）",
+      "大连融科储能技术发展有限公司（未评·related_active）",
+      "楚能新能源股份有限公司（未评·related_active）",
+      "远景动力技术（江苏）有限公司（未评·related_active）",
+      "远景能源有限公司（未评·related_active）",
+      "青鸟消防股份有限公司（未评·related_active）"
+    ]
+  },
+  "gaps": {
+    "客户": 1462,
+    "订单": 1213,
+    "占比": 817,
+    "分部收入": 694,
+    "产品": 249,
+    "项目": 232,
+    "证据条目落库": 216,
+    "龙头席位占比待核": 1
+  },
+  "samples": {
+    "core_main": [
+      "云南恩捷新材料(集团)股份有限公司",
+      "厦门厦钨新能源材料股份有限公司",
+      "多氟多新材料股份有限公司",
+      "广州天赐高新材料股份有限公司",
+      "江苏天奈科技股份有限公司",
+      "深圳市星源材质科技股份有限公司",
+      "深圳新宙邦科技股份有限公司",
+      "湖南中科电气股份有限公司",
+      "湖南裕能新能源电池材料股份有限公司",
+      "石大胜华新材料集团股份有限公司"
+    ],
+    "core_related": [
+      "天齐锂业股份有限公司",
+      "江西赣锋锂业集团股份有限公司",
+      "洛阳栾川钼业集团股份有限公司",
+      "浙江华友钴业股份有限公司",
+      "青海盐湖工业股份有限公司",
+      "中矿资源集团股份有限公司",
+      "南京寒锐钴业股份有限公司",
+      "厦门钨业股份有限公司",
+      "攀钢集团钒钛资源股份有限公司",
+      "河钢股份有限公司"
+    ],
+    "related_active": [
+      "云南云天化股份有限公司",
+      "湖北兴发化工集团股份有限公司",
+      "万向一二三股份公司",
+      "中信金属股份有限公司/中信金属宁波能源有限公司",
+      "中国华电科工集团有限公司",
+      "中国铝业股份有限公司",
+      "四川雅化实业集团股份有限公司",
+      "天津国安盟固利新材料科技股份有限公司",
+      "天津巴莫科技有限责任公司",
+      "永兴特种材料科技股份有限公司"
+    ],
+    "related_potential": [
+      "中材地质工程勘查研究院有限公司",
+      "中石化南阳能源化工有限公司",
+      "北京金阳矿业投资有限责任公司",
+      "华秦储能技术有限公司",
+      "四川雅化锂业科技有限公司",
+      "天津赫普菲乐新材料有限公司",
+      "天能帅福得能源股份有限公司",
+      "宜宾市天宜锂业科创有限公司",
+      "建龙钢铁控股有限公司",
+      "张家港智电芳华蓄电研究所有限公司"
+    ],
+    "pending_verify": [
+      "济南鼎隆化工科技有限公司",
+      "湖北振华化学股份有限公司",
+      "上海乐兹科技发展有限公司",
+      "上海亚大汽车塑料制品有限公司",
+      "上海威固化工制品有限公司",
+      "上海宝钢新创享科技有限公司",
+      "上海莫源实业有限公司",
+      "东岳氟硅科技集团有限公司",
+      "东莞市思普太阳能科技有限公司",
+      "兆能瑞时(常州)科技有限公司"
+    ]
+  }
+}

@@ -1,11 +1,15 @@
-import { layers, namedFlavor } from '@protomaps/basemaps';
-import { fallbackShapes, fallbackStreetGrid } from './mapShapes';
 import { ALL_CHAIN_COLOR_STOPS } from './chainPalette';
 import { publicUrl } from './shared/publicPaths';
 import { MAP_LAYER_IDS, MAP_SOURCE_IDS } from './features/map/mapLayers';
 
-const MAP_WATER_COLOR = '#74d4dd';
-const OVERVIEW_SOURCE_MAX_ZOOM = import.meta.env.VITE_DEMO === 'true' ? 9 : 10;
+// 底图配色：海面蓝 → 邻国陆地浅灰绿 → 中国境内更亮，让业务点更突出。
+const MAP_SEA_COLOR = '#d8ecf3';
+const MAP_NEIGHBOR_LAND_COLOR = '#e6ece7';
+const MAP_CHINA_LAND_COLOR = '#fbfdf9';
+const MAP_LAKE_COLOR = '#a3d9e7';
+const MAP_LAKE_LINE_COLOR = '#79c2d4';
+const MAP_RIVER_COLOR = '#a9d6e5';
+const MAP_PROVINCE_LINE_COLOR = '#8fb4c8';
 
 const chainColorExpression = ['match', ['get', 'chainGroup'], ...ALL_CHAIN_COLOR_STOPS, '#647f96'];
 const circleCompanyFilter = [
@@ -33,40 +37,88 @@ const creditCompanyFilter = [
   ['==', ['get', 'bankRelation'], 'credit'],
 ];
 
-const normalizeBasemapFonts = (value) => {
-  if (value === 'Noto Sans Devanagari Regular v1') return 'Noto Sans Regular';
-  if (Array.isArray(value)) return value.map(normalizeBasemapFonts);
-  if (value && typeof value === 'object') {
-    return Object.fromEntries(
-      Object.entries(value).map(([key, childValue]) => [key, normalizeBasemapFonts(childValue)]),
-    );
-  }
-  return value;
-};
+// 城市注记按人口分三档，避免低层级堆满名字。
+const cityLabelLayers = [
+  {
+    id: MAP_LAYER_IDS.cityLabelMajor,
+    minzoom: 3,
+    filter: ['all', ['>=', ['get', 'pop'], 3000000], ['!=', ['get', 'taiwan'], 1]],
+    size: 12.5,
+    color: '#3d566b',
+  },
+  {
+    id: MAP_LAYER_IDS.cityLabelMedium,
+    minzoom: 5,
+    filter: ['all', ['>=', ['get', 'pop'], 800000], ['!=', ['get', 'taiwan'], 1]],
+    size: 11,
+    color: '#557086',
+  },
+  {
+    id: MAP_LAYER_IDS.cityLabelMinor,
+    minzoom: 7.2,
+    filter: ['all', ['<', ['get', 'pop'], 800000], ['!=', ['get', 'taiwan'], 1]],
+    size: 10,
+    color: '#6b8398',
+  },
+  // 台湾岛城市点单独一档：低层级只显示省名「台湾」，放大后才出现城市名。
+  {
+    id: MAP_LAYER_IDS.cityLabelTaiwan,
+    minzoom: 6.2,
+    filter: ['==', ['get', 'taiwan'], 1],
+    size: 11,
+    color: '#557086',
+  },
+].map((entry) => ({
+  id: entry.id,
+  type: 'symbol',
+  source: MAP_SOURCE_IDS.cities,
+  minzoom: entry.minzoom,
+  filter: entry.filter,
+  layout: {
+    'text-field': ['get', 'name'],
+    'text-size': entry.size,
+    'text-font': ['Noto Sans Regular'],
+    'text-anchor': 'top',
+    'text-offset': [0, 0.45],
+    'text-allow-overlap': false,
+    'symbol-sort-key': ['-', ['get', 'pop']],
+  },
+  paint: {
+    'text-color': entry.color,
+    'text-halo-color': '#ffffff',
+    'text-halo-width': 1.3,
+    'text-halo-blur': 0.2,
+  },
+}));
 
-const cloneLayers = (sourceId, prefix, minzoom, maxzoom) =>
-  layers(sourceId, namedFlavor('light'), { lang: 'zh' }).map((layer) => ({
-    ...layer,
-    // The offline bundle ships the Noto Sans subsets only. Normalize both
-    // direct layout fonts and formatted-text font expressions from Protomaps.
-    ...(layer.layout ? { layout: normalizeBasemapFonts(layer.layout) } : {}),
-    id: `${prefix}-${layer.id}`,
-    ...(layer.type === 'background'
-      ? { paint: { ...layer.paint, 'background-color': MAP_WATER_COLOR } }
-      : {}),
-    ...(minzoom === undefined ? {} : { minzoom: Math.max(layer.minzoom || 0, minzoom) }),
-    ...(maxzoom === undefined ? {} : { maxzoom: Math.min(layer.maxzoom ?? 24, maxzoom) }),
-  }));
-
-export function buildMapStyle(hasBasemap) {
+export function buildMapStyle() {
   const publicRoot = publicUrl('');
-  const base = {
+  return {
     version: 8,
     glyphs: `${publicRoot}assets/fonts/{fontstack}/{range}.pbf`,
-    ...(hasBasemap ? { sprite: `${publicRoot}assets/sprites/v4/light` } : {}),
     sources: {
-      [MAP_SOURCE_IDS.fallback]: { type: 'geojson', data: fallbackShapes },
-      [MAP_SOURCE_IDS.streetGrid]: { type: 'geojson', data: fallbackStreetGrid },
+      // 底图三件套全部来自 Natural Earth（公有领域，免署名），由
+      // tools/build_ne_basemap.py 裁剪生成，不含任何国界/省界数据。
+      [MAP_SOURCE_IDS.land]: { type: 'geojson', data: `${publicRoot}data/basemap/land.geojson` },
+      [MAP_SOURCE_IDS.lakes]: { type: 'geojson', data: `${publicRoot}data/basemap/lakes.geojson` },
+      [MAP_SOURCE_IDS.rivers]: {
+        type: 'geojson',
+        data: `${publicRoot}data/basemap/rivers.geojson`,
+      },
+      [MAP_SOURCE_IDS.cities]: {
+        type: 'geojson',
+        data: `${publicRoot}data/basemap/cities.geojson`,
+      },
+      // OSM 全国街道级矢量底图（Planetiler 生成，OpenMapTiles schema）。
+      // ODbL 许可：地图角落须显示 © OpenStreetMap contributors。
+      // 有意不引入 OSM 的 boundary 与 place(city/state/country) 图层：
+      // 境界用国内口径数据、城市标注沿用 cities.geojson（含台湾标注逻辑）。
+      [MAP_SOURCE_IDS.osmBasemap]: {
+        type: 'vector',
+        url: `pmtiles://${publicRoot}map/osm-china.pmtiles`,
+        attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      },
+      // 国界与省界沿用国内口径数据（含台湾、港澳、南海诸岛）。
       [MAP_SOURCE_IDS.chinaBoundaries]: {
         type: 'geojson',
         data: `${publicRoot}data/china-provinces.geojson`,
@@ -97,22 +149,189 @@ export function buildMapStyle(hasBasemap) {
       {
         id: MAP_LAYER_IDS.background,
         type: 'background',
-        paint: { 'background-color': MAP_WATER_COLOR },
+        paint: { 'background-color': MAP_SEA_COLOR },
+      },
+      {
+        id: MAP_LAYER_IDS.landFill,
+        type: 'fill',
+        source: MAP_SOURCE_IDS.land,
+        paint: { 'fill-color': MAP_NEIGHBOR_LAND_COLOR, 'fill-opacity': 1 },
       },
       {
         id: MAP_LAYER_IDS.chinaProvinceFill,
         type: 'fill',
         source: MAP_SOURCE_IDS.chinaBoundaries,
-        paint: { 'fill-color': '#f4f7f3', 'fill-opacity': hasBasemap ? 0 : 0.96 },
+        paint: { 'fill-color': MAP_CHINA_LAND_COLOR, 'fill-opacity': 1 },
+      },
+      // OSM 绿地（林地/草地），给陆地加一点生态色。
+      {
+        id: MAP_LAYER_IDS.osmGreenFill,
+        type: 'fill',
+        source: MAP_SOURCE_IDS.osmBasemap,
+        'source-layer': 'landcover',
+        minzoom: 6,
+        filter: ['any', ['==', ['get', 'class'], 'wood'], ['==', ['get', 'class'], 'grass']],
+        paint: { 'fill-color': '#e7efdc', 'fill-opacity': 0.6 },
+      },
+      // OSM 水面（湖、库、宽河道），与 NE 湖泊同色系。
+      {
+        id: MAP_LAYER_IDS.osmWaterFill,
+        type: 'fill',
+        source: MAP_SOURCE_IDS.osmBasemap,
+        'source-layer': 'water',
+        minzoom: 4,
+        filter: ['!=', ['get', 'class'], 'ocean'],
+        paint: { 'fill-color': MAP_LAKE_COLOR, 'fill-opacity': 1 },
+      },
+      // OSM 河流水线（NE 河流覆盖低层级干流，此处补充支流细节）。
+      {
+        id: MAP_LAYER_IDS.osmWaterwayLine,
+        type: 'line',
+        source: MAP_SOURCE_IDS.osmBasemap,
+        'source-layer': 'waterway',
+        minzoom: 6,
+        paint: {
+          'line-color': MAP_RIVER_COLOR,
+          'line-width': ['interpolate', ['linear'], ['zoom'], 6, 0.4, 10, 1.1, 14, 2.4],
+        },
+      },
+      {
+        id: MAP_LAYER_IDS.lakeFill,
+        type: 'fill',
+        source: MAP_SOURCE_IDS.lakes,
+        paint: { 'fill-color': MAP_LAKE_COLOR, 'fill-opacity': 1 },
+      },
+      {
+        id: MAP_LAYER_IDS.lakeLine,
+        type: 'line',
+        source: MAP_SOURCE_IDS.lakes,
+        paint: { 'line-color': MAP_LAKE_LINE_COLOR, 'line-width': 0.6 },
+      },
+      {
+        id: MAP_LAYER_IDS.riverLine,
+        type: 'line',
+        source: MAP_SOURCE_IDS.rivers,
+        paint: {
+          'line-color': MAP_RIVER_COLOR,
+          // 干流粗、支流细：scalerank 越小越主干。
+          'line-width': [
+            'interpolate',
+            ['linear'],
+            ['zoom'],
+            3,
+            ['case', ['<=', ['get', 'rank'], 2], 1.1, 0.5],
+            7,
+            ['case', ['<=', ['get', 'rank'], 2], 2.4, 1.2],
+          ],
+        },
       },
       {
         id: MAP_LAYER_IDS.chinaProvinceLine,
         type: 'line',
         source: MAP_SOURCE_IDS.chinaBoundaries,
         paint: {
-          'line-color': '#8fb4c8',
+          'line-color': MAP_PROVINCE_LINE_COLOR,
           'line-width': ['interpolate', ['linear'], ['zoom'], 3, 0.55, 7, 1, 11, 1.5],
-          'line-opacity': hasBasemap ? 0 : 0.78,
+          'line-opacity': 0.78,
+        },
+      },
+      // ===== OSM 道路网：先画描边（casing）再画路面，形成常规路网观感 =====
+      {
+        id: MAP_LAYER_IDS.roadCasingMajor,
+        type: 'line',
+        source: MAP_SOURCE_IDS.osmBasemap,
+        'source-layer': 'transportation',
+        minzoom: 5,
+        filter: ['match', ['get', 'class'], ['motorway', 'trunk', 'primary'], true, false],
+        paint: {
+          'line-color': '#c9a54f',
+          'line-width': ['interpolate', ['linear'], ['zoom'], 5, 0.8, 8, 1.6, 12, 3.4, 15, 6],
+        },
+      },
+      {
+        id: MAP_LAYER_IDS.roadFillMajor,
+        type: 'line',
+        source: MAP_SOURCE_IDS.osmBasemap,
+        'source-layer': 'transportation',
+        minzoom: 5,
+        filter: ['match', ['get', 'class'], ['motorway', 'trunk', 'primary'], true, false],
+        paint: {
+          'line-color': [
+            'match',
+            ['get', 'class'],
+            'motorway',
+            '#e2972f',
+            'trunk',
+            '#e8b45c',
+            '#f3d992',
+          ],
+          'line-width': ['interpolate', ['linear'], ['zoom'], 5, 0.5, 8, 1.1, 12, 2.4, 15, 4.6],
+        },
+      },
+      {
+        id: MAP_LAYER_IDS.roadCasingMinor,
+        type: 'line',
+        source: MAP_SOURCE_IDS.osmBasemap,
+        'source-layer': 'transportation',
+        minzoom: 7.5,
+        filter: ['match', ['get', 'class'], ['secondary', 'tertiary'], true, false],
+        paint: {
+          'line-color': '#c4bba7',
+          'line-width': ['interpolate', ['linear'], ['zoom'], 7.5, 0.5, 10, 1.1, 13, 2.6, 15, 4],
+        },
+      },
+      {
+        id: MAP_LAYER_IDS.roadFillMinor,
+        type: 'line',
+        source: MAP_SOURCE_IDS.osmBasemap,
+        'source-layer': 'transportation',
+        minzoom: 7.5,
+        filter: ['match', ['get', 'class'], ['secondary', 'tertiary'], true, false],
+        paint: {
+          'line-color': '#fdf3d0',
+          'line-width': ['interpolate', ['linear'], ['zoom'], 7.5, 0.35, 10, 0.8, 13, 2, 15, 3.2],
+        },
+      },
+      // 支路/街巷：街道级细节的主体，z10.5 起逐步显现。
+      {
+        id: MAP_LAYER_IDS.roadFillService,
+        type: 'line',
+        source: MAP_SOURCE_IDS.osmBasemap,
+        'source-layer': 'transportation',
+        minzoom: 10.5,
+        filter: ['match', ['get', 'class'], ['minor', 'service', 'track'], true, false],
+        paint: {
+          'line-color': '#ffffff',
+          'line-width': ['interpolate', ['linear'], ['zoom'], 10.5, 0.35, 13, 1.2, 15, 2.2],
+        },
+      },
+      // 建筑轮廓，z13 起显示街区肌理。
+      {
+        id: MAP_LAYER_IDS.buildingFill,
+        type: 'fill',
+        source: MAP_SOURCE_IDS.osmBasemap,
+        'source-layer': 'building',
+        minzoom: 13,
+        paint: { 'fill-color': '#e7e2d8', 'fill-opacity': 0.9 },
+      },
+      // 主干道路名，沿路标注。
+      {
+        id: MAP_LAYER_IDS.roadNameLabel,
+        type: 'symbol',
+        source: MAP_SOURCE_IDS.osmBasemap,
+        'source-layer': 'transportation_name',
+        minzoom: 12.5,
+        layout: {
+          'text-field': ['coalesce', ['get', 'name'], ['get', 'name:latin']],
+          'text-size': 9.5,
+          'text-font': ['Noto Sans Regular'],
+          'symbol-placement': 'line',
+          'text-max-angle': 38,
+        },
+        paint: {
+          'text-color': '#8a8374',
+          'text-halo-color': '#ffffff',
+          'text-halo-width': 1.2,
         },
       },
       {
@@ -134,51 +353,34 @@ export function buildMapStyle(hasBasemap) {
           'line-opacity': 0.6,
         },
       },
+      ...cityLabelLayers,
+      // OSM 镇/村级小地名：市级以上由 cities.geojson 提供，此处只补基层地名。
+      // 有意排除 city/town 以上的行政区划标注（country/state 隐藏，市名已覆盖）。
       {
-        id: MAP_LAYER_IDS.fallbackChina,
-        type: 'fill',
-        source: MAP_SOURCE_IDS.fallback,
-        filter: ['==', ['get', 'kind'], 'china'],
-        paint: { 'fill-color': '#f4f7f3', 'fill-opacity': hasBasemap ? 0 : 0.96 },
-      },
-      {
-        id: MAP_LAYER_IDS.fallbackChinaLine,
-        type: 'line',
-        source: MAP_SOURCE_IDS.fallback,
-        filter: ['==', ['get', 'kind'], 'china'],
-        paint: {
-          'line-color': '#8fb4c8',
-          'line-width': 1.15,
-          'line-opacity': hasBasemap ? 0 : 0.78,
+        id: MAP_LAYER_IDS.osmTownLabel,
+        type: 'symbol',
+        source: MAP_SOURCE_IDS.osmBasemap,
+        'source-layer': 'place',
+        minzoom: 9.5,
+        filter: [
+          'match',
+          ['get', 'class'],
+          ['town', 'village', 'suburb', 'neighbourhood', 'quarter', 'hamlet'],
+          true,
+          false,
+        ],
+        layout: {
+          'text-field': ['coalesce', ['get', 'name'], ['get', 'name:latin']],
+          'text-size': 9.5,
+          'text-font': ['Noto Sans Regular'],
+          'text-anchor': 'top',
+          'text-offset': [0, 0.4],
+          'text-allow-overlap': false,
         },
-      },
-      {
-        id: MAP_LAYER_IDS.fallbackShanghai,
-        type: 'fill',
-        source: MAP_SOURCE_IDS.fallback,
-        filter: ['==', ['get', 'kind'], 'shanghai'],
-        paint: { 'fill-color': '#dfefff', 'fill-opacity': hasBasemap ? 0 : 0.92 },
-      },
-      {
-        id: MAP_LAYER_IDS.fallbackShanghaiLine,
-        type: 'line',
-        source: MAP_SOURCE_IDS.fallback,
-        filter: ['==', ['get', 'kind'], 'shanghai'],
         paint: {
-          'line-color': '#1769e0',
-          'line-width': 2,
-          'line-opacity': hasBasemap ? 0 : 0.76,
-        },
-      },
-      {
-        id: MAP_LAYER_IDS.fallbackStreetGrid,
-        type: 'line',
-        source: MAP_SOURCE_IDS.streetGrid,
-        minzoom: 5,
-        paint: {
-          'line-color': '#9cb6c6',
-          'line-width': 0.75,
-          'line-opacity': hasBasemap ? 0 : 0.32,
+          'text-color': '#7d92a3',
+          'text-halo-color': '#ffffff',
+          'text-halo-width': 1.2,
         },
       },
       {
@@ -408,35 +610,4 @@ export function buildMapStyle(hasBasemap) {
       },
     ],
   };
-
-  if (!hasBasemap) return base;
-
-  // Keep the nationwide and Shanghai archives as separate sources so
-  // MapLibre can overzoom each archive using its own native zoom range.
-  base.sources[MAP_SOURCE_IDS.baseOverview] = {
-    type: 'vector',
-    url: 'icpmtiles:///map/china-overview',
-    minzoom: 0,
-    maxzoom: OVERVIEW_SOURCE_MAX_ZOOM,
-    attribution: '© Protomaps © OpenStreetMap contributors',
-  };
-  base.sources[MAP_SOURCE_IDS.baseDetail] = {
-    type: 'vector',
-    url: 'icpmtiles:///map/shanghai-detail',
-    // The offline detail archive includes a small z9-z10 Shanghai context
-    // extract so the map stays legible before street-level tiles take over.
-    minzoom: 9,
-    maxzoom: 15,
-    attribution: '© Protomaps © OpenStreetMap contributors',
-  };
-  const detailLayers = cloneLayers(MAP_SOURCE_IDS.baseDetail, 'basemap-detail').filter(
-    (layer) => layer.type !== 'background',
-  );
-  base.layers.splice(
-    1,
-    0,
-    ...cloneLayers(MAP_SOURCE_IDS.baseOverview, 'basemap-overview'),
-    ...detailLayers,
-  );
-  return base;
 }

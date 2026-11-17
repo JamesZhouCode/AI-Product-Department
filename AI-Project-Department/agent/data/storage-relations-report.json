@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-10-21T14:51:16+00:00",
+  "sourceTrade": "G:\\对公经营智能化项目\\储能产业链\\储能产业链-客户供应商关系-2026-10-21.xlsx",
+  "sourceEquity": "G:\\对公经营智能化项目\\储能产业链\\储能产业链-企业关系图谱-2026-10-21.xlsx",
+  "coverage": {
+    "companies": 2457,
+    "controllerMatched": 359,
+    "controllerNoData": 14,
+    "shareholderFilled": 368,
+    "tradeCompanies": 368,
+    "customerRowsTotal": 51162,
+    "supplierRowsTotal": 46395,
+    "supplyRows": 2968,
+    "holdingsEdges": 31,
+    "clusterEdges": 22,
+    "clusterWeakSkipped": 10,
+    "mergedDuplicateEdges": 97,
+    "inChainEdges": 2966,
+    "outsideUniqueNames": 65095,
+    "outsideUpstream": 37522,
+    "outsideDownstream": 29826
+  },
+  "unmatchedSupply": [],
+  "unmatchedHoldings": [
+    "天津力神电池股份有限公司 -> 无锡金杨精密制造股份有限公司"
+  ],
+  "dbWritten": 2966,
+  "fileSizeMB": 4.46
+}

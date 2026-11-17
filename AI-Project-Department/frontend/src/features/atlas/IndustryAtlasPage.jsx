@@ -14,14 +14,21 @@ function regionLabelFor(company) {
 }
 
 function AtlasTertiaryNode({ node, index, active, showCompanies, onOpen, onOpenCompany }) {
+  const pending = node.listedPending;
   return (
-    <div className={`ic-atlas-node-wrap ${active ? 'is-active' : ''}`}>
+    <div
+      className={`ic-atlas-node-wrap ${active ? 'is-active' : ''} ${pending ? 'is-pending' : ''}`}
+    >
       <button
         type="button"
         className="ic-atlas-node"
         style={{ '--atlas-node-color': node.color }}
         aria-expanded={active}
-        aria-label={`${node.label}，${node.count}家上市企业，查看详情`}
+        aria-label={
+          pending
+            ? `${node.label}，暂无上市企业，${node.customerCount}家客户池企业，查看详情`
+            : `${node.label}，${node.count}家上市企业，查看详情`
+        }
         onClick={() => onOpen(node)}
       >
         <span className="ic-atlas-node-code">{String(index + 1).padStart(2, '0')}</span>
@@ -29,10 +36,10 @@ function AtlasTertiaryNode({ node, index, active, showCompanies, onOpen, onOpenC
         <span className="ic-atlas-node-count">
           <b>{node.count}</b>
           <small>家</small>
-          <em>{node.relationCount} 关系</em>
+          <em>{pending ? '暂无上市样本' : `${node.relationCount} 关系`}</em>
         </span>
       </button>
-      {showCompanies && (
+      {showCompanies && node.companies.length > 0 && (
         <div className="ic-atlas-company-list">
           {node.companies.map((company) => (
             <button
@@ -110,7 +117,14 @@ function AtlasStageRow({ groups, selectedNodeId, showCompanies, onOpen, onOpenCo
   );
 }
 
-function AtlasDetailDrawer({ node, industryLabel, totalCompanies, onClose, onSelectCompany }) {
+function AtlasDetailDrawer({
+  node,
+  industryLabel,
+  totalCompanies,
+  onClose,
+  onSelectCompany,
+  onViewAnalysis,
+}) {
   return (
     <aside
       className="ic-atlas-drawer"
@@ -123,15 +137,24 @@ function AtlasDetailDrawer({ node, industryLabel, totalCompanies, onClose, onSel
           <span className="eyebrow">TERTIARY / 三级环节</span>
           <small>{node.secondaryLabel}</small>
         </div>
-        <button type="button" className="close-detail" aria-label="关闭详情" onClick={onClose}>
-          关闭
-        </button>
+        <div className="ic-atlas-drawer-actions">
+          {onViewAnalysis && (
+            <button type="button" className="ic-atlas-analysis-button" onClick={onViewAnalysis}>
+              查看行业分析
+            </button>
+          )}
+          <button type="button" className="close-detail" aria-label="关闭详情" onClick={onClose}>
+            关闭
+          </button>
+        </div>
       </div>
       <div className="ic-atlas-drawer-heading">
         <span>DETAIL VIEW / 详细信息</span>
         <h2>{node.label}</h2>
         <p>
-          {node.count} 家上市企业 · {node.mappedCount} 家已落图 · {node.relationCount} 条企业内关系
+          {node.listedPending
+            ? `暂无上市企业样本 · ${node.customerCount} 家客户池企业（非上市）`
+            : `${node.count} 家上市企业 · ${node.mappedCount} 家已落图 · ${node.relationCount} 条企业内关系`}
         </p>
       </div>
       <div className="ic-atlas-node-detail">
@@ -150,28 +173,33 @@ function AtlasDetailDrawer({ node, industryLabel, totalCompanies, onClose, onSel
           </div>
         </div>
         <p className="ic-atlas-drawer-note">
-          企业名单来自 {industryLabel} 调研表，仅展示这 {totalCompanies}{' '}
-          家上市企业研究对象；供应商、经销商和关联外部企业不会作为图谱节点出现。
+          {node.listedPending
+            ? `该环节在${industryLabel}清单中共 ${node.customerCount} 家企业，目前均为非上市主体，未纳入图谱的上市样本口径；授信与客户清单中可直接查看。`
+            : `企业名单来自 ${industryLabel} 调研表，仅展示这 ${totalCompanies} 家上市企业研究对象；供应商、经销商和关联外部企业不会作为图谱节点出现。`}
         </p>
         <div className="ic-atlas-list-heading">
           <span>企业清单</span>
-          <small>点击企业查看技术与产品</small>
+          <small>{node.listedPending ? '暂无上市样本' : '点击企业查看技术与产品'}</small>
         </div>
         <div className="ic-atlas-company-listing">
-          {node.companies.map((item) => (
-            <button
-              type="button"
-              className="ic-atlas-company-row"
-              key={item.id}
-              onClick={() => onSelectCompany(item)}
-            >
-              <span>
-                <b>{item.name}</b>
-                <small>{regionLabelFor(item)}</small>
-              </span>
-              <strong>查看</strong>
-            </button>
-          ))}
+          {node.companies.length ? (
+            node.companies.map((item) => (
+              <button
+                type="button"
+                className="ic-atlas-company-row"
+                key={item.id}
+                onClick={() => onSelectCompany(item)}
+              >
+                <span>
+                  <b>{item.name}</b>
+                  <small>{regionLabelFor(item)}</small>
+                </span>
+                <strong>查看</strong>
+              </button>
+            ))
+          ) : (
+            <p className="ic-atlas-company-empty">该环节暂无可展示的上市企业。</p>
+          )}
         </div>
       </div>
     </aside>
@@ -182,6 +210,9 @@ export default function IndustryAtlasPage({
   data,
   selectedIndustry = INDUSTRY_OPTIONS[0],
   companyDetailPropsFor,
+  focusLevel2,
+  onViewAnalysis,
+  followed,
 }) {
   const model = useMemo(
     () => buildIndustryAtlasModel(data, selectedIndustry),
@@ -218,6 +249,15 @@ export default function IndustryAtlasPage({
     setSelectedNodeId('');
     setSelectedCompanyId('');
   }, [selectedIndustry]);
+
+  // 从「分析」页跳转过来时，定位到对应二级环节的三级节点。
+  useEffect(() => {
+    if (!focusLevel2) return;
+    const target = model.tertiary.find((node) => node.label === focusLevel2);
+    if (!target) return;
+    setSelectedNodeId(target.id);
+    setSelectedCompanyId('');
+  }, [focusLevel2, model.tertiary]);
 
   useEffect(() => {
     if (!selectedNodeId) return undefined;
@@ -288,12 +328,26 @@ export default function IndustryAtlasPage({
             totalCompanies={model.companies.length}
             onClose={closeDrawer}
             onSelectCompany={(company) => setSelectedCompanyId(company.id)}
+            onViewAnalysis={
+              onViewAnalysis
+                ? () => onViewAnalysis(selectedNode.secondaryLabel, selectedNode.label)
+                : undefined
+            }
           />
         )}
         {selectedNode && selectedCompany && (
           <CompanyDetailRail
             entity={selectedCompany}
-            detailProps={companyDetailPropsFor?.(selectedCompany, selectedCompanyRelations)}
+            detailProps={{
+              ...companyDetailPropsFor?.(selectedCompany, selectedCompanyRelations),
+              // 关注状态由 App 级 useFollowedCompanies 统一管理，与授信卡 / 生态经营版面互通。
+              follow: followed
+                ? {
+                    followed: followed.has(selectedCompany),
+                    onToggle: () => followed.toggle(selectedCompany),
+                  }
+                : undefined,
+            }}
             onClearSelection={closeDrawer}
             className="company-detail-rail--atlas ic-atlas-company-detail-rail"
           />

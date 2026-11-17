@@ -137,37 +137,30 @@ SMOKE_BASE_URL=http://127.0.0.1:5174 pnpm smoke
 
 ## 离线地图资源
 
-资源目录约定（可执行 `pnpm download:map-assets` 一次性下载 Protomaps 字体与精灵图）：
+底图由 **Natural Earth（公有领域，免署名可商用）** 生成，全部为本地 GeoJSON，无需任何在线瓦片服务：
 
 ```text
-frontend/public/map/china-overview.pmtiles
-frontend/public/map/shanghai-detail.pmtiles
-frontend/public/assets/fonts/{fontstack}/{range}.pbf
-frontend/public/assets/sprites/v4/light.json
-frontend/public/assets/sprites/v4/light.png
+frontend/public/data/basemap/land.geojson      # 周边陆地背景（不含任何国界线）
+frontend/public/data/basemap/lakes.geojson     # 湖泊面
+frontend/public/data/basemap/rivers.geojson    # 河流线
+frontend/public/data/basemap/cities.geojson    # 城市注记点（中文名 + 人口）
+frontend/public/data/china-provinces.geojson   # 国内口径省界（含台湾、港澳、南海诸岛）
+frontend/public/assets/fonts/{fontstack}/{range}.pbf   # 注记字体（Noto Sans 子集，SIL OFL）
 ```
 
-资源下载/提取阶段可以联网；运行时只请求当前项目自身的静态资源。当前只保留浅色底图精灵图，不提供暗色模式。PMTiles 归档应使用具有离线/再分发许可的数据源，并保留 `© Protomaps © OpenStreetMap contributors` 标注。
-
-如果构建机已经安装 `pmtiles` CLI，可执行：
+重新生成底图（构建机联网一次即可，运行时零外网）：
 
 ```bash
-cd frontend
-PMTILES_BIN=/path/to/pmtiles ./scripts/extract-map-assets.sh
+python tools/build_ne_basemap.py --download
 ```
 
-未安装 CLI 时脚本会自动使用仓库内的 Node 提取器。脚本默认使用固定日期的 Protomaps build，便于校验和复现。上海详情包从 z9 开始，全国概览包覆盖 z0-z10，避免重复存储低倍瓦片。
+脚本为纯标准库实现（解析 shapefile → 裁剪 → 简化 → GeoJSON），零第三方依赖。四个文件合计约 0.85MB。
 
-资源生成后可执行 `pnpm verify:map`，它会检查 PMTiles 魔数、MVT 类型、缩放范围、目录瓦片数和图层元数据。
+许可说明：
 
-完整提取会产生较大的本地文件，建议先用小范围验证：
-
-```bash
-cd frontend
-node scripts/extract-pmtiles.mjs \
-  --output=public/map/shanghai-smoke.pmtiles \
-  --bbox=121.3,31.0,121.7,31.5 --minzoom=10 --maxzoom=11
-```
+- **Natural Earth 数据为公有领域（public domain）**，官方条款明确 "No permission is needed... Crediting the authors is unnecessary"，可商用、可修改、不要求署名；
+- 脚本刻意**不输出 Natural Earth 的国界/省界**（其国界为国际口径，与我国标准地图不一致），陆地/水系/城市点均与境界无关；
+- 国界与省界轮廓由 `china-provinces.geojson` 提供（国内口径），其来源为公开行政区划数据（DataV/高德系），**仅作内部业务示意使用**；正式对外发布前应替换为已授权的地图成果。
 
 ## 数据处理
 

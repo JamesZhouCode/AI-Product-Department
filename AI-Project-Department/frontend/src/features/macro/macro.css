@@ -1,0 +1,1975 @@
+/* 「宏观」页：设计语言对齐「流程」页（浅灰底 #f6f9fa、深蓝墨字 #10283a、
+   白卡片细边、蓝色强调 #1d62d8、DIN 数字）。
+   布局：工具栏 → 白色画布（关键读数条 + 模块导航 + 模块正文）→ 页内滚动。
+   画布高度受限（flex:1 + min-height:0），滚动发生在画布内部。
+   正文结构：01 总体判断 / 02 生命周期 / 03 需求趋势 / 04 产业链景气 / 05 技术路线 /
+   06 竞争格局 / 07 风险预警 / 08 银行机会 / 09 AI 助手 / 附 数据底座。 */
+.macro-page {
+  --macro-ink: #10283a;
+  --macro-blue: #1d62d8;
+  --macro-muted: #6f8494;
+  --macro-line: #d9e4eb;
+  display: flex;
+  min-height: 0;
+  flex: 1;
+  flex-direction: column;
+  padding: 16px 24px 18px;
+  /* 页面本身不滚动：画布占满剩余高度，滚动发生在画布内部。 */
+  overflow: hidden;
+  color: var(--macro-ink);
+  background: #f6f9fa;
+}
+.macro-page > * {
+  width: min(1500px, 100%);
+  margin-right: auto;
+  margin-left: auto;
+  /* 子项不可被 flex 压缩，否则画布被压扁且不出现滚动条。 */
+  flex: 0 0 auto;
+}
+
+/* ---------- 工具栏（对齐 .flow-toolbar） ---------- */
+.macro-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  min-height: 42px;
+  padding: 0 2px 12px;
+  border-bottom: 1px solid var(--macro-line);
+}
+.macro-title-lockup {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 11px;
+  white-space: nowrap;
+}
+.macro-title-lockup span {
+  color: #7c91a0;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+.macro-title-lockup strong {
+  color: #12334c;
+  font-size: 22px;
+  letter-spacing: -0.055em;
+}
+.macro-toolbar-summary {
+  margin-left: auto;
+  color: #8b9da8;
+  font-size: 8px;
+  white-space: nowrap;
+}
+.macro-toolbar-summary b {
+  color: #35637d;
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 12px;
+}
+.macro-toolbar-summary i {
+  margin: 0 5px;
+  color: #c1ccd3;
+  font-style: normal;
+}
+
+/* 与顶部一级链选择不一致时的提示（对齐 .flow-industry-notice） */
+.macro-industry-notice {
+  margin: 10px 0 0;
+  padding: 8px 11px;
+  color: #8a7a5c;
+  background: #fdf6ea;
+  border-left: 2px solid #e0b96a;
+  border-radius: 4px;
+  font-size: 9px;
+  line-height: 1.6;
+}
+.macro-industry-notice b {
+  color: #6d5a35;
+}
+
+/* ---------- 画布（对齐 .flow-canvas） ---------- */
+.macro-canvas {
+  position: relative;
+  min-height: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+  background: #ffffff;
+  border: 1px solid #cfdde5;
+  border-radius: var(--radius-panel, 10px);
+  box-shadow: 0 10px 28px rgba(33, 61, 79, 0.055);
+  overflow: hidden;
+}
+.macro-canvas-head {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 14px 20px 0;
+  border-bottom: 1px solid var(--macro-line);
+}
+.macro-canvas-headline {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+}
+.macro-canvas-eyebrow {
+  color: #8297a4;
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 7px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+}
+.macro-canvas-headline h2 {
+  margin: 6px 0 0;
+  color: #17354c;
+  font-size: 20px;
+  letter-spacing: -0.055em;
+}
+.macro-canvas-metrics {
+  display: flex;
+  flex: 0 0 auto;
+  border: 1px solid #cfdde5;
+  background: rgba(255, 255, 255, 0.7);
+}
+.macro-canvas-metrics > div {
+  min-width: 84px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 8px 12px 7px;
+  border-left: 1px solid #dce6ec;
+}
+.macro-canvas-metrics > div:first-child {
+  border-left: 0;
+}
+.macro-canvas-metrics b {
+  color: var(--macro-blue);
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  white-space: nowrap;
+}
+.macro-canvas-metrics span {
+  color: #8b9da8;
+  font-size: 7px;
+  white-space: nowrap;
+}
+
+/* ---------- 模块导航 ---------- */
+.macro-modnav {
+  display: flex;
+  gap: 4px;
+  padding-bottom: 10px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.macro-modnav::-webkit-scrollbar {
+  display: none;
+}
+.macro-modnav-item {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  color: #526c7d;
+  background: #f3f7f9;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font-size: 8px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.macro-modnav-item b {
+  color: #9aacb8;
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 7.5px;
+  font-weight: 800;
+}
+.macro-modnav-item:hover {
+  background: #e9f1f7;
+}
+.macro-modnav-item.is-active {
+  color: #ffffff;
+  background: var(--macro-blue);
+  border-color: var(--macro-blue);
+}
+.macro-modnav-item.is-active b {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+/* ---------- 画布滚动区 ---------- */
+.macro-canvas-body {
+  min-height: 0;
+  flex: 1;
+  /* 纵横双向滚动都在这里发生。 */
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding: 14px 20px 18px;
+  background-color: #fcfdfd;
+  background-image:
+    linear-gradient(rgba(104, 130, 146, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(104, 130, 146, 0.035) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* ---------- 模块外壳 ---------- */
+.macro-module {
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, 0.94);
+  border: 1px solid #d5e1e8;
+  border-radius: var(--radius-card, 8px);
+}
+.macro-module + .macro-module {
+  margin-top: 12px;
+}
+.macro-module-head {
+  display: grid;
+  grid-template-columns: 30px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 9px;
+  margin-bottom: 11px;
+  border-bottom: 1px solid #e3ebef;
+}
+.macro-module-no {
+  color: var(--macro-blue);
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+.macro-module-title h3 {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin: 0;
+  color: #17354c;
+  font-size: 12px;
+  letter-spacing: -0.03em;
+}
+.macro-module-title p {
+  margin: 3px 0 0;
+  color: #8b9da8;
+  font-size: 7.5px;
+  line-height: 1.5;
+}
+.macro-module-aside {
+  color: #7c91a0;
+  font-size: 8px;
+  white-space: nowrap;
+}
+.macro-module-aside b {
+  color: var(--macro-blue);
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 13px;
+}
+/* 模块正文：统一用相邻兄弟间距，内部块不再各自设上边距。 */
+.macro-module-body > * + * {
+  margin-top: 10px;
+}
+.macro-module-body > .macro-grid,
+.macro-module-body > .macro-duo,
+.macro-module-body > .macro-disciplines {
+  margin-top: 10px;
+}
+
+/* ---------- 判断结论条 ---------- */
+.macro-callout {
+  padding: 10px 12px;
+  background: #f7fafc;
+  border: 1px solid #e3ebef;
+  border-left: 3px solid var(--macro-blue);
+  border-radius: 6px;
+}
+.macro-callout h4 {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin: 0;
+  color: #17354c;
+  font-size: 10px;
+  letter-spacing: -0.02em;
+}
+.macro-callout p {
+  margin: 5px 0 0;
+  color: #6f8494;
+  font-size: 8px;
+  line-height: 1.65;
+}
+
+/* ---------- 判断依据三段式 ---------- */
+.macro-basis {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  margin: 0;
+  padding: 0;
+  background: #e3ebef;
+  border: 1px solid #e3ebef;
+  border-radius: 6px;
+  list-style: none;
+  overflow: hidden;
+}
+.macro-basis li {
+  min-width: 0;
+  padding: 8px 10px;
+  background: #f8fbfc;
+}
+.macro-basis li:nth-child(2) {
+  background: #f7fbfa;
+}
+.macro-basis li:nth-child(3) {
+  background: #fdfaf7;
+}
+.macro-basis b {
+  display: block;
+  margin-bottom: 4px;
+  color: #2053a8;
+  font-size: 7.5px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+.macro-basis li:nth-child(2) b {
+  color: #0b6e6a;
+}
+.macro-basis li:nth-child(3) b {
+  color: #a3552a;
+}
+.macro-basis span {
+  color: #5a7587;
+  font-size: 7.5px;
+  line-height: 1.62;
+}
+
+/* ---------- 评分条 ---------- */
+.macro-score {
+  display: inline-flex;
+  min-width: 82px;
+  align-items: center;
+  gap: 6px;
+}
+.macro-score-track {
+  position: relative;
+  height: 4px;
+  flex: 1 1 auto;
+  background: #e6edf1;
+  border-radius: 999px;
+  overflow: hidden;
+}
+.macro-score-fill {
+  display: block;
+  height: 100%;
+  background: #7f96a5;
+  border-radius: 999px;
+}
+.macro-score b {
+  flex: 0 0 auto;
+  min-width: 15px;
+  color: #35637d;
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 9px;
+  text-align: right;
+}
+.macro-score.is-up .macro-score-fill {
+  background: #0e9274;
+}
+.macro-score.is-watch .macro-score-fill {
+  background: #b07a1e;
+}
+.macro-score.is-down .macro-score-fill {
+  background: #a32d2d;
+}
+.macro-score.is-compact {
+  min-width: 64px;
+}
+.macro-score.is-compact b {
+  font-size: 8px;
+}
+
+/* ---------- 01 行业总体判断 ---------- */
+.macro-verdict {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 11px 14px;
+  background: #ffffff;
+  border: 1px solid #d5e1e8;
+  border-left: 3px solid var(--macro-blue);
+  border-radius: var(--radius-card, 8px);
+}
+.macro-verdict-main {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+.macro-verdict-main h3 {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin: 0;
+  color: #17354c;
+  font-size: 13px;
+  letter-spacing: -0.03em;
+}
+.macro-verdict-main p {
+  margin: 5px 0 0;
+  color: #8295a1;
+  font-size: 8.5px;
+  line-height: 1.7;
+}
+.macro-verdict-tags {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 5px;
+}
+.macro-verdict-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 9px 3px 4px;
+  color: #526c7d;
+  background: #f3f7f9;
+  border: 1px solid #dce6ec;
+  border-radius: 999px;
+  font-size: 7.5px;
+  white-space: nowrap;
+}
+.macro-verdict-tag b {
+  padding: 2px 6px;
+  color: #ffffff;
+  background: #8fa6b4;
+  border-radius: 999px;
+  font-size: 7.5px;
+}
+.macro-verdict-tag.is-up b {
+  background: #0e9274;
+}
+.macro-verdict-tag.is-watch b {
+  background: #b07a1e;
+}
+.macro-verdict-tag.is-down b {
+  background: #a32d2d;
+}
+
+.macro-overview {
+  display: grid;
+  grid-template-columns: 172px minmax(0, 1fr);
+  gap: 12px;
+  align-items: start;
+}
+.macro-overview-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background: #f8fbfc;
+  border: 1px solid #e3ebef;
+  border-radius: 6px;
+}
+.macro-donut {
+  position: relative;
+  width: 112px;
+  height: 112px;
+  flex: 0 0 auto;
+}
+.macro-donut svg {
+  width: 100%;
+  height: 100%;
+}
+.macro-donut-track {
+  fill: none;
+  stroke: #e6edf1;
+  stroke-width: 9;
+}
+.macro-donut-value {
+  fill: none;
+  stroke: var(--macro-blue);
+  stroke-width: 9;
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+.macro-donut-text {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.macro-donut-text b {
+  color: #17354c;
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 26px;
+  line-height: 1;
+}
+.macro-donut-text span {
+  color: #98a8b2;
+  font-size: 8px;
+}
+.macro-donut-text em {
+  margin-top: 4px;
+  padding: 1px 7px;
+  color: #0b6e6a;
+  background: #e5f4ef;
+  border-radius: 999px;
+  font-size: 7.5px;
+  font-style: normal;
+}
+.macro-subscores {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.macro-subscores li {
+  display: grid;
+  grid-template-columns: 50px minmax(0, 1fr);
+  align-items: center;
+  gap: 6px;
+  padding: 3px 0;
+}
+.macro-subscores li > span:first-child {
+  color: #6f8494;
+  font-size: 7.5px;
+}
+.macro-opp-risk {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.macro-opp,
+.macro-risk-inline {
+  min-width: 0;
+  padding: 9px 11px;
+  background: #ffffff;
+  border: 1px solid #e3ebef;
+  border-radius: 6px;
+}
+.macro-opp {
+  border-left: 2px solid #0e9274;
+}
+.macro-risk-inline {
+  border-left: 2px solid #b07a1e;
+}
+.macro-opp h4,
+.macro-risk-inline h4 {
+  margin: 0 0 4px;
+  color: #35637d;
+  font-size: 8.5px;
+}
+.macro-opp ul,
+.macro-risk-inline ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.macro-opp li,
+.macro-risk-inline li {
+  padding: 5px 0;
+  border-bottom: 1px dashed #e6edf1;
+}
+.macro-opp li:last-child,
+.macro-risk-inline li:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+.macro-opp li b,
+.macro-risk-inline li b {
+  color: #29495f;
+  font-size: 8.5px;
+}
+.macro-opp li p,
+.macro-risk-inline li p {
+  margin: 2px 0 0;
+  color: #8b9da8;
+  font-size: 7.5px;
+  line-height: 1.55;
+}
+
+/* ---------- 02 行业生命周期 ---------- */
+.macro-stage-track {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.macro-stage-track li {
+  padding: 9px 11px;
+  background: #f8fbfc;
+  border: 1px solid #e3ebef;
+  border-radius: 6px;
+}
+.macro-stage-track li b {
+  color: #8b9da8;
+  font-size: 9.5px;
+}
+.macro-stage-track li span {
+  display: block;
+  margin-top: 3px;
+  color: #adbcc5;
+  font-size: 7px;
+}
+.macro-stage-track li.is-done {
+  background: #f3f8fd;
+  border-color: #cfe1f4;
+}
+.macro-stage-track li.is-done b {
+  color: #35637d;
+}
+.macro-stage-track li.is-current {
+  background: #eef4fd;
+  border-color: var(--macro-blue);
+  box-shadow: inset 3px 0 0 var(--macro-blue);
+}
+.macro-stage-track li.is-current b {
+  color: var(--macro-blue);
+}
+.macro-stage-track li.is-current span {
+  color: var(--macro-blue);
+  font-weight: 700;
+}
+.macro-lifecycle-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  align-items: start;
+}
+.macro-lifecycle-metrics article {
+  min-width: 0;
+  padding: 9px 10px;
+  background: #ffffff;
+  border: 1px solid #e3ebef;
+  border-radius: 6px;
+}
+.macro-lifecycle-metrics article header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+.macro-lifecycle-metrics article header b {
+  color: #29495f;
+  font-size: 8.5px;
+}
+.macro-lifecycle-metrics article p {
+  margin: 0;
+  color: #8b9da8;
+  font-size: 7.5px;
+  line-height: 1.55;
+}
+
+/* ---------- 03 市场需求趋势 ---------- */
+.macro-formula {
+  padding: 10px 12px;
+  background: #f8fbfc;
+  border: 1px dashed #c9d9e2;
+  border-radius: 6px;
+}
+.macro-formula code {
+  display: block;
+  color: #17354c;
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.01em;
+}
+.macro-formula p {
+  margin: 6px 0 0;
+  color: #8295a1;
+  font-size: 7.5px;
+  line-height: 1.6;
+}
+.macro-factors {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  align-items: start;
+}
+.macro-factors article {
+  min-width: 0;
+  padding: 9px 10px;
+  background: #ffffff;
+  border: 1px solid #e3ebef;
+  border-radius: 6px;
+}
+.macro-factors article header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+.macro-factors article header span {
+  color: #6f8494;
+  font-size: 7.5px;
+}
+.macro-dir {
+  font-size: 11px;
+  font-style: normal;
+  line-height: 1;
+}
+.macro-dir.is-up {
+  color: #0e9274;
+}
+.macro-dir.is-watch {
+  color: #b07a1e;
+}
+.macro-dir.is-down {
+  color: #a32d2d;
+}
+.macro-factors article > b {
+  display: block;
+  margin: 5px 0 4px;
+  color: #17354c;
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 13px;
+}
+.macro-factors article p {
+  margin: 0;
+  color: #8b9da8;
+  font-size: 7.5px;
+  line-height: 1.55;
+}
+.macro-demand-result {
+  display: grid;
+  grid-template-columns: auto auto minmax(0, 1fr);
+  align-items: baseline;
+  gap: 10px;
+  padding: 9px 12px;
+  background: #eef4fd;
+  border: 1px solid #cfdff5;
+  border-radius: 6px;
+}
+.macro-demand-result > b {
+  color: var(--macro-blue);
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 17px;
+}
+.macro-demand-result > span {
+  color: #35637d;
+  font-size: 8.5px;
+}
+.macro-demand-result > p {
+  margin: 0;
+  color: #8295a1;
+  font-size: 7.5px;
+  line-height: 1.55;
+}
+.macro-scenarios {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  align-items: start;
+}
+.macro-scenarios article {
+  min-width: 0;
+  padding: 9px 10px;
+  background: #ffffff;
+  border: 1px solid #e3ebef;
+  border-radius: 6px;
+}
+.macro-scenarios article header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  margin-bottom: 5px;
+}
+.macro-scenarios article header b {
+  color: #29495f;
+  font-size: 8.5px;
+}
+.macro-scenario-status {
+  display: inline-block;
+  padding: 1px 7px;
+  color: #526c7d;
+  background: #f3f7f9;
+  border-radius: 999px;
+  font-size: 7px;
+}
+.macro-scenario-status.is-up {
+  color: #0b6e6a;
+  background: #e5f4ef;
+}
+.macro-scenario-status.is-watch {
+  color: #8a6620;
+  background: #fdf6ea;
+}
+.macro-scenario-status.is-down {
+  color: #8f2f2f;
+  background: #fbeceb;
+}
+.macro-scenarios article p {
+  margin: 6px 0 0;
+  color: #8b9da8;
+  font-size: 7.5px;
+  line-height: 1.55;
+}
+
+/* ---------- 04 产业链景气 ---------- */
+.macro-chain-positions {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  align-items: start;
+}
+.macro-chain-col {
+  min-width: 0;
+}
+.macro-chain-col-head {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+  padding: 7px 10px;
+  background: #eef4f8;
+  border: 1px solid #dbe6ec;
+  border-radius: 6px;
+}
+.macro-chain-col-head b {
+  color: #17354c;
+  font-size: 10px;
+}
+.macro-chain-col-head span {
+  color: #8b9da8;
+  font-size: 7px;
+}
+.macro-chain-level {
+  margin-top: 8px;
+  padding: 9px 10px;
+  background: #ffffff;
+  border: 1px solid #e3ebef;
+  border-radius: 6px;
+}
+.macro-chain-level-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.macro-chain-level-head > b {
+  color: #17354c;
+  font-size: 9.5px;
+}
+.macro-chain-sample {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 10px;
+  margin-top: 6px;
+  padding: 5px 8px;
+  background: #f8fbfc;
+  border: 1px solid #e9f0f4;
+  border-radius: 4px;
+  font-size: 7px;
+  color: #8b9da8;
+}
+.macro-chain-sample b {
+  color: #35637d;
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 9px;
+}
+.macro-chain-status {
+  margin: 6px 0 0;
+  color: #526c7d;
+  font-size: 8px;
+  line-height: 1.5;
+}
+.macro-chain-io {
+  margin: 6px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.macro-chain-io li {
+  padding: 4px 0 4px 42px;
+  position: relative;
+  color: #8b9da8;
+  font-size: 7.5px;
+  line-height: 1.55;
+}
+.macro-chain-io li b {
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 34px;
+  padding: 1px 0;
+  color: #ffffff;
+  background: #7f96a5;
+  border-radius: 3px;
+  font-size: 7px;
+  font-weight: 700;
+  text-align: center;
+}
+.macro-chain-io li:first-child b {
+  background: #0e9274;
+}
+.macro-chain-io li:last-child b {
+  background: #b07a1e;
+}
+.macro-console-note {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  padding: 7px 10px;
+  color: #8295a1;
+  background: #f8fbfc;
+  border: 1px solid #e9f0f4;
+  border-radius: 4px;
+  font-size: 7.5px;
+  line-height: 1.6;
+}
+.macro-chain-status-tag {
+  padding: 1px 7px;
+  border-radius: 999px;
+  font-size: 7px;
+  font-style: normal;
+  white-space: nowrap;
+}
+.macro-chain-status-tag.is-live {
+  color: #0b6e6a;
+  background: #e5f4ef;
+}
+.macro-chain-status-tag.is-snapshot {
+  color: #8a6620;
+  background: #fdf6ea;
+}
+.macro-chain-status-tag.is-loading {
+  color: #526c7d;
+  background: #eef4f8;
+}
+
+/* ---------- 05 技术路线 ---------- */
+.macro-routes {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+  align-items: start;
+}
+.macro-route {
+  min-width: 0;
+  padding: 9px 10px;
+  background: #ffffff;
+  border: 1px solid #e3ebef;
+  border-radius: 6px;
+}
+.macro-route header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+.macro-route header b {
+  color: #17354c;
+  font-size: 9.5px;
+}
+.macro-route-stage {
+  padding: 1px 6px;
+  color: #526c7d;
+  background: #f3f7f9;
+  border-radius: 999px;
+  font-size: 7px;
+  white-space: nowrap;
+}
+.macro-route-stage.is-up {
+  color: #0b6e6a;
+  background: #e5f4ef;
+}
+.macro-route-stage.is-watch {
+  color: #8a6620;
+  background: #fdf6ea;
+}
+.macro-route-stage.is-down {
+  color: #8f2f2f;
+  background: #fbeceb;
+}
+.macro-route-meter {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 7px 0 0;
+}
+.macro-route-meter > span {
+  color: #8b9da8;
+  font-size: 7px;
+}
+.macro-route-meter .macro-score {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.macro-route-share {
+  margin: 5px 0 0;
+  color: #35637d;
+  font-size: 7.5px;
+  font-weight: 700;
+}
+.macro-route-fields {
+  margin: 6px 0 0;
+  padding: 0;
+}
+.macro-route-fields > div {
+  padding: 5px 0;
+  border-top: 1px dashed #e6edf1;
+}
+.macro-route-fields dt {
+  color: #98a8b2;
+  font-size: 7px;
+  font-weight: 700;
+}
+.macro-route-fields dd {
+  margin: 2px 0 0;
+  color: #8295a1;
+  font-size: 7.5px;
+  line-height: 1.55;
+}
+
+/* ---------- 06 竞争格局 ---------- */
+.macro-moves {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  align-items: start;
+}
+.macro-moves article {
+  min-width: 0;
+  padding: 9px 10px;
+  background: #ffffff;
+  border: 1px solid #e3ebef;
+  border-top: 2px solid #cfe1f4;
+  border-radius: 6px;
+}
+.macro-moves article h4 {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin: 0 0 5px;
+  color: #35637d;
+  font-size: 8.5px;
+}
+.macro-moves article ul {
+  margin: 0;
+  padding-left: 13px;
+  list-style: disc;
+}
+.macro-moves article li {
+  color: #8295a1;
+  font-size: 7.5px;
+  line-height: 1.6;
+}
+.macro-tiers {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  align-items: start;
+}
+.macro-tier {
+  min-width: 0;
+  padding: 10px 11px;
+  background: #ffffff;
+  border: 1px solid #e3ebef;
+  border-top: 3px solid #7f96a5;
+  border-radius: 6px;
+}
+.macro-tier.is-up {
+  border-top-color: #0e9274;
+}
+.macro-tier.is-watch {
+  border-top-color: #b07a1e;
+}
+.macro-tier.is-down {
+  border-top-color: #a32d2d;
+}
+.macro-tier header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 6px;
+}
+.macro-tier header b {
+  color: #17354c;
+  font-size: 10px;
+}
+.macro-tier header span {
+  color: #8b9da8;
+  font-size: 7.5px;
+}
+.macro-tier-members {
+  margin: 6px 0 0;
+  color: #526c7d;
+  font-size: 7.5px;
+  line-height: 1.55;
+}
+.macro-tier-evidence {
+  margin: 5px 0 0;
+  color: #8b9da8;
+  font-size: 7.5px;
+  line-height: 1.55;
+}
+.macro-tier-hint {
+  margin: 6px 0 0;
+  padding-top: 6px;
+  color: #35637d;
+  border-top: 1px dashed #e6edf1;
+  font-size: 7.5px;
+  line-height: 1.55;
+}
+
+/* ---------- 07 风险预警 ---------- */
+.macro-risk-layout {
+  display: grid;
+  grid-template-columns: 340px minmax(0, 1fr);
+  gap: 12px;
+  align-items: start;
+}
+.macro-risk-radar {
+  padding: 6px 4px 0;
+  background: #f8fbfc;
+  border: 1px solid #e3ebef;
+  border-radius: 6px;
+}
+.macro-radar {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.macro-radar-ring {
+  fill: none;
+  stroke: #dde7ee;
+  stroke-width: 1;
+}
+.macro-radar-axis {
+  stroke: #e4ecf1;
+  stroke-width: 1;
+}
+.macro-radar-area {
+  fill: rgba(29, 98, 216, 0.16);
+  stroke: #1d62d8;
+  stroke-width: 1.5;
+}
+.macro-radar-dot {
+  fill: #1d62d8;
+}
+.macro-radar-label {
+  fill: #5a7587;
+  font-size: 9px;
+}
+.macro-risk-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.macro-risk-list li {
+  padding: 8px 10px;
+  background: #ffffff;
+  border: 1px solid #e3ebef;
+  border-left: 2px solid #b07a1e;
+  border-radius: 6px;
+}
+.macro-risk-list li + li {
+  margin-top: 7px;
+}
+.macro-risk-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.macro-risk-head > b {
+  color: #17354c;
+  font-size: 9px;
+}
+.macro-risk-level {
+  padding: 1px 7px;
+  color: #8a6620;
+  background: #fdf6ea;
+  border-radius: 999px;
+  font-size: 7px;
+  white-space: nowrap;
+}
+.macro-risk-level.is-up {
+  color: #0b6e6a;
+  background: #e5f4ef;
+}
+.macro-risk-level.is-watch {
+  color: #8a6620;
+  background: #fdf6ea;
+}
+.macro-risk-level.is-down {
+  color: #8f2f2f;
+  background: #fbeceb;
+}
+.macro-risk-list li p {
+  margin: 4px 0 0;
+  color: #8295a1;
+  font-size: 7.5px;
+  line-height: 1.6;
+}
+.macro-risk-list li small {
+  display: block;
+  margin-top: 3px;
+  color: #98a8b2;
+  font-size: 7px;
+}
+
+/* ---------- 08 银行业务机会 ---------- */
+.macro-opps {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  align-items: start;
+}
+.macro-opp-card {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 7px;
+  padding: 10px 11px;
+  background: #ffffff;
+  border: 1px solid #e3ebef;
+  border-left: 3px solid #7f96a5;
+  border-radius: 6px;
+}
+.macro-opp-card.is-up {
+  border-left-color: #0e9274;
+}
+.macro-opp-card.is-watch {
+  border-left-color: #b07a1e;
+}
+.macro-opp-card header {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.macro-opp-card header b {
+  color: #17354c;
+  font-size: 9.5px;
+}
+.macro-opp-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.macro-opp-products span {
+  padding: 1px 7px;
+  color: #205cae;
+  background: #f1f6fd;
+  border: 1px solid #d5e3f7;
+  border-radius: 999px;
+  font-size: 7px;
+}
+.macro-opp-basis {
+  margin: 0;
+  color: #8295a1;
+  font-size: 7.5px;
+  line-height: 1.6;
+}
+.macro-opp-action {
+  margin: 0;
+  padding-top: 6px;
+  color: #526c7d;
+  border-top: 1px dashed #e6edf1;
+  font-size: 7.5px;
+  line-height: 1.6;
+}
+.macro-opp-action b {
+  margin-right: 5px;
+  color: #35637d;
+}
+.macro-opp-card .macro-link-button {
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+/* ---------- 09 AI 分析助手 ---------- */
+.macro-assistant {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr) minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+}
+.macro-assistant section {
+  min-width: 0;
+  padding: 10px 11px;
+  background: #ffffff;
+  border: 1px solid #e3ebef;
+  border-radius: 6px;
+}
+.macro-assistant h4 {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin: 0 0 7px;
+  color: #35637d;
+  font-size: 8.5px;
+}
+.macro-crawl ul,
+.macro-cadence ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.macro-crawl li {
+  display: grid;
+  grid-template-columns: 52px minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 7px;
+  padding: 5px 0;
+  border-bottom: 1px dashed #e6edf1;
+}
+.macro-crawl li:last-child {
+  border-bottom: 0;
+}
+.macro-crawl li b {
+  color: #29495f;
+  font-size: 8px;
+}
+.macro-crawl li span {
+  color: #8b9da8;
+  font-size: 7.5px;
+  line-height: 1.5;
+}
+.macro-crawl li em {
+  color: #205cae;
+  background: #f1f6fd;
+  border-radius: 999px;
+  padding: 1px 6px;
+  font-size: 7px;
+  font-style: normal;
+  white-space: nowrap;
+}
+.macro-report ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: report;
+}
+.macro-report li {
+  position: relative;
+  padding: 4px 0 4px 20px;
+  color: #526c7d;
+  font-size: 7.5px;
+  counter-increment: report;
+}
+.macro-report li::before {
+  content: counter(report, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  color: var(--macro-blue);
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 7.5px;
+  font-weight: 800;
+}
+.macro-report p {
+  margin: 7px 0 0;
+  padding-top: 6px;
+  color: #8b9da8;
+  border-top: 1px dashed #e6edf1;
+  font-size: 7.5px;
+  line-height: 1.6;
+}
+.macro-cadence li {
+  display: grid;
+  grid-template-columns: 40px minmax(0, 1fr);
+  gap: 7px;
+  padding: 5px 0;
+  border-bottom: 1px dashed #e6edf1;
+}
+.macro-cadence li:last-child {
+  border-bottom: 0;
+}
+.macro-cadence li b {
+  color: #205cae;
+  font-size: 7.5px;
+}
+.macro-cadence li span {
+  color: #8b9da8;
+  font-size: 7.5px;
+  line-height: 1.55;
+}
+
+/* ---------- 联动跳转按钮 ---------- */
+.macro-link-button {
+  flex: 0 0 auto;
+  padding: 4px 9px;
+  color: #205cae;
+  background: #f1f6fd;
+  border: 1px solid #bcd2e9;
+  border-radius: 999px;
+  font-size: 7.5px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.macro-link-button:hover {
+  color: #ffffff;
+  background: var(--macro-blue);
+  border-color: var(--macro-blue);
+}
+
+/* ---------- 附 数据底座：六类指标卡 ---------- */
+.macro-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  align-items: start;
+}
+.macro-card {
+  position: relative;
+  min-width: 0;
+  padding: 10px 10px 8px;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid #d5e1e8;
+  border-top: 3px solid var(--macro-accent, var(--macro-blue));
+  border-radius: var(--radius-card, 8px);
+}
+.macro-card::before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  right: 0;
+  width: 34%;
+  height: 3px;
+  background: var(--macro-accent, var(--macro-blue));
+  opacity: 0.25;
+}
+.macro-card-head {
+  display: grid;
+  grid-template-columns: 25px minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 7px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #e3ebef;
+}
+.macro-card-no {
+  color: var(--macro-accent, var(--macro-blue));
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+.macro-card-title small {
+  display: block;
+  overflow: hidden;
+  color: #94a4ae;
+  font-size: 7px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.macro-card-title h3 {
+  margin: 4px 0 0;
+  overflow: hidden;
+  color: #29495f;
+  font-size: 11px;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.macro-card-count {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+}
+.macro-card-count b {
+  color: var(--macro-accent, var(--macro-blue));
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 14px;
+  line-height: 0.9;
+}
+.macro-card-count span {
+  color: #98a8b2;
+  font-size: 7px;
+}
+
+/* ---------- 指标行 ---------- */
+.macro-item-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.macro-item-list li {
+  padding: 5px 3px;
+  border-bottom: 1px solid #e6edf1;
+}
+.macro-item-list li:last-child {
+  border-bottom: 0;
+  padding-bottom: 2px;
+}
+.macro-item-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+}
+.macro-item-row b {
+  overflow: hidden;
+  color: #29495f;
+  font-size: 8.5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.macro-item-row span {
+  flex: 0 0 auto;
+  color: var(--macro-accent, var(--macro-blue));
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 8px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.macro-item-list small {
+  display: block;
+  margin-top: 2px;
+  color: #8b9da8;
+  font-size: 7.5px;
+  line-height: 1.5;
+}
+
+/* ---------- 底部两张趋势小图 ---------- */
+.macro-duo {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  align-items: stretch;
+}
+.macro-chart-card {
+  min-width: 0;
+  padding: 10px 12px 9px;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid #d5e1e8;
+  border-radius: var(--radius-card, 8px);
+}
+.macro-chart-card header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 2px;
+}
+.macro-chart-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin: 0;
+  overflow: hidden;
+  color: #29495f;
+  font-size: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.macro-chart-legend {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 9px;
+}
+.macro-chart-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #8b9da8;
+  font-size: 7px;
+}
+.macro-chart-legend i {
+  width: 8px;
+  height: 8px;
+  border: 1px solid rgba(16, 40, 58, 0.25);
+  border-radius: 2px;
+}
+.macro-chart {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.macro-chart-value {
+  color: #35637d;
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 8px;
+  font-weight: 700;
+}
+.macro-chart-label {
+  color: #8295a1;
+  font-size: 7px;
+}
+.macro-chart-card > p {
+  margin: 4px 0 0;
+  color: #8295a1;
+  font-size: 7.5px;
+  line-height: 1.6;
+}
+
+/* ---------- 读法纪律 ---------- */
+.macro-disciplines {
+  display: grid;
+  grid-template-columns: 64px repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  align-items: stretch;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid #d5e1e8;
+  border-radius: var(--radius-card, 8px);
+}
+.macro-legend-title {
+  color: #7c91a0;
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+.macro-disciplines article {
+  min-width: 0;
+  padding-left: 10px;
+  border-left: 2px solid #e3ebef;
+}
+.macro-disciplines h4 {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin: 0;
+  color: #35637d;
+  font-size: 8.5px;
+}
+.macro-disciplines p {
+  margin: 3px 0 0;
+  color: #8295a1;
+  font-size: 7.5px;
+  line-height: 1.6;
+}
+
+/* ---------- 数据来源标注（复用 credit 模块的 .source-badge / .source-pop，仅做页内尺寸适配） ---------- */
+.macro-source-button {
+  flex: 0 0 auto;
+  padding: 7px 10px;
+  color: #205cae;
+  background: #f1f6fd;
+  border: 1px solid #bcd2e9;
+  border-radius: var(--radius-control);
+  font-size: 8px;
+  cursor: pointer;
+}
+.macro-source-button:hover {
+  color: #ffffff;
+  background: var(--macro-blue);
+  border-color: var(--macro-blue);
+}
+
+/* 页面正文字号小（7.5–8.5px），徽章同步收小；浮层保持全局尺寸以保证可读性。 */
+.macro-page .source-badge-wrap {
+  margin-left: 4px;
+}
+.macro-page .source-badge {
+  padding: 0 4px;
+  font-size: 7px;
+  line-height: 12px;
+}
+.macro-canvas-metrics .source-badge-wrap {
+  margin-left: 3px;
+}
+
+/* 指标行：读法在左、来源徽章在右，避免与读数挤在同一行。 */
+.macro-item-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  margin-top: 2px;
+}
+.macro-item-foot small {
+  min-width: 0;
+  /* 长读法换行显示，不把徽章挤出卡片。 */
+  line-height: 1.45;
+}
+.macro-item-foot .source-badge-wrap {
+  flex: 0 0 auto;
+  margin-left: 0;
+}
+
+.macro-chart-card h3 .source-badge-wrap,
+.macro-verdict-main h3 .source-badge-wrap,
+.macro-disciplines h4 .source-badge-wrap,
+.macro-card-title small .source-badge-wrap,
+.macro-module-title h3 .source-badge-wrap,
+.macro-callout h4 .source-badge-wrap,
+.macro-moves h4 .source-badge-wrap,
+.macro-assistant h4 .source-badge-wrap,
+.macro-opp-card header .source-badge-wrap {
+  margin-left: 4px;
+}
+
+/* ---------- 数据来源说明弹窗 ---------- */
+.macro-modal-mask {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(16, 32, 48, 0.34);
+}
+.macro-modal {
+  width: min(720px, 100%);
+  max-height: 82vh;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: var(--radius-panel, 10px);
+  box-shadow: 0 18px 46px rgba(15, 43, 71, 0.22);
+  overflow: hidden;
+}
+.macro-source-modal {
+  width: min(980px, 100%);
+  max-height: 86vh;
+}
+.macro-modal-head {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--macro-line);
+}
+.macro-modal-head h3 {
+  margin: 0;
+  color: #17354c;
+  font-size: 14px;
+}
+.macro-modal-close {
+  padding: 0 6px;
+  color: var(--macro-muted);
+  background: none;
+  border: 0;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+}
+.macro-modal-body {
+  min-height: 0;
+  padding: 14px 16px 18px;
+  overflow-y: auto;
+}
+.macro-modal-body h4 {
+  margin: 14px 0 6px;
+  color: #17354c;
+  font-size: 12px;
+}
+.macro-modal-body h4:first-of-type {
+  margin-top: 0;
+}
+.macro-source-summary {
+  margin: 0 0 10px;
+  padding: 9px 11px;
+  color: #29495f;
+  background: #f3f7f9;
+  border-left: 3px solid var(--macro-blue);
+  border-radius: 4px;
+  font-size: 11px;
+  line-height: 1.7;
+}
+.macro-source-table-wrap {
+  max-height: 340px;
+  overflow: auto;
+  border: 1px solid var(--macro-line);
+  border-radius: 6px;
+}
+.macro-source-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+  table-layout: fixed;
+}
+.macro-source-table th {
+  position: sticky;
+  top: 0;
+  padding: 7px 10px;
+  color: var(--macro-muted);
+  background: #f3f7f9;
+  border-bottom: 1px solid var(--macro-line);
+  font-size: 10px;
+  font-weight: 600;
+  text-align: left;
+}
+.macro-source-table th:nth-child(1) {
+  width: 32%;
+}
+.macro-source-table th:nth-child(2) {
+  width: 15%;
+}
+.macro-source-table td {
+  padding: 7px 10px;
+  border-bottom: 1px solid #e9eff3;
+  vertical-align: top;
+}
+.macro-source-group-row td {
+  color: var(--macro-muted);
+  background: #f8fbfc;
+  font-size: 10.5px;
+}
+.macro-cell-text {
+  color: #3f6074;
+  line-height: 1.6;
+}
+.macro-source-kind {
+  display: inline-block;
+  padding: 0 6px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill, 999px);
+  font-size: 9px;
+  line-height: 15px;
+  white-space: nowrap;
+}
+.macro-source-kind.kind-data {
+  color: var(--blue-deep);
+  background: var(--surface-blue);
+  border-color: #c9def8;
+}
+.macro-source-kind.kind-ai {
+  color: #b8860b;
+  background: #fbf5e2;
+  border-color: #ead9a8;
+}
+.macro-source-steps {
+  margin: 0;
+  padding-left: 18px;
+  color: #3f6074;
+  font-size: 11px;
+  line-height: 1.75;
+}
+.macro-source-steps b {
+  color: #17354c;
+}
+.macro-source-note {
+  margin: 12px 0 0;
+  color: var(--macro-muted);
+  font-size: 10.5px;
+  line-height: 1.7;
+}
+
+/* ---------- 响应式 ---------- */
+@media (max-width: 1360px) {
+  .macro-routes {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .macro-opps {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .macro-moves {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .macro-assistant {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 1180px) {
+  .macro-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .macro-canvas-headline {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .macro-canvas-metrics {
+    width: 100%;
+    overflow-x: auto;
+  }
+  .macro-toolbar {
+    flex-wrap: wrap;
+    row-gap: 8px;
+  }
+  .macro-toolbar-summary {
+    margin-left: 0;
+  }
+  .macro-source-button {
+    margin-left: auto;
+  }
+  .macro-source-table {
+    table-layout: auto;
+  }
+  .macro-overview {
+    grid-template-columns: 150px minmax(0, 1fr);
+  }
+  .macro-risk-layout {
+    grid-template-columns: 300px minmax(0, 1fr);
+  }
+  .macro-factors,
+  .macro-scenarios,
+  .macro-lifecycle-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 960px) {
+  .macro-chain-positions,
+  .macro-tiers,
+  .macro-risk-layout,
+  .macro-assistant {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .macro-stage-track {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .macro-overview {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .macro-overview-score {
+    flex-direction: row;
+    align-items: center;
+  }
+  .macro-subscores {
+    flex: 1 1 auto;
+  }
+  .macro-basis {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+@media (max-width: 760px) {
+  .macro-grid,
+  .macro-duo,
+  .macro-opp-risk,
+  .macro-opps,
+  .macro-moves,
+  .macro-routes,
+  .macro-factors,
+  .macro-scenarios,
+  .macro-lifecycle-metrics,
+  .macro-stage-track {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .macro-verdict {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .macro-verdict-tags {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .macro-disciplines {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .macro-disciplines article {
+    padding-left: 10px;
+  }
+  .macro-demand-result {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
+  }
+  .macro-item-foot {
+    flex-wrap: wrap;
+  }
+  .macro-chart-card h3,
+  .macro-verdict-main h3,
+  .macro-disciplines h4,
+  .macro-callout h4,
+  .macro-module-title h3 {
+    flex-wrap: wrap;
+  }
+  .macro-module-head {
+    grid-template-columns: 24px minmax(0, 1fr);
+  }
+  .macro-module-head > *:last-child:not(.macro-module-title) {
+    grid-column: 1 / -1;
+  }
+  .macro-modal-mask {
+    padding: 12px;
+  }
+}

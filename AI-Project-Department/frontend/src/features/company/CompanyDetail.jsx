@@ -3,6 +3,7 @@ import { chainColorFor, chainLabelFor } from '../../chainPalette';
 import { relationDirection, relationPeer } from '../map/mapFeatures';
 import { isListedCompany, tagLabelFor } from '../map/mapTags';
 import { BANK_RELATION_OPTIONS } from './bankRelations';
+import CompanyRelationsPanel from './CompanyRelationsPanel';
 import CompanyTagEditor from './CompanyTagEditor';
 import { visitPriorityFor } from './visitPriority';
 import { formatMarketingTime, normalize } from '../../shared/text';
@@ -139,6 +140,7 @@ export default function CompanyDetail({
   onDeleteMarketingRecord,
   onSelectRelation,
   onTagsChange,
+  follow,
   total,
 }) {
   const [tagEditorOpen, setTagEditorOpen] = useState(false);
@@ -148,6 +150,14 @@ export default function CompanyDetail({
     entity.locationStatus === '已复核' || entity.locationStatus === 'verified';
   const regionalReference = entity.locationStatus === '区域参考';
   const entityTags = Array.isArray(entity.tags) ? entity.tags : [];
+  // evidence 兼容：分片数据里可能是数组、字符串或对象，统一转成数组展示
+  const evidenceList = Array.isArray(entity.evidence)
+    ? entity.evidence
+    : typeof entity.evidence === 'string' && entity.evidence.trim()
+      ? [entity.evidence]
+      : entity.evidence && typeof entity.evidence === 'object'
+        ? Object.values(entity.evidence).filter((v) => typeof v === 'string' && v.trim())
+        : [];
   const relationGroups = Array.from(
     relationList
       .reduce((groups, relation) => {
@@ -165,19 +175,38 @@ export default function CompanyDetail({
         企业档案 · {isListedCompany(entity) ? '上市企业' : '非上市企业'}
       </div>
       <h2>{entity.name}</h2>
-      <div
-        className="detail-sector"
-        style={{
-          '--chain-color': chainColorFor(entity.chain, entity.primaryIndustry),
-        }}
-      >
-        <span className="detail-sector-chain">
-          {chainLabelFor(entity.chain, entity.primaryIndustry)}
-        </span>
-        <span className="detail-sector-divider">/</span>
-        <span className="detail-sector-sector" data-empty={entity.sector ? 'false' : 'true'}>
-          {entity.sector || '细分环节待补齐'}
-        </span>
+      <div className="detail-title-row">
+        <div
+          className="detail-sector"
+          style={{
+            '--chain-color': chainColorFor(entity.chain, entity.primaryIndustry),
+          }}
+        >
+          <span className="detail-sector-chain">
+            {chainLabelFor(entity.chain, entity.primaryIndustry)}
+          </span>
+          <span className="detail-sector-divider">/</span>
+          <span className="detail-sector-sector" data-empty={entity.sector ? 'false' : 'true'}>
+            {entity.sector || '细分环节待补齐'}
+          </span>
+        </div>
+        {/* 关注入口：由调用方传入 follow 才出现（图谱 / 授信），状态由
+            useFollowedCompanies 统一管理，与「生态经营」版面互通。 */}
+        {follow && (
+          <button
+            type="button"
+            className={`detail-follow ${follow.followed ? 'is-followed' : ''}`}
+            aria-pressed={Boolean(follow.followed)}
+            title={
+              follow.followed
+                ? '取消关注（生态经营版面同步移除）'
+                : '关注该企业，纳入生态经营营销名单'
+            }
+            onClick={follow.onToggle}
+          >
+            {follow.followed ? '★ 已关注' : '☆ 关注'}
+          </button>
+        )}
       </div>
       <div className="tag-editor-shell">
         <div className="tag-row">
@@ -336,16 +365,17 @@ export default function CompanyDetail({
           <div className="muted">暂无链上关系</div>
         )}
       </div>
+      <CompanyRelationsPanel entity={entity} />
       <div className="detail-section">
         <div className="section-title">
           <span>数据证据</span>
-          <em>{entity.evidence?.length || 0} 项</em>
+          <em>{evidenceList.length} 项</em>
         </div>
         <div className="evidence-list">
-          {(entity.evidence || []).slice(0, 5).map((item, index) => (
+          {evidenceList.slice(0, 5).map((item, index) => (
             <span key={`${item}-${index}`}>{item}</span>
           ))}
-          {!entity.evidence?.length && <span className="muted">待补来源</span>}
+          {!evidenceList.length && <span className="muted">待补来源</span>}
         </div>
       </div>
     </div>

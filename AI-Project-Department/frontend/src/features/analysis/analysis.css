@@ -1,0 +1,1923 @@
+/* 「分析」Tab：储能产业链细分行业研究与授信分析页面。
+   视觉延续授信模块（白底圆角卡片 + 细边框 + 高信息密度），不使用渐变与炫酷动效。 */
+
+.ana-page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: calc(100vh - 64px);
+  padding: 14px 18px 18px;
+  overflow: hidden;
+  background: var(--canvas);
+}
+
+.ana-panel {
+  background: var(--surface);
+  border: 1px solid #cfdde5;
+  border-radius: var(--radius-panel);
+}
+
+/* ---------------------------------------------------------------- 顶部选择区 */
+
+.ana-top {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 16px 10px;
+}
+
+.ana-top-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.ana-title-lockup h1 {
+  margin: 2px 0 2px;
+  color: var(--ink);
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.ana-title-lockup h1 i {
+  color: var(--muted-2);
+  font-style: normal;
+}
+
+.ana-report-title {
+  margin: 0;
+  color: var(--muted);
+  font-size: 11.5px;
+}
+
+.ana-actions {
+  display: flex;
+  flex: none;
+  gap: 8px;
+}
+
+.ana-primary-button {
+  padding: 5px 12px;
+  color: #fff;
+  background: var(--blue);
+  border-radius: var(--radius-control);
+  font-size: 11.5px;
+  font-weight: 600;
+}
+
+.ana-primary-button:hover {
+  background: var(--blue-deep);
+}
+
+.ana-primary-button:disabled {
+  opacity: 0.6;
+  cursor: progress;
+}
+
+.ana-selector-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.ana-selector-label {
+  flex: 0 0 56px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.ana-chip-group {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 6px;
+  min-width: 0;
+}
+
+.ana-chip-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 9px;
+  color: var(--text);
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.ana-chip-button em {
+  color: var(--muted-2);
+  font-size: 9.5px;
+  font-style: normal;
+}
+
+.ana-chip-button:hover {
+  border-color: var(--blue);
+  color: var(--blue-deep);
+}
+
+.ana-chip-button.active {
+  color: #fff;
+  background: var(--blue);
+  border-color: var(--blue);
+}
+
+.ana-chip-button.active em {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.ana-link-button {
+  flex: none;
+  padding: 0;
+  color: var(--blue-deep);
+  background: none;
+  font-size: 11px;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.ana-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  padding-top: 8px;
+  color: var(--muted);
+  border-top: 1px dashed var(--line);
+  font-size: 11px;
+}
+
+.ana-meta-row b {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.ana-demo-text {
+  color: #b8860b !important;
+}
+
+.ana-ai-panel {
+  padding: 8px 10px;
+  background: var(--surface-blue);
+  border: 1px solid #c9def8;
+  border-radius: var(--radius-card);
+}
+
+.ana-ai-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--blue-deep);
+  font-size: 11.5px;
+}
+
+.ana-ai-notice {
+  color: var(--muted);
+  font-size: 10.5px;
+}
+
+.ana-ai-steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  margin-top: 6px;
+}
+
+.ana-ai-step {
+  color: var(--muted-2);
+  font-size: 10.5px;
+}
+
+.ana-ai-step.running {
+  color: var(--blue);
+  font-weight: 600;
+}
+
+.ana-ai-step.done {
+  color: var(--green);
+  font-weight: 600;
+}
+
+/* ---------------------------------------------------------------- 滚动区 */
+
+.ana-scroll {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 0;
+  padding-right: 4px;
+  overflow-y: auto;
+}
+
+/* ---------------------------------------------------------------- 概览 */
+
+.ana-overview-box {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 14px;
+  padding: 14px 16px;
+}
+
+.ana-overview-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.ana-overview-title h2 {
+  margin: 0;
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.ana-demo-tag {
+  padding: 1px 7px;
+  color: #b8860b;
+  background: #fbf5e2;
+  border: 1px solid #ead9a8;
+  border-radius: var(--radius-pill);
+  font-size: 9.5px;
+}
+
+.ana-kpis {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(148px, 1fr));
+  gap: 8px;
+}
+
+.ana-kpis.compact {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  margin-bottom: 10px;
+}
+
+.ana-kpi {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 8px 10px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+}
+
+.ana-kpi.tone-blue {
+  background: var(--surface-blue);
+  border-color: #c9def8;
+}
+
+.ana-kpi.tone-green {
+  background: #eef8f3;
+  border-color: #c7e5d8;
+}
+
+.ana-kpi.tone-red {
+  background: #fdf1f0;
+  border-color: #f0cdc9;
+}
+
+.ana-kpi-label {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.ana-kpi-value {
+  color: var(--ink);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.ana-kpi-sub {
+  color: var(--muted-2);
+  font-size: 9.5px;
+  line-height: 1.45;
+}
+
+.ana-one-liner {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 9px 11px;
+  background: var(--surface-blue);
+  border: 1px solid #c9def8;
+  border-radius: var(--radius-card);
+}
+
+.ana-one-liner-tag {
+  flex: none;
+  padding: 1px 7px;
+  color: #fff;
+  background: var(--blue);
+  border-radius: var(--radius-pill);
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.ana-one-liner p {
+  margin: 0;
+  color: var(--text);
+  font-size: 11.5px;
+  line-height: 1.6;
+}
+
+.ana-overview-side {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ana-score-card {
+  padding: 10px 12px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+}
+
+.ana-score-label {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 10.5px;
+}
+
+.ana-score-label .ana-link-button {
+  margin-left: auto;
+}
+
+.ana-stars {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  margin: 6px 0 8px;
+}
+
+.ana-stars i {
+  color: #d8e1ea;
+  font-size: 13px;
+  font-style: normal;
+}
+
+.ana-stars i.on {
+  color: #f0a92c;
+}
+
+.ana-stars b {
+  margin-left: 6px;
+  color: var(--ink);
+  font-size: 12px;
+}
+
+.ana-stars em {
+  margin-left: 4px;
+  color: var(--muted);
+  font-size: 10.5px;
+  font-style: normal;
+}
+
+.ana-score-note {
+  margin: 6px 0 0;
+  color: var(--muted-2);
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+.ana-prosperity {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.ana-prosperity-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10px;
+}
+
+.ana-prosperity-label {
+  flex: 0 0 52px;
+  color: var(--muted);
+}
+
+.ana-prosperity-track {
+  flex: 1;
+  height: 6px;
+  background: #e6edf4;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.ana-prosperity-fill {
+  display: block;
+  height: 100%;
+  border-radius: 3px;
+}
+
+.ana-prosperity-value {
+  flex: 0 0 24px;
+  color: var(--ink);
+  font-weight: 600;
+  text-align: right;
+}
+
+.ana-prosperity-weight {
+  flex: 0 0 30px;
+  color: var(--muted-2);
+  text-align: right;
+}
+
+/* ---------------------------------------------------------------- 报告布局 */
+
+.ana-report-layout {
+  display: grid;
+  grid-template-columns: 168px minmax(0, 1fr);
+  gap: 12px;
+  align-items: start;
+}
+
+.ana-toc {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px;
+  background: var(--surface);
+  border: 1px solid #cfdde5;
+  border-radius: var(--radius-panel);
+}
+
+.ana-toc-title {
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-size: 10.5px;
+  font-weight: 600;
+}
+
+.ana-toc-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 8px;
+  color: var(--text);
+  background: none;
+  border-radius: var(--radius-control);
+  font-size: 11px;
+  text-align: left;
+}
+
+.ana-toc-item span {
+  color: var(--muted-2);
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.ana-toc-item:hover {
+  background: var(--surface-soft);
+}
+
+.ana-toc-item.active {
+  color: var(--blue-deep);
+  background: var(--surface-blue);
+  font-weight: 600;
+}
+
+.ana-toc-item.active span {
+  color: var(--blue);
+}
+
+.ana-toc-note {
+  margin-top: 8px;
+  padding-top: 8px;
+  color: var(--muted-2);
+  border-top: 1px dashed var(--line);
+  font-size: 9.5px;
+  line-height: 1.6;
+}
+
+.ana-report-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 0;
+}
+
+.ana-section {
+  padding: 14px 16px 16px;
+  background: var(--surface);
+  border: 1px solid #cfdde5;
+  border-radius: var(--radius-panel);
+}
+
+.ana-section-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid var(--line);
+}
+
+.ana-section-head h3 {
+  display: inline-block;
+  margin: 0 0 0 8px;
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.ana-section-index {
+  padding: 1px 6px;
+  color: var(--blue-deep);
+  background: var(--surface-blue);
+  border-radius: 4px;
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.ana-section-question {
+  margin: 5px 0 0;
+  color: var(--muted);
+  font-size: 10.5px;
+}
+
+.ana-section-extra {
+  color: var(--muted-2);
+  font-size: 10px;
+}
+
+/* ---------------------------------------------------------------- 图表与表格 */
+
+.ana-chart {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.ana-chart.small {
+  max-width: 420px;
+}
+
+.ana-axis-text {
+  fill: var(--muted);
+  font-size: 9.5px;
+}
+
+.ana-bar-value {
+  fill: var(--ink);
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.ana-bar-value.tiny {
+  font-size: 9px;
+}
+
+.ana-bar-growth {
+  fill: var(--green);
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.ana-legend-text {
+  font-size: 9px;
+}
+
+.ana-line {
+  stroke-width: 2;
+  stroke-linejoin: round;
+}
+
+.ana-region-name {
+  fill: var(--ink);
+  font-size: 10.5px;
+  font-weight: 600;
+}
+
+.ana-region-meta {
+  fill: var(--muted);
+  font-size: 9.5px;
+}
+
+/* 全国区域地图：省级色块 + 图例，点击省份联动右侧明细。 */
+.ana-map-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ana-empty-hint {
+  margin: 0;
+  padding: 14px 0;
+  color: var(--muted);
+  font-size: 11px;
+  text-align: center;
+}
+
+.ana-map {
+  max-height: 360px;
+  width: auto;
+  max-width: 100%;
+}
+
+.ana-map-region {
+  transition: fill 0.15s ease;
+  outline: none;
+}
+
+.ana-map-region.has-data {
+  cursor: pointer;
+}
+
+.ana-map-region.has-data:hover {
+  fill: var(--blue-deep, #0f4fb0);
+}
+
+.ana-map-region:focus-visible {
+  stroke: var(--blue);
+  stroke-width: 1.6;
+}
+
+.ana-map-southsea {
+  pointer-events: none;
+  opacity: 0.85;
+}
+
+.ana-map-legend {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+  margin-top: 4px;
+  color: var(--muted-2);
+  font-size: 10px;
+}
+
+.ana-map-legend > span:first-child {
+  color: var(--muted);
+}
+
+.ana-map-legend i {
+  display: inline-block;
+  width: 16px;
+  height: 9px;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  vertical-align: -1px;
+}
+
+.ana-map-legend-step {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.ana-figure {
+  margin-bottom: 12px;
+}
+
+.ana-figure h4 {
+  margin: 0 0 6px;
+  color: var(--text);
+  font-size: 11.5px;
+  font-weight: 600;
+}
+
+.ana-figure-caption {
+  margin: 6px 0 0;
+  color: var(--muted-2);
+  font-size: 10px;
+  line-height: 1.65;
+}
+
+.ana-two-col {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 14px;
+}
+
+.ana-mix-bar {
+  display: block;
+  width: 100%;
+  height: 14px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.ana-mix-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  margin-top: 8px;
+}
+
+.ana-mix-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--muted);
+  font-size: 10.5px;
+}
+
+.ana-mix-item i {
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+}
+
+.ana-mix-item b {
+  color: var(--ink);
+}
+
+.ana-driver-list {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--text);
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+.ana-table-wrap {
+  overflow-x: auto;
+}
+
+.ana-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+}
+
+.ana-table th,
+.ana-table td {
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--line);
+  color: var(--text);
+  text-align: left;
+  vertical-align: top;
+}
+
+.ana-table thead th {
+  color: var(--muted);
+  background: var(--surface-soft);
+  font-size: 10.5px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.ana-table .num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.ana-table tbody tr.clickable {
+  cursor: pointer;
+}
+
+.ana-table tbody tr.clickable:hover,
+.ana-table tbody tr.active {
+  background: var(--surface-blue);
+}
+
+.ana-cell-text {
+  color: var(--muted);
+  font-size: 10.5px;
+  line-height: 1.55;
+}
+
+.ana-cell-sub {
+  display: block;
+  color: var(--muted-2);
+  font-size: 9.5px;
+}
+
+.ana-company-table td b {
+  color: var(--ink);
+}
+
+/* ---------------------------------------------------------------- 标记与状态 */
+
+.ana-tag {
+  display: inline-block;
+  padding: 1px 7px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
+  color: var(--muted);
+  background: var(--surface-soft);
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.ana-tag.risk-high {
+  color: #b3261e;
+  background: #fdf1f0;
+  border-color: #f0cdc9;
+}
+
+.ana-tag.risk-mid {
+  color: #95530e;
+  background: #fff6e9;
+  border-color: #f2dcc0;
+}
+
+.ana-tag.risk-low {
+  color: var(--green);
+  background: #eef8f3;
+  border-color: #c7e5d8;
+}
+
+.ana-tag.grade-龙头 {
+  color: #fff;
+  background: var(--blue);
+  border-color: var(--blue);
+}
+
+.ana-tag.grade-重点 {
+  color: var(--blue-deep);
+  background: var(--surface-blue);
+  border-color: #c9def8;
+}
+
+.ana-positive {
+  color: var(--green) !important;
+}
+
+.ana-negative {
+  color: #c23b37 !important;
+}
+
+.ana-risk-text {
+  color: #95530e !important;
+}
+
+.ana-note {
+  margin: 10px 0 0;
+  padding: 8px 10px;
+  color: var(--muted);
+  background: var(--surface-soft);
+  border-left: 3px solid var(--line-strong);
+  border-radius: 4px;
+  font-size: 10.5px;
+  line-height: 1.7;
+}
+
+/* ---------------------------------------------------------------- 区域明细 */
+
+.ana-region-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 14px;
+}
+
+.ana-region-detail {
+  padding: 10px 12px;
+  background: var(--surface-blue);
+  border: 1px solid #c9def8;
+  border-radius: var(--radius-card);
+}
+
+.ana-region-detail h4 {
+  margin: 0 0 8px;
+  color: var(--blue-deep);
+  font-size: 12px;
+}
+
+.ana-kv-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0;
+}
+
+.ana-kv-list div {
+  display: grid;
+  /* 首列自适应：标签行内可能带来源徽章，固定 76px 会被撑破 */
+  grid-template-columns: minmax(76px, auto) minmax(0, 1fr);
+  gap: 6px;
+}
+
+.ana-kv-list dt {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3px;
+  color: var(--muted);
+  font-size: 10.5px;
+}
+
+.ana-kv-list dd {
+  margin: 0;
+  color: var(--text);
+  font-size: 10.5px;
+  line-height: 1.6;
+}
+
+/* ---------------------------------------------------------------- 产能判断 */
+
+.ana-judgement {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px 12px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+  align-self: start;
+}
+
+.ana-judgement-row {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.ana-judgement-row span {
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.ana-judgement-row b {
+  color: var(--ink);
+  font-size: 11.5px;
+  line-height: 1.55;
+}
+
+/* ---------------------------------------------------------------- 亮点 / 趋势 */
+
+.ana-highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 12px;
+}
+
+.ana-highlight-card {
+  padding: 11px 12px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+}
+
+.ana-highlight-card h4 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 8px;
+  color: var(--ink);
+  font-size: 12px;
+}
+
+.ana-highlight-card h4 span {
+  padding: 1px 6px;
+  color: #fff;
+  background: var(--teal);
+  border-radius: 4px;
+  font-size: 9.5px;
+  font-weight: 600;
+}
+
+.ana-highlight-chain {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ana-highlight-step {
+  display: grid;
+  grid-template-columns: 74px minmax(0, 1fr);
+  gap: 8px;
+}
+
+.ana-highlight-step-label {
+  padding-top: 1px;
+  color: var(--muted);
+  font-size: 10px;
+  text-align: right;
+}
+
+.ana-highlight-step p {
+  margin: 0;
+  color: var(--text);
+  font-size: 10.5px;
+  line-height: 1.65;
+}
+
+.ana-trend-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ana-trend-card {
+  padding: 11px 12px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+}
+
+.ana-trend-card h4 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 6px;
+  color: var(--ink);
+  font-size: 12px;
+}
+
+.ana-trend-index {
+  padding: 1px 6px;
+  color: var(--blue-deep);
+  background: var(--surface-blue);
+  border-radius: 4px;
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 10px;
+}
+
+.ana-trend-judgement {
+  margin: 0 0 8px;
+  color: var(--text);
+  font-size: 11px;
+  line-height: 1.65;
+}
+
+.ana-trend-meta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 6px 14px;
+  margin: 0 0 8px;
+}
+
+.ana-trend-meta div {
+  display: grid;
+  grid-template-columns: 62px minmax(0, 1fr);
+  gap: 6px;
+}
+
+.ana-trend-meta dt {
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.ana-trend-meta dd {
+  margin: 0;
+  color: var(--text);
+  font-size: 10.5px;
+  line-height: 1.6;
+}
+
+.ana-trend-credit {
+  margin: 0;
+  padding: 7px 9px;
+  color: var(--blue-deep);
+  background: var(--surface-blue);
+  border-radius: 4px;
+  font-size: 10.5px;
+  line-height: 1.65;
+}
+
+/* ---------------------------------------------------------------- 授信章节 */
+
+.ana-credit-hero {
+  display: grid;
+  grid-template-columns: 168px minmax(0, 1fr);
+  gap: 14px;
+  align-items: center;
+  padding: 11px 14px;
+  margin-bottom: 12px;
+  background: var(--surface-blue);
+  border: 1px solid #c9def8;
+  border-radius: var(--radius-card);
+}
+
+.ana-credit-label {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+  color: var(--muted);
+  font-size: 10.5px;
+}
+
+.ana-credit-rating {
+  color: var(--blue-deep);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.ana-credit-hero p {
+  margin: 0;
+  color: var(--text);
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+.ana-chip-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ana-chip-list.risk {
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.ana-chip {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 7px 9px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+}
+
+.ana-chip b {
+  color: var(--ink);
+  font-size: 11px;
+}
+
+.ana-chip em {
+  color: var(--muted);
+  font-size: 10px;
+  font-style: normal;
+  line-height: 1.55;
+}
+
+.ana-credit-foot {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.ana-credit-foot > div {
+  padding: 10px 12px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+}
+
+.ana-credit-foot span {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--muted);
+  font-size: 10.5px;
+  font-weight: 600;
+}
+
+.ana-credit-foot p,
+.ana-credit-foot ul {
+  margin: 0;
+  padding-left: 0;
+  color: var(--text);
+  font-size: 10.5px;
+  line-height: 1.7;
+}
+
+.ana-credit-foot ul {
+  padding-left: 16px;
+}
+
+/* ---------------------------------------------------------------- 核心结论 */
+
+.ana-conclusion-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+}
+
+.ana-conclusion-card {
+  padding: 11px 12px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+}
+
+.ana-conclusion-index {
+  color: var(--muted-2);
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.ana-conclusion-card h4 {
+  margin: 2px 0 5px;
+  color: var(--ink);
+  font-size: 12px;
+}
+
+.ana-conclusion-card p {
+  margin: 0;
+  color: var(--text);
+  font-size: 10.5px;
+  line-height: 1.7;
+}
+
+/* ---------------------------------------------------------------- 空态与弹窗 */
+
+.ana-empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 100%;
+  padding: 40px;
+  color: var(--muted);
+  background: var(--surface);
+  border: 1px solid #cfdde5;
+  border-radius: var(--radius-panel);
+  text-align: center;
+}
+
+.ana-empty-state h2 {
+  margin: 0;
+  color: var(--ink);
+  font-size: 16px;
+}
+
+.ana-empty-state.error {
+  border-color: #f0cdc9;
+  color: #b3261e;
+}
+
+.ana-modal-mask {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(16, 32, 48, 0.34);
+}
+
+.ana-modal {
+  width: min(720px, 100%);
+  max-height: 82vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border-radius: var(--radius-panel);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+}
+
+.ana-modal-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+.ana-modal-head h3 {
+  margin: 0;
+  color: var(--ink);
+  font-size: 14px;
+}
+
+.ana-modal-close {
+  padding: 0 6px;
+  color: var(--muted);
+  background: none;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.ana-modal-body {
+  padding: 14px 16px 18px;
+  overflow-y: auto;
+}
+
+.ana-modal-body h4 {
+  margin: 12px 0 6px;
+  color: var(--ink);
+  font-size: 12px;
+}
+
+.ana-modal-body h4:first-child {
+  margin-top: 0;
+}
+
+.ana-modal-body p {
+  margin: 0 0 8px;
+  color: var(--text);
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+/* ---------------------------------------------------------------- 数据来源标注 */
+/* 复用授信模块的 .source-badge / .source-pop（credit.css），此处只做分析页的排布适配。 */
+
+.ana-kpi-label .source-badge-wrap,
+.ana-figure h4 .source-badge-wrap,
+.ana-table th .source-badge-wrap {
+  margin-left: 4px;
+}
+
+.ana-one-liner .source-badge-wrap {
+  flex: none;
+  align-self: center;
+  margin-left: 3px;
+}
+
+.ana-judgement-title {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.ana-meta-hint {
+  margin-left: 4px;
+  color: var(--muted-2);
+  font-size: 10px;
+  font-style: normal;
+}
+
+/* 「数据来源说明」弹窗 */
+.ana-source-modal {
+  width: min(980px, 100%);
+  max-height: 86vh;
+}
+
+.ana-source-summary {
+  padding: 9px 11px;
+  color: var(--text);
+  background: var(--surface-soft);
+  border-left: 3px solid var(--blue);
+  border-radius: 4px;
+  line-height: 1.7;
+}
+
+.ana-source-table-wrap {
+  max-height: 320px;
+  overflow: auto;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+
+.ana-source-group-row td {
+  color: var(--muted);
+  background: var(--surface-soft);
+  font-size: 10.5px;
+}
+
+.ana-source-kind {
+  display: inline-block;
+  padding: 0 6px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill);
+  font-size: 9px;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.ana-source-kind.kind-ai {
+  color: #b8860b;
+  background: #fbf5e2;
+  border-color: #ead9a8;
+}
+
+.ana-source-kind.kind-data {
+  color: var(--blue-deep);
+  background: var(--surface-blue);
+  border-color: #c9def8;
+}
+
+.ana-source-db-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 10px;
+}
+
+.ana-source-db-card {
+  padding: 10px 12px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+}
+
+.ana-source-db-card h5 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 6px;
+  color: var(--ink);
+  font-size: 11.5px;
+}
+
+.ana-source-db-card p {
+  margin: 0 0 6px;
+  color: var(--muted);
+  font-size: 10.5px;
+  line-height: 1.65;
+}
+
+.ana-source-db-card ul {
+  margin: 0;
+  padding-left: 16px;
+  color: var(--text);
+  font-size: 10.5px;
+  line-height: 1.7;
+}
+
+/* ---------------------------------------------------------------- 刷新提示条 */
+
+/* 「刷新分析」与「导出报告」的轻量提示，与 AI 链路进度面板区分开。 */
+.ana-flash {
+  margin: 8px 0 0;
+  padding: 6px 10px;
+  color: var(--blue-deep);
+  background: var(--surface-blue);
+  border: 1px solid #c9def8;
+  border-radius: var(--radius-control);
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.ana-flash.error {
+  color: #a03a2c;
+  background: #fdf1ef;
+  border-color: #f0c9c1;
+}
+
+/* ---------------------------------------------------------------- AI 深度分析结论 */
+
+/* 仅当用户点击「AI 深度分析」后出现的章节：7 个维度的结论性洞察。 */
+.ana-ai-insight {
+  border-color: #c9def8;
+  background: linear-gradient(180deg, #f7fbff 0%, #fff 110px);
+}
+
+.ana-ai-insight-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.ana-ai-insight-head h3 {
+  display: inline-block;
+  margin: 0 0 0 6px;
+  font-size: 14px;
+}
+
+.ana-ai-insight-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted-2);
+  font-size: 10.5px;
+  white-space: nowrap;
+}
+
+.ana-ai-insight-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.ana-ai-insight-card {
+  padding: 10px 12px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+}
+
+.ana-ai-insight-card h4 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.ana-ai-step-no {
+  flex: none;
+  padding: 1px 6px;
+  color: var(--blue-deep);
+  background: var(--surface-blue);
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.ana-ai-insight-card p {
+  margin: 6px 0 0;
+  color: var(--text);
+  font-size: 11px;
+  line-height: 1.75;
+}
+
+.ana-ai-insight-metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  margin: 8px 0 0;
+  padding-top: 8px;
+  border-top: 1px dashed var(--line);
+}
+
+.ana-ai-insight-metrics div {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.ana-ai-insight-metrics dt {
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.ana-ai-insight-metrics dd {
+  margin: 0;
+  color: var(--blue-deep);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+/* ---------------------------------------------------------------- 响应式 */
+
+@media (max-width: 1500px) {
+  .ana-overview-box {
+    grid-template-columns: minmax(0, 1fr) 280px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .ana-overview-box,
+  .ana-region-layout,
+  .ana-two-col,
+  .ana-ai-insight-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .ana-report-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .ana-toc {
+    position: static;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .ana-toc-note {
+    display: none;
+  }
+}
+
+/* ---------------------------------------------------------------- 报告视图切换 */
+/* 「第一篇 整体分析 / 第二篇 细分领域分析 / 环节深度分析」三个视图卡片。 */
+
+.ana-view-switch {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.ana-view-card {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 8px 12px;
+  background: var(--surface-soft);
+  border: 1px solid #d7e3ea;
+  border-radius: var(--radius-panel);
+  text-align: left;
+}
+
+.ana-view-card span {
+  color: var(--muted-2);
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+}
+
+.ana-view-card b {
+  color: var(--ink);
+  font-size: 12.5px;
+  font-weight: 700;
+}
+
+.ana-view-card em {
+  color: var(--muted);
+  font-size: 10px;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.ana-view-card:hover {
+  border-color: #a9c8ef;
+}
+
+.ana-view-card.active {
+  background: var(--surface-blue);
+  border-color: var(--blue);
+  box-shadow: 0 4px 12px rgba(23, 105, 224, 0.12);
+}
+
+.ana-view-card.active span,
+.ana-view-card.active b {
+  color: var(--blue-deep);
+}
+
+/* ---------------------------------------------------------------- 研报阅读器 */
+/* 与原报告版式对齐：左侧目录（篇 → 章 → 节），右侧正文（段落 / 表格 / 图表）。 */
+
+.rp-layout {
+  display: grid;
+  grid-template-columns: 232px minmax(0, 1fr);
+  gap: 12px;
+  align-items: start;
+}
+
+.rp-toc {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  max-height: calc(100vh - 260px);
+  padding: 12px;
+  overflow-y: auto;
+  background: var(--surface);
+  border: 1px solid #cfdde5;
+  border-radius: var(--radius-panel);
+  scrollbar-width: thin;
+}
+
+.rp-toc-title {
+  margin-bottom: 6px;
+  padding-bottom: 6px;
+  color: var(--blue-deep);
+  border-bottom: 1px solid var(--line);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.rp-toc-item {
+  padding: 5px 8px;
+  color: var(--text);
+  background: none;
+  border-radius: var(--radius-control);
+  font-size: 11px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.rp-toc-item.level-1 {
+  color: var(--ink);
+  font-size: 11.5px;
+  font-weight: 700;
+}
+
+.rp-toc-item.level-2 {
+  padding-left: 14px;
+}
+
+.rp-toc-item.level-3 {
+  padding-left: 22px;
+  color: var(--muted);
+  font-size: 10.5px;
+}
+
+.rp-toc-item:hover {
+  background: var(--surface-soft);
+}
+
+.rp-toc-item.active {
+  color: var(--blue-deep);
+  background: var(--surface-blue);
+  font-weight: 600;
+}
+
+.rp-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 0;
+}
+
+.rp-chapter {
+  padding: 16px 20px 18px;
+  background: var(--surface);
+  border: 1px solid #cfdde5;
+  border-radius: var(--radius-panel);
+}
+
+.rp-chapter-title {
+  margin: 0 0 12px;
+  padding-bottom: 9px;
+  color: var(--ink);
+  border-bottom: 2px solid var(--surface-blue);
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+
+.rp-section {
+  margin-top: 16px;
+}
+
+.rp-section-title {
+  margin: 0 0 8px;
+  padding-left: 9px;
+  color: var(--blue-deep);
+  border-left: 3px solid var(--blue);
+  font-size: 13.5px;
+  font-weight: 700;
+}
+
+.rp-subsection {
+  margin-top: 12px;
+}
+
+.rp-subsection-title {
+  margin: 0 0 6px;
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.rp-p {
+  margin: 0 0 9px;
+  color: var(--text);
+  font-size: 12.5px;
+  line-height: 1.85;
+  text-align: justify;
+}
+
+.rp-note {
+  margin: 4px 0 10px;
+  color: var(--muted-2);
+  font-size: 10.5px;
+  line-height: 1.7;
+}
+
+.rp-table {
+  margin: 12px 0 16px;
+  padding: 0;
+}
+
+.rp-table figcaption {
+  margin-bottom: 6px;
+  color: var(--ink);
+  font-size: 11.5px;
+  font-weight: 700;
+}
+
+.rp-table-scroll {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-control);
+}
+
+.rp-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11.5px;
+}
+
+.rp-table th,
+.rp-table td {
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--line);
+  color: var(--text);
+  line-height: 1.6;
+  text-align: left;
+  vertical-align: top;
+}
+
+.rp-table th {
+  color: var(--blue-deep);
+  background: var(--surface-blue);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.rp-table tbody tr:nth-child(even) {
+  background: var(--surface-soft);
+}
+
+.rp-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.rp-table-plain {
+  margin: 0;
+  padding: 10px 12px;
+  color: var(--muted);
+  background: var(--surface-soft);
+  border: 1px dashed var(--line-strong, #cfdde5);
+  border-radius: var(--radius-control);
+  font-size: 11px;
+}
+
+.rp-figure {
+  margin: 12px 0 16px;
+  padding: 0;
+}
+
+.rp-figure-box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 16px;
+  background: var(--surface-soft);
+  border: 1px dashed var(--line-strong, #cfdde5);
+  border-radius: var(--radius-control);
+  text-align: center;
+}
+
+.rp-figure-tag {
+  padding: 1px 7px;
+  color: var(--blue-deep);
+  background: var(--surface-blue);
+  border-radius: 999px;
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.rp-figure-box p {
+  margin: 0;
+  color: var(--ink);
+  font-size: 12.5px;
+  font-weight: 700;
+}
+
+.rp-figure-box em {
+  color: var(--muted-2);
+  font-size: 10px;
+  font-style: normal;
+}
+
+.rp-figure figcaption {
+  margin-top: 6px;
+  color: var(--ink);
+  font-size: 11.5px;
+  font-weight: 700;
+}
+
+@media (max-width: 1180px) {
+  .rp-layout {
+    grid-template-columns: 196px minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 940px) {
+  .ana-view-switch {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .rp-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .rp-toc {
+    position: static;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-height: none;
+  }
+
+  .rp-toc-item.level-1 {
+    width: 100%;
+  }
+}

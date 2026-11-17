@@ -1,3 +1,24 @@
+.app-frame {
+  width: 100%;
+  height: 100vh;
+  min-height: 0;
+  display: flex;
+  overflow: hidden;
+  background: var(--canvas);
+}
+
+.app-frame .app-shell {
+  flex: 1;
+  min-width: 0;
+  height: 100vh;
+}
+
+/* 链知智答：只保留顶部品牌条，隐藏产业建链的页签栏 */
+.app-shell.is-assistant .tabbar,
+.app-shell.is-assistant .subbar {
+  display: none;
+}
+
 .app-shell {
   width: 100%;
   height: 100vh;
@@ -11,7 +32,8 @@
   display: none;
 }
 .app-shell.map-fullscreen .topbar,
-.app-shell.map-fullscreen .tabbar {
+.app-shell.map-fullscreen .tabbar,
+.app-shell.map-fullscreen .subbar {
   display: none;
 }
 .app-shell.map-fullscreen .workspace {

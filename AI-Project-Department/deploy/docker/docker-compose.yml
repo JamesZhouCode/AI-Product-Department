@@ -1,0 +1,31 @@
+# 运行编排示例：docker compose up -d（镜像需先 docker load 或本机构建）
+# 架构说明：不用写 platform —— 镜像本身已是单一架构（amd64 / arm64），
+# docker load 进来的镜像会在同架构主机上直接运行；写了反而可能因缺 manifest 而拉取失败。
+services:
+  chain-assistant:
+    image: chain-assistant:latest
+    container_name: chain-assistant
+    ports:
+      - "8080:8080"          # 左侧改成对内暴露的端口
+    restart: unless-stopped
+    volumes:
+      - chain-data:/data     # 数据持久化；换成宿主机目录写法：
+      # - /data/chain-assistant:/data
+    # 资源限制示例（按需打开）：
+    # mem_limit: 2g
+    # cpus: 2.0
+    logging:
+      driver: json-file
+      options:
+        max-size: "50m"
+        max-file: "5"
+
+volumes:
+  chain-data:
+
+# 常用运维：
+#   docker compose ps / logs -f / restart
+#   升级：docker load -i 新镜像包 → docker compose up -d（数据卷不动）
+#   备份：docker run --rm -v chain-chain-data:/data -v $PWD:/backup alpine \
+#         tar czf /backup/chain-data.tgz -C /data .
+#   （卷名默认带 compose 项目前缀，docker volume ls 确认）

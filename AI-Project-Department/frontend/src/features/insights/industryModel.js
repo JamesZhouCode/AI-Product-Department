@@ -51,6 +51,28 @@ const INDUSTRY_STORIES = {
       },
     ],
   },
+  storage: {
+    accent: '#0b6e8a',
+    headline:
+      '从资源材料、核心器件与装备，到电池核心部件、系统集成与工程，再到应用与运营，储能是一条上游窄、中游厚、下游分散的产业链。',
+    events: [
+      {
+        label: '全链条',
+        title: '中游两个环节集中了近半数上市样本',
+        body: '电池与核心部件、系统集成与工程建设承担了链内最厚的一段企业密度，也是电芯技术路线、集成方案与交付能力的主要竞争面。',
+      },
+      {
+        label: '结构侧',
+        title: '上游资源与中游电池构成成本传导主线',
+        body: '锂、磷、镍等资源与正负极、电解液、结构件等主材辅材的价格与产能节奏，会沿链条直接传导到电芯与系统集成环节。',
+      },
+      {
+        label: '营销侧',
+        title: '待补龙头环节与非上市客户池是拓客入口',
+        body: '氢储能装备、电池 PACK、第三方系统集成等环节尚无龙头，叠加 CNESA / CIAPS 清单中的非上市企业，可持续补齐可培育客户名单。',
+      },
+    ],
+  },
   biomed: {
     accent: '#0f6e56',
     headline: '从创新药、生物制造、医疗器械到 CXO，生物医药是一条多路径并行的产业链。',
@@ -346,10 +368,10 @@ function buildFallbackSecondaryDefinitions(companies) {
 export function buildIndustryAtlasModel(data, selectedIndustry = '集成电路') {
   const industryGroup = industryGroupFor(selectedIndustry);
   const usePalette = hasIndustryPalette(industryGroup);
-  const companies = (data.companies || []).filter(
-    (company) =>
-      isListedCompany(company) && industryGroupFor(industryForCompany(company)) === industryGroup,
+  const industryCompanies = (data.companies || []).filter(
+    (company) => industryGroupFor(industryForCompany(company)) === industryGroup,
   );
+  const companies = industryCompanies.filter(isListedCompany);
   const companyNames = new Set(companies.map((company) => normalize(company.name)));
   const relations = (data.relations || []).filter(
     (relation) =>
@@ -382,6 +404,15 @@ export function buildIndustryAtlasModel(data, selectedIndustry = '集成电路')
               (value) => value === sector,
             ),
           );
+          // 该环节若只有非上市客户池企业，图谱节点保留但标注「暂无上市样本」，
+          // 避免清单里声明的环节在图上凭空消失、导致环节数与产业链目录不一致。
+          const customerCount = industryCompanies.filter(
+            (company) =>
+              !isListedCompany(company) &&
+              sectorValuesForGroup(company, group, selectedIndustry, usePalette).some(
+                (value) => value === sector,
+              ),
+          ).length;
           const sectorNames = new Set(sectorCompanies.map((company) => normalize(company.name)));
           return {
             id: `${group.id}-${index}`,
@@ -391,6 +422,8 @@ export function buildIndustryAtlasModel(data, selectedIndustry = '集成电路')
             secondaryLabel: group.label,
             companies: sectorCompanies,
             count: sectorCompanies.length,
+            customerCount,
+            listedPending: sectorCompanies.length === 0 && customerCount > 0,
             mappedCount: sectorCompanies.filter(
               (company) => company.location && company.mapDisplay !== false,
             ).length,
@@ -401,7 +434,7 @@ export function buildIndustryAtlasModel(data, selectedIndustry = '集成电路')
             ).length,
           };
         })
-        .filter((node) => node.count > 0);
+        .filter((node) => node.count > 0 || node.listedPending);
       return {
         ...group,
         companies: groupCompanies,

@@ -1,147 +1,133 @@
 import { useEffect } from 'react';
+import {
+  COMPANY_GROUPS,
+  CREDIT_COMPOSITION,
+  CREDIT_LEVELS,
+  DIMENSION_META,
+  DIMENSION_WEIGHTS,
+  REDLINE_DEFS,
+  STAGES,
+  SUB_INDICATORS,
+  VALUE_COMPOSITION,
+  VALUE_LEVELS,
+  WARNING_LEVELS,
+} from './creditConfig';
 
-const DIMENSIONS = [
-  {
-    key: 'chain',
-    name: '产业链价值',
-    max: 20,
-    tone: '#1769e0',
-    sub: [
-      ['产业链重要性', 5],
-      ['市场需求稳定性', 4],
-      ['竞争格局', 3],
-      ['客户粘性', 3],
-      ['技术/产品壁垒', 3],
-      ['政策/绿色属性', 2],
-    ],
-    note: '电芯、PCS、BMS 等关键环节重要性较高；同质化、替代性强的环节较低。产业链位置不直接等于授信价值——核心企业现金流恶化仍会降级。',
-  },
-  {
-    key: 'operation',
-    name: '企业经营质量',
-    max: 25,
-    tone: '#0b9b90',
-    sub: [
-      ['营收规模', 3],
-      ['盈利能力', 4],
-      ['经营现金流', 5],
-      ['客户质量', 4],
-      ['客户集中度', 3],
-      ['订单/合同', 3],
-      ['产能利用率', 3],
-    ],
-    note: '经营现金流权重高于净利润。识别「收入增长→应收增长→存货增长→利润增长→现金流恶化」形态，自动生成「利润增长但现金流承压」标签。',
-  },
-  {
-    key: 'financial',
-    name: '财务偿债能力',
-    max: 25,
-    tone: '#775bd6',
-    sub: [
-      ['资产负债率', 3],
-      ['有息负债率', 3],
-      ['EBITDA 利息保障倍数', 3],
-      ['经营现金流/有息负债', 4],
-      ['流动/速动比率', 2],
-      ['应收账款质量', 3],
-      ['存货质量', 3],
-      ['短期债务压力', 2],
-      ['对外担保/或有负债', 2],
-    ],
-    note: '重点公式：OCF/有息负债、EBITDA/利息支出、短期有息负债/(货币资金+经营现金流)。',
-  },
-  {
-    key: 'technology',
-    name: '技术与产品竞争力',
-    max: 15,
-    tone: '#ed861d',
-    sub: [
-      ['技术成熟度', 3],
-      ['技术壁垒', 3],
-      ['产品认证', 2],
-      ['产品可靠性', 2],
-      ['技术迭代风险', 3],
-      ['研发能力', 2],
-    ],
-    note: '技术授信评价 = 成熟度 + 商业化程度 + 壁垒 − 替代风险；不以研发投入高低简单判定技术风险。',
-  },
-  {
-    key: 'trade',
-    name: '产业链交易质量',
-    max: 10,
-    tone: '#168d69',
-    sub: [
-      ['上游供应商稳定性', 2],
-      ['下游客户质量', 3],
-      ['应收账款真实性', 2],
-      ['订单真实性', 2],
-      ['产业链依赖程度', 1],
-    ],
-    note: '重点判断「企业和谁做生意」：电网体系、央国企能源集团为高质量客户；小型贸易商、单一客户依赖、关联交易需关注。',
-  },
-  {
-    key: 'governance',
-    name: '公司治理与信用',
-    max: 5,
-    tone: '#c23b37',
-    sub: [
-      ['实控人/股东稳定性', 1],
-      ['征信及银行合作记录', 1],
-      ['涉诉/被执行情况', 1],
-      ['对外担保', 1],
-      ['关联交易/资金占用', 1],
-    ],
-    note: '分值虽仅 5 分，但具有风险否决权。',
-  },
-];
+// 一级维度配色（与雷达图一致，便于对照阅读）。
+const DIM_TONE = {
+  chain: '#1769e0',
+  cluster: '#0b9b90',
+  technology: '#ed861d',
+  operation: '#168d69',
+  financial: '#775bd6',
+  trade: '#2f7fd0',
+  capital: '#c2575b',
+  governance: '#c23b37',
+};
 
-const RED_LINES = [
+const LAYERS = [
   {
-    key: 'A',
-    name: 'A类 · 信用红线',
+    key: 'L1',
+    title: '第一层　通用企业评价底座',
     items: [
-      '重大失信 / 恶意逃废债',
-      '重大财务造假 / 骗贷风险',
-      '核心银行债务实质性违约',
-      '重大关联方资金占用 / 违法违规',
+      '企业基本情况与治理结构',
+      '经营质量与商业化能力',
+      '财务与偿债能力',
+      '交易真实性与客户质量',
+      '信用记录与合规情况',
+      '投融资经历',
+      '数据质量与证据可信度',
     ],
   },
   {
-    key: 'B',
-    name: 'B类 · 偿债红线',
-    items: [
-      '经营现金流持续恶化',
-      '大量借新还旧 / 短债长期化',
-      '大额应收账款异常增长',
-      '存货异常积压 / 短债压力过高',
-    ],
+    key: 'L2',
+    title: '第二层　行业专属评价',
+    items: [],
   },
   {
-    key: 'C',
-    name: 'C类 · 经营红线',
-    items: ['产能利用率持续过低', '核心客户流失 / 产品被替代', '大量订单取消', '重大安全事故'],
-  },
-  {
-    key: 'D',
-    name: 'D类 · 项目红线',
+    key: 'L3',
+    title: '第三层　企业类型与发展阶段动态配置',
     items: [
-      '项目无法并网 / 收益机制不明确',
-      '核心合同不真实',
-      '项目现金流无法覆盖债务',
-      '保险/质保缺失 / 重大安全隐患',
+      '先识别企业主营业务类型与发展阶段，再自动加载适用权重、指标与阈值',
+      '不得让同一套财务阈值、技术指标与评分档位机械适用于所有企业',
+      '企业跨类型时允许「主类型 + 辅助类型」配置，避免重复计分',
+      '不同细分企业不应被要求提供全部相同指标，未适用指标显式剔除并记录',
     ],
   },
 ];
 
-const TIER_MAP = [
-  ['90–100 分', 'S 级 · 战略核心客户', '第一层 · 重点支持'],
-  ['80–89 分', 'A 级 · 重点支持客户', '第一层 · 重点支持'],
-  ['70–79 分', 'B 级 · 条件支持客户', '第二层 · 条件支持'],
-  ['60–69 分', 'B−/C+ 级', '第二层或第三层（结合红线与财务情况）'],
-  ['0–59 分', 'C 级 · 审慎客户', '第三层 · 严格准入'],
+// 第二层按行业替换：储能看电池与项目，算力看芯片架构、能效与上架率。
+const L2_ITEMS = {
+  储能产业: [
+    '技术路线、成熟度与产业化可行性',
+    '产品安全性与可靠性',
+    '循环寿命、效率与衰减等技术表现',
+    '认证、测试与实际运行验证',
+    '产能利用率与产品成本竞争力',
+    '储能项目运行、收益机制与电力市场适配',
+    '并网、调度、交付与运维能力',
+    '储能项目全生命周期责任',
+    '产业集群、区域生态与上下游协同',
+    '技术路线变化、产能过剩、价格竞争与客户集中风险',
+  ],
+  算力产业: [
+    '技术路线、算力架构与产业化可行性（GPU / ASIC / NPU / Chiplet）',
+    '产品稳定性与可靠性（MTBF、故障率、批次一致性）',
+    '能效、算力密度与散热表现（PUE、单柜功率、单位算力成本）',
+    '生态兼容性与规模部署验证（CUDA / CANN / ROCm 适配、集采中标记录）',
+    '产能、交付能力与成本竞争力（先进封装、供应链保障）',
+    '智算中心上架率、电价与运营收益（IDC / 算力租赁）',
+    '交付、运维与 SLA 能力（集群可用率、故障响应）',
+    '设备全生命周期与供应链责任',
+    '产业集群、区域生态与上下游协同',
+    '技术路线变化、产能过剩、价格竞争与客户集中风险',
+  ],
+};
+
+const DICT_FIELDS = [
+  '指标名称',
+  '指标编号',
+  '所属一级维度',
+  '适用企业类型',
+  '指标定义',
+  '业务意义',
+  '指标满分',
+  '计算公式或判断逻辑',
+  '各评分档位及具体含义',
+  '本次实际得分',
+  '本次得分对应档位',
+  '实际数据与计算过程',
+  '加分依据',
+  '扣分依据',
+  '数据来源',
+  '数据时间',
+  '证据可信度',
+  '缺失或冲突信息',
+  '风险提示',
+  '客户经理后续行动建议',
 ];
 
-export default function CreditRulesModal({ open, onClose }) {
+const MATURITY_BANDS = [
+  ['100%', '核心技术已完成充分验证，关键性能有可靠测试证据，并已形成稳定商业化应用'],
+  ['75%', '核心技术已完成样机或中试验证，有客户测试或示范应用证据，规模化商业化仍需进一步验证'],
+  ['50%', '已有明确技术方案和初步验证结果，但关键性能、成本或可靠性仍存在较大不确定性'],
+  ['25%', '主要依赖研发设想或初步实验，关键性能和产业化路径缺乏充分证据'],
+  [
+    '0',
+    '有可靠证据表明关键技术目标无法实现、技术路线存在重大不可行性，或关键技术声明被证实存在重大问题',
+  ],
+];
+
+const BUSINESS_REVIEW = [
+  '融资用途与还款来源是否匹配',
+  '融资期限与项目/资产回收周期是否匹配',
+  '交易背景与合同真实性是否可核验',
+  '担保或其他风险缓释条件是否落实',
+  '尚需补充的资料（清单化、可追踪）',
+  '应升级审查的风险事项（红线复核、结构风险、集中度）',
+];
+
+export default function CreditRulesModal({ open, onClose, industryLabel = '储能产业' }) {
   useEffect(() => {
     if (!open) return undefined;
     const onKey = (event) => {
@@ -152,6 +138,16 @@ export default function CreditRulesModal({ open, onClose }) {
   }, [open, onClose]);
 
   if (!open) return null;
+
+  const layers = LAYERS.map((layer) =>
+    layer.key === 'L2'
+      ? {
+          ...layer,
+          title: `第二层\u3000${industryLabel}专属评价`,
+          items: L2_ITEMS[industryLabel] || L2_ITEMS['储能产业'],
+        }
+      : layer,
+  );
 
   return (
     <div className="credit-modal-overlay" onClick={onClose} role="presentation">
@@ -165,7 +161,10 @@ export default function CreditRulesModal({ open, onClose }) {
         <div className="credit-modal-head">
           <div>
             <h2>AI 评分规则说明</h2>
-            <p className="muted">储能产业链智能授信 · 六维 100 分评价模型与客户分层规则</p>
+            <p className="muted">
+              {industryLabel}企业 AI 评价模型 V2.0 · 三层评价架构 · 八维 100 分 ·
+              经营价值与信用风险双评价
+            </p>
           </div>
           <button type="button" className="credit-modal-close" onClick={onClose} aria-label="关闭">
             ✕
@@ -174,40 +173,223 @@ export default function CreditRulesModal({ open, onClose }) {
 
         <div className="credit-modal-body">
           <section className="credit-rule-block">
-            <h3>一、六维评价模型（总分 100 分）</h3>
+            <h3>一、三层评价架构</h3>
+            <div className="credit-rule-layers">
+              {layers.map((layer) => (
+                <div key={layer.key} className="credit-rule-layer">
+                  <b>{layer.title}</b>
+                  <ul>
+                    {layer.items.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+            <p className="muted">
+              校验要求：每类企业的权重之和必须严格等于 100
+              分；每个一级维度下二级指标满分之和必须等于对应权重；
+              权重存储在可配置规则中并支持调整；不适用指标必须有明确处理机制，不得静默删除后导致分数虚高；
+              企业发展阶段可影响指标解释与适用阈值，但不能修改信用风险红线。
+            </p>
+          </section>
+
+          <section className="credit-rule-block">
+            <h3>二、五类企业 × 八个一级维度权重（首版规则配置）</h3>
+            <table className="credit-rule-table credit-rule-weight-table">
+              <thead>
+                <tr>
+                  <th>一级维度</th>
+                  {COMPANY_GROUPS.map((group) => (
+                    <th key={group.key} className="num">
+                      {group.label.replace(/^([A-E])类 · /, '$1·')}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {DIMENSION_META.map((dim) => (
+                  <tr key={dim.key}>
+                    <th>
+                      <i className="credit-rule-dot" style={{ background: DIM_TONE[dim.key] }} />
+                      {dim.name}
+                    </th>
+                    {COMPANY_GROUPS.map((group) => (
+                      <td key={group.key} className="num">
+                        {DIMENSION_WEIGHTS[group.key][dim.key]}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+                <tr className="total">
+                  <th>合计</th>
+                  {COMPANY_GROUPS.map((group) => (
+                    <td key={group.key} className="num">
+                      100
+                    </td>
+                  ))}
+                </tr>
+              </tbody>
+            </table>
+            <div className="credit-rule-groups">
+              {COMPANY_GROUPS.map((group) => (
+                <div key={group.key} className="credit-rule-group">
+                  <b>{group.label}</b>
+                  <p>{group.focus}</p>
+                </div>
+              ))}
+            </div>
+            <p className="muted">
+              权重仅为首版规则配置，必须支持调整，并通过历史样本与业务专家评审校准。
+            </p>
+          </section>
+
+          <section className="credit-rule-block">
+            <h3>三、二级指标与评分字典</h3>
             <div className="credit-rule-dims">
-              {DIMENSIONS.map((dim) => (
+              {DIMENSION_META.map((dim) => (
                 <div key={dim.key} className="credit-rule-dim">
                   <div className="credit-rule-dim-head">
-                    <i style={{ background: dim.tone }} />
+                    <i style={{ background: DIM_TONE[dim.key] }} />
                     <b>{dim.name}</b>
-                    <span className="credit-rule-dim-max">{dim.max} 分</span>
+                    <span className="credit-rule-dim-max">
+                      权重 {DIMENSION_WEIGHTS.A[dim.key]}—{DIMENSION_WEIGHTS.C[dim.key]} 分
+                    </span>
                   </div>
                   <ul>
-                    {dim.sub.map(([name, score]) => (
-                      <li key={name}>
-                        <span>{name}</span>
-                        <em>{score}</em>
+                    {(SUB_INDICATORS[dim.key] || []).map((row) => (
+                      <li key={row.key}>
+                        <span title={row.def}>{row.name}</span>
+                        <em>{Math.round(row.ratio * 100)}%</em>
                       </li>
                     ))}
                   </ul>
-                  <p>{dim.note}</p>
+                  <p className="muted">百分比为该指标占所属一级维度的比重</p>
                 </div>
               ))}
+            </div>
+            <p className="muted">
+              每个二级指标都必须具备以下 20
+              项元数据，点击评分即可查看档位含义、实际数据、计算过程、加分扣分原因与证据来源：
+              {DICT_FIELDS.join('、')}。
+            </p>
+            <p className="muted">
+              数值指标必须明确阈值与边界条件；定性指标必须定义可验证的判断条件；缺乏经行业验证的
+              {industryLabel}阈值时， 一律标注「首版暂定规则」，不宣称已存在行业标准。
+            </p>
+            <div className="credit-rule-bands">
+              <b>档位定义示例：技术成熟度</b>
+              <ul>
+                {MATURITY_BANDS.map(([score, desc]) => (
+                  <li key={score}>
+                    <em>{score}</em>
+                    <span>{desc}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="muted">
+                档位仅为示例，实际系统需按技术路线、应用场景与证据质量进一步定义。企业处于早期阶段时技术成熟度可以较高，
+                但经营质量、现金流与偿债风险必须单独呈现。
+              </p>
             </div>
           </section>
 
           <section className="credit-rule-block">
-            <h3>二、风险红线 · 一票否决</h3>
+            <h3>四、企业发展阶段识别</h3>
+            <div className="credit-rule-stages">
+              {STAGES.map((stage) => (
+                <div key={stage.key} className="credit-rule-stage">
+                  <b>{stage.label}</b>
+                  <span>{stage.note}</span>
+                </div>
+              ))}
+            </div>
             <p className="muted">
-              评分不是唯一判断依据。触发任一红线的企业不允许仅凭高分进入第一层，将直接降级或限制准入。
+              发展阶段不能仅依据成立年限或融资轮次确定，应结合技术验证、产品交付、收入、订单与运营记录综合判定。
+              阶段识别用于选择合适的指标解释与阈值；研发早期与样机中试阶段的企业按科技创新型（C
+              类）权重评价，
+              原行业类型作为辅助类型仅用于避免重复计分，不得用于自动豁免重大信用风险。
+            </p>
+          </section>
+
+          <section className="credit-rule-block">
+            <h3>五、双结果输出：经营价值评价 + 信用与融资适配评价</h3>
+            <p className="muted">
+              系统不得只输出一个综合总分。下列两个结果必须独立展示，经营价值评分不得直接解释为授信通过概率。
+            </p>
+            <div className="credit-rule-dual">
+              <div className="credit-rule-dual-col">
+                <b>经营价值评价</b>
+                <p className="muted">回答企业是否值得银行优先关注、建立联系、寻找合作机会</p>
+                <ul>
+                  {VALUE_COMPOSITION.map((part) => (
+                    <li key={part.key}>
+                      <span>{DIMENSION_META.find((dim) => dim.key === part.key)?.name}</span>
+                      <em>{Math.round(part.weight * 100)}%</em>
+                    </li>
+                  ))}
+                </ul>
+                <ul className="credit-rule-levels">
+                  {VALUE_LEVELS.map((level) => (
+                    <li key={level.key}>
+                      <b>{level.label}</b>（≥{level.min} 分）{level.note}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="credit-rule-dual-col">
+                <b>信用与融资适配评价</b>
+                <p className="muted">
+                  回答当前存在哪些风险、哪些资料需要补充、哪些业务需要进一步审查
+                </p>
+                <ul>
+                  {CREDIT_COMPOSITION.map((part) => (
+                    <li key={part.key}>
+                      <span>{DIMENSION_META.find((dim) => dim.key === part.key)?.name}</span>
+                      <em>{Math.round(part.weight * 100)}%</em>
+                    </li>
+                  ))}
+                </ul>
+                <ul className="credit-rule-levels">
+                  {CREDIT_LEVELS.map((level) => (
+                    <li key={level.key}>
+                      <b>{level.label}</b>（≥{level.min} 分）{level.note}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+            <div className="credit-rule-bands credit-rule-review">
+              <b>具体融资业务审查提示</b>
+              <ol className="credit-rule-review-list">
+                {BUSINESS_REVIEW.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ol>
+              <p className="muted">
+                规则护栏：研发/中试阶段企业当前经营现金流为负时，信用适配评分按规则设上限；
+                财务数据不完整时结论以补充资料后复评结果为准。技术潜力高不等于偿债能力强，
+                不得因技术优秀自动提高信用安全评价。
+              </p>
+            </div>
+          </section>
+
+          <section className="credit-rule-block">
+            <h3>六、风险红线与预警（评分降级仅限已核实的重大红线）</h3>
+            <p className="muted">
+              {
+                '红线与预警必须记录事实、来源、时间、主体匹配与复核状态；未经核实的风险信号标记「待核实」，不直接作为评分降级依据，仅触发补充核实要求。'
+              }
             </p>
             <div className="credit-rule-redlines">
-              {RED_LINES.map((line) => (
-                <div key={line.key} className="credit-rule-redline">
-                  <b>{line.name}</b>
+              {Object.entries(REDLINE_DEFS).map(([cls, def]) => (
+                <div key={cls} className="credit-rule-redline">
+                  <b>
+                    {cls} 类 · {def.label}
+                    {cls === 'A' ? '（经核实后评分降级）' : '（按严重程度降级）'}
+                  </b>
                   <ul>
-                    {line.items.map((item) => (
+                    {Object.values(def.items).map((item) => (
                       <li key={item}>{item}</li>
                     ))}
                   </ul>
@@ -217,57 +399,48 @@ export default function CreditRulesModal({ open, onClose }) {
           </section>
 
           <section className="credit-rule-block">
-            <h3>三、评分 · 内部评级 · 客户分层映射</h3>
-            <table className="credit-rule-table">
-              <thead>
-                <tr>
-                  <th>综合评分</th>
-                  <th>内部评级</th>
-                  <th>对外分层</th>
-                </tr>
-              </thead>
-              <tbody>
-                {TIER_MAP.map(([range, grade, tier]) => (
-                  <tr key={range}>
-                    <td>{range}</td>
-                    <td>{grade}</td>
-                    <td>{tier}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-            <p className="credit-rule-example muted">
-              示例：92 分 + 无红线 → 第一层；88 分 + 重大债务违约 → 第三层/限制准入；63 分 + 高应收
-              + 短债压力 → 第三层。
-            </p>
-          </section>
-
-          <section className="credit-rule-block">
-            <h3>四、建议授信额度（非线性换算）</h3>
-            <div className="credit-rule-formula">
-              建议额度 = 基础额度 × 信用系数 × 行业系数 × 现金流系数 × 增信系数 × 银行集中度调整系数
-            </div>
-            <p className="muted">
-              额度不与评分线性挂钩（例如 90 分 ≠ 9000
-              万）。制造企业与储能项目公司评价模型有区别：系统集成重点看项目现金流与应收账款；独立储能重点看
-              DSCR、IRR、电价与容量机制；电芯/核心部件重点看产能利用率、客户质量、库存与应收账款。
-            </p>
-          </section>
-
-          <section className="credit-rule-block">
-            <h3>五、动态预警等级</h3>
+            <h3>七、预警等级与数据质量</h3>
             <div className="credit-rule-warnings">
-              <span className="credit-rule-warning level-blue">蓝色 · 关注</span>
-              <span className="credit-rule-warning level-yellow">黄色 · 预警</span>
-              <span className="credit-rule-warning level-orange">橙色 · 较高风险</span>
-              <span className="credit-rule-warning level-red">红色 · 高风险</span>
+              {Object.entries(WARNING_LEVELS)
+                .filter(([key]) => key !== 'normal')
+                .map(([key, meta]) => (
+                  <span key={key} className={`credit-rule-warning level-${key}`}>
+                    {meta.label}
+                  </span>
+                ))}
+              <span className="credit-rule-warning level-normal">
+                {WARNING_LEVELS.normal.label}
+              </span>
             </div>
             <p className="muted">
-              营收连续下降、现金流恶化、杠杆快速上升、应收/存货异常增长、重大诉讼、核心客户流失、订单大幅下降等变化将自动触发对应等级预警。
+              还款能力、现金流、杠杆、应收与存货、诉讼、核心客户与订单、项目收益等变化将自动触发对应等级预警。
+            </p>
+            <p className="muted">
+              数据质量：缺失指标不得默认等于
+              0，也不得在没有说明的情况下重新分配权重。系统对每个企业输出数据完整度、
+              待补充指标清单与非适用指标清单；完整度不足时结论标注为待补充复评。
             </p>
           </section>
 
-          <p className="credit-rule-disclaimer">AI 辅助分析结果，不替代银行正式授信审批</p>
+          <section className="credit-rule-block">
+            <h3>八、版本管理与历史校准</h3>
+            <p className="muted">
+              当前版本为 <b>V2.0 试运行版</b>（八维、五类企业差异化权重、A/B
+              两类红线、双评价输出）。
+              历史校验至少覆盖：不同企业类型的评分差异、不同发展阶段的评分合理性、新旧模型评分对比、
+              投融资经历与产业集群指标的增量价值、各维度与历史风险表现的关系、评分一致性与缺失率、
+              错误高分与错误低分及边界案例分析。
+            </p>
+            <p className="muted">
+              历史样本不足时应明确标注规则为试运行版本，不得宣称已验证授信通过率预测能力；
+              规则调整须留存版本号与人工调整记录。
+            </p>
+          </section>
+
+          <p className="credit-rule-disclaimer">
+            AI
+            辅助分析结果，不替代银行正式授信审批；经营价值评价与参考分层、参考额度均不构成授信结论。
+          </p>
         </div>
       </div>
     </div>

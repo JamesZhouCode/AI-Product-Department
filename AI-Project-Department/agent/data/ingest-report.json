@@ -1,0 +1,91 @@
+{
+  "generatedAt": "2026-10-21T07:36:29+00:00",
+  "database": "D:\\ai_project\\AI-Project-Department\\AI-Project-Department\\agent\\data\\chain.db",
+  "industries": [
+    {
+      "code": "IC",
+      "label": "集成电路",
+      "file": "companies.json",
+      "companies": 4477,
+      "listed": 230,
+      "pendingKeys": 4477,
+      "duplicateNames": 0,
+      "relations": 332,
+      "relationsLinked": 332,
+      "creditCodeCoverage": "0/4477",
+      "seconds": 0.98
+    },
+    {
+      "code": "PE",
+      "label": "电力装备（含储能）",
+      "file": "industries/companies-power.json",
+      "companies": 115,
+      "listed": 40,
+      "pendingKeys": 115,
+      "duplicateNames": 0,
+      "relations": 8,
+      "relationsLinked": 8,
+      "creditCodeCoverage": "0/115",
+      "seconds": 0.02
+    },
+    {
+      "code": "ES",
+      "label": "储能产业",
+      "file": "industries/companies-storage.json",
+      "companies": 1977,
+      "listed": 237,
+      "pendingKeys": 1977,
+      "duplicateNames": 1,
+      "relations": 235,
+      "relationsLinked": 235,
+      "creditCodeCoverage": "0/1977",
+      "seconds": 0.48
+    },
+    {
+      "code": "BM",
+      "label": "生物医药",
+      "file": "industries/companies-biomed.json",
+      "companies": 95,
+      "listed": 55,
+      "pendingKeys": 95,
+      "duplicateNames": 0,
+      "relations": 11,
+      "relationsLinked": 11,
+      "creditCodeCoverage": "0/95",
+      "seconds": 0.02
+    },
+    {
+      "code": "AI",
+      "label": "人工智能",
+      "file": "industries/companies-ai.json",
+      "companies": 6571,
+      "listed": 367,
+      "pendingKeys": 6571,
+      "duplicateNames": 0,
+      "relations": 16,
+      "relationsLinked": 16,
+      "creditCodeCoverage": "0/6571",
+      "seconds": 1.26
+    },
+    {
+      "code": "CP",
+      "label": "算力产业",
+      "file": "industries/companies-compute.json",
+      "companies": 590,
+      "listed": 234,
+      "pendingKeys": 590,
+      "duplicateNames": 0,
+      "relations": 0,
+      "relationsLinked": 0,
+      "creditCodeCoverage": "0/590",
+      "seconds": 0.11
+    }
+  ],
+  "totalCompanies": 13825,
+  "pendingKeys": 13825,
+  "methodDoc": {
+    "docId": "method-storage-mindmap",
+    "sections": 10,
+    "path": "G:\\对公经营智能化项目\\储能产业链企业识别与分层管理系统_思维导图.md"
+  }
+}

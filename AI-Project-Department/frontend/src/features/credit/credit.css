@@ -6,7 +6,8 @@
   flex-direction: column;
   gap: 14px;
   height: calc(100vh - 64px);
-  padding: 14px 18px 18px;
+  /* 左右 24px 与顶栏 subbar 卡片的左右外边距对齐，上下 16/18 与其它页保持同一节奏 */
+  padding: 16px 24px 18px;
   overflow-y: auto;
   background: var(--canvas);
 }
@@ -377,17 +378,10 @@
 
 .credit-panels {
   display: grid;
-  grid-template-columns: 11fr 9fr;
+  grid-template-columns: minmax(0, 1fr);
   gap: 12px;
   align-items: start;
   margin-top: 16px;
-}
-
-.credit-col {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  min-width: 0;
 }
 
 .credit-section {
@@ -405,130 +399,6 @@
 .credit-section > p {
   margin: 3px 0 10px;
   font-size: 10.5px;
-}
-
-.credit-section-stack {
-  padding-top: 14px;
-  border-top: 1px dashed var(--line);
-}
-
-.credit-panel-sub {
-  margin-top: 14px !important;
-  padding-top: 10px;
-  border-top: 1px dashed var(--line);
-}
-
-/* 产业链 × 层级矩阵 */
-
-.credit-matrix {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 11.5px;
-}
-
-.credit-matrix th,
-.credit-matrix td {
-  padding: 4px 8px;
-  border-bottom: 1px solid var(--line);
-  text-align: left;
-}
-
-.credit-matrix thead th {
-  color: var(--muted);
-  font-size: 10.5px;
-  font-weight: 600;
-}
-
-.credit-matrix td.num,
-.credit-matrix th.num {
-  text-align: center;
-  font-variant-numeric: tabular-nums;
-}
-
-.credit-matrix .strong {
-  color: var(--ink);
-  font-weight: 700;
-}
-
-.credit-matrix-cell {
-  min-width: 34px;
-  padding: 3px 8px;
-  color: var(--blue-deep);
-  background: var(--surface-blue);
-  border: 1px solid transparent;
-  border-radius: 6px;
-  font-variant-numeric: tabular-nums;
-}
-
-.credit-matrix-cell:hover {
-  border-color: var(--blue);
-}
-
-/* 横向条形 */
-
-.credit-bars,
-.credit-region-list {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
-.credit-bar-row {
-  display: grid;
-  grid-template-columns: 84px 1fr 40px;
-  align-items: center;
-  gap: 8px;
-  padding: 3px 6px;
-  border-radius: 6px;
-  text-align: left;
-}
-
-.credit-bar-row:hover,
-.credit-bar-row.active {
-  background: var(--surface-blue);
-}
-
-.credit-bar-label {
-  overflow: hidden;
-  color: var(--text);
-  font-size: 11px;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-.credit-bar-label.wide {
-  grid-template-columns: auto;
-  min-width: 104px;
-}
-
-.credit-bar-track {
-  display: block;
-  height: 12px;
-  background: var(--surface-soft);
-  border-radius: 3px;
-  overflow: hidden;
-}
-
-.credit-bar-fill {
-  display: block;
-  height: 100%;
-  background: linear-gradient(90deg, #3d8bf2, var(--blue));
-  border-radius: 3px;
-}
-
-.credit-bar-fill.risk {
-  background: linear-gradient(90deg, #f2a13d, #dd6b1c);
-}
-
-.credit-bar-fill.region {
-  background: linear-gradient(90deg, #6fc2b4, #0b9b90);
-}
-
-.credit-bar-value {
-  color: var(--text);
-  font-size: 11px;
-  font-variant-numeric: tabular-nums;
-  text-align: right;
 }
 
 /* 预警等级 */
@@ -913,7 +783,13 @@
 }
 
 .credit-drawer-head {
-  flex: 0 0 auto;
+  /* 允许收缩：浏览器放大 / 视口偏矮时，概要区自身出滚动条，
+     避免把 tabs 与明细区整体顶出屏幕导致无法查看。 */
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 auto;
+  min-height: 0;
+  overflow: hidden;
   padding: 16px 18px 10px;
   border-bottom: 1px solid var(--line);
 }
@@ -981,10 +857,30 @@
 
 .credit-drawer-summary {
   display: grid;
-  grid-template-columns: 170px 1fr 170px;
-  align-items: center;
-  gap: 10px;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-areas:
+    'score limit'
+    'radar radar'
+    'hint hint'
+    'dual dual';
+  align-items: start;
+  gap: 10px 14px;
   margin-top: 10px;
+  /* 视口不够高时在概要区内部滚动（评分/雷达/双评价都在此区） */
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  padding-right: 2px;
+}
+
+/* 头部标题行不随概要区滚动 */
+.credit-drawer-title {
+  flex: 0 0 auto;
+}
+
+.credit-score-block {
+  grid-area: score;
+  min-width: 0;
 }
 
 .credit-score-number {
@@ -1012,6 +908,7 @@
 }
 
 .credit-limit-block {
+  grid-area: limit;
   text-align: right;
 }
 
@@ -1294,7 +1191,7 @@
 
 .credit-radar {
   width: 100%;
-  max-width: 340px;
+  max-width: 440px;
   margin: 0 auto;
 }
 
@@ -1528,9 +1425,6 @@
   .credit-kpis {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
-  .credit-panels {
-    grid-template-columns: 1fr;
-  }
 }
 
 /* 数据溯源徽章与浮层 */
@@ -1638,6 +1532,7 @@
 /* 雷达图维度溯源 */
 .credit-radar-wrap {
   position: relative;
+  grid-area: radar;
   min-width: 0;
 }
 
@@ -1651,6 +1546,7 @@
 }
 
 .credit-radar-hint {
+  grid-area: hint;
   margin: 0;
   color: var(--muted);
   font-size: 9.5px;
@@ -1673,4 +1569,1212 @@
 .credit-radar-pop .source-pop {
   position: static;
   width: 100%;
+}
+
+/* ==========================================================================
+   V2.0 新增：双评价、类型/阶段识别、二级指标明细、资本与集群专区
+   ========================================================================== */
+
+/* 双评价标签：客户端清单表格内的紧凑样式 */
+
+.credit-eval-chip {
+  display: inline-block;
+  padding: 2px 7px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill);
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+/* 抽屉摘要区的双评价卡：标签与标签共用同一套等级配色 */
+
+.credit-eval-tag {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 2px 9px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill);
+  font-size: 10.5px;
+  white-space: nowrap;
+}
+
+.credit-eval-chip.lv-A,
+.credit-eval-tag.lv-A,
+.credit-eval-chip.lv-pass,
+.credit-eval-tag.lv-pass {
+  color: #168d69;
+  background: #ecf7f2;
+  border-color: rgba(22, 141, 105, 0.4);
+}
+
+.credit-eval-chip.lv-B,
+.credit-eval-tag.lv-B,
+.credit-eval-chip.lv-limit,
+.credit-eval-tag.lv-limit {
+  color: var(--blue-deep);
+  background: var(--surface-blue);
+  border-color: #c9def8;
+}
+
+.credit-eval-chip.lv-C,
+.credit-eval-tag.lv-C,
+.credit-eval-chip.lv-review,
+.credit-eval-tag.lv-review {
+  color: #b45a08;
+  background: #fff7e8;
+  border-color: rgba(237, 134, 29, 0.45);
+}
+
+.credit-eval-chip.lv-D,
+.credit-eval-tag.lv-D {
+  color: #7a8794;
+  background: #f2f5f7;
+  border-color: var(--line-strong);
+}
+
+.credit-eval-chip.lv-hold,
+.credit-eval-tag.lv-hold {
+  color: #c23b37;
+  background: #fdf0ef;
+  border-color: rgba(194, 59, 55, 0.4);
+}
+
+/* 经营价值 × 信用适配 双评价卡 */
+
+.credit-dual-eval {
+  grid-area: dual;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.credit-eval-card {
+  padding: 10px 12px 11px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--line-strong);
+  border-radius: var(--radius-card);
+}
+
+.credit-eval-card.value {
+  background: #f3faf7;
+  border-left-color: #168d69;
+}
+
+.credit-eval-card.credit {
+  background: #f6f4fd;
+  border-left-color: #775bd6;
+}
+
+.credit-eval-label {
+  display: flex;
+  align-items: center;
+  color: var(--muted);
+  font-size: 10.5px;
+}
+
+.credit-eval-score {
+  display: block;
+  margin-top: 3px;
+  color: var(--ink);
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 24px;
+  line-height: 1.1;
+}
+
+.credit-eval-card p {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 10.5px;
+  line-height: 1.55;
+}
+
+/* 类型与阶段识别（第三层动态配置）区块 */
+
+.credit-identify-block {
+  margin-top: 14px;
+  padding: 12px 14px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+}
+
+.credit-identify-block h4 {
+  margin: 0 0 8px;
+  color: var(--ink);
+  font-size: 12px;
+}
+
+.credit-identify-block > p {
+  margin: 8px 0 0;
+  font-size: 10.5px;
+  line-height: 1.6;
+}
+
+/* 二级指标明细：指标名 / 得分 / 数值与口径说明三行式，缺项与非适用项单独标识 */
+
+.credit-item-list {
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px dashed var(--line);
+}
+
+.credit-item-list li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1px 10px;
+  padding: 6px 0;
+  border-bottom: 1px dashed rgba(220, 229, 237, 0.75);
+}
+
+.credit-item-list li:last-child {
+  border-bottom: 0;
+}
+
+.credit-item-name {
+  color: var(--text);
+  font-size: 11px;
+}
+
+.credit-item-score {
+  color: var(--ink);
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.credit-item-score em {
+  color: var(--muted);
+  font-size: 10px;
+  font-style: normal;
+}
+
+.credit-item-note {
+  grid-column: 1 / -1;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.55;
+}
+
+.credit-item-list li.excluded,
+.credit-item-list li.missing {
+  padding-left: 8px;
+  border-left: 2px solid var(--line-strong);
+}
+
+.credit-item-list li.excluded .credit-item-score {
+  color: var(--muted);
+  font-family: inherit;
+  font-size: 10.5px;
+}
+
+.credit-item-list li.missing {
+  border-left-color: rgba(237, 134, 29, 0.55);
+}
+
+.credit-item-list li.missing .credit-item-score {
+  color: #b45a08;
+  font-family: inherit;
+  font-size: 10.5px;
+}
+
+/* 资本与集群 tab：两个专区上下排布 */
+
+.credit-capital-view {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.credit-zone {
+  padding: 12px 14px 13px;
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+}
+
+.credit-zone h4 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 0 0 9px;
+  color: var(--ink);
+  font-size: 12.5px;
+}
+
+.credit-zone > p {
+  margin: 8px 0 0;
+  font-size: 10.5px;
+  line-height: 1.6;
+}
+
+/* 风险 tab：双评价构成明细 */
+
+.credit-eval-detail {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.credit-eval-col {
+  padding: 10px 12px 11px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--line-strong);
+  border-radius: var(--radius-card);
+}
+
+.credit-eval-col.value {
+  background: #f3faf7;
+  border-left-color: #168d69;
+}
+
+.credit-eval-col.credit {
+  background: #f6f4fd;
+  border-left-color: #775bd6;
+}
+
+.credit-eval-title {
+  display: block;
+  color: var(--ink);
+  font-size: 11.5px;
+  font-weight: 600;
+}
+
+.credit-eval-col ul {
+  margin: 8px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.credit-eval-col li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: baseline;
+  gap: 8px;
+  padding: 3px 0;
+  border-bottom: 1px dashed rgba(220, 229, 237, 0.75);
+  color: var(--text);
+  font-size: 11px;
+}
+
+.credit-eval-col li:last-child {
+  border-bottom: 0;
+}
+
+.credit-eval-col li em {
+  color: var(--muted);
+  font-size: 10px;
+  font-style: normal;
+  white-space: nowrap;
+}
+
+.credit-eval-col li b {
+  color: var(--ink);
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.credit-eval-col p {
+  margin: 8px 0 0;
+  font-size: 10.5px;
+  line-height: 1.55;
+}
+
+/* 规则护栏提示 */
+
+.credit-guardrail {
+  margin: 10px 0 0;
+  padding: 8px 11px;
+  color: #b45a08;
+  background: #fff7e8;
+  border: 1px solid rgba(237, 134, 29, 0.42);
+  border-radius: var(--radius-control);
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+/* 待补充资料 / 升级审查事项清单 */
+
+.credit-tag-block h4.credit-tag-sub {
+  margin: 13px 0 7px;
+}
+
+.credit-action-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 0;
+  padding-left: 18px;
+  color: var(--text);
+  font-size: 11.5px;
+  line-height: 1.65;
+}
+
+.credit-action-list.docs li::marker {
+  color: var(--blue);
+}
+
+.credit-action-list.escalations li::marker {
+  color: #c23b37;
+}
+
+/* 红线复核状态：已核实 vs 待核实 */
+
+.credit-review-chip {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 6px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill);
+  font-size: 10px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.credit-review-chip.verified {
+  color: #c23b37;
+  background: #fdf0ef;
+  border-color: rgba(194, 59, 55, 0.35);
+}
+
+.credit-review-chip.pending {
+  color: #b45a08;
+  background: #fff7e8;
+  border-color: rgba(237, 134, 29, 0.42);
+}
+
+.credit-redline-evidence {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+/* ==========================================================================
+   V2.0 规则说明弹窗：三层架构、权重表、评分字典、阶段、双评价
+   ========================================================================== */
+
+.credit-rule-layers {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.credit-rule-layer {
+  padding: 10px 12px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--blue);
+  border-radius: var(--radius-card);
+}
+
+.credit-rule-layer b {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--ink);
+  font-size: 12px;
+}
+
+.credit-rule-layer ul {
+  margin: 0;
+  padding-left: 16px;
+  color: var(--text);
+  font-size: 11px;
+  line-height: 1.65;
+}
+
+/* 权重表：维度名带色点，数值列居中，合计行加粗 */
+
+.credit-rule-weight-table {
+  margin-bottom: 12px;
+}
+
+.credit-rule-weight-table th.num,
+.credit-rule-weight-table td.num {
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.credit-rule-weight-table tbody th {
+  color: var(--text);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.credit-rule-weight-table tbody tr.total th,
+.credit-rule-weight-table tbody tr.total td {
+  color: var(--ink);
+  font-weight: 700;
+  border-top: 1px solid var(--line-strong);
+  border-bottom: 0;
+  background: var(--surface-soft);
+}
+
+.credit-rule-dot {
+  display: inline-block;
+  vertical-align: middle;
+  width: 8px;
+  height: 8px;
+  margin-right: 6px;
+  border-radius: 50%;
+}
+
+/* 五类企业聚焦点 */
+
+.credit-rule-groups {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.credit-rule-group {
+  padding: 8px 11px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+}
+
+.credit-rule-group b {
+  display: block;
+  color: var(--ink);
+  font-size: 11.5px;
+}
+
+.credit-rule-group p {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 10.5px;
+  line-height: 1.55;
+}
+
+/* 二级指标名称与占比左右分栏 */
+
+.credit-rule-dim li span {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+/* 档位定义示例 */
+
+.credit-rule-bands {
+  margin-top: 12px;
+  padding: 10px 12px 11px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+}
+
+.credit-rule-bands > b {
+  display: block;
+  margin-bottom: 7px;
+  color: var(--ink);
+  font-size: 11.5px;
+}
+
+.credit-rule-bands ul {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.credit-rule-bands li {
+  display: grid;
+  grid-template-columns: 46px minmax(0, 1fr);
+  align-items: baseline;
+  gap: 8px;
+  color: var(--text);
+  font-size: 10.5px;
+  line-height: 1.6;
+}
+
+.credit-rule-bands li em {
+  color: var(--blue-deep);
+  font-style: normal;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.credit-rule-bands p {
+  margin: 8px 0 0;
+  font-size: 10px;
+  line-height: 1.55;
+}
+
+/* 具体融资业务审查提示：编号双列清单。
+   不能复用 `.credit-rule-bands li` 的「46px 标签 + 说明」网格——
+   该条目没有前置标签，整句文本会掉进 46px 窄列被逐字换行。 */
+.credit-rule-review-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px 18px;
+  margin: 0;
+  padding: 0;
+  counter-reset: review-item;
+  list-style: none;
+}
+
+.credit-rule-review-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+  color: var(--text);
+  font-size: 10.5px;
+  line-height: 1.6;
+}
+
+.credit-rule-review-list li::before {
+  flex: none;
+  color: var(--blue-deep);
+  content: counter(review-item, decimal-leading-zero);
+  counter-increment: review-item;
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+/* 发展阶段六档 */
+
+.credit-rule-stages {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.credit-rule-stage {
+  padding: 9px 11px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+}
+
+.credit-rule-stage b {
+  display: block;
+  color: var(--ink);
+  font-size: 11.5px;
+}
+
+.credit-rule-stage span {
+  display: block;
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 10.5px;
+  line-height: 1.5;
+}
+
+/* 双结果输出：两列对照 + 档位清单 */
+
+.credit-rule-dual {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.credit-rule-dual-col {
+  padding: 10px 12px 11px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+}
+
+.credit-rule-dual-col > b {
+  display: block;
+  color: var(--ink);
+  font-size: 12px;
+}
+
+.credit-rule-dual-col > p {
+  margin: 4px 0 0;
+  font-size: 10.5px;
+  line-height: 1.55;
+}
+
+.credit-rule-dual-col ul {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin: 8px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.credit-rule-dual-col ul li {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  color: var(--text);
+  font-size: 10.5px;
+}
+
+.credit-rule-dual-col ul li em {
+  color: var(--muted);
+  font-style: normal;
+  font-variant-numeric: tabular-nums;
+}
+
+.credit-rule-dual-col ul.credit-rule-levels {
+  gap: 5px;
+  margin-top: 9px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--line);
+}
+
+.credit-rule-dual-col ul.credit-rule-levels li {
+  display: block;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+.credit-rule-dual-col ul.credit-rule-levels li b {
+  color: var(--ink);
+}
+
+.credit-rule-warning.level-normal {
+  color: #168d69;
+  border-color: rgba(22, 141, 105, 0.4);
+  background: #ecf7f2;
+}
+
+@media (max-width: 1280px) {
+  .credit-rule-layers,
+  .credit-rule-stages {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .credit-rule-review-list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* 关注按钮（授信画像抽屉头部）：与图谱公司卡共用关注状态。 */
+.credit-drawer-actions {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.credit-follow-button {
+  padding: 5px 12px;
+  color: #2a6fdb;
+  background: #f0f6fd;
+  border: 1px solid #c9ddf2;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    color 0.15s ease,
+    background 0.15s ease,
+    border-color 0.15s ease;
+}
+.credit-follow-button:hover {
+  color: #ffffff;
+  background: #2a6fdb;
+  border-color: #2a6fdb;
+}
+.credit-follow-button.is-followed {
+  color: #8a6a1f;
+  background: #fdf6e6;
+  border-color: #ecd9a8;
+}
+.credit-follow-button.is-followed:hover {
+  color: #ffffff;
+  background: #b98a1d;
+  border-color: #b98a1d;
+}
+
+/* ==========================================================================
+   授信页三页签：客户授信分析 / 项目授信分析 / 负面清单
+   ========================================================================== */
+
+/* 有页签时：页签带上下的留白与内容区间距保持一致（各 14px），避免上零下有的错位感 */
+.credit-page.has-tabs {
+  padding-top: 14px;
+  gap: 14px;
+}
+
+/* 吸顶时上移一个页面上内边距，让页签贴住滚动区顶部，避免内容从上方留白处露出 */
+.credit-page.has-tabs .credit-tabs {
+  top: -14px;
+}
+
+.credit-tabs {
+  position: sticky;
+  top: 0;
+  z-index: 6;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px;
+  background: #ffffff;
+  border: 1px solid #cfdde5;
+  border-radius: var(--radius-pill);
+  box-shadow: 0 6px 18px rgba(33, 61, 79, 0.06);
+}
+
+.credit-tab {
+  padding: 6px 18px;
+  color: var(--muted);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill);
+  font-size: 12px;
+  transition:
+    color 0.15s ease,
+    background 0.15s ease;
+}
+
+.credit-tab:hover {
+  color: var(--ink);
+  background: var(--surface-soft);
+}
+
+.credit-tab.is-active {
+  color: #ffffff;
+  background: var(--blue);
+  border-color: var(--blue);
+  font-weight: 600;
+}
+
+.credit-tabs-note {
+  margin-left: auto;
+  padding-right: 8px;
+  font-size: 10.5px;
+}
+
+/* KPI 数量非 8 的排布 */
+
+.credit-kpis.is-7 {
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
+/* ---------------------------- 项目授信分析 ---------------------------- */
+
+.credit-project-panels {
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: 20px;
+}
+
+.credit-type-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.credit-type-bar {
+  display: grid;
+  grid-template-columns: 132px minmax(0, 1fr) 148px;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 6px;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  text-align: left;
+}
+
+.credit-type-bar:hover {
+  background: var(--surface-blue);
+}
+
+.credit-type-bar.active {
+  background: var(--surface-blue);
+  border-color: rgba(23, 105, 224, 0.3);
+}
+
+.credit-type-name {
+  overflow: hidden;
+  color: var(--ink);
+  font-size: 11px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.credit-type-track {
+  height: 8px;
+  overflow: hidden;
+  background: var(--surface-soft);
+  border-radius: var(--radius-pill);
+}
+
+.credit-type-track i {
+  display: block;
+  height: 100%;
+  border-radius: var(--radius-pill);
+}
+
+.credit-type-meta {
+  color: var(--muted);
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.credit-gap-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.credit-gap-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding: 8px 10px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+}
+
+.credit-gap-cell span {
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.credit-gap-cell b {
+  color: var(--ink);
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.credit-gap-cell b.has-gap {
+  color: #c23b37;
+}
+
+.credit-gap-cell em {
+  color: var(--muted-2);
+  font-size: 9.5px;
+  font-style: normal;
+}
+
+.credit-scorecard-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--line);
+}
+
+.credit-scorecard-chip {
+  padding: 3px 9px;
+  color: var(--muted);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
+  font-size: 10px;
+}
+
+.credit-scorecard-chip b {
+  margin-left: 3px;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.credit-conclusion-chip,
+.credit-negative-level {
+  display: inline-block;
+  padding: 1px 8px;
+  border: 1px solid currentColor;
+  border-radius: var(--radius-pill);
+  font-size: 10.5px;
+  line-height: 1.6;
+  white-space: nowrap;
+}
+
+/* 项目详情弹窗 */
+
+.credit-project-facts {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.credit-project-fact {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding: 7px 9px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+}
+
+.credit-project-fact span {
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.credit-project-fact b {
+  color: var(--ink);
+  font-size: 12.5px;
+  font-variant-numeric: tabular-nums;
+}
+
+.credit-detail-title {
+  margin: 16px 0 8px;
+  color: var(--ink);
+  font-size: 12.5px;
+}
+
+.credit-dim-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.credit-dim-bar {
+  display: grid;
+  grid-template-columns: 118px minmax(0, 1fr) 76px;
+  align-items: center;
+  gap: 10px;
+}
+
+.credit-dim-name {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.credit-dim-track {
+  height: 8px;
+  overflow: hidden;
+  background: var(--surface-soft);
+  border-radius: var(--radius-pill);
+}
+
+.credit-dim-track i {
+  display: block;
+  height: 100%;
+  border-radius: var(--radius-pill);
+}
+
+.credit-dim-bar b {
+  color: var(--ink);
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.credit-compliance-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.credit-compliance-item {
+  display: grid;
+  grid-template-columns: 132px 62px minmax(0, 1fr);
+  align-items: center;
+  gap: 8px;
+  padding: 6px 9px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-left-width: 3px;
+  border-radius: 6px;
+  font-size: 11px;
+}
+
+.credit-compliance-item.status-done {
+  border-left-color: #168d69;
+}
+.credit-compliance-item.status-pending {
+  border-left-color: #ed861d;
+}
+.credit-compliance-item.status-missing {
+  border-left-color: #c23b37;
+}
+
+.credit-compliance-label {
+  color: var(--ink);
+}
+
+.credit-compliance-status {
+  color: var(--muted);
+  font-size: 10.5px;
+}
+
+.credit-compliance-item.status-done .credit-compliance-status {
+  color: #168d69;
+}
+.credit-compliance-item.status-pending .credit-compliance-status {
+  color: #ed861d;
+}
+.credit-compliance-item.status-missing .credit-compliance-status {
+  color: #c23b37;
+}
+
+.credit-compliance-note {
+  color: var(--muted);
+  font-size: 10.5px;
+}
+
+.credit-project-verdict {
+  margin: 0;
+  padding: 9px 12px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-left-width: 3px;
+  border-radius: 6px;
+  color: var(--ink);
+  font-size: 11.5px;
+  line-height: 1.65;
+}
+
+.credit-project-flags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+/* ------------------------------ 负面清单 ------------------------------ */
+
+.credit-level-row {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--line);
+}
+
+.credit-negative-table {
+  table-layout: fixed;
+}
+
+.credit-negative-table td {
+  vertical-align: top;
+  padding: 6px 8px;
+  white-space: normal;
+  line-height: 1.5;
+}
+
+.credit-negative-table th {
+  padding: 7px 8px;
+}
+
+.credit-negative-table .col-code {
+  width: 46px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.credit-negative-table .col-level {
+  width: 58px;
+  white-space: nowrap;
+}
+
+.credit-negative-table .col-name {
+  width: 172px;
+}
+
+.credit-negative-table .col-name b {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.credit-negative-table .col-rule {
+  width: auto;
+  color: var(--ink);
+}
+
+.credit-negative-table .col-action {
+  width: 176px;
+  color: var(--muted);
+}
+
+.credit-negative-table .col-source {
+  width: 168px;
+  color: var(--muted);
+  font-size: 10.5px;
+  word-break: break-all;
+}
+
+.credit-negative-table .col-source .muted {
+  color: var(--muted-2);
+  font-size: 10px;
+}
+
+.credit-negative-table .col-hit {
+  width: 46px;
+  white-space: nowrap;
+}
+
+.credit-negative-table .col-hit b {
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.credit-negative-table .col-hit b.has-hit {
+  color: #c23b37;
+}
+
+.credit-negative-table tbody tr.is-active {
+  background: var(--surface-blue);
+  box-shadow: inset 3px 0 0 var(--blue);
+}
+
+.credit-negative-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.credit-negative-wrap {
+  max-height: min(46vh, 520px);
+  overflow-y: auto;
+}
+
+.credit-hit-select {
+  padding: 4px 8px;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-pill);
+  font-size: 11px;
+}
+
+.credit-negative-action {
+  color: var(--muted);
+  font-size: 10.5px;
+}
+
+.credit-hit-select:focus,
+.credit-filters select:focus {
+  outline: 2px solid rgba(23, 105, 224, 0.25);
+  outline-offset: 1px;
+}
+
+@media (max-width: 1180px) {
+  .credit-project-panels {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .credit-project-facts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .credit-kpis.is-7 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .credit-tabs-note {
+    display: none;
+  }
 }

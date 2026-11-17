@@ -19,7 +19,6 @@ export default function MapStage({
   activeOverlap,
   onSelectOverlapCompany,
   onClearOverlap,
-  hasBasemap,
 }) {
   const activeRelationDirection = activeRelation ? relationDirection(activeRelation) : null;
   const activeRelationPeer =
@@ -145,16 +144,8 @@ export default function MapStage({
             </span>
           </div>
         </div>
-        <div className="attribution">
-          © Protomaps © OpenStreetMap contributors · Demo 数据源：本地调研表
-        </div>
+        <div className="attribution">底图：Natural Earth（公有领域）· 业务数据：本地调研表</div>
       </div>
-      {!hasBasemap && (
-        <div className="asset-callout">
-          <b>离线底图资源待放入</b>
-          <span>当前显示本地交互预览轮廓；放入 PMTiles 后自动切换真实离线底图。</span>
-        </div>
-      )}
     </section>
   );
 }

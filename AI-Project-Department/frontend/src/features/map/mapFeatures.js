@@ -70,5 +70,7 @@ export function relationDirection(relation) {
     return { from: relation.from, to: relation.to, label: '企业 → 经销商' };
   if (relation.relationType === '股权')
     return { from: relation.to, to: relation.from, label: '股东/投资方 → 企业' };
+  if (relation.relationType === '同一集团' || relation.relationType === '同一实控人')
+    return { from: relation.from, to: relation.to, label: '同集团（实控人归口）' };
   return { from: relation.from, to: relation.to, label: '关系方向' };
 }

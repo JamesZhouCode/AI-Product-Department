@@ -132,9 +132,16 @@ export function useAppData(activeIndustry) {
     const listedNames = new Set(
       companies.filter(isListedCompany).map((company) => normalize(company.name)),
     );
+    // 关系口径：两端都在本链在链主体内即可，不要求都是上市企业 ——
+    // 算力链 3,475 家中有 3,023 家非上市，供应链关系（如「中科曙光 → 某非上市整机厂」）
+    // 同样成立；旧口径只留上市-上市边会把这类关系全部丢掉。
+    const chainNames = new Set(companies.map((company) => normalize(company.name)));
     const relations = (data.relations || []).filter(
       (relation) =>
-        listedNames.has(normalize(relation.from)) && listedNames.has(normalize(relation.to)),
+        chainNames.has(normalize(relation.from)) && chainNames.has(normalize(relation.to)),
+    );
+    const relationCompanies = new Set(
+      relations.flatMap((relation) => [normalize(relation.from), normalize(relation.to)]),
     );
     return {
       ...data,
@@ -142,6 +149,7 @@ export function useAppData(activeIndustry) {
         ...data.counts,
         listed: listedNames.size,
         relationCount: relations.length,
+        relationCompanies: relationCompanies.size,
       },
       companies,
       relations,

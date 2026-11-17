@@ -1,0 +1,302 @@
+/* 「生态经营」页：客户经理营销工作台，设计语言对齐其他页签
+   （浅灰底、白卡片细边、蓝色强调、DIN 数字）。整页纵向滚动。 */
+.eco-page {
+  flex: 1;
+  min-height: 0;
+  padding: 16px 24px 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: #f6f9fa;
+  color: var(--policy-ink, #10283a);
+}
+.eco-page > * {
+  width: min(1500px, 100%);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* ---------- 工具栏 ---------- */
+.eco-toolbar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 2px 12px;
+  border-bottom: 1px solid #d9e4eb;
+}
+.eco-eyebrow {
+  color: #8297a4;
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+}
+.eco-title-lockup h2 {
+  margin: 4px 0 6px;
+  color: #14395a;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+}
+.eco-title-lockup p {
+  margin: 0;
+  color: #6f8494;
+  font-size: 11px;
+  line-height: 1.7;
+}
+.eco-toolbar-actions {
+  flex: 0 0 auto;
+  display: flex;
+  gap: 8px;
+}
+
+.eco-ghost-button {
+  padding: 7px 14px;
+  color: #2a6fdb;
+  background: #ffffff;
+  border: 1px solid #c9ddf2;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    color 0.15s ease,
+    background 0.15s ease,
+    border-color 0.15s ease;
+}
+.eco-ghost-button:hover {
+  color: #ffffff;
+  background: #2a6fdb;
+  border-color: #2a6fdb;
+}
+
+/* ---------- 概览 ---------- */
+.eco-summary {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 14px;
+}
+.eco-summary-card {
+  padding: 12px 14px;
+  background: #ffffff;
+  border: 1px solid #d9e4eb;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(33, 61, 79, 0.04);
+}
+.eco-summary-card b {
+  display: block;
+  color: #1d62d8;
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 22px;
+  line-height: 1.1;
+}
+.eco-summary-card span {
+  display: block;
+  margin-top: 3px;
+  color: #17354c;
+  font-size: 10.5px;
+  font-weight: 700;
+}
+.eco-summary-card em {
+  display: block;
+  margin-top: 2px;
+  color: #8b9da8;
+  font-size: 9px;
+  font-style: normal;
+}
+
+/* ---------- 营销清单 ---------- */
+.eco-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 12px;
+}
+.eco-card {
+  padding: 13px 16px;
+  background: #ffffff;
+  border: 1px solid #d9e4eb;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(33, 61, 79, 0.04);
+}
+.eco-card-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+}
+.eco-card-title h3 {
+  margin: 0;
+  color: #14395a;
+  font-size: 14px;
+  letter-spacing: -0.01em;
+}
+.eco-card-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 6px;
+}
+.eco-chip {
+  padding: 2px 8px;
+  color: #52697a;
+  background: #f3f7f9;
+  border: 1px solid #e1ebf1;
+  border-radius: 999px;
+  font-size: 9px;
+  font-weight: 650;
+  white-space: nowrap;
+}
+.eco-chip.is-chain {
+  color: #205cae;
+  background: #eef5fd;
+  border-color: #cfe2f6;
+}
+.eco-chip.is-listed {
+  color: #8a6a1f;
+  background: #fdf6e6;
+  border-color: #ecd9a8;
+}
+.eco-chip.is-priority.tone-high {
+  color: #1d7a4f;
+  background: #ecf8f1;
+  border-color: #c4e6d2;
+}
+.eco-chip.is-priority.tone-medium {
+  color: #205cae;
+  background: #eef5fd;
+  border-color: #cfe2f6;
+}
+.eco-chip.is-priority.tone-normal,
+.eco-chip.is-priority.tone-pending {
+  color: #6f8494;
+  background: #f3f7f9;
+  border-color: #e1ebf1;
+}
+.eco-card-actions {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.eco-followed-at {
+  color: #93a7b4;
+  font-family: 'DIN Alternate', 'Avenir Next', sans-serif;
+  font-size: 9.5px;
+  white-space: nowrap;
+}
+.eco-unfollow {
+  padding: 5px 12px;
+  color: #a3402f;
+  background: #fdf3f1;
+  border: 1px solid #f0d4cd;
+  border-radius: 999px;
+  font-size: 10.5px;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    color 0.15s ease,
+    background 0.15s ease,
+    border-color 0.15s ease;
+}
+.eco-unfollow:hover {
+  color: #ffffff;
+  background: #b3452f;
+  border-color: #b3452f;
+}
+
+.eco-tips {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 10px 0 0;
+  padding: 10px 12px;
+  background: #fbfdfe;
+  border: 1px solid #e8eff4;
+  border-radius: 8px;
+  list-style: none;
+}
+.eco-tips li {
+  position: relative;
+  padding-left: 14px;
+  color: #52697a;
+  font-size: 10.5px;
+  line-height: 1.7;
+}
+.eco-tips li::before {
+  content: '›';
+  position: absolute;
+  left: 2px;
+  color: #1d62d8;
+  font-weight: 800;
+}
+
+.eco-note {
+  margin: 12px 0 0;
+  color: #8b9da8;
+  font-size: 9.5px;
+  line-height: 1.7;
+}
+
+/* ---------- 空态 ---------- */
+.eco-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 60px;
+  padding: 44px 24px;
+  background: #ffffff;
+  border: 1px dashed #c3d4de;
+  border-radius: 12px;
+  text-align: center;
+}
+.eco-empty-mark {
+  color: #b9cede;
+  font-size: 34px;
+  line-height: 1;
+}
+.eco-empty h3 {
+  margin: 0;
+  color: #17354c;
+  font-size: 15px;
+}
+.eco-empty p {
+  max-width: 460px;
+  margin: 0;
+  color: #6f8494;
+  font-size: 11px;
+  line-height: 1.8;
+}
+.eco-empty-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+/* ---------- 响应式 ---------- */
+@media (max-width: 1100px) {
+  .eco-summary {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .eco-card-head {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .eco-card-actions {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .eco-toolbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 620px) {
+  .eco-summary {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .eco-page {
+    padding: 0 12px 16px;
+  }
+}

@@ -170,7 +170,6 @@ export function useMapWorkspace({
         onSelectOverlapCompany: companyActions.selectRelation,
         onClearOverlap: () => selection.setActiveOverlap(null),
         visibleFeatures: featureData.visibleFeatures,
-        hasBasemap: mapController.hasBasemap,
       },
     },
   };

@@ -57,17 +57,29 @@
       "note": "当前为区级边界，街道级边界待补充并复核"
     },
     {
-      "file": "china-overview.pmtiles",
-      "source": "Protomaps / OpenStreetMap derived basemap",
-      "status": "downloaded",
-      "note": "全国概览离线矢量瓦片，固定 Protomaps build 20260816，z0-z10，运行时本地读取"
+      "file": "data/basemap/land.geojson",
+      "source": "Natural Earth 1:10m land（public domain，免署名）",
+      "status": "generated",
+      "note": "由 tools/build_ne_basemap.py 裁剪简化生成；仅作邻国陆地背景，不含任何国界/省界线"
     },
     {
-      "file": "shanghai-detail.pmtiles",
-      "source": "Protomaps / OpenStreetMap derived basemap",
-      "status": "downloaded",
-      "note": "上海重点区离线矢量瓦片，固定 Protomaps build 20260816，z11-z15，运行时本地读取"
+      "file": "data/basemap/lakes.geojson",
+      "source": "Natural Earth 1:10m lakes（public domain，免署名）",
+      "status": "generated",
+      "note": "湖泊面，同样由 tools/build_ne_basemap.py 生成"
+    },
+    {
+      "file": "data/basemap/rivers.geojson",
+      "source": "Natural Earth 1:10m rivers（public domain，免署名）",
+      "status": "generated",
+      "note": "河流中心线，按 scalerank 分干流/支流"
+    },
+    {
+      "file": "data/basemap/cities.geojson",
+      "source": "Natural Earth 1:10m populated places（public domain，免署名）",
+      "status": "generated",
+      "note": "城市注记点，含中文名与人口，按人口分三档显示"
     }
   ],
-  "attribution": "© Protomaps © OpenStreetMap contributors"
+  "attribution": "底图：Natural Earth（public domain，无需署名）；国界/省界：国内口径行政区划数据"
 }

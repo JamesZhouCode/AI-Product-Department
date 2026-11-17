@@ -1,0 +1,672 @@
+{
+  "source": "G:\\对公经营智能化项目\\储能产业链\\储能产业链-2495户企业全量数据.xlsx",
+  "sheet": "01_全量企业主表",
+  "rawRows": 2495,
+  "uniqueSubjects": 2457,
+  "creditStatus": {
+    "verified": 1952,
+    "missing": 504,
+    "checksum_fixed": 1
+  },
+  "keyStatus": {
+    "verified": 1953,
+    "pending_credit_code": 504
+  },
+  "creditCoverage": "1953/2457",
+  "creditCoverageRate": 79.49,
+  "byPosition": {
+    "上游": 999,
+    "上游；中游": 230,
+    "上游；下游": 17,
+    "上游；中游；下游": 33,
+    "中游": 772,
+    "中游；下游": 204,
+    "下游": 202
+  },
+  "byChain": {
+    "资源与材料": 555,
+    "检测认证与标准": 80,
+    "核心电子器件": 182,
+    "核心装备": 462,
+    "电池与核心部件": 757,
+    "系统集成与工程建设": 219,
+    "应用与运营": 202
+  },
+  "bySector": {
+    "矿产资源与化工原料": 75,
+    "电池主材与辅材": 455,
+    "回收与循环利用": 25,
+    "检测认证与标准": 82,
+    "关键电力电子与器件": 182,
+    "智能制造装备": 371,
+    "物理/长时储能装备": 58,
+    "氢储能装备": 33,
+    "储能电池本体": 464,
+    "电池PACK与模组": 18,
+    "电池管理系统BMS": 47,
+    "储能变流器": 78,
+    "热管理与安全防护": 128,
+    "能量管理系统": 22,
+    "储能系统集成": 187,
+    "EPC与建安": 30,
+    "集采链主/生态主导型": 1,
+    "第三方系统集成商": 1,
+    "电源侧应用": 128,
+    "电网侧应用": 21,
+    "用户侧应用": 31,
+    "新场景与跨业态": 17,
+    "运营服务与电力市场": 3
+  },
+  "byTier": {
+    "龙头": 70,
+    "骨干": 464,
+    "长尾": 1923
+  },
+  "byGrade": {
+    "边缘观察": 21,
+    "相关重要": 91,
+    "未评": 2225,
+    "核心主业": 120
+  },
+  "byCompanyType": {
+    "listed": 376,
+    "ordinary": 2081
+  },
+  "byCompanySource": {
+    "原清单": 1941,
+    "补充清单": 516
+  },
+  "mergedSameCredit": [
+    {
+      "creditCode": "code:91320600608386159C",
+      "name": "江苏海四达电源股份有限公司",
+      "rows": [
+        21,
+        1652
+      ],
+      "keptLink": "矿产资源与化工原料",
+      "conflicts": [
+        {
+          "field": "linkName",
+          "primary": "矿产资源与化工原料",
+          "other": "储能电池本体",
+          "row": 1652
+        },
+        {
+          "field": "tierLabel",
+          "primary": "骨干",
+          "other": "长尾",
+          "row": 1652
+        }
+      ]
+    },
+    {
+      "creditCode": "code:91430000738978531U",
+      "name": "五矿新能源材料(湖南)股份有限公司",
+      "rows": [
+        105,
+        157
+      ],
+      "keptLink": "电池主材与辅材",
+      "conflicts": []
+    },
+    {
+      "creditCode": "code:91110112756036089M",
+      "name": "北京维通利电气有限公司",
+      "rows": [
+        113,
+        605
+      ],
+      "keptLink": "电池主材与辅材",
+      "conflicts": [
+        {
+          "field": "linkName",
+          "primary": "电池主材与辅材",
+          "other": "关键电力电子与器件",
+          "row": 605
+        },
+        {
+          "field": "tierLabel",
+          "primary": "骨干",
+          "other": "长尾",
+          "row": 605
+        }
+      ]
+    },
+    {
+      "creditCode": "code:91440300761965069C",
+      "name": "贵州振华新材料有限公司",
+      "rows": [
+        164,
+        165
+      ],
+      "keptLink": "电池主材与辅材",
+      "conflicts": []
+    },
+    {
+      "creditCode": "code:91440300084625824N",
+      "name": "Gore 戈尔（深圳）有限公司",
+      "rows": [
+        168,
+        1613
+      ],
+      "keptLink": "电池主材与辅材",
+      "conflicts": [
+        {
+          "field": "linkName",
+          "primary": "电池主材与辅材",
+          "other": "储能电池本体",
+          "row": 1613
+        }
+      ]
+    },
+    {
+      "creditCode": "code:91441900799353172T",
+      "name": "东莞勖祥精密模具有限公司",
+      "rows": [
+        191,
+        914
+      ],
+      "keptLink": "电池主材与辅材",
+      "conflicts": [
+        {
+          "field": "linkName",
+          "primary": "电池主材与辅材",
+          "other": "智能制造装备",
+          "row": 914
+        }
+      ]
+    },
+    {
+      "creditCode": "code:91441900568264914H",
+      "name": "东莞市海洲新材料科技有限公司",
+      "rows": [
+        201,
+        1539
+      ],
+      "keptLink": "电池主材与辅材",
+      "conflicts": [
+        {
+          "field": "linkName",
+          "primary": "电池主材与辅材",
+          "other": "储能电池本体",
+          "row": 1539
+        }
+      ]
+    },
+    {
+      "creditCode": "code:91110108MA01RMUD23",
+      "name": "北京恩力动力科技有限公司",
+      "rows": [
+        230,
+        1513
+      ],
+      "keptLink": "电池主材与辅材",
+      "conflicts": [
+        {
+          "field": "linkName",
+          "primary": "电池主材与辅材",
+          "other": "储能电池本体",
+          "row": 1513
+        }
+      ]
+    },
+    {
+      "creditCode": "code:91310117588745491Q",
+      "name": "宁德思客琦智能装备科技股份有限公司",
+      "rows": [
+        264,
+        747
+      ],
+      "keptLink": "电池主材与辅材",
+      "conflicts": [
+        {
+          "field": "linkName",
+          "primary": "电池主材与辅材",
+          "other": "智能制造装备",
+          "row": 747
+        },
+        {
+          "field": "tierLabel",
+          "primary": "长尾",
+          "other": "骨干",
+          "row": 747
+        }
+      ]
+    },
+    {
+      "creditCode": "code:91320214MA202MQ078",
+      "name": "安纳帕德（无锡）粉体工程技术有限公司",
+      "rows": [
+        281,
+        891
+      ],
+      "keptLink": "电池主材与辅材",
+      "conflicts": [
+        {
+          "field": "linkName",
+          "primary": "电池主材与辅材",
+          "other": "智能制造装备",
+          "row": 891
+        }
+      ]
+    },
+    {
+      "creditCode": "code:91440300586708179H",
+      "name": "深圳壹连科技股份有限公司",
+      "rows": [
+        424,
+        1688
+      ],
+      "keptLink": "电池主材与辅材",
+      "conflicts": [
+        {
+          "field": "linkName",
+          "primary": "电池主材与辅材",
+          "other": "储能电池本体",
+          "row": 1688
+        }
+      ]
+    },
+    {
+      "creditCode": "code:914404006981977566",
+      "name": "珠海银隆新能源有限公司",
+      "rows": [
+        473,
+        1631
+      ],
+      "keptLink": "电池主材与辅材",
+      "conflicts": [
+        {
+          "field": "linkName",
+          "primary": "电池主材与辅材",
+          "other": "储能电池本体",
+          "row": 1631
+        }
+      ]
+    },
+    {
+      "creditCode": "code:91441900661499611P",
+      "name": "东莞汇乐技术股份有限公司",
+      "rows": [
+        751,
+        831
+      ],
+      "keptLink": "智能制造装备",
+      "conflicts": [
+        {
+          "field": "tierLabel",
+          "primary": "骨干",
+          "other": "长尾",
+          "row": 831
+        }
+      ]
+    },
+    {
+      "creditCode": "code:9111010169501546XA",
+      "name": "北京欧波同光学技术有限公司",
+      "rows": [
+        852,
+        1517
+      ],
+      "keptLink": "检测认证与标准",
+      "conflicts": [
+        {
+          "field": "linkName",
+          "primary": "检测认证与标准",
+          "other": "储能电池本体",
+          "row": 1517
+        }
+      ]
+    },
+    {
+      "creditCode": "code:91120222061216657G",
+      "name": "天津阿童木机器人股份有限公司",
+      "rows": [
+        881,
+        1121
+      ],
+      "keptLink": "智能制造装备",
+      "conflicts": []
+    },
+    {
+      "creditCode": "code:91370700668069040E",
+      "name": "山东华特磁电科技股份有限公司",
+      "rows": [
+        894,
+        895
+      ],
+      "keptLink": "智能制造装备",
+      "conflicts": []
+    },
+    {
+      "creditCode": "code:91441302075083760N",
+      "name": "惠州市鑫能自动化设备有限公司",
+      "rows": [
+        954,
+        955
+      ],
+      "keptLink": "智能制造装备",
+      "conflicts": []
+    },
+    {
+      "creditCode": "code:91320506069494424N",
+      "name": "泰思泰克（苏州）检测仪器有限公司",
+      "rows": [
+        1017,
+        1018
+      ],
+      "keptLink": "检测认证与标准",
+      "conflicts": []
+    },
+    {
+      "creditCode": "code:91110113MACE4YKQ6Y",
+      "name": "清源合一（北京）科技有限公司",
+      "rows": [
+        1185,
+        1186
+      ],
+      "keptLink": "物理/长时储能装备",
+      "conflicts": []
+    },
+    {
+      "creditCode": "code:91440000190345797E",
+      "name": "南方电网电力科技股份有限公司",
+      "rows": [
+        1298,
+        2438
+      ],
+      "keptLink": "储能电池本体",
+      "conflicts": [
+        {
+          "field": "linkName",
+          "primary": "储能电池本体",
+          "other": "电网侧应用",
+          "row": 2438
+        },
+        {
+          "field": "tierLabel",
+          "primary": "龙头",
+          "other": "长尾",
+          "row": 2438
+        }
+      ]
+    },
+    {
+      "creditCode": "code:91130700730245739F",
+      "name": "青鸟消防股份有限公司",
+      "rows": [
+        1316,
+        1967
+      ],
+      "keptLink": "储能电池本体",
+      "conflicts": [
+        {
+          "field": "linkName",
+          "primary": "储能电池本体",
+          "other": "热管理与安全防护",
+          "row": 1967
+        },
+        {
+          "field": "tierLabel",
+          "primary": "龙头",
+          "other": "骨干",
+          "row": 1967
+        }
+      ]
+    },
+    {
+      "creditCode": "code:91110114738240473F",
+      "name": "中信国安盟固利动力科技有限公司",
+      "rows": [
+        1328,
+        1438
+      ],
+      "keptLink": "储能电池本体",
+      "conflicts": []
+    },
+    {
+      "creditCode": "code:91320413MA1MCGA52K",
+      "name": "中创新航科技股份有限公司",
+      "rows": [
+        1329,
+        1334,
+        1294
+      ],
+      "keptLink": "储能电池本体",
+      "conflicts": []
+    },
+    {
+      "creditCode": "code:91120116103434354W",
+      "name": "中电科能源有限公司",
+      "rows": [
+        1332,
+        1333
+      ],
+      "keptLink": "储能电池本体",
+      "conflicts": []
+    },
+    {
+      "creditCode": "code:913607006984663896",
+      "name": "孚能科技(赣州)股份有限公司",
+      "rows": [
+        1361,
+        1362
+      ],
+      "keptLink": "储能电池本体",
+      "conflicts": []
+    },
+    {
+      "creditCode": "code:91330000712560751D",
+      "name": "横店东磁股份有限公司",
+      "rows": [
+        1389,
+        1390
+      ],
+      "keptLink": "储能电池本体",
+      "conflicts": []
+    },
+    {
+      "creditCode": "code:91320105MA22GCWE02",
+      "name": "江苏林洋亿纬储能科技有限公司",
+      "rows": [
+        1398,
+        1789
+      ],
+      "keptLink": "储能电池本体",
+      "conflicts": [
+        {
+          "field": "linkName",
+          "primary": "储能电池本体",
+          "other": "电池管理系统BMS",
+          "row": 1789
+        },
+        {
+          "field": "tierLabel",
+          "primary": "骨干",
+          "other": "长尾",
+          "row": 1789
+        }
+      ]
+    },
+    {
+      "creditCode": "code:91440300580086655P",
+      "name": "深圳市华宝新能源有限公司",
+      "rows": [
+        1410,
+        2447
+      ],
+      "keptLink": "储能电池本体",
+      "conflicts": [
+        {
+          "field": "linkName",
+          "primary": "储能电池本体",
+          "other": "用户侧应用",
+          "row": 2447
+        }
+      ]
+    },
+    {
+      "creditCode": "code:91440400799386302M",
+      "name": "珠海冠宇电池有限公司",
+      "rows": [
+        1424,
+        1425
+      ],
+      "keptLink": "储能电池本体",
+      "conflicts": []
+    },
+    {
+      "creditCode": "code:91310116MA1JBF5H87",
+      "name": "上海果下科技有限公司",
+      "rows": [
+        1469,
+        2180
+      ],
+      "keptLink": "储能电池本体",
+      "conflicts": [
+        {
+          "field": "linkName",
+          "primary": "储能电池本体",
+          "other": "储能系统集成",
+          "row": 2180
+        }
+      ]
+    },
+    {
+      "creditCode": "code:91321191MA1MMHFF36",
+      "name": "利信（江苏）能源科技有限责任公司",
+      "rows": [
+        1505,
+        1506
+      ],
+      "keptLink": "储能电池本体",
+      "conflicts": []
+    },
+    {
+      "creditCode": "code:91441881688645949T",
+      "name": "广东奥克莱集团",
+      "rows": [
+        1592,
+        1593
+      ],
+      "keptLink": "储能电池本体",
+      "conflicts": []
+    },
+    {
+      "creditCode": "code:91370400MADKRJN39D",
+      "name": "星储能源科技（山东）有限公司",
+      "rows": [
+        1620,
+        2175
+      ],
+      "keptLink": "储能电池本体",
+      "conflicts": [
+        {
+          "field": "linkName",
+          "primary": "储能电池本体",
+          "other": "储能系统集成",
+          "row": 2175
+        }
+      ]
+    },
+    {
+      "creditCode": "code:91360900690985870K",
+      "name": "江西省福斯特",
+      "rows": [
+        1663,
+        1664
+      ],
+      "keptLink": "储能电池本体",
+      "conflicts": []
+    },
+    {
+      "creditCode": "code:91330201MA7BXYJ62K",
+      "name": "浙江易阳新能源科技有限公司",
+      "rows": [
+        1682,
+        1834
+      ],
+      "keptLink": "储能电池本体",
+      "conflicts": [
+        {
+          "field": "linkName",
+          "primary": "储能电池本体",
+          "other": "电池管理系统BMS",
+          "row": 1834
+        }
+      ]
+    },
+    {
+      "creditCode": "code:91310120740274701T",
+      "name": "上海汇珏科技集团股份有限公司",
+      "rows": [
+        1778,
+        2098
+      ],
+      "keptLink": "电池PACK与模组",
+      "conflicts": [
+        {
+          "field": "linkName",
+          "primary": "电池PACK与模组",
+          "other": "储能系统集成",
+          "row": 2098
+        }
+      ]
+    },
+    {
+      "creditCode": "code:91440300326262457D",
+      "name": "深圳市安仕新能源科技股份有限公司",
+      "rows": [
+        2222,
+        2331
+      ],
+      "keptLink": "储能系统集成",
+      "conflicts": [
+        {
+          "field": "linkName",
+          "primary": "储能系统集成",
+          "other": "电源侧应用",
+          "row": 2331
+        },
+        {
+          "field": "tierLabel",
+          "primary": "长尾",
+          "other": "骨干",
+          "row": 2331
+        }
+      ]
+    },
+    {
+      "creditCode": "股票代码 3931.HK",
+      "name": "中创新航科技股份有限公司",
+      "rows": [
+        1294,
+        1329
+      ],
+      "keptLink": "储能电池本体",
+      "conflicts": []
+    }
+  ],
+  "mergedSameCreditCount": 38,
+  "nameConflicts": [],
+  "nameConflictCount": 0,
+  "invalidCreditCodes": [],
+  "fixedCreditCodes": [
+    {
+      "row": 2151,
+      "name": "天津中泰智达电气科技有限公司",
+      "raw": "91320222MA07FPHH0A",
+      "fixed": "91320222MA07FPHH0P"
+    }
+  ],
+  "tierSource": "清单.行业地位（全量覆盖）",
+  "legacyShard": {
+    "total": 0,
+    "matched": 0,
+    "unmatched": 0,
+    "unmatchedItems": [],
+    "matchedWithNoRichFields": 0
+  },
+  "generatedAt": "2026-10-21T14:37:42+00:00"
+}

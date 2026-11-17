@@ -1,0 +1,5260 @@
+{
+  "source": "G:\\对公经营智能化项目\\算力\\算力产业链企业清单-全量整合版_v4.1.xlsx",
+  "sheet": "1-全量总表",
+  "rawRows": 3476,
+  "uniqueSubjects": 3475,
+  "creditStatus": {
+    "verified": 2817,
+    "missing": 653,
+    "checksum_fixed": 5
+  },
+  "keyStatus": {
+    "verified": 2822,
+    "pending_credit_code": 653
+  },
+  "creditCoverage": "2822/3475",
+  "creditCoverageRate": 81.21,
+  "bySecondary": {
+    "算力芯片与核心器件": 1148,
+    "算力设备与网络": 872,
+    "算力基础设施": 508,
+    "算力服务与运营": 815,
+    "算力需求方": 132
+  },
+  "byTertiary": {
+    "AI芯片与加速卡": 439,
+    "存储与内存接口": 66,
+    "先进封装与测试": 217,
+    "PCB与覆铜板": 368,
+    "光芯片与光器件": 58,
+    "电源与供配电": 166,
+    "AI服务器整机": 167,
+    "交换机与网络设备": 83,
+    "光模块与CPO": 201,
+    "高速连接与铜缆": 80,
+    "液冷温控": 141,
+    "光纤光缆": 34,
+    "IDC与智算中心": 415,
+    "算力租赁与运营": 266,
+    "云计算与算力调度": 522,
+    "运营商算力网络": 27,
+    "机房建设与系统集成": 93,
+    "算力需求方/应用": 132
+  },
+  "byTier": {
+    "龙头": 76,
+    "腰部": 205,
+    "尾部": 424,
+    "未评级": 2369,
+    "待定": 303,
+    "不评级": 4,
+    "不适用": 94
+  },
+  "byRelevance": {
+    "核心": 1009,
+    "间接": 1532,
+    "行内客户": 783,
+    "弱相关": 4,
+    "待核": 53,
+    "非链-需求侧": 93,
+    "非链-服务方": 1
+  },
+  "byCompanyType": {
+    "listed": 452,
+    "ordinary": 3012,
+    "subsidiary": 11
+  },
+  "byConfidence": {
+    "高": 1485,
+    "中": 1847,
+    "低": 123,
+    "中高": 20
+  },
+  "byBasisLayer": {
+    "原表": 1099,
+    "L1 人工复核修正": 139,
+    "L1 企业知识/产品词": 231,
+    "L4 来源名单": 14,
+    "L2 名称行业词": 196,
+    "L3 行内库粗档": 85,
+    "v4.1清单": 1711
+  },
+  "mergedSameCredit": [
+    {
+      "creditCode": "code:911101055938354164",
+      "name": "青云科技集团股份有限公司",
+      "rows": [
+        1387,
+        1428
+      ],
+      "keptLink": "云计算与算力调度",
+      "conflicts": [
+        {
+          "field": "tierLabel",
+          "primary": "尾部",
+          "other": "待定",
+          "row": 1428
+        }
+      ]
+    }
+  ],
+  "mergedSameCreditCount": 1,
+  "nameConflicts": [
+    {
+      "name": "腾讯云计算(北京)有限责任公司",
+      "codes": [
+        "91110108563654899L",
+        "911101085636549482"
+      ],
+      "ids": [
+        "cp-91110108563654899L",
+        "cp-911101085636549482"
+      ],
+      "rows": [
+        1429,
+        1724
+      ]
+    },
+    {
+      "name": "北京国际算力服务有限公司",
+      "codes": [
+        "91110400MAD3EC8Y11",
+        "91110400MAD3UC8Y1M"
+      ],
+      "ids": [
+        "cp-91110400MAD3EC8Y11",
+        "cp-91110400MAD3UC8Y1M"
+      ],
+      "rows": [
+        1973,
+        2819
+      ]
+    }
+  ],
+  "nameConflictCount": 2,
+  "invalidCreditCodes": [],
+  "fixedCreditCodes": [
+    {
+      "row": 1364,
+      "name": "联通数字科技有限公司",
+      "raw": "911103027886013952",
+      "fixed": "91110302788601395W"
+    },
+    {
+      "row": 1429,
+      "name": "腾讯云计算(北京)有限责任公司",
+      "raw": "911101085636548992",
+      "fixed": "91110108563654899L"
+    },
+    {
+      "row": 1690,
+      "name": "中国移动通信集团有限公司",
+      "raw": "911100007109250048",
+      "fixed": "911100007109250047"
+    },
+    {
+      "row": 2819,
+      "name": "北京国际算力服务有限公司",
+      "raw": "91110400MAD3UC8Y11",
+      "fixed": "91110400MAD3UC8Y1M"
+    },
+    {
+      "row": 3315,
+      "name": "思瑞浦微电子科技(苏州)股份有限公司",
+      "raw": "91330000593916443C",
+      "fixed": "91330000593916443G"
+    }
+  ],
+  "missingCreditCodes": [
+    {
+      "row": 29,
+      "name": "Intel",
+      "linkName": "AI芯片与加速卡",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 36,
+      "name": "赛灵思",
+      "linkName": "AI芯片与加速卡",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 39,
+      "name": "NVIDIA Corporation",
+      "linkName": "AI芯片与加速卡",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 69,
+      "name": "芯来科技股份有限公司",
+      "linkName": "AI芯片与加速卡",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 87,
+      "name": "南通富士通微电子有限公司",
+      "linkName": "AI芯片与加速卡",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 299,
+      "name": "青岛感芯微科技有限公司",
+      "linkName": "AI芯片与加速卡",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 300,
+      "name": "长沙音芯微电子有限公司",
+      "linkName": "AI芯片与加速卡",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 304,
+      "name": "启芯微电子有限公司",
+      "linkName": "AI芯片与加速卡",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 335,
+      "name": "深圳大普微深圳大普微电子股份有限公司",
+      "linkName": "存储与内存接口",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 341,
+      "name": "Samsung Electronics Co., Ltd.",
+      "linkName": "存储与内存接口",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 342,
+      "name": "Micron Technology, Inc.",
+      "linkName": "存储与内存接口",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 363,
+      "name": "希捷科技",
+      "linkName": "存储与内存接口",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 394,
+      "name": "ASE Technology Holding Co., Ltd.",
+      "linkName": "先进封装与测试",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 395,
+      "name": "Amkor Technology, Inc.",
+      "linkName": "先进封装与测试",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 396,
+      "name": "智路封测(智路建广联合体)",
+      "linkName": "先进封装与测试",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 570,
+      "name": "太初(无锡)电子科技有限公司",
+      "linkName": "先进封装与测试",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 715,
+      "name": "台达电子",
+      "linkName": "电源与供配电",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 717,
+      "name": "康明斯",
+      "linkName": "电源与供配电",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 719,
+      "name": "施耐德",
+      "linkName": "电源与供配电",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 734,
+      "name": "克莱沃",
+      "linkName": "电源与供配电",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 735,
+      "name": "南盾",
+      "linkName": "电源与供配电",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 739,
+      "name": "天邮",
+      "linkName": "电源与供配电",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 740,
+      "name": "康普",
+      "linkName": "电源与供配电",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 741,
+      "name": "昌遂",
+      "linkName": "电源与供配电",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 742,
+      "name": "突破",
+      "linkName": "电源与供配电",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 744,
+      "name": "隆兴",
+      "linkName": "电源与供配电",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 745,
+      "name": "康舒科技股份有限公司",
+      "linkName": "电源与供配电",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 750,
+      "name": "美克电源",
+      "linkName": "电源与供配电",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 751,
+      "name": "三菱",
+      "linkName": "电源与供配电",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 752,
+      "name": "卡特彼勒",
+      "linkName": "电源与供配电",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 753,
+      "name": "威尔逊",
+      "linkName": "电源与供配电",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 755,
+      "name": "德国MTU",
+      "linkName": "电源与供配电",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 757,
+      "name": "科勒",
+      "linkName": "电源与供配电",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 758,
+      "name": "辛普森",
+      "linkName": "电源与供配电",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 759,
+      "name": "道康",
+      "linkName": "电源与供配电",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 762,
+      "name": "台达电子工业股份有限公司",
+      "linkName": "电源与供配电",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 772,
+      "name": "高斯宝电气技术有限公司",
+      "linkName": "电源与供配电",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 792,
+      "name": "Cavium公司",
+      "linkName": "AI服务器整机",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 793,
+      "name": "IBM",
+      "linkName": "AI服务器整机",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 797,
+      "name": "联想",
+      "linkName": "AI服务器整机",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 801,
+      "name": "Cavium, Inc.",
+      "linkName": "AI服务器整机",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 802,
+      "name": "International Business Machines Corporation",
+      "linkName": "AI服务器整机",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 803,
+      "name": "Intel Corporation",
+      "linkName": "AI服务器整机",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 804,
+      "name": "WesternDigital",
+      "linkName": "AI服务器整机",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 808,
+      "name": "神云科技",
+      "linkName": "AI服务器整机",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 810,
+      "name": "Xilinx, Inc.",
+      "linkName": "AI服务器整机",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 819,
+      "name": "埃克赛尔智能科技有限公司",
+      "linkName": "AI服务器整机",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 858,
+      "name": "华为信息技术有限公司",
+      "linkName": "AI服务器整机",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 859,
+      "name": "联想集团有限公司",
+      "linkName": "AI服务器整机",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 878,
+      "name": "是德科技",
+      "linkName": "交换机与网络设备",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 886,
+      "name": "AmphenolICC",
+      "linkName": "交换机与网络设备",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 888,
+      "name": "擎发通讯科技(合肥)有限公司",
+      "linkName": "交换机与网络设备",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 902,
+      "name": "国家(上海)新型互联网交换中心",
+      "linkName": "交换机与网络设备",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 931,
+      "name": "锐邦光电(孝感)",
+      "linkName": "光模块与CPO",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 958,
+      "name": "安费诺",
+      "linkName": "高速连接与铜缆",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 963,
+      "name": "天津六〇九电缆有限公司",
+      "linkName": "高速连接与铜缆",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 967,
+      "name": "中国电子科技集团公司第四十研究所",
+      "linkName": "高速连接与铜缆",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 995,
+      "name": "北京邮电大学人工智能学院",
+      "linkName": "高速连接与铜缆",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 996,
+      "name": "中国电子技术标准化研究院",
+      "linkName": "高速连接与铜缆",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 999,
+      "name": "山东龙立电子有限公司/济南无线电九厂有限公司",
+      "linkName": "高速连接与铜缆",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1004,
+      "name": "哈尔滨工业大学",
+      "linkName": "高速连接与铜缆",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1008,
+      "name": "法国苏里奥(SOURIAU)公司",
+      "linkName": "高速连接与铜缆",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1022,
+      "name": "北京中石科技股份有限公司",
+      "linkName": "液冷温控",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1038,
+      "name": "依必安派特",
+      "linkName": "液冷温控",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1041,
+      "name": "格兰富",
+      "linkName": "液冷温控",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1046,
+      "name": "谷轮",
+      "linkName": "液冷温控",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1054,
+      "name": "世图兹",
+      "linkName": "液冷温控",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1055,
+      "name": "克莱门特",
+      "linkName": "液冷温控",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1057,
+      "name": "开利",
+      "linkName": "液冷温控",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1060,
+      "name": "英沣特",
+      "linkName": "液冷温控",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1061,
+      "name": "麦克维尔",
+      "linkName": "液冷温控",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1102,
+      "name": "俊知集团(无锡俊知系)",
+      "linkName": "光纤光缆",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1103,
+      "name": "湖北柯普达(全称待核)",
+      "linkName": "光纤光缆",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1104,
+      "name": "汕头奥星光通信设备有限公司",
+      "linkName": "光纤光缆",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1106,
+      "name": "江苏南瑞银龙电缆有限公司",
+      "linkName": "光纤光缆",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1173,
+      "name": "国富瑞数据科技有限公司",
+      "linkName": "IDC与智算中心",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1182,
+      "name": "秦淮数据集团控股有限公司",
+      "linkName": "IDC与智算中心",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1183,
+      "name": "合盈数据(怀来)科技有限公司",
+      "linkName": "IDC与智算中心",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1188,
+      "name": "国电投新能源科技有限公司",
+      "linkName": "IDC与智算中心",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1195,
+      "name": "九江市湖口人工智能算力中心项目建设",
+      "linkName": "IDC与智算中心",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1199,
+      "name": "远景(乌兰察布)科技发展有限公司",
+      "linkName": "IDC与智算中心",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1204,
+      "name": "万润零数智算(乌兰察布)科技有限公司",
+      "linkName": "IDC与智算中心",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1221,
+      "name": "福建易华录信息技术有限公司",
+      "linkName": "IDC与智算中心",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1226,
+      "name": "国家超级计算无锡中心",
+      "linkName": "IDC与智算中心",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1247,
+      "name": "北京中益大越智能科技有限公司",
+      "linkName": "IDC与智算中心",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1261,
+      "name": "安徽寒武纪科技有限公司",
+      "linkName": "IDC与智算中心",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1265,
+      "name": "数算电产业融合(庆阳)研究院",
+      "linkName": "IDC与智算中心",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1291,
+      "name": "北京蓝耘科技股份有限公司",
+      "linkName": "算力租赁与运营",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1297,
+      "name": "国家超级计算天津中心",
+      "linkName": "算力租赁与运营",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1304,
+      "name": "重庆智算科技有限公司",
+      "linkName": "算力租赁与运营",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1311,
+      "name": "共绩科技",
+      "linkName": "算力租赁与运营",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1312,
+      "name": "AutoDL/OpenBayes",
+      "linkName": "算力租赁与运营",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1323,
+      "name": "山西辰星算力科技有限公司",
+      "linkName": "算力租赁与运营",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1402,
+      "name": "美团云",
+      "linkName": "云计算与算力调度",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1415,
+      "name": "同方有云(北京)科技有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1432,
+      "name": "金山云控股有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1556,
+      "name": "腾讯控股有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1568,
+      "name": "南方电网大数据服务有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1580,
+      "name": "ALIBABA GROUP SERVICES LIMITED",
+      "linkName": "云计算与算力调度",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1613,
+      "name": "常州大数据有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1615,
+      "name": "江苏华芯智联信息科技有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1659,
+      "name": "山西创智云联科技有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1661,
+      "name": "太原智芯云信息技术有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1662,
+      "name": "山西元境数字科技有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1673,
+      "name": "科华云集团",
+      "linkName": "云计算与算力调度",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1682,
+      "name": "中标麒麟软件有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1684,
+      "name": "上海遂原科技有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1700,
+      "name": "中国移动国际有限公司",
+      "linkName": "运营商算力网络",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1721,
+      "name": "天纪易歧(北京)科技有限公司",
+      "linkName": "机房建设与系统集成",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1726,
+      "name": "中国电子科技集团公司第二十三研究所",
+      "linkName": "算力需求方/应用",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1727,
+      "name": "第八研究所",
+      "linkName": "算力需求方/应用",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1730,
+      "name": "中国电子科技集团公司第四十六研究所",
+      "linkName": "算力需求方/应用",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1736,
+      "name": "长沙医智芯科技有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1743,
+      "name": "北京超级云计算中心",
+      "linkName": "算力需求方/应用",
+      "raw": "0",
+      "status": "missing"
+    },
+    {
+      "row": 1770,
+      "name": "上海希姆计算科技有限公司",
+      "linkName": "AI芯片与加速卡",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 1771,
+      "name": "曦望(上海)半导体有限公司(商汤分拆)",
+      "linkName": "AI芯片与加速卡",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 1777,
+      "name": "遇贤微电子(上海)有限公司",
+      "linkName": "AI芯片与加速卡",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 1781,
+      "name": "北京恒扬数据科技有限公司",
+      "linkName": "AI芯片与加速卡",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 1782,
+      "name": "中芯国际集成电路制造有限公司",
+      "linkName": "先进封装与测试",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 1800,
+      "name": "芯速联光电科技(上海)有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 1801,
+      "name": "上海铌奥光电科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 1805,
+      "name": "华润微电子有限公司",
+      "linkName": "电源与供配电",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 1824,
+      "name": "奇鋐科技股份有限公司(AVC，台资，境内东莞/深圳基地)",
+      "linkName": "液冷温控",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 1826,
+      "name": "建准电机工业股份有限公司(SUNON，台资，境内昆山/北海基地)",
+      "linkName": "液冷温控",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 1848,
+      "name": "美的楼宇科技(合肥)有限公司",
+      "linkName": "液冷温控",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 1855,
+      "name": "中集数能科技有限公司",
+      "linkName": "机房建设与系统集成",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 1901,
+      "name": "深圳市证通电子股份有限公司",
+      "linkName": "IDC与智算中心",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 1905,
+      "name": "金山云网络技术有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 1910,
+      "name": "商汤集团股份有限公司",
+      "linkName": "算力租赁与运营",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 1915,
+      "name": "中国信息通信研究院",
+      "linkName": "云计算与算力调度",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 1916,
+      "name": "国家信息中心",
+      "linkName": "云计算与算力调度",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 1917,
+      "name": "全国一体化算力网监测调度试验验证平台",
+      "linkName": "运营商算力网络",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 1920,
+      "name": "中国电子产品可靠性与环境试验研究所(工信部电子五所)",
+      "linkName": "云计算与算力调度",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2742,
+      "name": "合肥市大数据资产运营有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2747,
+      "name": "宁波立新科技股份有限公司",
+      "linkName": "电源与供配电",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2751,
+      "name": "福州高意通讯有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2752,
+      "name": "—(未解析)",
+      "linkName": "运营商算力网络",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2754,
+      "name": "沈阳世纪华创科技有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2755,
+      "name": "沈阳清瑞网络工程有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2756,
+      "name": "上海启斯云计算有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2757,
+      "name": "北京乐讯科技有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2759,
+      "name": "珠海奥粤优电能源服务有限公司",
+      "linkName": "机房建设与系统集成",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2760,
+      "name": "廊坊市悦新信息技术有限公司",
+      "linkName": "AI服务器整机",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2761,
+      "name": "河北中智数字技术有限公司",
+      "linkName": "AI服务器整机",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2762,
+      "name": "扬州海通电子科技有限公司",
+      "linkName": "AI服务器整机",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2763,
+      "name": "扬州万方科技股份有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2764,
+      "name": "新疆弘治莘电商贸有限公司",
+      "linkName": "电源与供配电",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2765,
+      "name": "新疆盈鼎供应链管理有限公司",
+      "linkName": "电源与供配电",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2766,
+      "name": "石河子城投泰盛城市服务有限公司",
+      "linkName": "电源与供配电",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2769,
+      "name": "杭州优易达电气设备有限公司",
+      "linkName": "电源与供配电",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2772,
+      "name": "南京天加环境科技有限公司",
+      "linkName": "液冷温控",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2773,
+      "name": "四川斯普信信息技术有限公司",
+      "linkName": "液冷温控",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2774,
+      "name": "中国联合网络通信有限公司宁夏回族自治区分公司",
+      "linkName": "液冷温控",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2775,
+      "name": "南京深度智控科技有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2778,
+      "name": "中国电信股份有限公司上海分公司",
+      "linkName": "机房建设与系统集成",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2779,
+      "name": "北京金诺珩科技发展有限公司",
+      "linkName": "机房建设与系统集成",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2780,
+      "name": "厦门银江智慧城市技术股份有限公司",
+      "linkName": "机房建设与系统集成",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2786,
+      "name": "福建大数据产业投资有限公司",
+      "linkName": "IDC与智算中心",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2787,
+      "name": "成都国星宇航科技股份有限公司",
+      "linkName": "IDC与智算中心",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2794,
+      "name": "中国科学院上海光学精密机械研究所",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2795,
+      "name": "南京邮电大学",
+      "linkName": "云计算与算力调度",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2796,
+      "name": "中国电力工程顾问集团有限公司",
+      "linkName": "液冷温控",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2797,
+      "name": "云尖信息技术有限公司",
+      "linkName": "交换机与网络设备",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2798,
+      "name": "厦门科华数能科技有限公司",
+      "linkName": "电源与供配电",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2800,
+      "name": "国家高性能计算机工程技术研究中心",
+      "linkName": "云计算与算力调度",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2801,
+      "name": "山西光存信息产业发展有限公司",
+      "linkName": "存储与内存接口",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2803,
+      "name": "北京大学长沙计算与数字经济研究院",
+      "linkName": "云计算与算力调度",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2804,
+      "name": "国家超级计算长沙中心",
+      "linkName": "云计算与算力调度",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2806,
+      "name": "中电鸿信信息科技有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2807,
+      "name": "江苏睿智聚合科技有限公司",
+      "linkName": "液冷温控",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2808,
+      "name": "河北空调工程安装有限公司",
+      "linkName": "液冷温控",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2809,
+      "name": "巨化集团有限公司",
+      "linkName": "液冷温控",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2810,
+      "name": "北京联合大学",
+      "linkName": "云计算与算力调度",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2811,
+      "name": "浙江鹏信信息科技股份有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2812,
+      "name": "内蒙古大数据产业发展集团有限公司",
+      "linkName": "IDC与智算中心",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2813,
+      "name": "浪潮智能终端有限公司",
+      "linkName": "IDC与智算中心",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2815,
+      "name": "山西秦能科技有限公司",
+      "linkName": "运营商算力网络",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2818,
+      "name": "—(D待核)",
+      "linkName": "AI芯片与加速卡",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2825,
+      "name": "网智天元科技集团股份有限公司",
+      "linkName": "AI服务器整机",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2826,
+      "name": "杭州智算加速科技有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2827,
+      "name": "内蒙古优刻得信息科技有限责任公司",
+      "linkName": "云计算与算力调度",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2879,
+      "name": "杭州云深处科技有限公司",
+      "linkName": "IDC与智算中心",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2885,
+      "name": "视联动力信息技术股份有限公司",
+      "linkName": "IDC与智算中心",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2890,
+      "name": "武汉红星杨科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2891,
+      "name": "武汉芯信光科技有限责任公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2892,
+      "name": "海思光电子有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2893,
+      "name": "深圳市万和科技股份有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2895,
+      "name": "中天通信技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2897,
+      "name": "四川乐飞光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2899,
+      "name": "广东三石园科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2900,
+      "name": "成都中住光纤有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2901,
+      "name": "江苏亨通光纤科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2902,
+      "name": "浙江东通光网物联科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2903,
+      "name": "远东通讯有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2907,
+      "name": "广州汇信特通信技术股份有限公司",
+      "linkName": "交换机与网络设备",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2909,
+      "name": "山东光仿软件科技有限公司",
+      "linkName": "AI芯片与加速卡",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2910,
+      "name": "成都市晶林科技有限公司",
+      "linkName": "AI芯片与加速卡",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2911,
+      "name": "杭州宇称电子技术有限公司",
+      "linkName": "AI芯片与加速卡",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2912,
+      "name": "杭州极钛微电子有限公司",
+      "linkName": "AI芯片与加速卡",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2913,
+      "name": "上海诠视智感科技有限公司",
+      "linkName": "AI芯片与加速卡",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2914,
+      "name": "杭州凯卓立智算云联科技有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2915,
+      "name": "南京鹏晟软件有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2916,
+      "name": "上海易卜半导体有限公司",
+      "linkName": "存储与内存接口",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2917,
+      "name": "—(F非企业)",
+      "linkName": "存储与内存接口",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2918,
+      "name": "—(E境外)",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2919,
+      "name": "上海新微科技集团有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2920,
+      "name": "中国电子科技集团公司第五十五研究所",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2924,
+      "name": "合肥风致毅半导体有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2925,
+      "name": "和光光电股份有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2927,
+      "name": "天津科谱技术有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2929,
+      "name": "广东安捷康光通科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2930,
+      "name": "广州奥鑫通讯设备有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2931,
+      "name": "微捷创研股份有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2932,
+      "name": "成都嘉纳海威科技有限责任公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2933,
+      "name": "成都英思嘉半导体技术有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2934,
+      "name": "扬州群发光芯科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2935,
+      "name": "日照市艾锐光电科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2936,
+      "name": "杭州泽达半导体有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2937,
+      "name": "杭州硫通光子科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2938,
+      "name": "杭州精控集成半导体有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2939,
+      "name": "杭州超吉芯科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2940,
+      "name": "桂林市光明科技实业有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2941,
+      "name": "武汉英飞华科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2942,
+      "name": "江苏华兴激光科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2943,
+      "name": "江苏雷霆光电科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2944,
+      "name": "浙江华辰芯光技术有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2945,
+      "name": "浙江睿熙科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2946,
+      "name": "深圳市思坦科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2947,
+      "name": "深圳市瑞康光联科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2948,
+      "name": "深圳瑞识科技股份有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2949,
+      "name": "深圳至汉装备科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2950,
+      "name": "福建慧芯激光科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2951,
+      "name": "芯晟捷创光电科技(常州)有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2953,
+      "name": "苏州领慧立芯科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2954,
+      "name": "三明华腾光电科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2955,
+      "name": "上海交大平湖智能光电研究院",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2956,
+      "name": "上海宝熙通信设备有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2957,
+      "name": "上海快粼光电科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2958,
+      "name": "上海瀚宇光纤通信技术有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2959,
+      "name": "上海瑞波电子科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2960,
+      "name": "上海鲲游科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2961,
+      "name": "东莞市品通光电科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2962,
+      "name": "东莞市广玮通讯科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2963,
+      "name": "东莞市智胜金属制品有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2964,
+      "name": "东莞市胜创光电科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2966,
+      "name": "光擎源(上海)科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2969,
+      "name": "厦门唯科久腾科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2970,
+      "name": "四川省光为通信有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2971,
+      "name": "四川阿法龙光电科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2972,
+      "name": "宁波博莱特光电科技股份有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2973,
+      "name": "山东华云光电技术有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2974,
+      "name": "广东大普通信技术股份有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2975,
+      "name": "广东洲光源红外半导体有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2976,
+      "name": "广东省希力通讯技术有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2977,
+      "name": "广东芯云光科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2978,
+      "name": "广州市瑞东电子科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2979,
+      "name": "广州芯泰通信技术有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2980,
+      "name": "慈溪市乐新电子科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2981,
+      "name": "成都安可提科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2982,
+      "name": "新菲光通信技术有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2983,
+      "name": "无锡普罗卡科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2984,
+      "name": "昂纳科技(深圳)集团股份有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2985,
+      "name": "杭州之江有机硅化工有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2986,
+      "name": "杭州兰特普光电子技术有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2987,
+      "name": "杭州奥林海升光电技术有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2988,
+      "name": "桂林恒毅金宇通信技术有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2989,
+      "name": "武汉九鸿光电科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2990,
+      "name": "武汉亿思源光电有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2991,
+      "name": "武汉光泓科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2992,
+      "name": "武汉沃隆云网通信技术股份有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2993,
+      "name": "武汉源和泳涵科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2994,
+      "name": "武汉钧恒科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2995,
+      "name": "武汉麦克斯光电有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2996,
+      "name": "江苏铌奥光电科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2997,
+      "name": "河南震视通信技术有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2998,
+      "name": "浙江阿司拼光电技术有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 2999,
+      "name": "海特信科新材料科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3000,
+      "name": "淄博丰雁电子元件有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3001,
+      "name": "深圳九州光电子技术有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3002,
+      "name": "深圳市兆驰瑞谷通信有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3003,
+      "name": "深圳市光比纳通信有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3004,
+      "name": "深圳市光派通信技术有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3005,
+      "name": "深圳市利拓光电有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3006,
+      "name": "深圳市力子光电科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3007,
+      "name": "深圳市华晟新光精密科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3008,
+      "name": "深圳市博力扬光电技术有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3009,
+      "name": "深圳市同信光通讯科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3010,
+      "name": "深圳市同创塑胶制品有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3011,
+      "name": "深圳市宏泰达科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3012,
+      "name": "深圳市小象光影有限责任公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3013,
+      "name": "深圳市海硕科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3014,
+      "name": "深圳市海纳时代电子有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3015,
+      "name": "深圳市百通光通信技术有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3016,
+      "name": "深圳市聚为通信技术有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3017,
+      "name": "深圳市达富光通信有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3018,
+      "name": "深圳市鍂鑫科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3019,
+      "name": "深圳市隆特通信科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3020,
+      "name": "深圳市飞宇光纤股份有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3021,
+      "name": "深圳市鸿升光通讯设备有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3022,
+      "name": "深圳易天光通信有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3023,
+      "name": "深圳芯泉半导体材料有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3024,
+      "name": "湖北山海光通信技术有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3025,
+      "name": "滁州光芯智谱科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3026,
+      "name": "烟台和锦智能科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3027,
+      "name": "烟台恒研光电有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3029,
+      "name": "福建华科光电有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3032,
+      "name": "聚合电光(杭州)科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3033,
+      "name": "芜湖智行畅联科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3034,
+      "name": "苏州文迪光电科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3035,
+      "name": "苏州有椿光电有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3036,
+      "name": "苏州芯路半导体有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3037,
+      "name": "西安中科空天光子科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3038,
+      "name": "重庆万国半导体科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3039,
+      "name": "青岛创奇电子有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3040,
+      "name": "青岛智动精工电子有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3041,
+      "name": "青岛海泰光电技术有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3042,
+      "name": "青岛索耐特电子科技有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3043,
+      "name": "黄石晨信光电股份有限公司",
+      "linkName": "光模块与CPO",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3045,
+      "name": "余姚市斯曼特网络通信设备有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3046,
+      "name": "惠州市京兆联科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3047,
+      "name": "深圳万德溙光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3048,
+      "name": "深圳市云骅光通信有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3049,
+      "name": "深圳市创新胜为科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3050,
+      "name": "深圳市善宇科技有限责任公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3051,
+      "name": "深圳市睿海光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3052,
+      "name": "深圳市鑫杰讯科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3053,
+      "name": "上海华承光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3054,
+      "name": "上海景仓通信技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3055,
+      "name": "上海灏克激光科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3056,
+      "name": "上海特谱锐科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3057,
+      "name": "上海科闵电子科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3058,
+      "name": "上海维熠光纤通信设备有限责任公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3059,
+      "name": "上海连舰光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3060,
+      "name": "上海阳安光电有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3061,
+      "name": "上海鸿辉光联通讯技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3062,
+      "name": "东莞光距电子有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3063,
+      "name": "东莞市康达尔光缆有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3064,
+      "name": "东莞市汉科通讯有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3065,
+      "name": "东莞市甲子通信技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3066,
+      "name": "东莞荣邦光纤设备有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3067,
+      "name": "东莞赛尔盈光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3068,
+      "name": "东莞银禧新材料有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3069,
+      "name": "东莞鸿光光缆有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3070,
+      "name": "中山市纤艺光能科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3072,
+      "name": "乐清市轩康电气有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3075,
+      "name": "北京广川智感科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3076,
+      "name": "南京准智传感科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3077,
+      "name": "南京吉隆光纤通信股份有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3078,
+      "name": "南京开拓光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3079,
+      "name": "南京春辉科技实业有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3080,
+      "name": "南京鸿照科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3081,
+      "name": "南通中科迅光科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3082,
+      "name": "南通南里台科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3084,
+      "name": "合肥幺正量子科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3085,
+      "name": "合肥通鼎光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3087,
+      "name": "四川和泰光纤有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3088,
+      "name": "四川汇源塑料光纤有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3089,
+      "name": "四川江虹线缆制造有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3090,
+      "name": "四川远通通信有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3091,
+      "name": "天津市百顺达电子机箱制造有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3093,
+      "name": "宁波元亿通信科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3094,
+      "name": "宁波北仑盈运达光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3095,
+      "name": "宁波宇达光电股份有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3096,
+      "name": "宁波市天栎通信科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3097,
+      "name": "宁波市新顺通信设备有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3098,
+      "name": "宁波市科浩瀚兴光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3099,
+      "name": "宁波广瑞通信技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3100,
+      "name": "宁波格瑞泰通信设备有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3101,
+      "name": "宁波汇泽通信技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3102,
+      "name": "宁波盈谷电子科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3103,
+      "name": "宁波联河光子技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3104,
+      "name": "宁波金迈电子科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3105,
+      "name": "安徽天纪信息科技股份有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3106,
+      "name": "安徽盈通光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3107,
+      "name": "山东万硕光电设备有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3108,
+      "name": "山东亿博光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3109,
+      "name": "山东华新通信科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3110,
+      "name": "山东圣海光纤科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3111,
+      "name": "山东日海通信科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3112,
+      "name": "山东极量信息科技发展有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3113,
+      "name": "常州市伟光科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3114,
+      "name": "广东万东伟业电线电缆有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3115,
+      "name": "广东朗维光子技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3116,
+      "name": "广东特发信息光缆有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3117,
+      "name": "广东铠盛通光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3118,
+      "name": "广东长天光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3119,
+      "name": "惠州市毕升自动化设备有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3120,
+      "name": "惠州市飞博康实业有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3121,
+      "name": "慈溪市亚讯通信设备有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3122,
+      "name": "慈溪市嘉宇达通信设备有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3123,
+      "name": "慈溪市科睿通信设备有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3124,
+      "name": "慈溪市腾轩通信设备有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3125,
+      "name": "成都兴兴蓉通信科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3126,
+      "name": "成都华精通信设备有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3127,
+      "name": "成都康宁光缆有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3128,
+      "name": "成都康宁光缆有限公司上海光缆系统分公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3129,
+      "name": "成都新锐鑫光通信技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3130,
+      "name": "方致光缆有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3131,
+      "name": "杭州临安科信光缆有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3132,
+      "name": "杭州拓力马网络技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3133,
+      "name": "杭州烽瑞光电设备有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3134,
+      "name": "杭州锡安通讯有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3135,
+      "name": "欧孚光电有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3136,
+      "name": "武汉优一等半导体科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3137,
+      "name": "武汉优光科技有限责任公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3138,
+      "name": "武汉市飞瓴光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3139,
+      "name": "武汉楚星光纤应用技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3140,
+      "name": "武汉睿芯特种光纤有限责任公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3142,
+      "name": "江苏一达光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3143,
+      "name": "江苏伟创光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3144,
+      "name": "江苏伟勒德光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3145,
+      "name": "江苏保视通光电设备有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3146,
+      "name": "江苏多美仕光电通信有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3147,
+      "name": "沧州卓冠通信设备有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3148,
+      "name": "沧州永佳通讯设备有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3149,
+      "name": "河北东旭恒达通信科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3150,
+      "name": "河北力拓光电器材有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3151,
+      "name": "河北宇安电力科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3152,
+      "name": "河北斯科诚电力科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3153,
+      "name": "浙江奥智光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3154,
+      "name": "浙江百凯通讯科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3155,
+      "name": "浙江航天润博测控技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3156,
+      "name": "浙江超联电子有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3157,
+      "name": "深圳市一诺盛世科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3158,
+      "name": "深圳市一飞通讯技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3159,
+      "name": "深圳市仁钦光纤设备有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3160,
+      "name": "深圳市兆纤特种光缆技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3161,
+      "name": "深圳市冠泰新材料有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3162,
+      "name": "深圳市凯达光通信科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3163,
+      "name": "深圳市华众自动化工程有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3164,
+      "name": "深圳市启星互联光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3165,
+      "name": "深圳市和达通信息发展有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3166,
+      "name": "深圳市嘉万光通信有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3167,
+      "name": "深圳市圣诺通信科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3168,
+      "name": "深圳市奥威尔通信科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3169,
+      "name": "深圳市安优测技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3170,
+      "name": "深圳市广为通信技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3171,
+      "name": "深圳市恒益迅光电技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3172,
+      "name": "深圳市晟睿通信有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3173,
+      "name": "深圳市欧亿光电技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3174,
+      "name": "深圳市欧耐特通讯有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3175,
+      "name": "深圳市特瑞通光电技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3176,
+      "name": "深圳市鑫锐光技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3177,
+      "name": "深圳市铭创光电有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3178,
+      "name": "深圳权恒光电技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3179,
+      "name": "深圳深纤科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3180,
+      "name": "湖北东田微科股份有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3181,
+      "name": "湖北锐鸣光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3182,
+      "name": "湖南光联光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3183,
+      "name": "珠海光艺科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3184,
+      "name": "珠海市浩讯光电技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3185,
+      "name": "珠海艾文科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3187,
+      "name": "福建戴斯光电有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3188,
+      "name": "秦皇岛光岩科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3191,
+      "name": "苏州易缆微半导体技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3192,
+      "name": "苏州红恩新材料科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3196,
+      "name": "鹰潭明康通信技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3198,
+      "name": "东莞康源电子有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3200,
+      "name": "广东硕成科技股份有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3201,
+      "name": "广州优尼科光电子技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3204,
+      "name": "武汉启云方科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3205,
+      "name": "深圳市奔强电路有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3206,
+      "name": "深圳市砺芯科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3207,
+      "name": "郑州市钻石精密制造有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3208,
+      "name": "上海菲利华石创科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3210,
+      "name": "南阳圣本光电有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3211,
+      "name": "厦门云天半导体科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3212,
+      "name": "合肥圣达电子科技实业有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3213,
+      "name": "四川英创力电子科技股份有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3214,
+      "name": "宁夏北瓷新材料科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3216,
+      "name": "株洲宏达恒芯电子有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3217,
+      "name": "株洲艾森达新材料科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3218,
+      "name": "江苏富乐华半导体科技股份有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3220,
+      "name": "深圳市威明科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3222,
+      "name": "苏州博志金钻科技有限责任公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3223,
+      "name": "苏州森丸电子技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3224,
+      "name": "苏州霍力芯电子科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3226,
+      "name": "上海全马电子科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3227,
+      "name": "上海基测实业有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3228,
+      "name": "上海小群科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3229,
+      "name": "上海广研通光电技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3230,
+      "name": "上海毕科电子有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3231,
+      "name": "东莞市爱博通讯科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3232,
+      "name": "东莞星河精密技术股份有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3233,
+      "name": "东莞盈峰光通信科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3234,
+      "name": "东莞福可喜玛通讯科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3236,
+      "name": "丹阳市裕桥精密元件有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3237,
+      "name": "余姚市捷拉光缆有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3238,
+      "name": "余姚汇佳通信设备有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3239,
+      "name": "创意电子有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3240,
+      "name": "北京神州普惠科技股份有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3242,
+      "name": "宁波大华通信设备有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3243,
+      "name": "宁波市金泽通信设备有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3244,
+      "name": "宁波极通电子有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3245,
+      "name": "宁波立讯光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3246,
+      "name": "宁波高森通信科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3247,
+      "name": "常州市华晟福涛光电有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3248,
+      "name": "惠州市东永盛光通讯技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3249,
+      "name": "惠州市德康姆光通信技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3250,
+      "name": "成都合众宝根电子有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3252,
+      "name": "武汉驿路通科技股份有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3253,
+      "name": "江苏斯特利通信科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3254,
+      "name": "江苏欣达通信科技股份有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3255,
+      "name": "江苏田信塑料光纤有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3256,
+      "name": "江西明鸿光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3257,
+      "name": "洛阳浩普光纤制造有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3258,
+      "name": "浙江嘉威通信设备有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3259,
+      "name": "浙江爱克森通讯技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3261,
+      "name": "深圳图驿光电有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3262,
+      "name": "深圳市光热通信技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3263,
+      "name": "深圳市创优光通信技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3264,
+      "name": "深圳市夏裕精密部件有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3265,
+      "name": "深圳市川特电子科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3266,
+      "name": "深圳市晟科通信技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3267,
+      "name": "深圳市普利多科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3268,
+      "name": "深圳市毅宏光通信有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3269,
+      "name": "深圳市比洋光通信科技股份有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3270,
+      "name": "深圳市深光谷科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3271,
+      "name": "深圳市源国科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3272,
+      "name": "深圳市爱德泰科技股份有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3273,
+      "name": "深圳市英特普泽科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3274,
+      "name": "深圳市莫科连电子有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3275,
+      "name": "深圳市蒙通智能科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3276,
+      "name": "深圳市雅信通光缆有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3277,
+      "name": "深圳市雍邑科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3278,
+      "name": "深圳市顺联捷通电子有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3279,
+      "name": "深圳市飞凯博科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3280,
+      "name": "温州神一轴业股份有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3281,
+      "name": "湖北朗迅通光电股份有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3284,
+      "name": "福建硅光通讯科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3285,
+      "name": "绍兴小蜂连接技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3287,
+      "name": "苏州微联通信设备有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3288,
+      "name": "苏州飞博睿创光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3289,
+      "name": "蚌埠市华兴电子网络有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3290,
+      "name": "西安金波科技有限责任公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3291,
+      "name": "辽宁玻陶科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3292,
+      "name": "镇平县腾达光电科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3294,
+      "name": "宁波冠贝通信科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3295,
+      "name": "宁波金邦机械科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3296,
+      "name": "安徽闽建兴线缆有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3297,
+      "name": "山东派蒙机电技术有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3298,
+      "name": "昆山德普福电子科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3299,
+      "name": "武汉恩达通科技股份有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3300,
+      "name": "江苏亨通线缆科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3301,
+      "name": "浙江中天海工线缆有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3302,
+      "name": "深圳市凯胜科技有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3303,
+      "name": "深圳市聚能包装材料有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3304,
+      "name": "深圳市至卓兴包装制品有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3306,
+      "name": "阳春市宝讯电子有限公司",
+      "linkName": "PCB与覆铜板",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3307,
+      "name": "沧州科威电子有限责任公司",
+      "linkName": "机房建设与系统集成",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3308,
+      "name": "湖北冰芯半导体科技有限公司",
+      "linkName": "机房建设与系统集成",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3312,
+      "name": "北京中科惠捷科技有限公司",
+      "linkName": "电源与供配电",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3313,
+      "name": "北京为华新业电子技术有限公司",
+      "linkName": "电源与供配电",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3316,
+      "name": "杭州艾诺半导体有限公司",
+      "linkName": "电源与供配电",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3318,
+      "name": "江苏海濎智能科技有限公司",
+      "linkName": "电源与供配电",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3319,
+      "name": "深圳市世强元件网络有限公司",
+      "linkName": "电源与供配电",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3320,
+      "name": "深圳市泽万丰电子有限公司",
+      "linkName": "电源与供配电",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3321,
+      "name": "深圳市科盈通电子科技有限公司",
+      "linkName": "电源与供配电",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3323,
+      "name": "重庆国讯电子有限公司",
+      "linkName": "电源与供配电",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3325,
+      "name": "东莞众智信达精密制品有限公司",
+      "linkName": "液冷温控",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3327,
+      "name": "中科热科技江苏有限公司",
+      "linkName": "液冷温控",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3329,
+      "name": "江阴市辉龙科技股份有限公司",
+      "linkName": "液冷温控",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3330,
+      "name": "泰州市南风冷链有限公司",
+      "linkName": "液冷温控",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3331,
+      "name": "深圳市德镒盟电子有限公司",
+      "linkName": "液冷温控",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3332,
+      "name": "湖南天益高技术材料制造有限公司",
+      "linkName": "液冷温控",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3334,
+      "name": "高柏科技股份有限公司",
+      "linkName": "液冷温控",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3336,
+      "name": "深圳市丰润达科技有限公司",
+      "linkName": "AI服务器整机",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3337,
+      "name": "广州特控电子实业有限公司",
+      "linkName": "AI服务器整机",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3339,
+      "name": "上海博达数据通信有限公司",
+      "linkName": "交换机与网络设备",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3340,
+      "name": "上海孛璞半导体技术有限公司",
+      "linkName": "交换机与网络设备",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3342,
+      "name": "无锡依芯光互联科技有限公司",
+      "linkName": "交换机与网络设备",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3343,
+      "name": "杭州质禾科技有限公司",
+      "linkName": "交换机与网络设备",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3344,
+      "name": "深圳市信泰通信科技有限公司",
+      "linkName": "交换机与网络设备",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3345,
+      "name": "深圳市信达通讯技术有限公司",
+      "linkName": "交换机与网络设备",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3346,
+      "name": "深圳市西迪特科技股份有限公司",
+      "linkName": "交换机与网络设备",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3347,
+      "name": "深圳市飞通宽带技术有限公司",
+      "linkName": "交换机与网络设备",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3348,
+      "name": "英达康电子科技(东莞)有限公司",
+      "linkName": "交换机与网络设备",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3349,
+      "name": "中山市腾泽数字科技有限公司",
+      "linkName": "交换机与网络设备",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3350,
+      "name": "深圳市优恩通信设备有限公司",
+      "linkName": "交换机与网络设备",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3351,
+      "name": "UT斯达康通讯有限公司",
+      "linkName": "交换机与网络设备",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3352,
+      "name": "广州宇洪科技股份有限公司",
+      "linkName": "交换机与网络设备",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3353,
+      "name": "杭州富光科技有限公司",
+      "linkName": "交换机与网络设备",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3354,
+      "name": "杭州通兴电子有限公司",
+      "linkName": "交换机与网络设备",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3355,
+      "name": "杭州金龙光电股份有限公司",
+      "linkName": "交换机与网络设备",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3356,
+      "name": "武汉达姆科技有限公司",
+      "linkName": "交换机与网络设备",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3357,
+      "name": "汕头高新区奥星光通信设备有限公司",
+      "linkName": "交换机与网络设备",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3358,
+      "name": "河南恒昱光通信设备有限公司",
+      "linkName": "交换机与网络设备",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3359,
+      "name": "深圳市云梯光纤通信有限公司",
+      "linkName": "交换机与网络设备",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3360,
+      "name": "湖南艺嘉光电科技有限公司",
+      "linkName": "交换机与网络设备",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3362,
+      "name": "上海图灵智算量子科技股份有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3364,
+      "name": "中建三局集团北京有限公司",
+      "linkName": "电源与供配电",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3365,
+      "name": "中铁二十局集团第二工程有限公司",
+      "linkName": "电源与供配电",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3366,
+      "name": "北京城市亮点电气工程有限公司",
+      "linkName": "电源与供配电",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3367,
+      "name": "易筑设计有限公司",
+      "linkName": "电源与供配电",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3368,
+      "name": "北京华创精密电子有限公司",
+      "linkName": "电源与供配电",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3369,
+      "name": "深圳振华富电子有限公司",
+      "linkName": "电源与供配电",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3371,
+      "name": "浙江班尼戈液冷技术股份有限公司",
+      "linkName": "液冷温控",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3372,
+      "name": "宁波乐品网络设备有限公司",
+      "linkName": "机房建设与系统集成",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3373,
+      "name": "杭州宏友光电科技有限公司",
+      "linkName": "机房建设与系统集成",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3374,
+      "name": "东莞市特旺通信科技有限公司",
+      "linkName": "机房建设与系统集成",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3376,
+      "name": "北京志强视觉科技发展有限公司",
+      "linkName": "机房建设与系统集成",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3377,
+      "name": "彼岸科航有限公司",
+      "linkName": "机房建设与系统集成",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3378,
+      "name": "石家庄三通通信设备有限公司",
+      "linkName": "机房建设与系统集成",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3379,
+      "name": "福建浩蓝光电有限公司",
+      "linkName": "机房建设与系统集成",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3380,
+      "name": "联通系统集成有限公司",
+      "linkName": "机房建设与系统集成",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3381,
+      "name": "长沙睿显科技有限公司",
+      "linkName": "机房建设与系统集成",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3383,
+      "name": "长春通北光学仪器有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3385,
+      "name": "北京豪末科技有限公司",
+      "linkName": "云计算与算力调度",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3386,
+      "name": "上海商筹科技有限公司",
+      "linkName": "IDC与智算中心",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3387,
+      "name": "嘉庚创新实验室",
+      "linkName": "IDC与智算中心",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3389,
+      "name": "中天储能科技有限公司",
+      "linkName": "运营商算力网络",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3391,
+      "name": "深圳开谱勒科技有限公司",
+      "linkName": "运营商算力网络",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3392,
+      "name": "中国电信股份有限公司宁夏分公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3393,
+      "name": "中国电信股份有限公司安徽分公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3394,
+      "name": "中国移动通信集团江苏有限公司扬州分公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3396,
+      "name": "乌兰察布市正合三科技有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3404,
+      "name": "青海共创数博科技有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3407,
+      "name": "韶关市万国云耀数据科技有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3410,
+      "name": "中国能源建设股份有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3412,
+      "name": "中国广电宁夏网络有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3413,
+      "name": "中国电信股份有限公司南京分公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3414,
+      "name": "中国电信股份有限公司四川分公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3415,
+      "name": "中国电信股份有限公司广东分公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3416,
+      "name": "中国电信股份有限公司扬州分公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3417,
+      "name": "中国联合网络通信有限公司山东省分公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3418,
+      "name": "中国联合网络通信有限公司广东省分公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3419,
+      "name": "中国联合网络通信有限公司青海省分公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3423,
+      "name": "北京长城云智科技集团有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3426,
+      "name": "双河市中树云智算科技有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3432,
+      "name": "延边智算科技有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3433,
+      "name": "张北榕泰云谷数据有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3441,
+      "name": "乌兰察布数道智算科技有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3442,
+      "name": "乌鲁木齐疆算科技发展有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3443,
+      "name": "北京医疗健康大模型有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3444,
+      "name": "南岳区智慧旅游数据中心",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3445,
+      "name": "吉林省汇诺数字投资有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3446,
+      "name": "哈密赋宇智能科技发展有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3447,
+      "name": "平潭综合实验区星辰数智科技有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3448,
+      "name": "新疆睿存信息科技服务有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3449,
+      "name": "甘肃交通绿能大数据科技有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3450,
+      "name": "中国电信集团有限公司青海分公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3451,
+      "name": "中国移动通信集团广东有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3452,
+      "name": "中国移动通信集团有限公司浙江分公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3453,
+      "name": "云南文邮发展有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3468,
+      "name": "北京京东世纪贸易有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3469,
+      "name": "滴滴出行科技有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3470,
+      "name": "上海哔哩哔哩科技有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3471,
+      "name": "北京达佳互联信息技术有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3473,
+      "name": "山东省计算中心",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3474,
+      "name": "成都超算中心",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3475,
+      "name": "中国能建中国电力工程顾问集团有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3476,
+      "name": "中国长江三峡集团有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    },
+    {
+      "row": 3477,
+      "name": "国家电网有限公司",
+      "linkName": "算力需求方/应用",
+      "raw": "",
+      "status": "missing"
+    }
+  ],
+  "tierSource": {
+    "清单": 3166,
+    "旧分片兜底": 309
+  },
+  "legacyShard": {
+    "total": 590,
+    "matched": 489,
+    "unmatched": 101,
+    "unmatchedItems": [
+      {
+        "legacyId": "cp-0012",
+        "name": "博通集成",
+        "stockCode": "603068"
+      },
+      {
+        "legacyId": "cp-0013",
+        "name": "力合微",
+        "stockCode": "688589"
+      },
+      {
+        "legacyId": "cp-0014",
+        "name": "中国长城",
+        "stockCode": "000066"
+      },
+      {
+        "legacyId": "cp-0019",
+        "name": "上海壁仞智能科技有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0043",
+        "name": "东芯股份",
+        "stockCode": "688110"
+      },
+      {
+        "legacyId": "cp-0049",
+        "name": "普冉股份",
+        "stockCode": "688766"
+      },
+      {
+        "legacyId": "cp-0067",
+        "name": "英韧科技",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0093",
+        "name": "合力泰",
+        "stockCode": "002217"
+      },
+      {
+        "legacyId": "cp-0104",
+        "name": "旭光电子",
+        "stockCode": "600353"
+      },
+      {
+        "legacyId": "cp-0110",
+        "name": "可立克",
+        "stockCode": "002782"
+      },
+      {
+        "legacyId": "cp-0148",
+        "name": "石家庄通合电子",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0150",
+        "name": "科华恒盛",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0171",
+        "name": "同辉",
+        "stockCode": "920090"
+      },
+      {
+        "legacyId": "cp-0200",
+        "name": "长城超云",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0203",
+        "name": "中新赛克",
+        "stockCode": "002912"
+      },
+      {
+        "legacyId": "cp-0233",
+        "name": "万马科技",
+        "stockCode": "300698"
+      },
+      {
+        "legacyId": "cp-0248",
+        "name": "贵州航天电器",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0255",
+        "name": "思泉新材",
+        "stockCode": "301489"
+      },
+      {
+        "legacyId": "cp-0260",
+        "name": "银轮股份",
+        "stockCode": "002126"
+      },
+      {
+        "legacyId": "cp-0264",
+        "name": "中通服节能技术服务有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0298",
+        "name": "上海华东电脑股份有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0299",
+        "name": "上海蓝色帛缔智能工程有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0300",
+        "name": "上海邮电设计院",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0301",
+        "name": "上海霆峰计算机机房工程有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0302",
+        "name": "中国建筑技术集团有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0303",
+        "name": "中建三局数字工程有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0305",
+        "name": "北京昌旭工程信息咨询有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0308",
+        "name": "北京科海致能科技有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0309",
+        "name": "北京长城电子工程技术有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0311",
+        "name": "华信设计院",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0315",
+        "name": "捷通智慧科技股份有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0317",
+        "name": "江苏省邮电规划设计院",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0319",
+        "name": "青岛恒华机房设备工程有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0326",
+        "name": "深桑达A",
+        "stockCode": "000032"
+      },
+      {
+        "legacyId": "cp-0327",
+        "name": "陕建股份",
+        "stockCode": "600248"
+      },
+      {
+        "legacyId": "cp-0335",
+        "name": "一诺（海南）离岸数据投资管理有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0359",
+        "name": "北京英赫世纪置业有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0360",
+        "name": "北京蓝汛",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0396",
+        "name": "北京中科超算信息咨询有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0403",
+        "name": "善思开悟科技(成都)有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0420",
+        "name": "深信服",
+        "stockCode": "300454"
+      },
+      {
+        "legacyId": "cp-0425",
+        "name": "国网信通",
+        "stockCode": "600131"
+      },
+      {
+        "legacyId": "cp-0430",
+        "name": "云从科技",
+        "stockCode": "688327"
+      },
+      {
+        "legacyId": "cp-0432",
+        "name": "国投智能",
+        "stockCode": "300188"
+      },
+      {
+        "legacyId": "cp-0434",
+        "name": "天融信",
+        "stockCode": "002212"
+      },
+      {
+        "legacyId": "cp-0436",
+        "name": "天阳科技",
+        "stockCode": "300872"
+      },
+      {
+        "legacyId": "cp-0439",
+        "name": "旋极信息",
+        "stockCode": "300324"
+      },
+      {
+        "legacyId": "cp-0440",
+        "name": "亚信安全",
+        "stockCode": "688225"
+      },
+      {
+        "legacyId": "cp-0443",
+        "name": "天源迪科",
+        "stockCode": "300047"
+      },
+      {
+        "legacyId": "cp-0445",
+        "name": "中科金财",
+        "stockCode": "002657"
+      },
+      {
+        "legacyId": "cp-0448",
+        "name": "安博通",
+        "stockCode": "688168"
+      },
+      {
+        "legacyId": "cp-0449",
+        "name": "智知",
+        "stockCode": "603869"
+      },
+      {
+        "legacyId": "cp-0452",
+        "name": "思特奇",
+        "stockCode": "300608"
+      },
+      {
+        "legacyId": "cp-0453",
+        "name": "挖金客",
+        "stockCode": "301380"
+      },
+      {
+        "legacyId": "cp-0454",
+        "name": "中富通",
+        "stockCode": "300560"
+      },
+      {
+        "legacyId": "cp-0459",
+        "name": "汉鑫科技",
+        "stockCode": "920092"
+      },
+      {
+        "legacyId": "cp-0462",
+        "name": "宝兰德",
+        "stockCode": "688058"
+      },
+      {
+        "legacyId": "cp-0466",
+        "name": "上海冰鉴信息科技有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0467",
+        "name": "上海数腾软件科技股份有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0478",
+        "name": "亚马逊AWS",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0482",
+        "name": "北京三快在线科技有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0490",
+        "name": "北京智汇云舟科技有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0492",
+        "name": "北京熠智科技有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0493",
+        "name": "北京联创信安科技股份有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0495",
+        "name": "北京达美盛软件股份有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0501",
+        "name": "广东盘古信息科技股份有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0518",
+        "name": "讯飞智元信息科技有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0523",
+        "name": "青海藏软信息技术有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0531",
+        "name": "元道退",
+        "stockCode": "301139"
+      },
+      {
+        "legacyId": "cp-0540",
+        "name": "上海金曜电子工程有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0541",
+        "name": "北京健伦机房工程有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0543",
+        "name": "深圳中电技术公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0544",
+        "name": "福建长城电子技术工程有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0545",
+        "name": "西安东升科技有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0546",
+        "name": "大华股份",
+        "stockCode": "002236"
+      },
+      {
+        "legacyId": "cp-0549",
+        "name": "奥尼电子",
+        "stockCode": "301189"
+      },
+      {
+        "legacyId": "cp-0550",
+        "name": "宇顺电子",
+        "stockCode": "002289"
+      },
+      {
+        "legacyId": "cp-0553",
+        "name": "兆日科技",
+        "stockCode": "300333"
+      },
+      {
+        "legacyId": "cp-0555",
+        "name": "华体科技",
+        "stockCode": "603679"
+      },
+      {
+        "legacyId": "cp-0556",
+        "name": "中威电子",
+        "stockCode": "300270"
+      },
+      {
+        "legacyId": "cp-0557",
+        "name": "安联锐视",
+        "stockCode": "301042"
+      },
+      {
+        "legacyId": "cp-0559",
+        "name": "慧辰股份",
+        "stockCode": "688500"
+      },
+      {
+        "legacyId": "cp-0560",
+        "name": "华大基因",
+        "stockCode": "300676"
+      },
+      {
+        "legacyId": "cp-0562",
+        "name": "上海罗氏制药有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0563",
+        "name": "上海阶跃星辰智能科技有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0565",
+        "name": "佳讯飞鸿(北京)智能科技研究院有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0566",
+        "name": "北京左医科技有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0567",
+        "name": "北京清博智能科技有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0568",
+        "name": "北京百川智能科技有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0569",
+        "name": "北京金水信息技术发展有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0570",
+        "name": "华润医药集团有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0575",
+        "name": "天九共享网络科技集团有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0577",
+        "name": "山东浪潮医疗大数据科技有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0578",
+        "name": "数坤科技股份有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0580",
+        "name": "杭州深睿博联科技有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0581",
+        "name": "沐心数智医疗科技（北京）有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0582",
+        "name": "河南若华生物科技有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0586",
+        "name": "腾讯医疗健康（深圳）有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0587",
+        "name": "苏州恒瑞医疗器械有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0588",
+        "name": "西门子医疗系统有限公司",
+        "stockCode": ""
+      },
+      {
+        "legacyId": "cp-0589",
+        "name": "讯飞医疗科技股份有限公司",
+        "stockCode": ""
+      }
+    ],
+    "matchedWithNoRichFields": 7,
+    "legacyCodesReused": 481
+  },
+  "generatedAt": "2026-11-09T03:30:06+00:00"
+}

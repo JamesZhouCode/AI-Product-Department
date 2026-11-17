@@ -37,6 +37,13 @@ export const INDUSTRY_PALETTE = [
     aliases: ['人工智能', '人工智能产业链'],
     color: '#534ab7',
   },
+  {
+    id: 'compute',
+    label: '算力产业',
+    code: 'CP',
+    aliases: ['算力产业', '算力产业链', '算力', '计算产业'],
+    color: '#a1381f',
+  },
 ];
 
 export const INDUSTRY_OPTIONS = INDUSTRY_PALETTE.map((industry) => industry.label);
@@ -247,7 +254,9 @@ const STORAGE_CHAIN_PALETTE = withChainColors([
         '电池PACK与模组',
         '电池管理系统BMS',
         '能量管理系统 EMS',
+        '能量管理系统',
         '储能变流器 PCS',
+        '储能变流器',
         '热管理与安全防护',
       ],
     },
@@ -369,12 +378,93 @@ const AI_CHAIN_PALETTE = withChainColors([
   },
 ]);
 
+// 算力产业：芯片与核心器件 / 设备与网络 / 算力基础设施 / 算力服务与运营 / 算力需求方。
+// 二级链口径与 public/data/industries/compute-chain.json 的 5 个一级环节严格一致，
+// 三级 sectors 为该链的 18 个二级环节，图谱页按此展开。
+const COMPUTE_CHAIN_PALETTE = withChainColors([
+  {
+    id: 'compute-chip',
+    label: '算力芯片与核心器件',
+    legendLabel: '芯片与核心器件',
+    aliases: ['算力芯片与核心器件', '算力芯片', '核心器件'],
+    atlas: {
+      code: '01',
+      side: 'top',
+      note: '上游 · 芯片 · 存储 · 封测 · PCB · 光芯片',
+      sectors: [
+        'AI芯片与加速卡',
+        '存储与内存接口',
+        '先进封装与测试',
+        'PCB与覆铜板',
+        '光芯片与光器件',
+      ],
+    },
+  },
+  {
+    id: 'compute-equipment',
+    label: '算力设备与网络',
+    legendLabel: '设备与网络',
+    aliases: ['算力设备与网络', '算力设备', '设备与网络'],
+    atlas: {
+      code: '02',
+      side: 'top',
+      note: '中游 · 整机 · 液冷 · 交换 · 光模块 · 连接 · 光纤 · 供配电',
+      sectors: [
+        'AI服务器整机',
+        '液冷温控',
+        '交换机与网络设备',
+        '光模块与CPO',
+        '高速连接与铜缆',
+        '光纤光缆',
+        '电源与供配电',
+      ],
+    },
+  },
+  {
+    id: 'compute-infra',
+    label: '算力基础设施',
+    legendLabel: '算力基础设施',
+    aliases: ['算力基础设施', '智算基础设施'],
+    atlas: {
+      code: '03',
+      side: 'bottom',
+      note: '下游 · IDC · 智算中心 · 机房建设',
+      sectors: ['IDC与智算中心', '机房建设与系统集成'],
+    },
+  },
+  {
+    id: 'compute-service',
+    label: '算力服务与运营',
+    legendLabel: '算力服务与运营',
+    aliases: ['算力服务与运营', '算力服务', '算力运营'],
+    atlas: {
+      code: '04',
+      side: 'bottom',
+      note: '下游 · 租赁 · 云调度 · 运营商网络',
+      sectors: ['算力租赁与运营', '云计算与算力调度', '运营商算力网络'],
+    },
+  },
+  {
+    id: 'compute-demand',
+    label: '算力需求方',
+    legendLabel: '算力需求方',
+    aliases: ['算力需求方', '算力需求侧', '算力应用'],
+    atlas: {
+      code: '05',
+      side: 'bottom',
+      note: '需求侧 · 算力终端用户',
+      sectors: ['算力需求方/应用'],
+    },
+  },
+]);
+
 export const CHAIN_PALETTES = {
   'integrated-circuit': [...IC_CHAIN_PALETTE, pendingGroup()],
   power: [...POWER_CHAIN_PALETTE, pendingGroup()],
   storage: [...STORAGE_CHAIN_PALETTE, pendingGroup()],
   biomed: [...BIOMED_CHAIN_PALETTE, pendingGroup()],
   ai: [...AI_CHAIN_PALETTE, pendingGroup()],
+  compute: [...COMPUTE_CHAIN_PALETTE, pendingGroup()],
 };
 
 // 向后兼容：默认集成电路调色板，既有调用点继续工作。

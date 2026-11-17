@@ -40,7 +40,8 @@ test('new industry shards keep relation counts and listed主体 unique', () => {
     assert.equal(payload.counts.listed, listed.length);
 
     for (const company of listed) {
-      const stockCode = company.research?.additionalFields?.stockCode;
+      // 新口径分片把股票代码提到顶层，旧分片仍在 research.additionalFields 里。
+      const stockCode = company.stockCode || company.research?.additionalFields?.stockCode;
       assert.ok(stockCode, `${path.basename(file)} 上市企业缺少股票代码：${company.name}`);
       if (!namesByStockCode.has(stockCode)) namesByStockCode.set(stockCode, company.name);
       assert.equal(
@@ -51,15 +52,16 @@ test('new industry shards keep relation counts and listed主体 unique', () => {
     }
 
     assert.equal(payload.counts.relationCount, payload.relations.length, path.basename(file));
-    const listedNames = new Set(listed.map((company) => company.name));
+    // 全量入链后，关系两端不再限于上市企业，只需保证都在链上主体清单内。
+    const allNames = new Set(payload.companies.map((company) => company.name));
     for (const relation of payload.relations) {
       assert.ok(
-        listedNames.has(relation.from),
-        `${path.basename(file)} 关系起点未标记上市：${relation.from}`,
+        allNames.has(relation.from),
+        `${path.basename(file)} 关系起点不在链上主体内：${relation.from}`,
       );
       assert.ok(
-        listedNames.has(relation.to),
-        `${path.basename(file)} 关系终点未标记上市：${relation.to}`,
+        allNames.has(relation.to),
+        `${path.basename(file)} 关系终点不在链上主体内：${relation.to}`,
       );
     }
   }

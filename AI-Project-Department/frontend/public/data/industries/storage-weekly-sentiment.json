@@ -1,0 +1,1372 @@
+{
+ "schemaVersion": 1,
+ "industry": "储能产业",
+ "generatedAt": "2026-10-12T07:43:31.748Z",
+ "note": "公开资讯源抓取 + 规则化分类/情绪判定结果，仅作行业舆情方向参考，不构成投资或授信建议。",
+ "rawCount": 135,
+ "sources": [
+  {
+   "id": "escn",
+   "name": "中国储能网",
+   "url": "https://www.escn.com.cn/"
+  },
+  {
+   "id": "inen",
+   "name": "国际储能网",
+   "url": "https://chuneng.in-en.com/cjdr/"
+  },
+  {
+   "id": "supplement",
+   "name": "行业检索补充",
+   "url": "https://www.escn.com.cn/",
+   "note": "由公开检索整理的真实条目，均保留原文链接与发布日期，用于补足抓取源在价格、招投标与出海三个维度的覆盖度；可随时删除或替换。"
+  }
+ ],
+ "items": [
+  {
+   "id": "inen-gpz55r",
+   "title": "《山东省电力并网运行管理实施细则》《山东省电力辅助服务管理实施细则》印发",
+   "summary": "储能头条获悉，10月10日，国家能源局山东监管办公室印发《山东省电力并网运行管理实施细则》《山东省电力辅助服务管理实施细则》(2026年修订版)的通知。《山东省…",
+   "url": "https://chuneng.in-en.com/html/chunengy-59103.shtml",
+   "source": "国际储能网",
+   "sourceId": "inen",
+   "channel": "政策",
+   "publishedAt": "2026-10-12",
+   "category": "policy",
+   "categoryLabel": "政策机制",
+   "categoryWeight": 10,
+   "sentiment": "positive",
+   "sentimentLabel": "正面",
+   "sentimentScore": 1,
+   "segments": [
+    "应用与运营"
+   ],
+   "keywords": [
+    "辅助服务",
+    "并网"
+   ],
+   "signals": [],
+   "companies": [],
+   "companyHits": [],
+   "impact": 3
+  },
+  {
+   "id": "inen-h6ag71",
+   "title": "3.15GW！辽宁“十五五”第一批储能项目发布！宁德时代/海博思创/阳光电源/远景/华润等入选！",
+   "summary": "储能头条获悉，10月10日，辽宁省发改委发布了《关于“十五五”第一批新型储能项目遴选结果的公示》，共公示了22个项目，总容量315万千瓦（3.15GW）。项目以磷酸…",
+   "url": "https://chuneng.in-en.com/html/chunengy-59097.shtml",
+   "source": "国际储能网",
+   "sourceId": "inen",
+   "channel": "政策",
+   "publishedAt": "2026-10-12",
+   "category": "policy",
+   "categoryLabel": "政策机制",
+   "categoryWeight": 3,
+   "sentiment": "positive",
+   "sentimentLabel": "正面",
+   "sentimentScore": 1,
+   "segments": [],
+   "keywords": [
+    "十五五"
+   ],
+   "signals": [
+    "launch"
+   ],
+   "companies": [
+    "宁德时代",
+    "海博思创",
+    "阳光电源"
+   ],
+   "companyHits": [
+    {
+     "name": "宁德时代",
+     "code": "300750",
+     "tier": "leader",
+     "tierLabel": "龙头",
+     "level1": "电池与核心部件 · 系统集成与工程建设"
+    },
+    {
+     "name": "海博思创",
+     "code": "688411",
+     "tier": "leader",
+     "tierLabel": "龙头",
+     "level1": "电池与核心部件 · 系统集成与工程建设"
+    },
+    {
+     "name": "阳光电源",
+     "code": "300274",
+     "tier": "leader",
+     "tierLabel": "龙头",
+     "level1": "电池与核心部件 · 系统集成与工程建设"
+    }
+   ],
+   "impact": 3
+  },
+  {
+   "id": "supplement-ebc7lb",
+   "title": "国家能源局公开征求意见：无协议不得并网，新型储能纳入并网主体",
+   "summary": "《电力并网运行管理规定（征求意见稿）》适用于省级及以上电力调度机构直接调度的发电侧并网主体，以及能够响应电力调度指令的新型储能；能够响应调度指令的绿电直连、源网荷储一体化等新型经营主体参照执行。",
+   "url": "https://dy.163.com/article/L91NEAEN05568W0A.html",
+   "source": "市场资讯",
+   "sourceId": "supplement",
+   "channel": "政策",
+   "publishedAt": "2026-10-12",
+   "category": "policy",
+   "categoryLabel": "政策机制",
+   "categoryWeight": 7,
+   "sentiment": "positive",
+   "sentimentLabel": "正面",
+   "sentimentScore": 1,
+   "segments": [
+    "应用与运营"
+   ],
+   "keywords": [
+    "并网",
+    "源网荷储",
+    "绿电直连"
+   ],
+   "signals": [],
+   "companies": [],
+   "companyHits": [],
+   "impact": 3
+  },
+  {
+   "id": "supplement-idyoyo",
+   "title": "《新型电池产业发展“十五五”规划》发布：构建以锂电池为主，钠电池、液流电池等协同发展的供给体系",
+   "summary": "规划提出到 2030 年我国新型电池产业规模稳步增长，全固态电池初步实现规模化应用，长寿命锂电池循环寿命达到 15000 次，头部企业产品缺陷率达到 PPB 级；构建以锂电池为主、钠电池与液流电池协同发展的新型电池产品供给体系，并推进全固态电池、钠电池等重点领域标准研制。",
+   "url": "https://dy.163.com/article/L91NEAEN05568W0A.html",
+   "source": "市场资讯",
+   "sourceId": "supplement",
+   "channel": "政策",
+   "publishedAt": "2026-10-12",
+   "category": "policy",
+   "categoryLabel": "政策机制",
+   "categoryWeight": 6,
+   "sentiment": "neutral",
+   "sentimentLabel": "中性",
+   "sentimentScore": 0,
+   "segments": [
+    "检测认证与标准",
+    "电池与核心部件"
+   ],
+   "keywords": [
+    "十五五",
+    "钠电",
+    "液流电池",
+    "固态电池",
+    "循环寿命"
+   ],
+   "signals": [
+    "route",
+    "launch"
+   ],
+   "companies": [],
+   "companyHits": [],
+   "impact": 3
+  },
+  {
+   "id": "supplement-14qm5rd",
+   "title": "今日招中标动态：山西阳泉 400MW/800MWh 独立储能 EPC 候选人公示，报价低至 0.903 元/Wh",
+   "summary": "本批次 4 个中标动态、4 个招标动态。山西阳泉百顺联郊区项目三家候选报价区间 0.903—0.911 元/Wh；吉林松原 100MW/400MWh 构网型项目折合 0.96 元/Wh；山东临邑 200MW/400MWh 分布式台区储能 EPC 折合 1.0125 元/Wh；招标侧运达能源乌兰察布 200MW/800…",
+   "url": "https://www.toutiao.com/article/7695641230243316278/",
+   "source": "今日头条",
+   "sourceId": "supplement",
+   "channel": "招投标",
+   "publishedAt": "2026-10-12",
+   "category": "bidding",
+   "categoryLabel": "招投标",
+   "categoryWeight": 8,
+   "sentiment": "positive",
+   "sentimentLabel": "正面",
+   "sentimentScore": 1,
+   "segments": [
+    "系统集成与工程建设"
+   ],
+   "keywords": [
+    "独立储能",
+    "构网型",
+    "EPC"
+   ],
+   "signals": [
+    "cost",
+    "route"
+   ],
+   "companies": [],
+   "companyHits": [],
+   "impact": 3
+  },
+  {
+   "id": "supplement-12a95r0",
+   "title": "超 240 亿！国轩高科联合大众汽车布局欧非，共建锂电池与磷酸铁锂正极海外产能",
+   "summary": "国轩高科与大众汽车拟在西班牙瓦伦西亚、斯洛伐克苏拉尼、摩洛哥肯尼特拉组建三家合资公司，投资建设锂电池和正极材料生产基地，预计总投资约 32.22 亿欧元（折合约 245.68 亿元人民币）。另据同源报道，中比新能源 12GWh 钠离子电芯项目落地江苏南京高淳，规划总投资约 30 亿元。",
+   "url": "https://finance.sina.com.cn/roll/2026-10-12/doc-iniuxrzn0508042.shtml",
+   "source": "新浪财经",
+   "sourceId": "supplement",
+   "channel": "资本",
+   "publishedAt": "2026-10-12",
+   "category": "overseas",
+   "categoryLabel": "出海海外",
+   "categoryWeight": 3,
+   "sentiment": "neutral",
+   "sentimentLabel": "中性",
+   "sentimentScore": 0,
+   "segments": [
+    "资源与材料",
+    "电池与核心部件"
+   ],
+   "keywords": [],
+   "signals": [
+    "route"
+   ],
+   "companies": [
+    "国轩高科"
+   ],
+   "companyHits": [
+    {
+     "name": "国轩高科",
+     "code": "002074",
+     "tier": "core",
+     "tierLabel": "骨干",
+     "level1": "电池与核心部件 · 系统集成与工程建设"
+    }
+   ],
+   "impact": 3
+  },
+  {
+   "id": "escn-1nib3p8",
+   "title": "2026年，新型储能走出“政策襁褓”",
+   "summary": "",
+   "url": "https://www.escn.com.cn/news/show-2332007.html",
+   "source": "中国储能网",
+   "sourceId": "escn",
+   "channel": "综合",
+   "publishedAt": "2026-10-12",
+   "category": "policy",
+   "categoryLabel": "政策机制",
+   "categoryWeight": 3,
+   "sentiment": "neutral",
+   "sentimentLabel": "中性",
+   "sentimentScore": 0,
+   "segments": [],
+   "keywords": [],
+   "signals": [],
+   "companies": [],
+   "companyHits": [],
+   "impact": 2
+  },
+  {
+   "id": "escn-19vptnw",
+   "title": "9月压实密度处于2.4 - 2.55 g/cm³的磷酸铁锂正极材料行业成本指数",
+   "summary": "",
+   "url": "https://www.escn.com.cn/news/show-2331971.html",
+   "source": "中国储能网",
+   "sourceId": "escn",
+   "channel": "综合",
+   "publishedAt": "2026-10-12",
+   "category": "price",
+   "categoryLabel": "价格成本",
+   "categoryWeight": 2,
+   "sentiment": "neutral",
+   "sentimentLabel": "中性",
+   "sentimentScore": 0,
+   "segments": [
+    "资源与材料"
+   ],
+   "keywords": [],
+   "signals": [
+    "cost"
+   ],
+   "companies": [],
+   "companyHits": [],
+   "impact": 2
+  },
+  {
+   "id": "escn-4v4mbd",
+   "title": "美国储能企业获融资并推合规服务，FEOC与MACR成焦点",
+   "summary": "",
+   "url": "https://www.escn.com.cn/news/show-2331945.html",
+   "source": "中国储能网",
+   "sourceId": "escn",
+   "channel": "综合",
+   "publishedAt": "2026-10-12",
+   "category": "overseas",
+   "categoryLabel": "出海海外",
+   "categoryWeight": 5,
+   "sentiment": "positive",
+   "sentimentLabel": "正面",
+   "sentimentScore": 1.5,
+   "segments": [],
+   "keywords": [],
+   "signals": [],
+   "companies": [],
+   "companyHits": [],
+   "impact": 2
+  },
+  {
+   "id": "escn-oaur4a",
+   "title": "行业专家警告：调试延误与技术缺口正在困扰电池储能项目交接",
+   "summary": "",
+   "url": "https://www.escn.com.cn/news/show-2331988.html",
+   "source": "中国储能网",
+   "sourceId": "escn",
+   "channel": "综合",
+   "publishedAt": "2026-10-12",
+   "category": "company",
+   "categoryLabel": "企业动态",
+   "categoryWeight": 0,
+   "sentiment": "negative",
+   "sentimentLabel": "负面",
+   "sentimentScore": -2,
+   "segments": [
+    "电池与核心部件"
+   ],
+   "keywords": [],
+   "signals": [
+    "route"
+   ],
+   "companies": [],
+   "companyHits": [],
+   "impact": 2
+  },
+  {
+   "id": "escn-uviqb7",
+   "title": "专家认为西班牙储能市场亟需提升灵活性、完善制度框架和简化审批流程",
+   "summary": "",
+   "url": "https://www.escn.com.cn/news/show-2331963.html",
+   "source": "中国储能网",
+   "sourceId": "escn",
+   "channel": "综合",
+   "publishedAt": "2026-10-12",
+   "category": "overseas",
+   "categoryLabel": "出海海外",
+   "categoryWeight": 2,
+   "sentiment": "neutral",
+   "sentimentLabel": "中性",
+   "sentimentScore": 0,
+   "segments": [],
+   "keywords": [],
+   "signals": [],
+   "companies": [],
+   "companyHits": [],
+   "impact": 2
+  },
+  {
+   "id": "escn-6xci9i",
+   "title": "江苏海安独立储能项目建设主体遴选结果公示",
+   "summary": "",
+   "url": "https://www.escn.com.cn/news/show-2331892.html",
+   "source": "中国储能网",
+   "sourceId": "escn",
+   "channel": "综合",
+   "publishedAt": "2026-10-12",
+   "category": "bidding",
+   "categoryLabel": "招投标",
+   "categoryWeight": 2,
+   "sentiment": "neutral",
+   "sentimentLabel": "中性",
+   "sentimentScore": 0,
+   "segments": [],
+   "keywords": [
+    "独立储能"
+   ],
+   "signals": [],
+   "companies": [],
+   "companyHits": [],
+   "impact": 2
+  },
+  {
+   "id": "escn-1wxhw5g",
+   "title": "安徽省出台加强先进光伏和新型储能产业知识产权保护行动方案（2026—2027 年）",
+   "summary": "",
+   "url": "https://www.escn.com.cn/news/show-2331849.html",
+   "source": "中国储能网",
+   "sourceId": "escn",
+   "channel": "综合",
+   "publishedAt": "2026-10-12",
+   "category": "policy",
+   "categoryLabel": "政策机制",
+   "categoryWeight": 2,
+   "sentiment": "neutral",
+   "sentimentLabel": "中性",
+   "sentimentScore": 0,
+   "segments": [],
+   "keywords": [],
+   "signals": [],
+   "companies": [],
+   "companyHits": [],
+   "impact": 2
+  },
+  {
+   "id": "escn-173bwkg",
+   "title": "独立储能首次参与华东省间互济交易",
+   "summary": "",
+   "url": "https://www.escn.com.cn/news/show-2331825.html",
+   "source": "中国储能网",
+   "sourceId": "escn",
+   "channel": "综合",
+   "publishedAt": "2026-10-12",
+   "category": "company",
+   "categoryLabel": "企业动态",
+   "categoryWeight": 0,
+   "sentiment": "neutral",
+   "sentimentLabel": "中性",
+   "sentimentScore": 0,
+   "segments": [],
+   "keywords": [
+    "独立储能"
+   ],
+   "signals": [],
+   "companies": [],
+   "companyHits": [],
+   "impact": 2
+  },
+  {
+   "id": "inen-eubfgy",
+   "title": "南非将公开招标采购4.6GW电池储能",
+   "summary": "近日，南非政府计划根据该国2025年综合资源计划（IRP）的首批拨款，公开招标采购4.6GW电池储能和5GW燃气发电装机。南非的综合资源计划 (IRP) 设定了到 2039 年新…",
+   "url": "https://chuneng.in-en.com/html/chunengy-59121.shtml",
+   "source": "国际储能网",
+   "sourceId": "inen",
+   "channel": "资讯",
+   "publishedAt": "2026-10-12",
+   "category": "bidding",
+   "categoryLabel": "招投标",
+   "categoryWeight": 3,
+   "sentiment": "neutral",
+   "sentimentLabel": "中性",
+   "sentimentScore": 0,
+   "segments": [
+    "电池与核心部件",
+    "系统集成与工程建设"
+   ],
+   "keywords": [],
+   "signals": [],
+   "companies": [],
+   "companyHits": [],
+   "impact": 2
+  },
+  {
+   "id": "supplement-1wy4bxy",
+   "title": "宁德时代再获 3GWh 欧洲大单，全年钠电储能订单攀升至 70GWh",
+   "summary": "德国系统集成商 Intilion 宣布与宁德时代达成协议，未来五年在 DACH 地区（德国、奥地利、瑞士）落地采用钠离子电池方案的储能项目，目标总规模最高 3GWh；宁德时代 2026 年已公开钠电储能订单升至 70GWh。披露的性能指标为往返效率超 96.5%、高温循环次数超 15000 次、低温容量保持率高于 9…",
+   "url": "https://finance.sina.com.cn/roll/2026-10-11/doc-iniuvhur7373425.shtml",
+   "source": "新浪财经",
+   "sourceId": "supplement",
+   "channel": "出海",
+   "publishedAt": "2026-10-11",
+   "category": "tech",
+   "categoryLabel": "技术产品",
+   "categoryWeight": 3,
+   "sentiment": "positive",
+   "sentimentLabel": "正面",
+   "sentimentScore": 3.5,
+   "segments": [
+    "电池与核心部件",
+    "系统集成与工程建设"
+   ],
+   "keywords": [
+    "钠离子电池",
+    "钠电"
+   ],
+   "signals": [
+    "route",
+    "launch"
+   ],
+   "companies": [
+    "宁德时代"
+   ],
+   "companyHits": [
+    {
+     "name": "宁德时代",
+     "code": "300750",
+     "tier": "leader",
+     "tierLabel": "龙头",
+     "level1": "电池与核心部件 · 系统集成与工程建设"
+    }
+   ],
+   "impact": 4
+  },
+  {
+   "id": "inen-15e7ouu",
+   "title": "不服从调度命令、超计划充放电！新疆能源监管办约谈12家违规储能企业",
+   "summary": "储能头条获悉，近日，新疆能源监管办新疆能源监管办对辖区12家不服从调度命令、超计划充放电的储能企业开展集体约谈，压实企业主体责任，重拳整治电力运行违规行…",
+   "url": "https://chuneng.in-en.com/html/chunengy-59052.shtml",
+   "source": "国际储能网",
+   "sourceId": "inen",
+   "channel": "资讯",
+   "publishedAt": "2026-10-10",
+   "category": "safety",
+   "categoryLabel": "安全风险",
+   "categoryWeight": 4,
+   "sentiment": "negative",
+   "sentimentLabel": "负面",
+   "sentimentScore": -2,
+   "segments": [
+    "应用与运营"
+   ],
+   "keywords": [],
+   "signals": [],
+   "companies": [],
+   "companyHits": [],
+   "impact": 3
+  },
+  {
+   "id": "inen-rtm4by",
+   "title": "《青海电力调频辅助服务市场实施细则（征求意见稿）》 独立储能需满足15分钟持续调频要求的荷电状态空间",
+   "summary": "独立储能需满足15分钟持续调频要求的荷电状态空间,10月9日，国家能源局西北监管局发布《青海电力调频辅助服务市场实施细则（征求意见稿）》。文件提出，现阶段，青海调频市场与现货市场分步独立出清，待条件具备…",
+   "url": "https://chuneng.in-en.com/html/chunengy-59076.shtml",
+   "source": "国际储能网",
+   "sourceId": "inen",
+   "channel": "政策",
+   "publishedAt": "2026-10-10",
+   "category": "policy",
+   "categoryLabel": "政策机制",
+   "categoryWeight": 10,
+   "sentiment": "neutral",
+   "sentimentLabel": "中性",
+   "sentimentScore": 0,
+   "segments": [
+    "应用与运营"
+   ],
+   "keywords": [
+    "现货市场",
+    "辅助服务",
+    "调频",
+    "独立储能"
+   ],
+   "signals": [
+    "launch"
+   ],
+   "companies": [],
+   "companyHits": [],
+   "impact": 3
+  },
+  {
+   "id": "supplement-9ijpel",
+   "title": "3 亿千瓦目标下，新型储能“十五五”之路如何走稳走远",
+   "summary": "随着 136 号文不再将配置储能作为新建新能源项目核准、并网前置条件，以及 114 号文首次在国家层面明确电网侧独立新型储能的容量价值，储能完整收益版图成型——电能量收益、辅助服务收益、容量补偿收益协同发力，行业从政策驱动转向市场化驱动。",
+   "url": "https://news.qq.com/rain/a/20261010A09OJD00",
+   "source": "腾讯新闻",
+   "sourceId": "supplement",
+   "channel": "政策",
+   "publishedAt": "2026-10-10",
+   "category": "policy",
+   "categoryLabel": "政策机制",
+   "categoryWeight": 3,
+   "sentiment": "neutral",
+   "sentimentLabel": "中性",
+   "sentimentScore": 0,
+   "segments": [
+    "应用与运营"
+   ],
+   "keywords": [
+    "十五五",
+    "辅助服务",
+    "并网"
+   ],
+   "signals": [],
+   "companies": [],
+   "companyHits": [],
+   "impact": 3
+  },
+  {
+   "id": "supplement-1ajb1ts",
+   "title": "山西 400MW/800MWh 储能项目 EPC 总承包中标候选人公示，报价 0.9987—0.9998 元/Wh",
+   "summary": "榆社经济技术开发区 400MW/800MWh 储能项目 EPC 总承包中标候选人公示，前三名报价分别为 79984 万元、79944 万元、79896 万元，折合单价 0.9998、0.9993、0.9987 元/Wh；项目为共享储能电站，总投资 8 亿元。",
+   "url": "https://chuneng.in-en.com/html/chunengy-59101.shtml",
+   "source": "国际储能网",
+   "sourceId": "supplement",
+   "channel": "招投标",
+   "publishedAt": "2026-10-10",
+   "category": "bidding",
+   "categoryLabel": "招投标",
+   "categoryWeight": 10,
+   "sentiment": "positive",
+   "sentimentLabel": "正面",
+   "sentimentScore": 1,
+   "segments": [
+    "系统集成与工程建设",
+    "应用与运营"
+   ],
+   "keywords": [
+    "共享储能",
+    "EPC"
+   ],
+   "signals": [
+    "cost",
+    "route"
+   ],
+   "companies": [],
+   "companyHits": [],
+   "impact": 3
+  },
+  {
+   "id": "supplement-7zxkl7",
+   "title": "1.2 元/Wh！山东 375MW/783MWh 台区储能 EPC 招标",
+   "summary": "青岛即墨区城市配电网台区储能项目二期 EPC 招标，总装机 375MW/783MWh，招标控制价 939006381.5 元、合单价 1.2 元/Wh；拟建设 3000 个分布式台区储能设施，每台区配置 125kW/261kWh 储能一体柜 1 台，采用 0.4kV 低压侧就地并网。",
+   "url": "https://news.bjx.com.cn/html/20261010/1515575.shtml",
+   "source": "北极星储能网",
+   "sourceId": "supplement",
+   "channel": "招投标",
+   "publishedAt": "2026-10-10",
+   "category": "price",
+   "categoryLabel": "价格成本",
+   "categoryWeight": 4,
+   "sentiment": "neutral",
+   "sentimentLabel": "中性",
+   "sentimentScore": 0,
+   "segments": [
+    "系统集成与工程建设"
+   ],
+   "keywords": [
+    "并网",
+    "EPC"
+   ],
+   "signals": [
+    "cost"
+   ],
+   "companies": [],
+   "companyHits": [],
+   "impact": 3
+  },
+  {
+   "id": "supplement-v6eth5",
+   "title": "投运不到一年，储能 PCS 起火！供应商为 GE！",
+   "summary": "2026 年 10 月 2 日，美国佛罗里达州 Okaloosa 的 Kayak 储能中心内一台 PCS 设备发生火灾，无人员伤亡；火源锁定在单台 PCS 柜内，未波及周边 24 个电池集装箱及其余 23 台 PCS 柜。该储能项目建设规模 74.5MW/223.5MWh，2025 年 12 月首次投运，起火距正式投…",
+   "url": "https://news.bjx.com.cn/html/20261010/1515530.shtml",
+   "source": "北极星储能网",
+   "sourceId": "supplement",
+   "channel": "安全",
+   "publishedAt": "2026-10-10",
+   "category": "safety",
+   "categoryLabel": "安全风险",
+   "categoryWeight": 3,
+   "sentiment": "negative",
+   "sentimentLabel": "负面",
+   "sentimentScore": -1,
+   "segments": [
+    "核心装备",
+    "电池与核心部件"
+   ],
+   "keywords": [
+    "PCS"
+   ],
+   "signals": [
+    "route"
+   ],
+   "companies": [],
+   "companyHits": [],
+   "impact": 3
+  },
+  {
+   "id": "supplement-1cxxr90",
+   "title": "鹏辉能源风鹏电芯 587Ah 正式量产下线",
+   "summary": "鹏辉能源在衢州零碳工厂二期举行风鹏电芯 587Ah 量产下线仪式，标志其储能大电芯进入大批量生产交付阶段。该电芯 25℃ 常温能效超 95%、45℃ 高温能效超 96%，常温循环寿命达 10000 次，已通过针刺、热失控、过充等安全测试并获得 UN38.3 认证。",
+   "url": "https://chuneng.in-en.com/html/chunengy-59118.shtml",
+   "source": "国际储能网",
+   "sourceId": "supplement",
+   "channel": "技术",
+   "publishedAt": "2026-10-10",
+   "category": "tech",
+   "categoryLabel": "技术产品",
+   "categoryWeight": 9,
+   "sentiment": "positive",
+   "sentimentLabel": "正面",
+   "sentimentScore": 1,
+   "segments": [
+    "检测认证与标准",
+    "电池与核心部件"
+   ],
+   "keywords": [
+    "587ah",
+    "循环寿命",
+    "热失控"
+   ],
+   "signals": [
+    "route",
+    "launch"
+   ],
+   "companies": [
+    "鹏辉能源"
+   ],
+   "companyHits": [
+    {
+     "name": "鹏辉能源",
+     "code": "300438",
+     "tier": "core",
+     "tierLabel": "骨干",
+     "level1": "电池与核心部件"
+    }
+   ],
+   "impact": 3
+  },
+  {
+   "id": "supplement-17i2k5s",
+   "title": "价格走势：2h 储能系统均价 0.5721 元/Wh；4h EPC 均价 0.9927 元/Wh；本周 13.78GWh 储能招中标项目",
+   "summary": "以 10 月 3 日至 10 月 9 日数据为基础（不含集采框采）统计：2 小时储能 EPC 有 9 个有效报价，区间 0.7379—1.0416 元/Wh，均价 0.8989 元/Wh；4 小时储能 EPC 均价 0.9927 元/Wh；全钒液流电池储能系统设备采购报价 1.93—2.1 元/Wh。",
+   "url": "https://www.in-en.com/article/html/energy-2343758.shtml",
+   "source": "国际能源网",
+   "sourceId": "supplement",
+   "channel": "价格",
+   "publishedAt": "2026-10-09",
+   "category": "price",
+   "categoryLabel": "价格成本",
+   "categoryWeight": 13,
+   "sentiment": "positive",
+   "sentimentLabel": "正面",
+   "sentimentScore": 1,
+   "segments": [
+    "资源与材料",
+    "电池与核心部件",
+    "系统集成与工程建设"
+   ],
+   "keywords": [
+    "液流电池",
+    "全钒液流",
+    "系统均价",
+    "EPC",
+    "集采"
+   ],
+   "signals": [
+    "cost",
+    "route"
+   ],
+   "companies": [],
+   "companyHits": [],
+   "impact": 4
+  },
+  {
+   "id": "inen-16ryecg",
+   "title": "比亚迪总冠名，九大赛道全覆盖，CESC第四届储能大会暨展览会什么来头？",
+   "summary": "CESC第四届储能大会暨展览会什么来头？,2026年作为“十五五”规划开局之年，我国新型储能产业迈入市场化转型关键窗口期。伴随容量电价机制落地、《中国能源法》确立储能独立市场主体地位，产业发展由政…",
+   "url": "https://chuneng.in-en.com/html/chunengy-59019.shtml",
+   "source": "国际储能网",
+   "sourceId": "inen",
+   "channel": "资讯",
+   "publishedAt": "2026-10-09",
+   "category": "policy",
+   "categoryLabel": "政策机制",
+   "categoryWeight": 12,
+   "sentiment": "neutral",
+   "sentimentLabel": "中性",
+   "sentimentScore": 0,
+   "segments": [
+    "应用与运营"
+   ],
+   "keywords": [
+    "容量电价",
+    "十五五"
+   ],
+   "signals": [],
+   "companies": [
+    "比亚迪"
+   ],
+   "companyHits": [
+    {
+     "name": "比亚迪",
+     "code": "002594",
+     "tier": "leader",
+     "tierLabel": "龙头",
+     "level1": "电池与核心部件 · 系统集成与工程建设"
+    }
+   ],
+   "impact": 4
+  },
+  {
+   "id": "supplement-w2us1s",
+   "title": "206GWh、签到 2031 年：储能出海进入“锁量长协”时代",
+   "summary": "亿纬锂能子公司湖北亿纬动力与美国储能集成商 Fluence 签订五年期供货框架协议，约定 2027 年至 2031 年累计生产交付 206GWh 电池产品，其中 2027 年承诺交付 16GWh、2028—2031 年预留容量合计 190GWh；2026 年第三季度中国储能企业披露的储能系统签约订单中海外占比达 93…",
+   "url": "https://www.sohu.com/a/1085631691_115377",
+   "source": "搜狐",
+   "sourceId": "supplement",
+   "channel": "出海",
+   "publishedAt": "2026-10-09",
+   "category": "overseas",
+   "categoryLabel": "出海海外",
+   "categoryWeight": 7,
+   "sentiment": "neutral",
+   "sentimentLabel": "中性",
+   "sentimentScore": 0,
+   "segments": [
+    "电池与核心部件",
+    "系统集成与工程建设"
+   ],
+   "keywords": [
+    "出海"
+   ],
+   "signals": [
+    "launch"
+   ],
+   "companies": [],
+   "companyHits": [],
+   "impact": 3
+  },
+  {
+   "id": "escn-1h05bx8",
+   "title": "● 9月储能政策：“十五五”新型电池产业规划落地 清单制管理与算电协同成主线",
+   "summary": "",
+   "url": "https://www.escn.com.cn/news/show-2331473.html",
+   "source": "中国储能网",
+   "sourceId": "escn",
+   "channel": "综合",
+   "publishedAt": "2026-10-09",
+   "category": "policy",
+   "categoryLabel": "政策机制",
+   "categoryWeight": 11,
+   "sentiment": "positive",
+   "sentimentLabel": "正面",
+   "sentimentScore": 1,
+   "segments": [
+    "电池与核心部件"
+   ],
+   "keywords": [
+    "十五五"
+   ],
+   "signals": [],
+   "companies": [],
+   "companyHits": [],
+   "impact": 2
+  },
+  {
+   "id": "supplement-unrndp",
+   "title": "价格走势：储能系统均价 0.629 元/Wh；2h EPC 均价 0.9349 元/Wh；本周 55GWh 储能招中标项目",
+   "summary": "本周储能招中标项目中，华商上元汇农科技、兴海欣源新能源、平顶山晟光储能等发布 42 个储能 EPC 招标项目，招标规模 7933.9MW/23596.891MWh，项目位于甘肃、宁夏、青海、河南等地。",
+   "url": "https://chuneng.in-en.com/html/chunengy-58952.shtml",
+   "source": "国际储能网",
+   "sourceId": "supplement",
+   "channel": "价格",
+   "publishedAt": "2026-10-08",
+   "category": "price",
+   "categoryLabel": "价格成本",
+   "categoryWeight": 13,
+   "sentiment": "positive",
+   "sentimentLabel": "正面",
+   "sentimentScore": 1,
+   "segments": [
+    "系统集成与工程建设"
+   ],
+   "keywords": [
+    "系统均价",
+    "EPC"
+   ],
+   "signals": [
+    "cost",
+    "launch"
+   ],
+   "companies": [],
+   "companyHits": [],
+   "impact": 4
+  },
+  {
+   "id": "supplement-ze1xu3",
+   "title": "2.4GWh 储能开工！比亚迪“浩瀚系统”落地波兰",
+   "summary": "波兰最大规模电池储能项目 Siedlce 600MW/2.4GWh 储能电站开工，全套核心储能系统由比亚迪储能独家供货，采用 4 小时长时储能配置。项目方案含 210 个电池集装箱与 105 台带 PCS 的变压器集装箱，搭载 2710Ah 储能专用刀片电池，单最小单元容量可达 14.5MWh。",
+   "url": "https://www.toutiao.com/article/7694188392380924443",
+   "source": "今日头条",
+   "sourceId": "supplement",
+   "channel": "出海",
+   "publishedAt": "2026-10-08",
+   "category": "capacity",
+   "categoryLabel": "产能项目",
+   "categoryWeight": 5,
+   "sentiment": "positive",
+   "sentimentLabel": "正面",
+   "sentimentScore": 1.5,
+   "segments": [
+    "核心装备",
+    "电池与核心部件"
+   ],
+   "keywords": [
+    "长时储能",
+    "PCS"
+   ],
+   "signals": [
+    "route"
+   ],
+   "companies": [
+    "比亚迪"
+   ],
+   "companyHits": [
+    {
+     "name": "比亚迪",
+     "code": "002594",
+     "tier": "leader",
+     "tierLabel": "龙头",
+     "level1": "电池与核心部件 · 系统集成与工程建设"
+    }
+   ],
+   "impact": 4
+  },
+  {
+   "id": "supplement-3e87wx",
+   "title": "疑似水污染！两大储能电站被强制停运",
+   "summary": "美国纽约长岛东汉普顿、蒙托克两座电网侧储能电站被纽约州环保部门行政命令强制停机，限期拆除全站 Novec 1230 气体灭火系统；起因是 2023 年起火事故中氟化酮灭火药剂遇水水解生成全氟丙酸（PFPrA）并渗入地下含水层，当地已有 2 口饮用水井关停报废。",
+   "url": "https://www.toutiao.com/article/7694185539029598730",
+   "source": "今日头条",
+   "sourceId": "supplement",
+   "channel": "安全",
+   "publishedAt": "2026-10-08",
+   "category": "safety",
+   "categoryLabel": "安全风险",
+   "categoryWeight": 8,
+   "sentiment": "negative",
+   "sentimentLabel": "负面",
+   "sentimentScore": -4,
+   "segments": [
+    "应用与运营"
+   ],
+   "keywords": [],
+   "signals": [],
+   "companies": [],
+   "companyHits": [],
+   "impact": 3
+  },
+  {
+   "id": "inen-1m828ym",
+   "title": "原创35条！2026年9月全国16省市储能政策汇总！",
+   "summary": "",
+   "url": "https://chuneng.in-en.com/html/chunengy-58968.shtml",
+   "source": "国际储能网",
+   "sourceId": "inen",
+   "channel": "资讯",
+   "publishedAt": "2026-10-08",
+   "category": "policy",
+   "categoryLabel": "政策机制",
+   "categoryWeight": 3,
+   "sentiment": "neutral",
+   "sentimentLabel": "中性",
+   "sentimentScore": 0,
+   "segments": [],
+   "keywords": [],
+   "signals": [],
+   "companies": [],
+   "companyHits": [],
+   "impact": 2
+  },
+  {
+   "id": "inen-1ip7llo",
+   "title": "储能「周事迹」：涉及阳光电源/海博思创/派能科技/融和元储/易储数智/国轩高科/国润储能/天启鸿源/湖南裕能/汇川技术/海信网络能源等",
+   "summary": "",
+   "url": "https://chuneng.in-en.com/html/chunengy-58959.shtml",
+   "source": "国际储能网",
+   "sourceId": "inen",
+   "channel": "资讯",
+   "publishedAt": "2026-10-08",
+   "category": "company",
+   "categoryLabel": "企业动态",
+   "categoryWeight": 0,
+   "sentiment": "neutral",
+   "sentimentLabel": "中性",
+   "sentimentScore": 0,
+   "segments": [],
+   "keywords": [],
+   "signals": [
+    "route"
+   ],
+   "companies": [
+    "湖南裕能",
+    "国轩高科",
+    "派能科技",
+    "海博思创",
+    "汇川技术",
+    "阳光电源"
+   ],
+   "companyHits": [
+    {
+     "name": "湖南裕能",
+     "code": "301358",
+     "tier": "leader",
+     "tierLabel": "龙头",
+     "level1": "资源与材料"
+    },
+    {
+     "name": "国轩高科",
+     "code": "002074",
+     "tier": "core",
+     "tierLabel": "骨干",
+     "level1": "电池与核心部件 · 系统集成与工程建设"
+    },
+    {
+     "name": "派能科技",
+     "code": "688063",
+     "tier": "core",
+     "tierLabel": "骨干",
+     "level1": "电池与核心部件 · 系统集成与工程建设"
+    },
+    {
+     "name": "海博思创",
+     "code": "688411",
+     "tier": "leader",
+     "tierLabel": "龙头",
+     "level1": "电池与核心部件 · 系统集成与工程建设"
+    },
+    {
+     "name": "汇川技术",
+     "code": "300124",
+     "tier": "leader",
+     "tierLabel": "龙头",
+     "level1": "电池与核心部件"
+    },
+    {
+     "name": "阳光电源",
+     "code": "300274",
+     "tier": "leader",
+     "tierLabel": "龙头",
+     "level1": "电池与核心部件 · 系统集成与工程建设"
+    }
+   ],
+   "impact": 2
+  },
+  {
+   "id": "inen-1w34y6j",
+   "title": "165元/kW·年、6h折算！安徽储能容量电价正式发布",
+   "summary": "",
+   "url": "https://chuneng.in-en.com/html/chunengy-58992.shtml",
+   "source": "国际储能网",
+   "sourceId": "inen",
+   "channel": "政策",
+   "publishedAt": "2026-10-08",
+   "category": "policy",
+   "categoryLabel": "政策机制",
+   "categoryWeight": 4,
+   "sentiment": "neutral",
+   "sentimentLabel": "中性",
+   "sentimentScore": 0,
+   "segments": [
+    "应用与运营"
+   ],
+   "keywords": [
+    "容量电价"
+   ],
+   "signals": [
+    "launch"
+   ],
+   "companies": [],
+   "companyHits": [],
+   "impact": 2
+  },
+  {
+   "id": "supplement-1afpxfg",
+   "title": "储能安全：从“建议性”到“刚性红线”",
+   "summary": "《新型储能电站建设工程质量监督大纲》将 100 兆瓦及以上大型储能电站纳入强制质量监督，400 兆瓦以上项目新增电池舱吊装前专项监督节点；《电力重大事故隐患判定标准及治理监督管理规定》首次将储能电站涉网性能缺陷定性为电力重大事故隐患。海外 UL 9540A 第六版与 NFPA 855 新版同步升级大规模火烧测试要求。",
+   "url": "https://mp.ofweek.com/chuneng/a456714417647",
+   "source": "OFweek 储能网",
+   "sourceId": "supplement",
+   "channel": "安全",
+   "publishedAt": "2026-10-02",
+   "category": "safety",
+   "categoryLabel": "安全风险",
+   "categoryWeight": 4,
+   "sentiment": "neutral",
+   "sentimentLabel": "中性",
+   "sentimentScore": 0,
+   "segments": [
+    "检测认证与标准",
+    "电池与核心部件",
+    "系统集成与工程建设"
+   ],
+   "keywords": [
+    "UL 9540A",
+    "储能安全"
+   ],
+   "signals": [],
+   "companies": [],
+   "companyHits": [],
+   "impact": 3
+  },
+  {
+   "id": "inen-6bjaol",
+   "title": "江西电网侧独立储能清单制管理办法征求意见！锂电/钠电≤20MW得分最高，考核不合格扣减容量电费！",
+   "summary": "",
+   "url": "https://chuneng.in-en.com/html/chunengy-58889.shtml",
+   "source": "国际储能网",
+   "sourceId": "inen",
+   "channel": "政策",
+   "publishedAt": "2026-09-30",
+   "category": "policy",
+   "categoryLabel": "政策机制",
+   "categoryWeight": 9,
+   "sentiment": "negative",
+   "sentimentLabel": "负面",
+   "sentimentScore": -2,
+   "segments": [
+    "应用与运营"
+   ],
+   "keywords": [
+    "独立储能",
+    "钠电"
+   ],
+   "signals": [
+    "route"
+   ],
+   "companies": [],
+   "companyHits": [],
+   "impact": 4
+  },
+  {
+   "id": "inen-1gby3wd",
+   "title": "中标 | 中国能建山西院中标晋控天镇500兆瓦光储一体化基地EPC总承包项目",
+   "summary": "",
+   "url": "https://chuneng.in-en.com/html/chunengy-58901.shtml",
+   "source": "国际储能网",
+   "sourceId": "inen",
+   "channel": "项目",
+   "publishedAt": "2026-09-30",
+   "category": "bidding",
+   "categoryLabel": "招投标",
+   "categoryWeight": 5,
+   "sentiment": "positive",
+   "sentimentLabel": "正面",
+   "sentimentScore": 1,
+   "segments": [
+    "系统集成与工程建设"
+   ],
+   "keywords": [
+    "EPC"
+   ],
+   "signals": [],
+   "companies": [
+    "中国能建"
+   ],
+   "companyHits": [
+    {
+     "name": "中国能建",
+     "code": "601868",
+     "tier": "leader",
+     "tierLabel": "龙头",
+     "level1": "核心装备 · 系统集成与工程建设 · 应用与运营"
+    }
+   ],
+   "impact": 3
+  },
+  {
+   "id": "supplement-y73brx",
+   "title": "安徽河南新疆密集落子，十五五储能大幕正式拉开",
+   "summary": "安徽、河南、新疆等省容量电价细则相继落地，河南征求意见稿拟按 330 元/千瓦·年执行可靠容量补偿并于 2027 年 1 月 1 日起落地；南方电网总调新版调频辅助服务细则取消调频与现货交易互斥限制，里程报价下限调低至 1 元/MW。",
+   "url": "https://www.cescexpo.cn/%E5%AE%89%E5%BE%BD%E6%B2%B3%E5%8D%97%E6%96%B0%E7%96%86%E5%AF%86%E9%9B%86%E8%90%BD%E5%AD%90-%E5%8D%81%E4%BA%94%E4%BA%94%E5%82%A8%E8%83%BD%E5%A4%A7%E5%B9%95%E6%AD%A3%E5%BC%8F%E6%8B%89%E5%BC%80",
+   "source": "CESC 储能大会",
+   "sourceId": "supplement",
+   "channel": "政策",
+   "publishedAt": "2026-09-30",
+   "category": "policy",
+   "categoryLabel": "政策机制",
+   "categoryWeight": 3,
+   "sentiment": "neutral",
+   "sentimentLabel": "中性",
+   "sentimentScore": 0,
+   "segments": [
+    "应用与运营"
+   ],
+   "keywords": [
+    "容量电价",
+    "十五五",
+    "辅助服务",
+    "调频"
+   ],
+   "signals": [
+    "cost"
+   ],
+   "companies": [],
+   "companyHits": [],
+   "impact": 3
+  },
+  {
+   "id": "inen-1tqpq4p",
+   "title": "工信部等七部门联合印发《新型电池产业发展“十五五”规划》",
+   "summary": "",
+   "url": "https://chuneng.in-en.com/html/chunengy-58825.shtml",
+   "source": "国际储能网",
+   "sourceId": "inen",
+   "channel": "政策",
+   "publishedAt": "2026-09-28",
+   "category": "policy",
+   "categoryLabel": "政策机制",
+   "categoryWeight": 11,
+   "sentiment": "neutral",
+   "sentimentLabel": "中性",
+   "sentimentScore": 0,
+   "segments": [
+    "电池与核心部件"
+   ],
+   "keywords": [
+    "十五五"
+   ],
+   "signals": [],
+   "companies": [],
+   "companyHits": [],
+   "impact": 2
+  },
+  {
+   "id": "inen-6r6ger",
+   "title": "安徽独立储能清单管理：4h及以上、零碳园区内、中长期容量租赁占比高，优先纳入！并网前不得变更主体！",
+   "summary": "",
+   "url": "https://chuneng.in-en.com/html/chunengy-58724.shtml",
+   "source": "国际储能网",
+   "sourceId": "inen",
+   "channel": "政策",
+   "publishedAt": "2026-09-24",
+   "category": "policy",
+   "categoryLabel": "政策机制",
+   "categoryWeight": 3,
+   "sentiment": "positive",
+   "sentimentLabel": "正面",
+   "sentimentScore": 1,
+   "segments": [],
+   "keywords": [
+    "并网",
+    "独立储能"
+   ],
+   "signals": [],
+   "companies": [],
+   "companyHits": [],
+   "impact": 3
+  },
+  {
+   "id": "escn-172p7ih",
+   "title": "● 亿纬206GWh长约背后：AIDC储能究竟能带来多少增量？",
+   "summary": "",
+   "url": "https://www.escn.com.cn/news/show-2330789.html",
+   "source": "中国储能网",
+   "sourceId": "escn",
+   "channel": "综合",
+   "publishedAt": "2026-09-24",
+   "category": "capacity",
+   "categoryLabel": "产能项目",
+   "categoryWeight": 2,
+   "sentiment": "neutral",
+   "sentimentLabel": "中性",
+   "sentimentScore": 0,
+   "segments": [],
+   "keywords": [],
+   "signals": [],
+   "companies": [],
+   "companyHits": [],
+   "impact": 2
+  },
+  {
+   "id": "escn-kmmmre",
+   "title": "● 227个项目、144.6亿元！8月储能生产制造备案全线铺开",
+   "summary": "",
+   "url": "https://www.escn.com.cn/news/show-2330773.html",
+   "source": "中国储能网",
+   "sourceId": "escn",
+   "channel": "综合",
+   "publishedAt": "2026-09-24",
+   "category": "policy",
+   "categoryLabel": "政策机制",
+   "categoryWeight": 1,
+   "sentiment": "neutral",
+   "sentimentLabel": "中性",
+   "sentimentScore": 0,
+   "segments": [],
+   "keywords": [],
+   "signals": [],
+   "companies": [],
+   "companyHits": [],
+   "impact": 2
+  },
+  {
+   "id": "inen-9aot28",
+   "title": "云南弥勒西100兆瓦/200兆瓦时电化学共享储能电站全容量并网",
+   "summary": "",
+   "url": "https://chuneng.in-en.com/html/chunengy-54954.shtml",
+   "source": "国际储能网",
+   "sourceId": "inen",
+   "channel": "资讯",
+   "publishedAt": "",
+   "category": "capacity",
+   "categoryLabel": "产能项目",
+   "categoryWeight": 4,
+   "sentiment": "positive",
+   "sentimentLabel": "正面",
+   "sentimentScore": 1,
+   "segments": [
+    "应用与运营"
+   ],
+   "keywords": [
+    "并网",
+    "共享储能"
+   ],
+   "signals": [],
+   "companies": [],
+   "companyHits": [],
+   "impact": 2
+  },
+  {
+   "id": "inen-1a6h1bh",
+   "title": "含储能项目1.1GW/1.75GWh！山西2026年第二批民间资本推介名单公",
+   "summary": "",
+   "url": "https://chuneng.in-en.com/html/chunengy-54958.shtml",
+   "source": "国际储能网",
+   "sourceId": "inen",
+   "channel": "资讯",
+   "publishedAt": "",
+   "category": "capacity",
+   "categoryLabel": "产能项目",
+   "categoryWeight": 2,
+   "sentiment": "neutral",
+   "sentimentLabel": "中性",
+   "sentimentScore": 0,
+   "segments": [],
+   "keywords": [],
+   "signals": [],
+   "companies": [],
+   "companyHits": [],
+   "impact": 2
+  },
+  {
+   "id": "inen-1ok3fno",
+   "title": "钠锂协同破局！派能科技为AIDC高可靠供电提供新路径",
+   "summary": "",
+   "url": "https://chuneng.in-en.com/html/chunengy-54563.shtml",
+   "source": "国际储能网",
+   "sourceId": "inen",
+   "channel": "资讯",
+   "publishedAt": "",
+   "category": "company",
+   "categoryLabel": "企业动态",
+   "categoryWeight": 0,
+   "sentiment": "neutral",
+   "sentimentLabel": "中性",
+   "sentimentScore": 0,
+   "segments": [],
+   "keywords": [],
+   "signals": [],
+   "companies": [
+    "派能科技"
+   ],
+   "companyHits": [
+    {
+     "name": "派能科技",
+     "code": "688063",
+     "tier": "core",
+     "tierLabel": "骨干",
+     "level1": "电池与核心部件 · 系统集成与工程建设"
+    }
+   ],
+   "impact": 2
+  },
+  {
+   "id": "inen-1m4sux2",
+   "title": "刘国华：从“政策驱动”到“市场驱动”，构建西北储能发展新格局",
+   "summary": "",
+   "url": "https://chuneng.in-en.com/html/chunengy-54595.shtml",
+   "source": "国际储能网",
+   "sourceId": "inen",
+   "channel": "资讯",
+   "publishedAt": "",
+   "category": "policy",
+   "categoryLabel": "政策机制",
+   "categoryWeight": 3,
+   "sentiment": "neutral",
+   "sentimentLabel": "中性",
+   "sentimentScore": 0,
+   "segments": [],
+   "keywords": [],
+   "signals": [],
+   "companies": [],
+   "companyHits": [],
+   "impact": 2
+  }
+ ]
+}

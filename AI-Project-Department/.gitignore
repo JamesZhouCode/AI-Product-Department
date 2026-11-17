@@ -17,9 +17,9 @@ output/
 
 # 本地构建残留：本机无法直接删除 dist，改用改名规避 emptyDir 失败，单目录可达数百 MB，勿提交
 frontend/dist_stale_*/
-# 构建验证输出目录（--outDir dist-verify），同样含地图分片等大文件，勿提交
-frontend/dist-verify/
-dist-verify/
+# 构建验证输出目录（--outDir dist-verify / dist-check 等），同样含地图分片等大文件，勿提交
+frontend/dist-*/
+dist-*/
 # 无头浏览器验证截图（本地临时产物）
 /shots_*/
 # 根目录一次性验证脚本
@@ -28,3 +28,23 @@ dist-verify/
 # Python 缓存（数据管线脚本用）
 __pycache__/
 *.pyc
+release/
+frontend/dist-release/
+deploy/docker/build-context/
+
+# Natural Earth 原始 shapefile（可用 tools/build_ne_basemap.py --download 重新拉取）
+tools/ne-data/
+
+# OSM 底图构建工作区：GB 级原始数据/中间产物，可用 tools/build_osm_basemap.sh 重建，只保留构建脚本
+tools/basemap-build/*
+!tools/basemap-build/fetch_parts.sh
+
+# 本地数据库备份与运行日志
+agent/data/backup-*/
+agent/data/*.bak-*
+*.bak-*
+outputs/service.log
+
+# 运行时数据库与构建验证产物，不进仓库
+agent/data/chain.db
+frontend/.build-check/

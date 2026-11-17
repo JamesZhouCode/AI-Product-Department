@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1180px; height: 386px;
+    font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;
+    background: #f6f9fc;
+    display: flex; flex-direction: column;
+  }
+  .head { display: flex; align-items: center; gap: 12px; padding: 14px 22px 8px; }
+  .head .title { font-size: 22px; font-weight: 800; color: #12324f; }
+  .head .src {
+    font-size: 15px; color: #5b7288; background: #e3edf5;
+    padding: 3px 12px; border-radius: 999px;
+  }
+  .body { flex: 1; display: flex; gap: 16px; padding: 4px 22px 12px; }
+  .tier { flex: 1; display: flex; flex-direction: column; gap: 10px; }
+  .tnode {
+    color: #fff; border-radius: 10px; padding: 10px 16px;
+    text-align: center; box-shadow: 0 3px 10px rgba(0,0,0,0.18);
+  }
+  .tname { font-size: 20px; font-weight: 800; }
+  .trule { font-size: 13.5px; opacity: 0.85; margin-top: 2px; }
+  .titems { display: flex; flex-wrap: wrap; gap: 7px; justify-content: center; align-content: flex-start; }
+  .titem {
+    font-size: 15px; color: #2c4a63; background: #fff;
+    border: 1px solid #c7d6e2; border-radius: 999px;
+    padding: 5px 14px; white-space: nowrap;
+  }
+  .foot {
+    margin: 0 22px 12px; padding: 8px 16px;
+    background: #fff7dd; border: 1px solid #ecd9a0; border-radius: 10px;
+    font-size: 15.5px; color: #6b5312;
+  }
+  .foot b { color: #4a3200; }
+</style>
+</head>
+<body>
+  <div class="head">
+    <div class="title">头部 / 腰部 / 尾部 · 分层判断逻辑</div>
+    <div class="src">方法导图 · 分支 7</div>
+  </div>
+  <div class="body">
+      <div class="tier">
+        <div class="tnode" style="background:#0b6e8a;">
+          <div class="tname">头部企业</div>
+          <div class="trule">满足任意一条即可</div>
+        </div>
+        <div class="titems">
+          <div class="titem">行业排名靠前</div><div class="titem">上市公司</div><div class="titem">龙头企业</div><div class="titem">国家级名单企业</div><div class="titem">年收入规模较大</div><div class="titem">大量项目案例</div>
+        </div>
+      </div>
+      <div class="tier">
+        <div class="tnode" style="background:#b06a1e;">
+          <div class="tname">腰部企业</div>
+          <div class="trule">综合判断</div>
+        </div>
+        <div class="titems">
+          <div class="titem">有稳定业务</div><div class="titem">有一定市场份额</div><div class="titem">区域知名企业</div><div class="titem">有项目经验</div>
+        </div>
+      </div>
+      <div class="tier">
+        <div class="tnode" style="background:#2e7d32;">
+          <div class="tname">尾部企业</div>
+          <div class="trule">兜底归类</div>
+        </div>
+        <div class="titems">
+          <div class="titem">小规模企业</div><div class="titem">初创企业</div><div class="titem">业务不明确</div><div class="titem">仅具备相关经营范围</div>
+        </div>
+      </div></div>
+  <div class="foot"><b>原则：</b>不做复杂评分，用简单规则 + 硬门槛兜底（避免大而不强误判）· 当前先覆盖储能行业上市企业（237 家）</div>
+</body>
+</html>

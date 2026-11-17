@@ -29,7 +29,8 @@
   flex: 0 0 auto;
 }
 .flow-loading,
-.flow-error {
+.flow-error,
+.flow-empty {
   padding: 40px 0;
   color: var(--flow-muted);
   font-size: 12px;

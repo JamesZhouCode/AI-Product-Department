@@ -652,3 +652,164 @@
   font-size: 9px;
   line-height: 1.45;
 }
+
+/* 关注按钮：与标题行同排（图谱 / 授信的公司卡传入 follow 才出现）。
+   状态与「生态经营」版面共用 useFollowedCompanies。 */
+.detail-title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.detail-title-row .detail-sector {
+  flex: 1;
+}
+.detail-follow {
+  flex: 0 0 auto;
+  padding: 4px 10px;
+  color: #2a6fdb;
+  background: #f0f6fd;
+  border: 1px solid #c9ddf2;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    color 0.15s ease,
+    background 0.15s ease,
+    border-color 0.15s ease;
+}
+.detail-follow:hover {
+  color: #ffffff;
+  background: #2a6fdb;
+  border-color: #2a6fdb;
+}
+.detail-follow.is-followed {
+  color: #8a6a1f;
+  background: #fdf6e6;
+  border-color: #ecd9a8;
+}
+.detail-follow.is-followed:hover {
+  color: #ffffff;
+  background: #b98a1d;
+  border-color: #b98a1d;
+}
+
+/* ---------------- 股权与实控人 / 客户与供应商 ---------------- */
+.equity-grid {
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 12px;
+  margin-top: 12px;
+}
+.equity-grid > div {
+  padding-bottom: 7px;
+}
+.equity-alert {
+  margin-top: 10px;
+  padding: 7px 9px;
+  color: #a1381f;
+  background: #fdf2ee;
+  border: 1px solid #f3d6cb;
+  border-left: 3px solid #c8552f;
+  border-radius: 4px;
+  font-size: 9.5px;
+  line-height: 1.5;
+}
+.equity-holder-list {
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid #e8eef3;
+}
+.equity-holder-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 6px 0;
+  border-bottom: 1px dashed #eef3f7;
+  font-size: 10px;
+}
+.holder-rank {
+  flex: 0 0 16px;
+  color: #a8b7c4;
+  font-size: 9px;
+  font-variant-numeric: tabular-nums;
+}
+.holder-name {
+  flex: 1 1 auto;
+  min-width: 0;
+  color: #3b5368;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+.holder-pct {
+  flex: 0 0 auto;
+  color: var(--blue-deep);
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+.trade-block {
+  margin-top: 12px;
+}
+.trade-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e8eef3;
+  font-size: 10px;
+  font-weight: 600;
+  color: #3b5368;
+}
+.trade-head em {
+  color: #93a3b1;
+  font-size: 8.5px;
+  font-style: normal;
+  font-weight: 400;
+}
+.trade-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.trade-list li {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 5.5px 0;
+  border-bottom: 1px dashed #eef3f7;
+}
+.trade-name {
+  flex: 1 1 auto;
+  min-width: 0;
+  color: #3b5368;
+  font-size: 10px;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+.trade-meta {
+  flex: 0 0 auto;
+  color: #8495a4;
+  font-size: 8.5px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.trade-more {
+  margin-top: 8px;
+  padding: 4px 8px;
+  color: var(--blue-deep);
+  background: var(--surface-blue);
+  border: 1px solid #cbdef5;
+  border-radius: 4px;
+  font-size: 9px;
+}
+.trade-more:hover {
+  background: #deecfd;
+}
+.trade-note {
+  margin: 9px 0 0;
+  color: #93a3b1;
+  font-size: 8.5px;
+  line-height: 1.55;
+}
